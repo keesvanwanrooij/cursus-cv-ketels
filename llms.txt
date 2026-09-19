@@ -1,6 +1,6 @@
 # Cursus CV-ketels
 
-> Gratis online cursus voor de cv-ketel monteur, in het Nederlands. Zelfstudie in 18 modules en 114 lessen (ongeveer 145 uur): de wet en het CO-stelsel, gas en verbranding, de werking van de HR-ketel, rookgasafvoer, meten, installeren, onderhoud en storingzoeken, met toetsvragen, flashcards en een storingzoeker als voorbereiding op het examen Vakmanschap CO.
+> Gratis online cursus voor de cv-ketel monteur, in het Nederlands. Zelfstudie in 19 modules en 121 lessen (ongeveer 148.5 uur): de wet en het CO-stelsel, gas en verbranding, de werking van de HR-ketel, rookgasafvoer, meten, installeren, onderhoud en storingzoeken, met toetsvragen, flashcards en een storingzoeker als voorbereiding op het examen Vakmanschap CO.
 
 Deze cursus is bedoeld voor aankomend cv-monteurs, zij-instromers en monteurs die zich voorbereiden op het theorie- en praktijkexamen. De inhoud is onderwijskundig en verwijst naar wet, certificatieschema's en fabrikantdocumentatie zonder die te vervangen. De cursus geeft geen diploma en geen Bewijs van Vakmanschap CO. Inhoud en broncode zijn vrij te gebruiken onder de GPLv3-licentie.
 

@@ -10,7 +10,7 @@
    ========================================================================== */
 
 /* build:cache:start */
-var CACHE_NAAM = 'cursus-cv-a5074d6a';
+var CACHE_NAAM = 'cursus-cv-879d78bb';
 /* build:cache:end */
 
 /* build:shell:start */
@@ -44,6 +44,7 @@ var APP_SHELL = [
   './content/m16.js',
   './content/m17.js',
   './content/m18.js',
+  './content/m19.js',
   './content/naslag.js',
   './content/storingen.js',
   './icons/icon-192.png',
