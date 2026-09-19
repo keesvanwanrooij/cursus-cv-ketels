@@ -156,7 +156,7 @@ button { font: inherit; cursor: pointer; }
 .stat b { display:block; font-size:22px; letter-spacing:-.02em; }
 .stat span { font-size:12.5px; color:var(--text-dim); }
 
-.sect-h { display:flex; align-items:baseline; gap:12px; margin:34px 0 14px; flex-wrap:wrap; }
+.sect-h { scroll-margin-top:90px; display:flex; align-items:baseline; gap:12px; margin:34px 0 14px; flex-wrap:wrap; }
 .sect-h h2, .sect-h h1 { margin:0; font-size:19px; letter-spacing:-.01em; }
 .sect-h h1 { font-size:24px; }
 
@@ -254,6 +254,7 @@ button { font: inherit; cursor: pointer; }
 .video { position:relative; aspect-ratio:16/9; border-radius:var(--radius-lg); overflow:hidden;
          background:var(--bg-soft); border:1px solid var(--border); margin:8px 0 10px; }
 .video iframe { width:100%; height:100%; border:0; display:block; }
+.videonoot { font-size:13px; color:var(--text-dim); margin:-4px 0 14px; }
 .videocap { display:flex; justify-content:space-between; font-size:12.5px; color:var(--text-dim);
             margin-bottom:26px; gap:12px; flex-wrap:wrap; }
 .videocap b { color:var(--text); font-weight:600; }

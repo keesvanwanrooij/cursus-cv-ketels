@@ -231,6 +231,10 @@ if (require.main === module) {
   var c = uit.cijfers;
   console.log('\n' + c.modules + ' modules, ' + c.lessenKlaar + ' van ' + c.lessen + ' lessen geschreven, ' + c.toetsvragen + ' toetsvragen, ' +
     c.flashcards + ' flashcards, ' + c.casussen + ' casussen' + (c.feitenRegister !== null ? ', ' + c.feitenRegister + ' feiten in het register' : ''));
+  /* Afspraak: elke geschreven les heeft minstens 2 video's (Nederlands en Engels gemengd). Ter informatie, geen fout. */
+  var ctx = laadCursus(ROOT), zonder = [];
+  ctx.CURSUS.alleLessen().forEach(function (x) { if ((x.les.videos || []).length < 2) zonder.push(x.les.nr); });
+  if (zonder.length) console.log('Nog geen 2 video\'s: ' + zonder.length + ' lessen (' + zonder.join(', ') + ')');
   console.log(uit.fouten.length + ' fouten, ' + uit.waarschuwingen.length + ' waarschuwingen' + (strikt ? ' (strikte modus)' : ''));
   process.exit(uit.fouten.length ? 1 : (strikt && uit.waarschuwingen.length ? 1 : 0));
 }

@@ -118,6 +118,11 @@ CURSUS.addModule({
   duur: 20,
   type: 'les',
   leerdoel: 'Je kunt beschrijven wat het werk van een cv-monteur inhoudt en waarom CO-veiligheid de kern van het vak is.',
+  videos: [
+    { taal: 'nl', titel: 'Koolmonoxide: onderschat en onbegrepen gevaar (Onderzoeksraad voor Veiligheid)', yt: '3zqAQgEOyP4', duur: '±8 min, 2015' },
+    { taal: 'nl', titel: 'Praktijkleren: Monteur Service en Onderhoud Installaties en Systemen (SBB)', yt: 'zmELEAoa1XA', duur: '±2 min, 2017' },
+    { taal: 'en', titel: 'A Day in the Life of a Service & Repair Engineer (British Gas, VK)', yt: '029QjPRnoag', duur: '±2 min, 2024' }
+  ],
   tekst: `
 ## Wat je doet als cv-monteur
 
@@ -247,6 +252,11 @@ Als jij een toestel in bedrijf stelt, draag jij (namens het gecertificeerde bedr
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen welke wettelijke eisen gelden voor werk aan gasverbrandingstoestellen en welke werkzaamheden onder de certificeringsplicht vallen.',
+  videos: [
+    { taal: 'nl', titel: 'Per 1 april CO-vrij (Brandweer Twente)', yt: '84ebfNB2658', duur: '±1 min, 2023' },
+    { taal: 'nl', titel: 'Gasketelwet: voldoe jij eraan? Webinar met CO-certificatie (Wasco)', yt: '5ycykBZp_oQ', duur: '±39 min, 2024' },
+    { taal: 'en', titel: 'Introduction to Gas Safe Register (VK, ter vergelijking met het Nederlandse stelsel)', yt: '27y9mbPKsX4', duur: '±2 min, 2010' }
+  ],
   tekst: `
 ## De "Gasketelwet" bestaat niet
 
@@ -376,6 +386,11 @@ De **TloKB** handhaaft niet zelf op ongecertificeerd werk. Zij houdt namens de m
   duur: 25,
   type: 'les',
   leerdoel: 'Je kent de profielen, de opbouw van het theorie- en praktijkexamen en de eisen voor verlenging.',
+  videos: [
+    { taal: 'nl', titel: 'Vakmanschap CO (Vakmanschap Techniek, het exameninstituut)', yt: 'uvlxJhd2vJc', duur: '±4 min, 2023' },
+    { taal: 'nl', titel: 'Gasketelwet: Bewijs van Vakmanschap CO in 2021 of eerder behaald? Verlengen (Techniek Nederland)', yt: 'soM2tOIy_oQ', duur: '±1 min, 2026' },
+    { taal: 'en', titel: 'Becoming a Gas Safe registered engineer (VK, ter vergelijking met Vakmanschap CO)', yt: 'V-NlqIFvJUA', duur: '±4 min, 2014' }
+  ],
   tekst: `
 ## Wat het Bewijs van Vakmanschap CO is
 
@@ -529,6 +544,11 @@ Is je bewijs verlopen, dan mag je geen werk meer doen waarvoor het bewijs is ver
   duur: 20,
   type: 'les',
   leerdoel: 'Je kunt het verschil uitleggen tussen persoonlijke en bedrijfscertificering en wat een bedrijf moet regelen.',
+  videos: [
+    { taal: 'nl', titel: 'Je CO-certificering in 5 stappen geregeld (Techniek Nederland)', yt: 'GBTAEhhWS9A', duur: '±3 min, 2023' },
+    { taal: 'nl', titel: 'Update verplichte CO-certificering (Kiwa)', yt: 'XzVs1I3BRbc', duur: '±2 min, 2023' },
+    { taal: 'en', titel: 'Tech Talk 7: a Gas Safe Register investigations officer (VK, toezicht op bedrijven)', yt: 'Bq5G5nFHANQ', duur: '±11 min, 2024' }
+  ],
   tekst: `
 ## Twee lagen: de monteur en het bedrijf
 
@@ -646,6 +666,11 @@ Bij een niet-kritieke afwijking volgt een extra vervolgonderzoek als het niet bi
   duur: 20,
   type: 'les',
   leerdoel: 'Je weet welke bron voorgaat bij strijdige informatie en hoe je bij twijfel de juiste voorschriften vindt.',
+  videos: [
+    { taal: 'nl', titel: 'Normalisatie, lekker normaal: wat een norm is (NEN)', yt: 'XPvDXR8Nljs', duur: '±2 min, 2013' },
+    { taal: 'nl', titel: '2 ondernemers over CO-certificering en het kwaliteitshandboek (Techniek Nederland)', yt: 'eqwkoCrkV6o', duur: '±2 min, 2020, noemt nog de oude startdatum' },
+    { taal: 'en', titel: 'New Gas Boiler Installation: Benchmark Code of Practice (VK)', yt: 'Lf87taSzaIA', duur: '±17 min, 2020' }
+  ],
   tekst: `
 ## Waarom bronnen ertoe doen
 
@@ -772,6 +797,11 @@ Bij het rekenen op een getal dat je ergens leest (bijvoorbeeld "boven 35 ppm CO 
   duur: 20,
   type: 'les',
   leerdoel: 'Je weet wat je doet bij een onveilige situatie, hoe je vastlegt wat je vaststelt en waar je verantwoordelijkheid ligt.',
+  videos: [
+    { taal: 'nl', titel: 'Vakmanschap CO: mag een cv-ketel zo worden opgeleverd? (Klimaat Techniek Nederland)', yt: '67t8BWTh34s', duur: '±1 min, 2026' },
+    { taal: 'nl', titel: 'CV-ketel afgekeurd: levensgevaarlijke verstopping in de rookgasafvoer (Loodgieter Den Haag Stad)', yt: 'Ql2Da2T2Mz8', duur: '±4 min, 2026' },
+    { taal: 'en', titel: 'Understanding Unsafe Situations Procedures (VK; in Nederland geldt de aanpak uit deze les)', yt: 'XscdCUacojk', duur: '±3 min, 2023' }
+  ],
   tekst: `
 ## De driestapsregel voor CO in de ruimte
 
