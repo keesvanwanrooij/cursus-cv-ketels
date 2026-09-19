@@ -59,7 +59,8 @@ window.Views = (function () {
             '<p>' + E(volgende.les.leerdoel || volgende.module.intro) + '</p>' +
             '<div class="acts">' +
               '<a class="btn" href="' + Seo.path('les', volgende.les.id) + '">▶ ' + (isStart ? 'Start de cursus' : 'Verder leren') + '</a>' +
-              '<a class="btn ghost" href="' + Seo.path('module', volgende.module.id) + '">Moduleoverzicht</a>' +
+              '<a class="btn ghost" href="' + Seo.path('module', volgende.module.id) + '">Module ' + volgende.module.nr + ' overzicht</a>' +
+              '<a class="btn ghost" href="' + Seo.anchor('dash', null, 'modules') + '" data-anker="modules">Alle modules ↓</a>' +
             '</div>' +
           '</div>' +
           '<div class="ring" style="--p:' + st.procent + '"><div><b>' + st.procent + '%</b><span>Voltooid</span></div></div>' +
@@ -92,10 +93,10 @@ window.Views = (function () {
         '<div class="stat"><b>' + cs.opgelost + ' / ' + cs.totaal + '</b><span>Casussen opgelost</span></div>' +
       '</div>' +
       trainers() +
-      delen.map(function (d) {
+      delen.map(function (d, i) {
         var mods = CURSUS.modules.filter(function (m) { return String(m.deel || 1) === d; });
         if (!mods.length) return '';
-        return '<div class="sect-h"><h2>' + E(CURSUS.delen[d].titel) + '</h2>' +
+        return '<div class="sect-h"' + (i === 0 ? ' id="modules"' : '') + '><h2>' + E(CURSUS.delen[d].titel) + '</h2>' +
           '<span>' + E(CURSUS.delen[d].sub) + ' · ' + mods.length + ' modules</span></div>' +
           '<div class="modgrid">' + mods.map(moduleKaart).join('') + '</div>';
       }).join('') +
@@ -387,7 +388,9 @@ window.Views = (function () {
       (m.kritiek ? '<span class="chip danger">Veiligheidskritisch</span>' : '') + '</div>' +
       (l.leerdoel ? '<div class="callout kern"><h4>Leerdoel van deze les</h4><p>' + E(l.leerdoel) + '</p></div>' : '') +
       gerenderd.html +
-      (videoHtml ? '<h2 id="videos">Video\'s bij deze les</h2>' + videoHtml : '') +
+      (videoHtml ? '<h2 id="videos">Video\'s bij deze les</h2>' +
+        '<p class="videonoot">Beeldmateriaal van derden, als aanvulling. Oudere of buitenlandse video\'s kunnen andere data of regels noemen: de les volgt de actuele Nederlandse bronnen.</p>' +
+        videoHtml : '') +
       (heeftQuiz ? quizHtml('les:' + id, l.quiz, 'Test jezelf', 'Beantwoord de vragen om te merken of de stof zit. Na elk antwoord zie je de uitleg, ook als je het goed had.') : '') +
       checklist +
       kaartNotitie +

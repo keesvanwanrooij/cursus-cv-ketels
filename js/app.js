@@ -118,16 +118,17 @@
         Store.zetVinkje(lesId, parseInt(input.dataset.vinkje, 10), input.checked);
       });
     });
-
-    /* Zij-navigatie naar koppen: soepel scrollen zonder de route te wijzigen. */
-    document.querySelectorAll('[data-anker]').forEach(function (a) {
-      a.addEventListener('click', function (e) {
-        e.preventDefault();
-        var doel = document.getElementById(a.dataset.anker);
-        if (doel) doel.scrollIntoView({ behavior: 'smooth', block: 'start' });
-      });
-    });
   }
+
+  /* Links naar een kop op dezelfde pagina (zij-navigatie, "Alle modules"): soepel scrollen zonder de
+     route te wijzigen. Op elke pagina, en via file:// waar een hash anders als route wordt gelezen. */
+  document.addEventListener('click', function (e) {
+    var a = e.target.closest && e.target.closest('[data-anker]');
+    if (!a) return;
+    e.preventDefault();
+    var doel = document.getElementById(a.dataset.anker);
+    if (doel) doel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
 
   /* Donatie-uitnodiging op een gevoelig moment: als je iets hebt afgerond. Nooit willekeurig. */
   function toonMijlpaal(lesId) {
