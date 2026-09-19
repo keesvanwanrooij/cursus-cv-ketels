@@ -1,0 +1,22 @@
+# Persoonlijke context en werkmap, hoort niet in een publieke repo
+project/
+CLAUDE.md
+.claude/
+
+# Lokale ontwikkelbouw (node tools/dev.js)
+.dev/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Logs
+*.log
