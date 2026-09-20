@@ -724,7 +724,7 @@ Zorg dat de klant na je vertrek weet: waar de gebruiksaanwijzing van het toestel
     { voor: `Waarom kan een open toestel zonder storingscode toch gevaarlijk zijn?`, achter: `Een storing in de afvoer geeft niet altijd een foutmelding voordat er CO vrijkomt.` },
     { voor: `Wat laat je de klant na oplevering weten over documentatie?`, achter: `Waar de gebruiksaanwijzing is, wat het opleveringsrapport zegt, en bij wie hij terecht kan bij storing of onderhoud.` }
   ],
-  bronnen: ['INS-38', 'ONT-01', 'ONT-16', 'IBS-24', 'IBS-25', 'IBS-26']
+  bronnen: ['INS-38', 'ONT-01', 'ONT-03', 'ONT-16', 'IBS-24', 'IBS-25', 'IBS-26']
 }
 
   ],
