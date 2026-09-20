@@ -68,7 +68,8 @@ function controleerVragen(vragen, pad, fout, waarschuw, min) {
     if (lengtes[q.goed] === max && lengtes.filter(function (l) { return l === max; }).length === 1) langste++;
   });
   if (vragen.length >= 5 && langste / vragen.length > 0.5) waarschuw(pad + ': het juiste antwoord is in ' + Math.round(langste / vragen.length * 100) + '% van de vragen het langste, maak de afleiders even lang en even concreet');
-  if (vragen.length >= 8) {
+  /* Ook de plek van het juiste antwoord mag geen patroon zijn. Vanaf 5 vragen, net als de lengtecontrole hierboven. */
+  if (vragen.length >= 5) {
     Object.keys(verdeling).forEach(function (k) {
       if (verdeling[k] / vragen.length > 0.5) waarschuw(pad + ': ' + Math.round(verdeling[k] / vragen.length * 100) + '% van de goede antwoorden staat op plek ' + 'ABCDE'.charAt(k) + ', verdeel ze beter');
     });
