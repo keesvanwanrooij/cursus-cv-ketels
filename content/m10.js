@@ -88,7 +88,7 @@ CURSUS.addModule({
     },
     {
       vraag: `Waarom is een infraroodthermometer minder geschikt om de aanvoertemperatuur op een blank koperen leiding af te lezen zonder correctie?`,
-      opties: [`Koperen leidingen zijn altijd geïsoleerd, dus er is voor de meter niets te meten`, `Blank koper heeft een lage emissiefactor en reflecteert vooral de omgevingstemperatuur`, `Infraroodmeters kunnen fysiek geen temperaturen meten die boven 60 graden liggen`, `Koper is simpelweg te heet voor een infraroodmeter om nauwkeurig te kunnen meten`],
+      opties: [`Koperen leidingen zijn altijd geïsoleerd, dus er is voor de meter niets te meten`, `Blank koper heeft een lage emissiefactor en reflecteert de omgeving`, `Infraroodmeters kunnen fysiek geen temperaturen meten die boven 60 graden liggen`, `Koper is simpelweg te heet voor een infraroodmeter om nauwkeurig te kunnen meten`],
       goed: 1,
       uitleg: `Blank, glimmend metaal zoals koper heeft een lage emissiefactor (ongeveer 0,02 tot 0,07): het straalt zijn eigen temperatuur nauwelijks uit en reflecteert vooral de omgeving. Een contactthermometer met klemveer, of een mat tapepunt op de leiding voor de infraroodmeter, geeft een betrouwbaardere waarde.`
     },
@@ -626,37 +626,37 @@ Twee metingen, dezelfde plek en hoogte, en een vaste tabel met acties: dat is de
   quiz: [
     {
       vraag: `Op welke hoogte en afstand meet je CO in de opstellingsruimte?`,
-      opties: [`Op vloerhoogte, direct naast het toestel`, `Op ongeveer 1,7 meter hoogte en 1 meter afstand van het toestel`, `Op plafondhoogte, in de hoek van de ruimte`, `Op de hoogte van de gasmeter, buiten de opstellingsruimte`],
-      goed: 1,
+      opties: [`Ongeveer 1,7 meter hoog, 1 meter van het toestel`, `Tegen het plafond, in de verste hoek van de ruimte`, `Op de hoogte van de gasmeter, buiten de opstellingsruimte`, `Op vloerhoogte, vlak naast de voet van het toestel`],
+      goed: 0,
       uitleg: `De meting gebeurt op ongeveer 1,7 meter hoogte (ademhoogte) en 1 meter afstand van het toestel: dat benadert de blootstelling van een volwassene in de ruimte, niet de rookgasstroom zelf.`
     },
     {
       vraag: `Waarom meet je CO in de opstellingsruimte zowel voor als na de werkzaamheden?`,
-      opties: [`Om te controleren of de meter zelf goed werkt`, `Het zijn twee afzonderlijke verplichte metingen: de startsituatie vastleggen en bewijzen dat het na jouw werk veilig is`, `De meting na het werk is optioneel`, `Om te bepalen of de gasmeter goed is afgelezen`],
+      opties: [`Om te controleren of het meetinstrument zelf goed werkt en gekalibreerd is`, `Twee losse verplichte metingen: de startsituatie vastleggen en achteraf bewijzen dat het veilig is`, `De meting na het werk is optioneel`, `Om te bepalen of de gasmeter goed is afgelezen`],
       goed: 1,
       uitleg: `Beide metingen zijn verplicht en hebben een ander doel: de eerste legt de startsituatie vast (was het al onveilig voor je aankwam), de tweede bewijst dat het toestel na jouw ingreep veilig is voordat je het weer in bedrijf stelt.`
     },
     {
       vraag: `Je meet voor de werkzaamheden 8 ppm CO in de opstellingsruimte. Wat doe je?`,
-      opties: [`Direct het toestel buiten bedrijf stellen en melden aan de gemeente`, `Niets, 8 ppm is te laag om iets mee te doen`, `Nader onderzoek doen naar de oorzaak, deze wegnemen en de opdrachtgever informeren`, `Wachten met werken tot een collega een tweede meting doet`],
+      opties: [`Direct het toestel buiten bedrijf stellen en melden aan de gemeente`, `Niets, 8 ppm is te laag om iets mee te doen`, `De oorzaak onderzoeken, wegnemen en de opdrachtgever informeren`, `Wachten met werken tot een collega een tweede meting doet`],
       goed: 2,
       uitleg: `Tussen 5 en 20 ppm geldt nader onderzoek: de oorzaak opsporen, wegnemen, en de opdrachtgever informeren. Melden aan bevoegd gezag en certificerende instelling geldt vanaf 20 ppm, niet al bij 8 ppm.`
     },
     {
       vraag: `Wanneer mag je een toestel na werkzaamheden weer in bedrijf stellen?`,
-      opties: [`Zodra de klant daar om vraagt`, `Als de CO-concentratie in de opstellingsruimte lager is dan 5 ppm en je het toestel professioneel als veilig beoordeelt`, `Zodra de rookgasmeting is uitgevoerd, ongeacht de uitkomst in de ruimte`, `Altijd binnen een uur na afronding van het werk`],
-      goed: 1,
+      opties: [`Zodra de rookgasmeting is uitgevoerd, ongeacht de uitkomst in de ruimte`, `Altijd binnen een uur na afronding van het werk`, `Zodra de klant daar om vraagt`, `Als de ruimte onder 5 ppm CO blijft en jij het toestel veilig beoordeelt`],
+      goed: 3,
       uitleg: `Beide voorwaarden gelden samen: de gemeten concentratie moet onder 5 ppm liggen, én jij moet het toestel naar je professionele oordeel veilig vinden en conform de wet. Een van de twee alleen is niet genoeg.`
     },
     {
       vraag: `Welke formulering keert terug bij zowel de rookgasmeting als de CO-meting in de opstellingsruimte in het certificatieschema?`,
-      opties: [`"De gemeten waarde moet altijd luchtvrij worden herrekend"`, `"De op het meetinstrument aangegeven waarde is leidend"`, `"Alleen een tweede meting door een collega is geldig"`, `"De laagste van twee metingen geldt als de officiële waarde"`],
-      goed: 1,
+      opties: [`"De op het meetinstrument aangegeven waarde is leidend"`, `"Alleen een tweede meting door een collega is geldig"`, `"De laagste van twee metingen geldt als de officiële waarde"`, `"De gemeten waarde moet altijd luchtvrij worden herrekend"`],
+      goed: 0,
       uitleg: `Deze formulering staat op beide plekken in het schema: de aflezing zelf is bepalend, zonder voorgeschreven correctie. Dat is een van de aanwijzingen dat CO-metingen in dit stelsel als "zoals afgelezen" worden getoetst.`
     },
     {
       vraag: `Wat is verplicht zodra je 22 ppm CO meet in de opstellingsruimte, ook als je de oorzaak meteen kunt wegnemen?`,
-      opties: [`Niets, als je de oorzaak zelf al hebt opgelost is melden niet meer nodig`, `Onverwijld en schriftelijk melden aan bewoner of gebruiker, eigenaar, bevoegd gezag en certificerende instelling`, `Alleen de bewoner op de hoogte stellen, de rest is optioneel`, `Wachten tot de volgende onderhoudsbeurt om het te melden`],
+      opties: [`Niets, want als je de oorzaak zelf al hebt weggenomen vervalt de plicht om het voorval te melden`, `Onverwijld en schriftelijk melden aan bewoner of gebruiker, eigenaar, bevoegd gezag en certificerende instelling`, `Alleen de bewoner op de hoogte stellen, verdere melding laat je aan het installatiebedrijf over`, `Wachten tot de volgende onderhoudsbeurt om het te melden`],
       goed: 1,
       uitleg: `Vanaf 20 ppm is de meldplicht van artikel 6.46 Bbl van toepassing, aan alle vier de partijen, onverwijld: dat geldt ook als je de oorzaak zelf al hebt weggenomen. De meldplicht is een wettelijke verplichting, geen eigen afweging op basis van hoe snel je het probleem oploste.`
     }
@@ -741,8 +741,8 @@ Water, temperatuur en elektra zijn de metingen die je het vaakst doet, juist omd
   quiz: [
     {
       vraag: `Waarom kan een infraroodthermometer op blank koperleidingwerk een onbetrouwbare temperatuur tonen?`,
-      opties: [`Koper is te heet om te meten`, `Blank koper heeft een lage emissiefactor en reflecteert vooral de omgevingstemperatuur`, `Infraroodmeters werken niet op metalen oppervlakken`, `De meter heeft dan te weinig batterijspanning`],
-      goed: 1,
+      opties: [`Blank koper heeft een lage emissiefactor en reflecteert de omgeving`, `Een infraroodmeter werkt principieel niet op metaal en meet dan de lucht ervoor`, `De meter heeft dan te weinig batterijspanning`, `Koper is te heet om te meten`],
+      goed: 0,
       uitleg: `Glimmend metaal zoals koper heeft een lage emissiefactor (ongeveer 0,02 tot 0,07): het straalt zijn eigen temperatuur nauwelijks uit en reflecteert vooral de omgeving. Een contactthermometer of een mat meetpunt op de leiding geeft een betrouwbaardere waarde.`
     },
     {
@@ -753,25 +753,25 @@ Water, temperatuur en elektra zijn de metingen die je het vaakst doet, juist omd
     },
     {
       vraag: `Een cv-circuit levert 20 kW bij een delta T van 30 K. Wat is het debiet ongeveer?`,
-      opties: [`290 l/h`, `573 l/h`, `860 l/h`, `1720 l/h`],
-      goed: 1,
+      opties: [`1720 l/h`, `290 l/h`, `573 l/h`, `860 l/h`],
+      goed: 2,
       uitleg: `20.000 / (1,163 × 30) ≈ 573 l/h. De 860 l/h hoort bij delta T 20 K in plaats van 30 K, de 290 en 1720 l/h komen uit rekenfouten met de factor 2.`
     },
     {
       vraag: `Welke elektrische controles noemt BRL 6000-25 bij het onderhoud van een gasverbrandingstoestel?`,
-      opties: [`Alleen de netspanning`, `Netspanning, controle van de aarde en ventilatorspanning`, `Alleen de isolatieweerstand van de bedrading`, `Alleen de spanning over de ionisatie-elektrode`],
-      goed: 1,
+      opties: [`Alleen de isolatieweerstand van de bedrading in het toestel`, `Alleen de spanning over de ionisatie-elektrode bij vollast`, `Alleen de netspanning`, `Netspanning, controle van de aarde en ventilatorspanning`],
+      goed: 3,
       uitleg: `Bijlage 4 van BRL 6000-25 noemt netspanning, controle van de aarde en ventilatorspanning als vaste elektrische controlepunten bij fabricaatgebonden onderhoud, naast de verbrandingsgerelateerde metingen.`
     },
     {
       vraag: `Waarom bewijst een multimeter die 0 volt aangeeft niet automatisch dat een circuit veilig is om aan te raken?`,
-      opties: [`Omdat 0 volt altijd 230 volt betekent bij een cv-ketel`, `Omdat een kapotte meter, verkeerde instelling of verkeerde meetstand ook 0 volt kan tonen terwijl er wel spanning staat`, `Omdat spanning altijd wisselt tussen 0 en 230 volt`, `Omdat multimeters nooit spanning kunnen meten`],
-      goed: 1,
+      opties: [`Omdat een kapotte meter of een verkeerde meetstand ook 0 volt kan tonen`, `Omdat de spanning bij een cv-ketel voortdurend wisselt tussen 0 en 230 volt`, `Omdat multimeters nooit spanning kunnen meten`, `Omdat 0 volt altijd 230 volt betekent bij een cv-ketel`],
+      goed: 0,
       uitleg: `Een gewone spanningsmeting met een multimeter is geen betrouwbaar bewijs van spanningsloosheid: een fout aan de meter zelf, een verkeerde stand of instelling kan ten onrechte 0 volt tonen. Spanningsloosheid toon je aan met een daarvoor bedoeld, tweepolig instrument dat je voor en na gebruik controleert.`
     },
     {
       vraag: `Wanneer wijst een wegzakkende waterdruk na het vullen en ontluchten van een cv-installatie op een probleem?`,
-      opties: [`Nooit, dat is altijd normaal gedrag na het vullen`, `Als de druk blijft zakken nadat je klaar bent met vullen en ontluchten, wijst dat op een lek of onvoldoende ontluchting`, `Alleen als de druk boven 3 bar uitkomt`, `Alleen als je geen manometer op het toestel hebt`],
+      opties: [`Nooit, een dalende druk is na het vullen altijd normaal gedrag van de installatie`, `Als de druk blijft zakken nadat vullen en ontluchten klaar zijn`, `Alleen als de druk boven 3 bar uitkomt`, `Alleen als je geen manometer op het toestel hebt`],
       goed: 1,
       uitleg: `Na goed vullen en ontluchten hoort de druk stabiel te blijven. Zakt hij daarna toch weg, dan is dat een aanwijzing voor een lek of voor lucht die nog niet volledig is verwijderd, geen normaal verschijnsel dat je kunt negeren.`
     }
