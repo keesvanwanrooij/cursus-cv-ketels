@@ -102,6 +102,19 @@ function privacyControle(root) {
   return fouten;
 }
 
+/* Meta-taal in een antwoordoptie ("volgens deze gedachte", "naar men aanneemt", "deze bewering"): dat zegt iets over de
+   bewering in plaats van over de techniek, en het staat bijna altijd alleen in de foute antwoorden. Wie dat doorheeft,
+   raadt het juiste antwoord zonder de stof te kennen. Een optie beschrijft gewoon een situatie of een handeling. */
+var META = /volgens deze|deze gedachte|deze bewering|deze redenering|men aanneemt|deze aanname|zoals wel wordt gedacht/i;
+
+function metaTaal(vragen, pad, waarschuw) {
+  var raak = 0;
+  vragen.forEach(function (q) {
+    (q.opties || []).forEach(function (o) { if (META.test(String(o))) raak++; });
+  });
+  if (raak >= 3) waarschuw(pad + ': ' + raak + ' antwoordopties gebruiken meta-taal ("volgens deze gedachte", "naar men aanneemt"), schrijf ze als gewone bewering');
+}
+
 function controleer(ctx, root, opties) {
   opties = opties || {};
   var fouten = [], waarschuwingen = [];
@@ -128,6 +141,11 @@ function controleer(ctx, root, opties) {
 
     var alleKlaar = CURSUS.lessenVan(m).length === m.lessen.length;
     if (alleKlaar) controleerVragen(m.examen, mp + ' module-examen', fout, waarschuw, 10);
+    /* Over de hele module kijken: dit patroon valt pas op over alle vragen samen. */
+    var alleVragen = [];
+    (m.lessen || []).forEach(function (l) { (l.quiz || []).forEach(function (q) { alleVragen.push(q); }); });
+    (m.examen || []).forEach(function (q) { alleVragen.push(q); });
+    if (alleVragen.length >= 10) metaTaal(alleVragen, mp, waarschuw);
     else if (m.examen && m.examen.length) controleerVragen(m.examen, mp + ' module-examen', fout, waarschuw, 1);
     vraagTotaal += (m.examen || []).length;
 
