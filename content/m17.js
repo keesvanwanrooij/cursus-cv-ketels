@@ -43,7 +43,7 @@ CURSUS.addModule({
         `Alle uitgaven van een model zijn identiek, dus de fout moet in het toestel zelf zitten`
       ],
       goed: 0,
-      uitleg: `Intergas schrijft bijvoorbeeld letterlijk dat een vernieuwde uitgave alle voorgaande installatievoorschriften laat vervallen (MER-05), en elk merk dateert een uitgave anders (documentnummer, versie, maand/jaar-code). Een gevonden PDF is dus niet automatisch de juiste of de nieuwste uitgave voor dit exemplaar.`
+      uitleg: `Elk merk dateert een uitgave anders (documentnummer, versie, maand/jaar-code): Intergas bijvoorbeeld met een ondertekening (plaats, maand/jaar) en een documentnummer (MER-05). Een gevonden PDF is dus niet automatisch de juiste of de nieuwste uitgave voor dit exemplaar.`
     },
     {
       vraag: `Welke twee gegevens op het typeplaatje van een toestel heb je nodig om zeker te weten dat je de juiste documentatie zoekt?`,
@@ -123,15 +123,15 @@ CURSUS.addModule({
       uitleg: `In het Intergas-hybrideconcept ontvangt de gasketel de warmtevraag van de warmtepomp-binnenunit: de regeling bepaalt welke bron levert (HYB-12). Dat is wezenlijk anders dan een cv-ketel die alleen op gas draait.`
     },
     {
-      vraag: `Een monteur zonder F-gassen-certificaat wil een monoblock-warmtepomp aansluiten. Mag dat, en waarom (niet)?`,
+      vraag: `Vakmanschap CO (BRL 6000-25) gaat over gasverbrandingstoestellen tot 100 kW en de bijbehorende lucht- en rookgasvoorzieningen. Waarom dekt dat certificaat het koudemiddelcircuit van een warmtepomp niet, ook niet bij een hybride systeem?`,
       opties: [
-        `Nee, voor elke warmtepomp is altijd een F-gassen-certificaat verplicht`,
-        `Ja, bij een monoblock-warmtepomp loopt er geen koudemiddel door de leidingen naar binnen, dus is er voor het waterzijdig aansluiten geen F-gassen-certificaat nodig; bij een split-systeem wel`,
-        `Ja, want F-gassen-certificering is alleen verplicht voor toestellen boven 100 kW`,
-        `Nee, tenzij de klant zelf toestemming geeft om zonder certificaat te werken`
+        `Omdat de scope van BRL 6000-25 het koudemiddelcircuit niet noemt: daarvoor is een apart persoonscertificaat volgens BRL 200 nodig`,
+        `Omdat een koudemiddelcircuit altijd elektrisch werk is en dus onder een ander vakgebied valt`,
+        `Omdat een warmtepomp geen gasverbrandingstoestel is en daarom nooit onder enige certificering valt`,
+        `Omdat Vakmanschap CO alleen voor toestellen onder 24 kW geldt, en een warmtepomp altijd meer vermogen heeft`
       ],
-      goed: 1,
-      uitleg: `Bij een monoblock zit het koudemiddelcircuit gesloten in de buitenunit en lopen alleen waterleidingen naar binnen (HYB-01); Remeha noemt daarom geen F-gassen-certificaat nodig voor het aansluiten ervan, in tegenstelling tot een split-systeem (HYB-02).`
+      goed: 0,
+      uitleg: `De scope van BRL 6000-25 noemt gasverbrandingstoestellen tot 100 kW en de bijbehorende lucht- en rookgasvoorzieningen (HYB-10), geen koudemiddelcircuit. Werk aan dat circuit vraagt daarom een apart persoonscertificaat volgens BRL 200 (HYB-04), dat een Vakmanschap CO-certificaat niet vervangt.`
     },
     {
       vraag: `Wat drukt GWP (Global Warming Potential) van een koudemiddel uit?`,
@@ -223,7 +223,7 @@ Documentatie wordt herzien. Voor je een instelwaarde overneemt, wil je weten of 
 | Bosch, Condens 7800i W (Duitse uitgave) | Documentnummer met jaar/maand en taalcode: "6721872900 (2024/10) DE" |
 | Intergas, Kombi Kompakt HRE | Ondertekening met plaats en maand/jaar: "Coevorden, mei 2021, P. Cool, Technisch Directeur", documentnummer 88557806 |
 
-Intergas schrijft er expliciet bij dat een vernieuwde uitgave alle voorgaande installatievoorschriften laat vervallen. Er is dus geen uniforme conventie: je controleert de omslag of het colofon van het document dat je in handen hebt, en vergelijkt dat met de nieuwste versie op de website van de fabrikant zelf, in plaats van te vertrouwen op het eerste zoekresultaat.
+Er is dus geen uniforme conventie tussen merken: je controleert de omslag of het colofon van het document dat je in handen hebt (bij Intergas de ondertekening met plaats en maand/jaar), en vergelijkt dat met de nieuwste versie op de website van de fabrikant zelf, in plaats van te vertrouwen op het eerste zoekresultaat.
 
 !!! gevaar Een verkeerde of verouderde uitgave gebruiken voor gasinstellingen
 Instelwaarden voor de gas-luchtverhouding of de gasvoordruk horen bij een specifiek model en een specifieke uitgave. Een oude kopie die her en der online staat, kan bij een gewijzigd model tot een verkeerde afstelling en dus tot een onveilige verbranding leiden. Bij twijfel: de nieuwste uitgave rechtstreeks bij de fabrikant ophalen, niet de eerste PDF die een zoekmachine toont.
@@ -293,7 +293,7 @@ Een servicehandleiding legt uit hoe een onderdeel werkt en wanneer je het vervan
         `De ketel buiten bedrijf stellen tot een collega een tweede mening geeft`
       ],
       goed: 2,
-      uitleg: `Een vernieuwde uitgave laat volgens Intergas alle voorgaande versies vervallen (MER-05); een oudere of verkeerde kopie online geeft dus niet automatisch de juiste waarde. Controleer eerst de uitgave, in plaats van te gokken of te middelen.`
+      uitleg: `Intergas dateert een uitgave met een ondertekening (plaats, maand/jaar) en een documentnummer (MER-05); een oudere of verkeerde kopie online komt daarmee niet automatisch overeen met de nieuwste uitgave voor dit exemplaar. Controleer eerst de uitgave, in plaats van te gokken of te middelen.`
     }
   ],
   kaarten: [
@@ -301,7 +301,7 @@ Een servicehandleiding legt uit hoe een onderdeel werkt en wanneer je het vervan
     { voor: `Waar zit het typeplaatje bij een Vaillant ecoTEC plus VHR (voorbeeld)?`, achter: `Aan de bovenkant van het product en op de achterkant van de schakelkast; het serienummer staat ook op de onderkant van het voorpaneel.` },
     { voor: `Noem de vier documenttypen die een fabrikant voor een cv-ketel uitgeeft.`, achter: `Installatievoorschrift, servicehandleiding, gebruikershandleiding en onderdelenlijst.` },
     { voor: `Hoe dateert Vaillant een uitgave?`, achter: `Met een documentnummer, een versienummer en een publicatiedatum op de omslag, bijvoorbeeld "0020282267_08 - 03.12.2024".` },
-    { voor: `Hoe dateert Intergas een installatievoorschrift?`, achter: `Met een ondertekening onderaan (plaats, maand/jaar, naam en functie) en een documentnummer, en de mededeling dat een nieuwe uitgave de vorige laat vervallen.` },
+    { voor: `Hoe dateert Intergas een installatievoorschrift?`, achter: `Met een ondertekening onderaan (plaats, maand/jaar, naam en functie) en een documentnummer.` },
     { voor: `Welk apart document publiceert Remeha om onderdelen te bestellen?`, achter: `De Onderdelenprijslijst, met artikelnummers en prijzen, in zijn geheel of per hoofdstuk te downloaden.` }
   ],
   bronnen: ['MER-01', 'MER-02', 'MER-03', 'MER-04', 'MER-05', 'MER-36', 'MRK-19', 'MRK-20', 'MRK-22', 'MRK-23', 'MRK-24']
@@ -705,8 +705,8 @@ Beweringen als "de warmtepomp levert altijd 50 tot 70% van de warmtevraag" circu
 
 Een F-gas (gefluoreerd broeikasgas) is een kunstmatig gas dat geen ozonlaagafbrekende werking heeft, maar wel een klimaatopwarmend effect; bij sommige F-gassen is dat effect enkele duizenden keer zo groot als dat van CO2. F-gassen worden onder meer gebruikt als koudemiddel in de warmtepomp van een hybride systeem. Hoeveel een koudemiddel bijdraagt aan klimaatverandering, wordt uitgedrukt in GWP (Global Warming Potential): het klimaatopwarmend effect ten opzichte van CO2 over 100 jaar. Veelgebruikte koudemiddelen lopen daarin ver uiteen: R410A heeft een GWP van ongeveer 2088, R32 ongeveer 675, en het natuurlijke koudemiddel R290 (propaan) ongeveer 3. Fabrikanten als Nefit Bosch zeggen daarom de voorkeur te geven aan koudemiddelen met een zo laag mogelijke klimaatimpact.
 
-!!! kern F-gassen zijn niet gevaarlijk voor de gezondheid op de manier die je van gas kent
-Een F-gas is geen giftig of ontplofbaar gas zoals aardgas: het risico zit in het klimaatopwarmend effect als het ontsnapt, niet in acuut gevaar voor de monteur of de bewoner bij een klein lek. Dat is een andere soort risico dan de CO- en explosiegevaren die de rest van deze cursus behandelt, en het vraagt daarom ook een andere, eigen certificering.
+!!! kern Het risico van een F-gas is meestal klimaat, niet acuut gevaar zoals bij aardgas
+Een F-gas heeft geen ozonlaagafbrekende werking, maar wel een klimaatopwarmend effect: daarop is de certificering vooral gericht, anders dan de acute CO- en explosiegevaren die de rest van deze cursus behandelt. Koudemiddelen hebben daarnaast niet allemaal hetzelfde risicoprofiel: ga bij een specifiek koudemiddel niet uit van een vast beeld, maar raadpleeg het veiligheidsinformatieblad of de handleiding van dat middel.
 !!!
 
 ## Welke certificering nodig is
@@ -726,7 +726,7 @@ Vakmanschap CO en de BRL 6000-25 gaan over gasverbrandingstoestellen tot 100 kW 
 Dit is precies dezelfde logica als bij andere brandstoffen en toesteltypen die buiten je CO-certificering vallen (zie [les 19.5](les:m19l05) voor olie, LPG, hout en pellets): weten waar je bevoegdheid ophoudt, hoort bij vakbekwaamheid, niet bij onzekerheid.
 
 !!! gevaar Zelf aan een koudemiddelcircuit werken zonder certificaat
-Koudemiddel dat ontsnapt bij ondeskundig werk kan de druk in een compressor of leiding onvoorspelbaar laten oplopen, en het is bovendien wettelijk verboden om zonder het juiste persoonscertificaat aan het koudemiddelcircuit te werken. Bij twijfel of iets "nog gasketel" of al "koudetechniek" is: niet zelf proberen, een gecertificeerd koudetechnisch bedrijf inschakelen.
+Het is wettelijk verboden om zonder het juiste persoonscertificaat aan een koudemiddelcircuit te werken, en zonder de juiste apparatuur en training kan koudemiddel ongecontroleerd vrijkomen: bij een brandbaar koudemiddel zoals propaan is dat ook een brandgevaar. Bij twijfel of iets "nog gasketel" of al "koudetechniek" is: niet zelf proberen, een gecertificeerd koudetechnisch bedrijf inschakelen.
 !!!
 
 ## Praktijkgeval: waar ligt de grens bij deze klacht?
