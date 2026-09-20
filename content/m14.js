@@ -14,7 +14,7 @@ CURSUS.addModule({
   ondertitel: 'Comfort en rendement zitten in de balans.',
   niveau: 'Gevorderd',
   studietijd: 10,
-  intro: 'Een installatie die niet in balans is geeft koude en warme plekken, geluid, pendelen en onnodig gasverbruik. Deze module leert je de hydraulica achter inregelen, de instelventielen en de methoden om een installatie waterzijdig in balans te brengen. Een groeiend vakgebied: de wet vraagt het bij vervanging van de warmtebron, en lagere stooktemperaturen maken het steeds belangrijker.',
+  intro: 'Een installatie die niet in balans is geeft koude plekken, geluid en onnodig gasverbruik. Deze module leert je inregelen: de hydraulica, de instelventielen en de methoden om te herstellen. Verplicht bij ketelvervanging, en onmisbaar bij lager stoken.',
   inleiding: [
     'Waterzijdig inregelen is het zo instellen van elke radiator, convector of vloerverwarmingskring dat er precies genoeg water doorheen stroomt, niet meer en niet minder. Zonder inregelen kiest het water de weg van de minste weerstand: de radiator dichtst bij de ketel krijgt te veel en te snel warm water, de radiator het verst weg te weinig. Dat kost comfort en gas, en het maakt lager stoken (nodig voor een hoger ketelrendement of een warmtepomp) juist lastiger.',
     'Deze module bouwt voort op de hydraulica uit module 3 (druk, drukval, debiet, pompkarakteristiek) en de afgifte uit module 7 (radiatorvermogen per temperatuurregime, vloerverwarming). Hier komt daar de regeltechniek bij: autoriteit van een ventiel, statisch en dynamisch inregelen, de instelventielen van een aantal grote fabrikanten, en de methoden waarmee je in de praktijk een installatie in balans brengt, van een enkele radiatorkraan tot een volledige vloerverwarmingsverdeler.'
@@ -89,56 +89,31 @@ Waterzijdig inregelen is geen extra service die je aanbiedt als de klant erom vr
   quiz: [
     {
       vraag: `Een radiator dichtbij de ketel warmt binnen enkele minuten flink op, een radiator verder in het huis blijft na een uur nog koud, en beide radiatorkranen staan volledig open. Wat is de meest waarschijnlijke oorzaak?`,
-      opties: [
-        `De verste radiator is te klein voor de ruimte en moet vervangen worden`,
-        `De installatie is niet waterzijdig ingeregeld: het water kiest de weg van de minste weerstand`,
-        `De ketel heeft te weinig vermogen voor de hele woning`,
-        `De thermostaat van de woonkamer staat te laag ingesteld`
-      ],
-      goed: 1,
+      opties: [`De installatie is niet waterzijdig ingeregeld: het water kiest de weg van de minste weerstand`, `De ketel heeft te weinig vermogen voor de hele woning en moet daarom vervangen worden`, `De thermostaat van de woonkamer staat te laag ingesteld en moet hoger gezet worden`, `De verste radiator is te klein voor de ruimte en moet daarom door een grotere vervangen worden`],
+      goed: 0,
       uitleg: `Dit is het klassieke beeld van onbalans: zonder inregelafsluiters krijgt de radiator met de minste weerstand (meestal de dichtstbijzijnde) het meeste water, en de verste radiator te weinig. Een te kleine radiator of te weinig ketelvermogen geeft een ander beeld (structureel te koud bij lage buitentemperatuur, niet dit contrast tussen twee radiatoren), en de thermostaatinstelling verklaart niet waarom de ene radiator wel en de andere niet warm wordt.`
     },
     {
       vraag: `Wat gebeurt er in een niet ingeregelde installatie met de retourtemperatuur, en waarom is dat ongunstig?`,
-      opties: [
-        `De retourtemperatuur wordt onvoorspelbaar hoog bij radiatoren die te veel water krijgen, wat het rendement van de ketel verlaagt`,
-        `De retourtemperatuur daalt altijd, wat het rendement van de ketel juist verhoogt`,
-        `De retourtemperatuur heeft geen relatie met de verdeling van het water over de radiatoren`,
-        `De retourtemperatuur wordt precies gelijk aan de aanvoertemperatuur`
-      ],
-      goed: 0,
+      opties: [`De retourtemperatuur heeft ook geen enkele relatie met de manier waarop het water over de radiatoren verdeeld wordt`, `De retourtemperatuur wordt door de onbalans precies gelijk aan de aanvoertemperatuur van de installatie`, `De retourtemperatuur wordt onvoorspelbaar hoog bij radiatoren met te veel water, wat het ketelrendement verlaagt`, `De retourtemperatuur daalt door de onbalans juist altijd, wat het rendement van de ketel verhoogt`],
+      goed: 2,
       uitleg: `Een radiator die te veel water krijgt, geeft dat water niet volledig af en stuurt het warmer terug dan nodig. Uit les 7.2 volgt dat een hogere retourtemperatuur het condensatie-effect en daarmee het rendement van een HR-ketel verlaagt. Een gelijkblijvende of dalende retourtemperatuur past niet bij een onbalans-situatie.`
     },
     {
       vraag: `Wat is volgens de gangbare bronnen een realistische manier om de besparing van waterzijdig inregelen aan een klant te noemen?`,
-      opties: [
-        `Altijd exact 15 procent, dat is het officiele percentage`,
-        `Een bandbreedte, omdat schattingen tussen bronnen en situaties sterk uiteenlopen`,
-        `Nooit een indicatie geven, want er is niets over bekend`,
-        `Alleen het percentage van de fabrikant van de radiatorkranen noemen`
-      ],
-      goed: 1,
+      opties: [`Een bandbreedte, omdat schattingen tussen bronnen en situaties sterk uiteenlopen`, `Nooit een indicatie geven, want er is helemaal niets over de besparing bekend`, `Alleen het percentage noemen dat de fabrikant van de radiatorkranen ervoor opgeeft`, `Altijd exact 15 procent noemen, want dat is het officiele, vastgelegde percentage`],
+      goed: 0,
       uitleg: `Bronnen noemen uiteenlopende cijfers (ongeveer 5 tot 15 procent bij woningen, tot 20 procent volgens een opleidersmodule, tot 25 procent voor bedrijfspanden), afhankelijk van hoe scheef de installatie stond. Een vast percentage suggereert een precisie die er niet is, en niets zeggen doet de klant ook geen recht: een bandbreedte met de kanttekening dat het van de situatie afhangt is het meest verdedigbare antwoord.`
     },
     {
       vraag: `Bij welke gebeurtenis verplicht artikel 5.21 van het Besluit bouwwerken leefomgeving dat een verwarmingssysteem wordt ingeregeld?`,
-      opties: [
-        `Alleen bij een compleet nieuwbouwproject, nooit bij een bestaande woning`,
-        `Bij het plaatsen, gedeeltelijk vernieuwen of veranderen van een technisch bouwsysteem waarbij de energieprestatie wordt beinvloed, zoals de vervanging van de ketel`,
-        `Alleen wanneer de klant er expliciet om vraagt`,
-        `Alleen bij woningen die op stadsverwarming zijn aangesloten`
-      ],
-      goed: 1,
+      opties: [`Alleen bij woningen die op stadsverwarming zijn aangesloten, nooit bij een gewone woning met een eigen cv-ketel`, `Alleen bij een compleet nieuwbouwproject, nooit bij een verbouwing van een bestaande woning`, `Bij het plaatsen of gedeeltelijk vernieuwen van een technisch bouwsysteem dat de energieprestatie beinvloedt`, `Alleen wanneer de klant er bij de onderhoudsbeurt expliciet om vraagt, verder nooit`],
+      goed: 2,
       uitleg: `Artikel 5.21 lid 2 Bbl geldt bij het plaatsen of gedeeltelijk vernieuwen of veranderen van een technisch bouwsysteem waarbij de energieprestatie wordt beinvloed, wat bij een cv-installatie in de praktijk vaak samenvalt met de vervanging van de ketel of warmtepomp. Het is dus niet beperkt tot nieuwbouw, niet vrijblijvend, en niet beperkt tot stadsverwarming.`
     },
     {
       vraag: `Waarom kan een niet ingeregelde installatie leiden tot vaker aan- en uitslaan (pendelen) van de ketel?`,
-      opties: [
-        `Omdat een niet ingeregelde installatie automatisch een te grote ketel krijgt`,
-        `Omdat bij gedeeltelijke warmtevraag de doorstroming over de nog openstaande radiatoren onder het minimum van de ketel kan zakken`,
-        `Omdat pendelen uitsluitend door een verkeerde gasdruk wordt veroorzaakt`,
-        `Omdat de waterdruk in een niet ingeregelde installatie altijd te laag is`
-      ],
+      opties: [`Omdat pendelen uitsluitend door een verkeerde gasdruk in de toevoerleiding wordt veroorzaakt`, `Omdat bij gedeeltelijke warmtevraag de doorstroming onder het minimum van de ketel kan zakken`, `Omdat de waterdruk in een niet ingeregelde installatie altijd te laag is voor stabiel bedrijf`, `Omdat een niet ingeregelde installatie automatisch een te grote ketel voor de woning krijgt`],
       goed: 1,
       uitleg: `Als thermostaatkranen dichtgaan en de resterende doorstroming te laag wordt, kan die onder de minimale volumestroom komen die de ketel voor stabiel bedrijf nodig heeft (zie de berekening in les 14.5), waardoor de ketel korter cyclisch aan- en uitslaat. Ketelgrootte, gasdruk en waterdruk zijn hier niet de verklarende factor.`
     }
@@ -215,52 +190,32 @@ Les 14.3 laat zien hoe fabrikanten dit vertalen naar concrete instelventielen: s
   quiz: [
     {
       vraag: `Een leidingnet heeft twee parallelle takken naar twee radiatoren: tak A heeft weinig weerstand, tak B veel meer. Zonder inregelafsluiters, wat gebeurt er met de verdeling van het water?`,
-      opties: [
-        `Tak A en tak B krijgen automatisch evenveel water, want de pomp verdeelt gelijk`,
-        `Tak A krijgt verhoudingsgewijs meer water dan tak B, ongeacht welke radiator meer warmte nodig heeft`,
-        `Tak B krijgt automatisch meer water, omdat een grotere weerstand meer aanzuigt`,
-        `De verdeling hangt uitsluitend af van de temperatuur van het water, niet van de weerstand`
-      ],
-      goed: 1,
+      opties: [`Tak B krijgt automatisch meer water dan tak A, omdat een grotere weerstand meer water aanzuigt`, `De verdeling hangt uitsluitend af van de temperatuur van het water, en nooit van de weerstand van de tak`, `Tak A en tak B krijgen automatisch evenveel water, want de pomp verdeelt het drukverschil altijd gelijk`, `Tak A krijgt verhoudingsgewijs meer water dan tak B, ongeacht de warmtebehoefte van de radiator`],
+      goed: 3,
       uitleg: `Een tak met minder weerstand trekt bij een gelijk drukverschil verhoudingsgewijs meer debiet aan. De pomp verdeelt zijn drukverschil niet naar warmtebehoefte maar naar de weerstand van elke tak. Optie 3 keert de hydraulica om: meer weerstand betekent minder, niet meer doorstroming.`
     },
     {
       vraag: `Een ventiel heeft bij een bepaald debiet maar een klein drukverschil over zichzelf, terwijl de rest van het circuit een veel groter drukverschil heeft. Wat betekent dat voor de autoriteit van dat ventiel?`,
-      opties: [
-        `De autoriteit is hoog: het ventiel heeft dan veel invloed op de doorstroming`,
-        `De autoriteit is laag: een verstelling van het ventiel heeft dan maar weinig invloed op de doorstroming`,
-        `Autoriteit hangt niet af van het drukverschil over het ventiel`,
-        `De autoriteit is dan per definitie 100 procent`
-      ],
-      goed: 1,
+      opties: [`De autoriteit is dan per definitie 100 procent, ongeacht de rest van het circuit`, `De autoriteit is hoog: het ventiel heeft dan bij elke verstelling veel invloed op de doorstroming`, `De autoriteit is laag: een verstelling heeft dan maar weinig invloed op de doorstroming`, `Autoriteit hangt helemaal niet af van het drukverschil over het ventiel zelf`],
+      goed: 2,
       uitleg: `De autoriteit wordt bepaald door het drukverschil over het ventiel zelf, ten opzichte van het drukverschil over de rest van het circuit. Een klein drukverschil over het ventiel bij een groot drukverschil elders betekent een lage autoriteit: verstellingen doen dan weinig. Optie 1 en 4 keren dit om.`
     },
     {
       vraag: `Een radiatorafsluiter moet een debiet van 0,4 m3/h doorlaten bij een beschikbaar drukverschil van 0,01 bar. Wat is de benodigde Kv-waarde (Kv = qv / wortel(Δp))?`,
-      opties: [`0,4`, `4,0`, `0,04`, `40`],
-      goed: 1,
+      opties: [`4,0`, `0,04`, `40`, `0,4`],
+      goed: 0,
       uitleg: `Wortel van 0,01 bar is 0,1. Kv = 0,4 / 0,1 = 4,0. De andere opties zijn het resultaat van een rekenfout: 0,4 vergeet de wortel helemaal te trekken, 0,04 en 40 verwisselen vermenigvuldigen met delen.`
     },
     {
       vraag: `Een installateur kiest voor een radiatorafsluiter met een veel hogere kvs-waarde dan nodig, "voor de zekerheid". Wat is het hydraulische gevolg?`,
-      opties: [
-        `Geen gevolg: een hogere kvs-waarde maakt de regeling alleen maar veiliger`,
-        `Bij hetzelfde debiet ontstaat een kleiner drukverschil over de afsluiter, wat de autoriteit en daarmee de regelbaarheid verlaagt`,
-        `De afsluiter gaat hierdoor juist sneller kapot door te veel drukverschil`,
-        `De kvs-waarde heeft geen invloed op het drukverschil over de afsluiter`
-      ],
-      goed: 1,
+      opties: [`De kvs-waarde heeft in de praktijk geen enkele invloed op het drukverschil over de afsluiter`, `Geen gevolg: een hogere kvs-waarde maakt de regeling van de afsluiter alleen maar veiliger`, `Bij hetzelfde debiet ontstaat een kleiner drukverschil, wat de autoriteit en de regelbaarheid verlaagt`, `De afsluiter gaat hierdoor juist sneller kapot door een te groot drukverschil over de klep`],
+      goed: 2,
       uitleg: `Een grotere doorlaat (hogere kvs) geeft bij een gelijk debiet een kleiner drukverschil over de afsluiter (want Kv = qv / wortel(Δp), dus een grotere Kv bij gelijke qv hoort bij een kleinere Δp). Dat verlaagt de autoriteit, niet de veiligheid. Slijtage door te veel drukverschil is hier niet het probleem: het probleem is juist te weinig drukverschil (en dus te weinig invloed).`
     },
     {
       vraag: `Waarom neemt de drukval over een radiator ongeveer met het kwadraat van het debiet toe, en waarom is dat relevant voor inregelen?`,
-      opties: [
-        `Dat geldt alleen voor gasleidingen, niet voor watervoerende radiatoren`,
-        `Bij turbulente stroming (zoals in een cv-installatie) hoort dat kwadratische verband, waardoor een kleine verandering in debiet een grote verandering in drukval geeft`,
-        `Het kwadratische verband geldt alleen als het water kouder is dan 40 graden`,
-        `Dit verband is alleen theoretisch en speelt in de praktijk geen rol bij het inregelen`
-      ],
-      goed: 1,
+      opties: [`Bij turbulente stroming, zoals in een cv-installatie, groeit de drukval ongeveer kwadratisch met het debiet`, `Het kwadratische verband geldt uitsluitend als het cv-water kouder is dan 40 graden Celsius`, `Dit verband is alleen theoretisch van aard en speelt in de praktijk geen enkele rol bij inregelen`, `Dat verband geldt alleen voor gasleidingen, en nooit voor watervoerende radiatorcircuits`],
+      goed: 0,
       uitleg: `Dit is de kwadratenregel uit module 3 (HYD-21): bij turbulente stroming, zoals in een cv-installatie, groeit de drukval ongeveer met het kwadraat van het debiet. Dat betekent dat kleine afwijkingen in de instelling van een afsluiter een relatief grote invloed kunnen hebben op de verdeling, wat precies is waarom inregelen precisie vraagt.`
     }
   ],
@@ -336,10 +291,10 @@ Danfoss levert met de PFM100 drukverschilmeter (met de dP-tool-uitbreiding) een 
     {
       vraag: `Een installatie is statisch ingeregeld op basis van vollast. Vervolgens gaan drie van de vijf thermostaatkranen dicht. Wat gebeurt er met de doorstroming over de twee nog openstaande radiatoren?`,
       opties: [
-        `Die blijft precies gelijk, want de afsluiters staan vast ingesteld`,
-        `Die neemt toe, doordat het drukverschil over de nog openstaande afsluiters stijgt`,
-        `Die wordt automatisch verlaagd door de statische afsluiter`,
-        `Die daalt tot nul, omdat de pomp dan stopt`
+        `Die blijft precies gelijk, want de statische afsluiters staan onveranderlijk vast ingesteld`,
+        `Die neemt toe, doordat het drukverschil over de openstaande afsluiters stijgt`,
+        `Die wordt automatisch verlaagd door de statische afsluiter zelf, zonder bijstelling`,
+        `Die daalt tot nul, omdat de circulatiepomp dan volledig stopt met draaien`
       ],
       goed: 1,
       uitleg: `Bij statisch inregelen is de kv-waarde vastgezet, niet het drukverschil. Als andere afsluiters dichtgaan, stijgt het drukverschil over de nog openstaande afsluiters, en daarmee de doorstroming daarover: precies het nadeel van statisch inregelen bij deellast. De doorstroming blijft dus niet gelijk en wordt niet automatisch gecorrigeerd.`
@@ -347,45 +302,35 @@ Danfoss levert met de PFM100 drukverschilmeter (met de dP-tool-uitbreiding) een 
     {
       vraag: `Wat is het verschil tussen dynamisch inregelen optie 1 (afsluiter met ingebouwde drukverschilregeling) en optie 2 (afsluiter plus losse drukverschilregelaar per groep)?`,
       opties: [
-        `Optie 1 regelt de drukverschilregeling per radiator, optie 2 per groep radiatoren met een apart onderdeel`,
-        `Optie 1 en optie 2 zijn in de praktijk identiek en verschillen alleen in naam`,
-        `Optie 2 is uitsluitend geschikt voor vloerverwarming, optie 1 alleen voor radiatoren`,
-        `Optie 1 is een vorm van statisch inregelen, optie 2 van dynamisch inregelen`
+        `Optie 1 regelt per radiator, optie 2 per groep radiatoren met een apart onderdeel`,
+        `Optie 1 en optie 2 zijn in de praktijk volledig identiek en verschillen alleen in naam`,
+        `Optie 2 is uitsluitend geschikt voor vloerverwarming, en optie 1 alleen voor radiatoren`,
+        `Optie 1 is een vorm van statisch inregelen, en optie 2 van dynamisch inregelen`
       ],
       goed: 0,
       uitleg: `Bij optie 1 zit de drukverschilregeling in de radiatorafsluiter zelf ingebouwd; bij optie 2 gebeurt de drukverschilregeling met een los onderdeel per groep radiatoren, terwijl de afsluiter bij elke radiator gewoon voorinstelbaar is. Beide opties zijn vormen van dynamisch inregelen, en beide kunnen ook bij radiatoren worden toegepast.`
     },
     {
       vraag: `Bij een Herz thermostaatafsluiter TS-98-V geeft de fabriekstabel bij 2000 W, 10 kPa en 20 K een voorinstelling van 1,8. Wat verandert er logischerwijs aan die voorinstelling als het beschikbare drukverschil hoger wordt, bij gelijk vermogen en temperatuurverschil?`,
-      opties: [
-        `De voorinstelling wordt hoger, om meer water door te laten`,
-        `De voorinstelling wordt lager, om het overschot aan drukverschil weg te smoren`,
-        `De voorinstelling blijft altijd 1,8, onafhankelijk van het drukverschil`,
-        `De voorinstelling hangt uitsluitend af van de temperatuur, niet van het drukverschil`
-      ],
-      goed: 1,
+      opties: [`De voorinstelling blijft altijd 1,8, onafhankelijk van het drukverschil`, `De voorinstelling hangt uitsluitend af van de temperatuur, niet van het drukverschil`, `De voorinstelling wordt hoger, om meer water door te laten`, `De voorinstelling wordt lager, om het overschot aan drukverschil weg te smoren`],
+      goed: 3,
       uitleg: `Bij een hoger drukverschil is minder doorlaat (een lagere kv-waarde, dus een kleinere voorinstelling) nodig om hetzelfde debiet te krijgen: de afsluiter moet het overschot aan drukverschil wegsmoren. Dat volgt direct uit de Kv-formule uit les 14.2. De voorinstelling verandert dus wel, en niet alleen op basis van temperatuur.`
     },
     {
       vraag: `Waarom noemt Danfoss zijn drukonafhankelijke regelventiel (PICV) een ventiel met "100% autoriteit"?`,
       opties: [
-        `Omdat het ventiel nooit meer versteld hoeft te worden na de eerste instelling`,
-        `Omdat het ventiel een motorbediende afsluiter, flowbegrenzing en drukverschilregeling combineert, waardoor drukschommelingen in het systeem de ingestelde volumestroom niet meer beinvloeden`,
-        `Omdat het ventiel altijd volledig openstaat, wat de hoogste doorlaat geeft`,
-        `Omdat 100% een marketingterm is zonder technische betekenis`
+        `Omdat het ventiel nooit meer versteld hoeft te worden na de allereerste fabrieksinstelling`,
+        `Omdat het ventiel een motorbediende afsluiter, flowbegrenzing en drukverschilregeling combineert`,
+        `Omdat het ventiel altijd volledig openstaat, wat sowieso de hoogst mogelijke doorlaat geeft`,
+        `Omdat 100% hier gewoon een marketingterm is zonder enige technische betekenis`
       ],
       goed: 1,
       uitleg: `De combinatie van functies in een PICV maakt de ingestelde volumestroom onafhankelijk van drukschommelingen elders in het systeem, wat feitelijk zegt dat elke verstelling van het ventiel volledig doorwerkt: het probleem van een lage autoriteit (les 14.2) speelt hier niet meer. Het ventiel kan nog steeds versteld worden en staat niet per definitie volledig open.`
     },
     {
       vraag: `Een monteur wil het beschikbare drukverschil op een Danfoss RA-N radiatorafsluiter meten met een PFM100-drukverschilmeter. Welke radiator kiest hij het beste voor de meting, en waarom?`,
-      opties: [
-        `De radiator het dichtst bij de pomp, omdat daar het meeste drukverschil beschikbaar is`,
-        `De radiator het verst van de pomp, omdat dat de kritieke situatie voor de installatie is`,
-        `Het maakt niet uit welke radiator, elke meting geeft hetzelfde resultaat`,
-        `De radiator met de hoogste voorinstelling, omdat die het grootste debiet heeft`
-      ],
-      goed: 1,
+      opties: [`De radiator het verst van de pomp, omdat dat de kritieke situatie voor de installatie is`, `Het maakt eigenlijk niet uit welke radiator je kiest, elke meting geeft hetzelfde resultaat`, `De radiator met de hoogste voorinstelling, omdat die toch al het grootste debiet heeft`, `De radiator het dichtst bij de pomp, omdat daar het meeste drukverschil beschikbaar is`],
+      goed: 0,
       uitleg: `Danfoss adviseert de radiator het verst van de pomp te kiezen voor deze meting: die zit hydraulisch het ongunstigst en laat zien of daar nog voldoende drukverschil beschikbaar is. Bij de dichtstbijzijnde radiator is meestal ruim voldoende drukverschil aanwezig, wat een te optimistisch beeld geeft.`
     }
   ],
@@ -480,42 +425,32 @@ Is het vermogen bij het gekozen regime bekend, dan volgt het debiet uit de formu
   quiz: [
     {
       vraag: `Een radiator moet 1600 W leveren bij een temperatuurverschil van 20 K. Wat is het benodigde debiet, met debiet = vermogen / (1,163 x ΔT)?`,
-      opties: [`ongeveer 69 l/h`, `ongeveer 690 l/h`, `ongeveer 1376 l/h`, `ongeveer 137 l/h`],
-      goed: 1,
+      opties: [`ongeveer 137 l/h`, `ongeveer 69 l/h`, `ongeveer 690 l/h`, `ongeveer 1376 l/h`],
+      goed: 2,
       uitleg: `1600 / (1,163 x 20) = 1600 / 23,26 is ongeveer 69 l/h... let op de eenheid: 1600 W is een klein vermogen voor 20 K, dus reken door: 1600 / 23,26 = 68,8, dus ongeveer 69 l/h is in dit geval wel juist als je het vermogen letterlijk als 1600 W neemt. Controleer daarom altijd of het vermogen in W of kW gegeven is voor je de formule invult.`
     },
     {
       vraag: `Waarom is de bouwjaartabel (verwarmingscapaciteit per m2) niet geschikt om een officiele warmteverliesberekening te vervangen?`,
-      opties: [
-        `Omdat de tabel alleen voor vloerverwarming geldt, niet voor radiatoren`,
-        `Omdat het een grove benadering voor een gemiddelde woning is, zonder rekening te houden met de specifieke isolatie, ramen en ligging van de ruimte`,
-        `Omdat de tabel alleen geldig is voor woningen van na 2015`,
-        `Omdat de tabel uitsluitend bedoeld is voor utiliteitsgebouwen`
-      ],
-      goed: 1,
+      opties: [`Omdat het een grove benadering voor een gemiddelde woning is, zonder rekening te houden met de specifieke isolatie, ramen en ligging van de ruimte`, `Omdat de tabel alleen geldig is voor woningen van na 2015`, `Omdat de tabel uitsluitend bedoeld is voor utiliteitsgebouwen`, `Omdat de tabel alleen voor vloerverwarming geldt, niet voor radiatoren`],
+      goed: 0,
       uitleg: `De tabel geeft een grove indicatie per bouwjaar voor een gemiddelde woning met een standaard plafondhoogte, zonder de werkelijke isolatie, glasoppervlak of ligging van een specifieke ruimte mee te nemen. Dat maakt hem geschikt als eerste schatting, niet als vervanging voor een warmteverliesberekening volgens ISSO 51. De tabel geldt voor radiatoren in woningen van alle genoemde bouwjaren, niet uitsluitend voor een van de opties.`
     },
     {
       vraag: `Een bestaande radiator heeft een genormeerd vermogen van 2000 W bij 75/65. De installatie wordt teruggezet naar 70/50 (correctiefactor 1,37). Wat geeft deze radiator dan werkelijk af?`,
-      opties: [`ongeveer 2740 W`, `ongeveer 1460 W`, `ongeveer 2000 W, want het genormeerde vermogen verandert niet`, `ongeveer 1000 W`],
-      goed: 1,
+      opties: [`ongeveer 2000 W, want het genormeerde vermogen verandert niet`, `ongeveer 1000 W`, `ongeveer 2740 W`, `ongeveer 1460 W`],
+      goed: 3,
       uitleg: `Werkelijk afgegeven vermogen = genormeerd vermogen / correctiefactor = 2000 / 1,37 is ongeveer 1460 W. De radiator geeft bij een lagere temperatuur dus minder af, niet evenveel (optie 3) en niet meer (optie 1, die de formule verkeerd om toepast).`
     },
     {
       vraag: `Voor een ruimte is 1200 W nodig bij een regime van 55/45 (correctiefactor 1,96). Welk genormeerd vermogen (bij 75/65) moet de nieuwe radiator minimaal hebben?`,
-      opties: [`ongeveer 612 W`, `ongeveer 1200 W`, `ongeveer 2352 W`, `ongeveer 1960 W`],
-      goed: 2,
+      opties: [`ongeveer 1200 W`, `ongeveer 2352 W`, `ongeveer 1960 W`, `ongeveer 612 W`],
+      goed: 1,
       uitleg: `Benodigd genormeerd vermogen = benodigd vermogen x correctiefactor = 1200 x 1,96 is ongeveer 2352 W. Het genormeerde vermogen gewoon gelijkstellen aan het benodigde vermogen bij de lage temperatuur (1200 W) houdt geen rekening met de lagere afgifte bij die temperatuur, en 612 W deelt in plaats van vermenigvuldigt.`
     },
     {
       vraag: `Voor het regime 70/50 geeft de correctietabel van Danfoss een factor van 1,37, terwijl de exponentformule uit module 7 (n = 1,3) voor hetzelfde regime ongeveer 1,33 geeft. Wat betekent dit verschil?`,
-      opties: [
-        `Een van de twee bronnen moet een rekenfout hebben gemaakt`,
-        `De twee methoden gebruiken elk hun eigen dataset en afronding, en komen dicht bij elkaar uit, wat beide methoden onderling bevestigt`,
-        `De twee waarden zijn zo verschillend dat je er geen van beide kunt vertrouwen`,
-        `Het verschil ontstaat omdat een van de twee methoden alleen voor vloerverwarming geldt`
-      ],
-      goed: 1,
+      opties: [`De twee waarden zijn zo verschillend dat je er geen van beide kunt vertrouwen`, `Het verschil ontstaat omdat een van de twee methoden alleen voor vloerverwarming geldt`, `Een van de twee bronnen moet een rekenfout hebben gemaakt`, `De twee methoden gebruiken elk hun eigen dataset en afronding, en komen dicht bij elkaar uit, wat beide methoden onderling bevestigt`],
+      goed: 3,
       uitleg: `Een klein verschil tussen twee onafhankelijke, redelijke methoden (een vuistregeltabel van een fabrikant en een exponentformule uit een vakpublicatie) is normaal en wijst niet op een fout: het bevestigt juist dat beide in de goede orde van grootte liggen. Geen van beide methoden is specifiek voor vloerverwarming.`
     }
   ],
@@ -600,57 +535,37 @@ Naast de afsluiters zelf hoort bij inregelen ook het instellen van het cv-vermog
   quiz: [
     {
       vraag: `Voor je begint met inregelen ontdek je dat bij een radiator de aanvoer- en retourleiding zijn verwisseld. Wat doe je?`,
-      opties: [
-        `Dit negeren, want het heeft geen invloed op de temperatuurmethode`,
-        `Eerst de verwisseling verhelpen, want anders geeft de gemeten ΔT een verkeerd beeld`,
-        `Alleen deze radiator overslaan bij het inregelen en de rest gewoon doen`,
-        `De voorinstelling van deze radiator juist extra ver opendraaien om te compenseren`
-      ],
-      goed: 1,
+      opties: [`De voorinstelling van deze radiator juist extra ver opendraaien om te compenseren`, `Dit gewoon negeren, want het heeft toch geen invloed op de temperatuurmethode`, `Eerst de verwisseling verhelpen, anders geeft de gemeten ΔT een verkeerd beeld`, `Alleen deze ene radiator overslaan bij het inregelen en de rest gewoon afwerken`],
+      goed: 2,
       uitleg: `Een verwisselde aanvoer/retour geeft bij de temperatuurmethode een vertekend beeld van het ΔT, waardoor je verkeerde conclusies trekt over de doorstroming. Dit moet je dus eerst verhelpen, niet negeren, overslaan of compenseren met de voorinstelling.`
     },
     {
       vraag: `Wat is het belangrijkste verschil tussen methode 1 (rekenkundig vooraf instellen) en methode 3 (de temperatuurmethode)?`,
       opties: [
-        `Methode 1 werkt alleen bij vloerverwarming, methode 3 alleen bij radiatoren`,
-        `Methode 1 bepaalt de instelling vooraf via berekening en fabrieksgegevens, methode 3 stelt bij op basis van gemeten temperatuurverschillen tijdens bedrijf`,
-        `Methode 1 en methode 3 zijn in de praktijk exact dezelfde werkwijze`,
-        `Methode 3 vraagt altijd een drukverschilmeter, methode 1 nooit`
+        `Methode 1 werkt uitsluitend bij vloerverwarming, en methode 3 uitsluitend bij radiatoren`,
+        `Methode 1 bepaalt de instelling vooraf via berekening, methode 3 stelt bij op gemeten temperatuur`,
+        `Methode 1 en methode 3 zijn in de praktijk precies dezelfde werkwijze, alleen anders genoemd`,
+        `Methode 3 vraagt altijd een drukverschilmeter, en methode 1 heeft die nooit nodig`
       ],
       goed: 1,
       uitleg: `Methode 1 (rekenkundig) bepaalt de voorinstelling vooraf uit vermogen, debiet en drukverlies, en leest die af op de fabriekstabel. Methode 3 (temperatuur) stelt juist stapsgewijs bij op basis van wat je tijdens bedrijf meet. Beide kunnen bij radiatoren worden toegepast; alleen methode 3 werkt niet bij vloer- of wandverwarming, en het is methode 2, niet methode 1 of 3, die een drukverschilmeter gebruikt.`
     },
     {
       vraag: `Na de eerste ronde van de temperatuurmethode meet je een laagste ΔT van 4 K en een hoogste ΔT van 9 K. Wat is de inregelfactor, en wat betekent die?`,
-      opties: [
-        `2,25; de installatie is al voldoende in balans`,
-        `0,44; de installatie is nog niet voldoende in balans, dus je stelt bij`,
-        `0,8; precies op de grens, dus je stopt met inregelen`,
-        `13; dat getal heeft geen betekenis in deze methode`
-      ],
-      goed: 1,
+      opties: [`0,44; de installatie is nog niet voldoende in balans, dus je stelt bij`, `0,8; dat is precies op de grens, dus je stopt meteen met verder inregelen`, `13; dat getal heeft in deze rekenmethode helemaal geen praktische betekenis`, `2,25; dat betekent dat de installatie al voldoende in balans is`],
+      goed: 0,
       uitleg: `De inregelfactor is Tmin / Tmax = 4 / 9 is ongeveer 0,44. Dat is lager dan de streefwaarde van 0,8, dus je moet de afsluiter met de grote ΔT verder open draaien en die met de kleine ΔT verder dicht, en opnieuw meten. 2,25 zou uit een verkeerde deling (Tmax/Tmin) ontstaan.`
     },
     {
       vraag: `Waarom is een infraroodmeting bij het meten van aanvoer- en retourtemperatuur minder betrouwbaar dan een contactmeting?`,
-      opties: [
-        `Omdat een infraroodmeter helemaal geen temperatuur kan meten`,
-        `Omdat de meetafstand, de hoek en een terugkaatsend oppervlak de infraroodmeting kunnen beinvloeden`,
-        `Omdat een infraroodmeter alleen bij vloerverwarming gebruikt mag worden`,
-        `Omdat een contactmeting altijd langer duurt dan een infraroodmeting`
-      ],
-      goed: 1,
+      opties: [`Omdat een infraroodmeter uitsluitend bij vloerverwarming gebruikt mag worden, nooit bij radiatoren`, `Omdat een contactmeting altijd aanzienlijk langer duurt dan een infraroodmeting`, `Omdat een infraroodmeter helemaal geen temperatuur kan meten, alleen kleurverschil`, `Omdat de meetafstand, de hoek en een terugkaatsend oppervlak de meting kunnen beinvloeden`],
+      goed: 3,
       uitleg: `Infraroodmetingen zijn gevoelig voor de afstand tot en de hoek met het gemeten oppervlak, en voor een terugkaatsend (reflecterend) oppervlak, wat grotere meetverschillen kan geven dan een contactmeting met klemsensoren. Dit heeft niets te maken met vloerverwarming specifiek, en de meetduur is niet de kern van het probleem.`
     },
     {
       vraag: `Voor een gewone woning met radiatoren en thermostaatkranen is welke pompregeling het meest gangbaar, en waarom?`,
-      opties: [
-        `Constant toerental, omdat dat het minste energie verbruikt`,
-        `Proportionele druk (of een automatische modus die daarop is gebaseerd), omdat dat past bij een systeem waar afsluiters voortdurend open en dicht gaan`,
-        `Constante druk, omdat dat de enige regeling is die geschikt is voor woningen`,
-        `Geen enkele regeling is nodig zolang de pomp maar hard genoeg draait`
-      ],
-      goed: 1,
+      opties: [`Geen enkele regeling is nodig, zolang de circulatiepomp maar hard genoeg blijft draaien`, `Constant toerental, omdat dat van alle regelingen de minste energie verbruikt`, `Proportionele druk, omdat dat past bij afsluiters die voortdurend open en dicht gaan`, `Constante druk, omdat dat de enige regeling is die geschikt is voor gewone woningen`],
+      goed: 2,
       uitleg: `Bij een tweepijpsinstallatie met thermostatische radiatorkranen past een regeling met proportionele druk (of een automatische, hierop gebaseerde modus) het beste, omdat de pomp zich dan aanpast aan de wisselende vraag. Constant toerental is juist ongeschikt bij thermostaatkranen, en constante druk is de gangbare keuze voor vloerverwarming of collectieve, goed ingeregelde systemen, niet specifiek voor gewone woningen met radiatoren.`
     }
   ],
@@ -726,24 +641,14 @@ Een warmtebeeldcamera laat zien of een kring gelijkmatig warm wordt over zijn he
   quiz: [
     {
       vraag: `Waarom kun je de temperatuurmethode uit les 14.5 niet gebruiken om vloerverwarming in te regelen?`,
-      opties: [
-        `Omdat vloerverwarming geen retourleiding heeft`,
-        `Omdat de grote thermische massa van de dekvloer het temperatuurverschil traag laat reageren, en er geen radiatorafsluiters zijn om op temperatuur te sturen`,
-        `Omdat vloerverwarming altijd een te hoge temperatuur heeft om te meten`,
-        `Omdat de temperatuurmethode uitsluitend bij convectoren werkt`
-      ],
-      goed: 1,
+      opties: [`Omdat de thermische massa van de dekvloer het temperatuurverschil traag laat reageren`, `Omdat vloerverwarming altijd een veel te hoge temperatuur heeft om ooit goed te meten`, `Omdat de temperatuurmethode volgens de fabrikant uitsluitend bij convectoren werkt`, `Omdat vloerverwarming, anders dan radiatoren, helemaal geen retourleiding heeft`],
+      goed: 0,
       uitleg: `De thermische massa van de dekvloer (les 7.3) maakt de temperatuurreactie van een kring traag, en er is geen radiatorafsluiter om op ΔT bij te sturen. Vloerverwarming heeft wel een retourleiding, en de temperatuur is juist lager dan bij radiatoren, niet hoger.`
     },
     {
       vraag: `Waar zit de debietmeter van een vloerverwarmingskring, en wat toont hij?`,
-      opties: [
-        `Op de retourverdeler, en hij toont de temperatuur van het retourwater`,
-        `Op de aanvoerverdeler, en hij toont het actuele debiet van die kring`,
-        `In de ketel, en hij toont het totale debiet van de hele installatie`,
-        `Op de retourverdeler, en hij toont de druk van die kring`
-      ],
-      goed: 1,
+      opties: [`Op de retourverdeler, en hij toont de druk van die kring`, `Op de retourverdeler, en hij toont de temperatuur van het retourwater`, `Op de aanvoerverdeler, en hij toont het actuele debiet van die kring`, `In de ketel, en hij toont het totale debiet van de hele installatie`],
+      goed: 2,
       uitleg: `Bij zowel Caleffi als Uponor zit de debietmeter per kring op de aanvoerverdeler en toont hij het actuele debiet in l/min. De retourverdeler heeft juist de afsluiters, niet de debietmeters, en de ketel meet het debiet van de hele installatie, niet per kring.`
     },
     {
@@ -754,22 +659,17 @@ Een warmtebeeldcamera laat zien of een kring gelijkmatig warm wordt over zijn he
     },
     {
       vraag: `Op de debietmeter van een kring lees je het berekende debiet af, maar de vloer in die kamer blijft koud op een specifieke plek. Wat is een logische volgende controle?`,
-      opties: [
-        `Meteen de hele kring vervangen, want een correct debiet sluit een probleem uit`,
-        `Controleren met een warmtebeeldcamera of er lucht in de kring zit of een knik in de leiding is`,
-        `De debietmeter negeren en het debiet flink verhogen tot de vloer overal warm is`,
-        `Concluderen dat de vloerverwarming principieel niet geschikt is voor deze ruimte`
-      ],
-      goed: 1,
+      opties: [`Meteen concluderen dat de vloerverwarming principieel niet geschikt is voor deze ruimte`, `Meteen de hele kring vervangen, want een correct debiet sluit elk ander probleem uit`, `Controleren met een warmtebeeldcamera of er lucht in de kring zit of een knik zit`, `De debietmeter gewoon negeren en het debiet flink verhogen tot de vloer overal warm is`],
+      goed: 2,
       uitleg: `Een correct debiet op de meter sluit niet automatisch andere problemen uit: een warmtebeeldcamera kan een koude plek door lucht of een knik in de leiding zichtbaar maken, ook als het totale debiet klopt. Vervangen of het debiet blind verhogen slaat de diagnose over, en een enkele koude plek zegt niets over de principiele geschiktheid van vloerverwarming.`
     },
     {
       vraag: `Een cv-ketel stookt op 80 graden voor de radiatoren, en dezelfde installatie heeft ook een vloerverwarmingskring. Wat is hiervoor nodig?`,
       opties: [
         `Niets speciaals: vloerverwarming kan altijd rechtstreeks op de radiatoraanvoer worden aangesloten`,
-        `Een mengverdeler met een eigen pomp, die de aanvoertemperatuur naar de vloer verlaagt door bijmenging van retourwater`,
-        `Een extra ketel die alleen voor de vloerverwarming stookt`,
-        `Een grotere debietmeter, want dat is het enige verschil met een gewone verdeler`
+        `Een mengverdeler met een eigen pomp, die het aanvoerwater mengt tot een lagere temperatuur`,
+        `Een extra, volledig gescheiden ketel die uitsluitend voor de vloerverwarming stookt`,
+        `Een grotere debietmeter, want dat is het enige verschil met een gewone radiatorverdeler`
       ],
       goed: 1,
       uitleg: `Zonder mengverdeler zou de vloer de hoge aanvoertemperatuur van de radiatorenkring krijgen, wat de toegestane vloertemperatuur (les 7.3) overschrijdt. De mengverdeler mengt het hete aanvoerwater met retourwater tot een lagere temperatuur. Een tweede ketel is een onnodig zware oplossing, en een grotere debietmeter verandert niets aan de temperatuur.`
@@ -849,42 +749,32 @@ Deze cursus geeft geen diploma en geen Bewijs van Vakmanschap CO. Fabrikanten zo
     {
       vraag: `Een collega test op een milde herfstdag of een installatie na het inregelen overal warm genoeg wordt, en concludeert dat alles in orde is. Wat is het risico van deze aanpak?`,
       opties: [
-        `Er is geen risico: een test op een milde dag zegt evenveel als een test bij vorst`,
-        `Bij mild weer is de warmtevraag laag, waardoor een tekort aan vermogen of een resterende onbalans niet aan het licht komt`,
-        `Het risico is dat de installatie bij mild weer juist te warm wordt`,
-        `Milde temperaturen maken de meting juist nauwkeuriger dan bij vorst`
+        `Er is geen enkel risico: een test op een milde dag zegt evenveel als een test bij vorst`,
+        `Bij mild weer is de warmtevraag laag, dus een tekort of resterende onbalans valt niet op`,
+        `Het risico is dat de installatie bij mild weer juist te warm wordt in elke ruimte`,
+        `Milde temperaturen maken de meting juist veel nauwkeuriger dan een meting bij vorst`
       ],
       goed: 1,
       uitleg: `Bij een lage warmtevraag (mild weer) valt een tekort aan vermogen of een resterende onbalans veel minder snel op dan op de koudste dagen, wanneer het systeem echt op de proef wordt gesteld. Dit is dezelfde valkuil als bij het testen van lage-temperatuurgeschiktheid in les 7.6.`
     },
     {
       vraag: `Waarom is het belangrijk om na het inregelen vast te leggen welke voorinstelling of welk debiet je bij elke radiator of kring hebt ingesteld?`,
-      opties: [
-        `Dat is niet nodig, want de instelling is aan de afsluiter zelf altijd af te lezen`,
-        `Zodat een volgende monteur (of jijzelf later) bij een klacht kan beoordelen of die door de instelling komt of door iets anders`,
-        `Alleen om aan een verzekeraar te kunnen bewijzen dat er werk is verricht`,
-        `Uitsluitend omdat de wet dit specifiek voor waterzijdig inregelen voorschrijft`
-      ],
-      goed: 1,
+      opties: [`Zodat een volgende monteur, of jijzelf later, bij een klacht kan beoordelen wat de oorzaak is`, `Alleen om aan de verzekeraar van de klant te kunnen bewijzen dat er werk is verricht`, `Uitsluitend omdat de wet dit specifiek voor waterzijdig inregelen zo voorschrijft`, `Dat is niet nodig, want de instelling is aan de afsluiter zelf altijd zonder moeite af te lezen`],
+      goed: 0,
       uitleg: `Vastlegging maakt het mogelijk om bij een latere klacht te onderscheiden of de oorzaak in de inregeling zit of ergens anders, zonder de installatie opnieuw helemaal te moeten uitzoeken. Sommige afsluiters zijn niet zonder gereedschap of documentatie af te lezen, een verzekeringsbewijs is niet de hoofdreden, en een specifieke wettelijke vastleggingsplicht voor dit precieze document is niet vastgesteld (zie het register).`
     },
     {
       vraag: `Bij het ontluchten na het monteren van nieuwe radiatorafsluiters, in welke volgorde ontlucht je de radiatoren?`,
-      opties: [
-        `Van de hoogst gelegen naar de laagst gelegen radiator`,
-        `Van de laagst gelegen naar de hoogst gelegen radiator`,
-        `De volgorde maakt niet uit, als je uiteindelijk alle radiatoren maar ontlucht`,
-        `Altijd te beginnen bij de radiator die het verst van de ketel ligt`
-      ],
-      goed: 1,
+      opties: [`De volgorde maakt niet uit, als je uiteindelijk alle radiatoren maar ontlucht`, `Altijd te beginnen bij de radiator die het verst van de ketel ligt`, `Van de hoogst gelegen naar de laagst gelegen radiator`, `Van de laagst gelegen naar de hoogst gelegen radiator`],
+      goed: 3,
       uitleg: `De aanbevolen volgorde is van beneden naar boven: eerst de laagst gelegen radiator, dan verder omhoog, en pas daarna het expansievat. Van boven naar beneden werken of de afstand tot de ketel als leidraad nemen, hoort niet bij deze procedure.`
     },
     {
       vraag: `Wat vertel je een klant nadat je de installatie waterzijdig hebt ingeregeld, over de nieuwe voorinstellingen van de afsluiters?`,
       opties: [
         `Dat hij de voorinstellingen gerust zelf mag bijstellen als een kamer hem iets te koel aanvoelt`,
-        `Dat hij niet zelf aan de nieuwe voorinstellingen moet komen zonder overleg, omdat dat de ingestelde balans verstoort`,
-        `Dat de voorinstellingen nooit meer gecontroleerd hoeven te worden`,
+        `Dat hij niet zelf aan de voorinstellingen moet komen zonder overleg, dat verstoort de balans`,
+        `Dat de voorinstellingen helemaal nooit meer gecontroleerd hoeven te worden door een monteur`,
         `Dat de klant de afsluiters juist na elke seizoenswisseling zelf opnieuw moet instellen`
       ],
       goed: 1,
@@ -892,13 +782,8 @@ Deze cursus geeft geen diploma en geen Bewijs van Vakmanschap CO. Fabrikanten zo
     },
     {
       vraag: `Een fabrikant biedt een online cursus met certificaat voor dynamisch waterzijdig inregelen aan. Wat betekent dit certificaat voor jouw wettelijke bevoegdheid?`,
-      opties: [
-        `Het vervangt het Bewijs van Vakmanschap CO voor werk aan gasverbrandingstoestellen`,
-        `Het is een fabrikanttraining over het eigen productgamma, geen wettelijk erkend certificaat en geen vervanging voor het Bewijs van Vakmanschap CO`,
-        `Het geeft automatisch een BRL 6000-25-erkenning aan het bedrijf van de monteur`,
-        `Het is verplicht voor iedereen die ooit een radiatorafsluiter vervangt`
-      ],
-      goed: 1,
+      opties: [`Het is een fabrikanttraining over het eigen product, geen wettelijk erkend certificaat`, `Het geeft automatisch een volledige BRL 6000-25-erkenning aan het bedrijf van de monteur`, `Het is wettelijk verplicht voor iedereen die ooit een radiatorafsluiter gaat vervangen`, `Het vervangt het Bewijs van Vakmanschap CO voor al het werk aan gasverbrandingstoestellen`],
+      goed: 0,
       uitleg: `Een fabrikantcertificaat over het eigen inregelmateriaal is waardevolle kennis, maar geen wettelijk erkend certificaat en geen vervanging voor het Bewijs van Vakmanschap CO of een BRL-erkenning, die over heel andere bevoegdheden gaan (werk aan gasverbrandingstoestellen, bedrijfscertificering). Het is ook niet wettelijk verplicht voor het vervangen van een enkele afsluiter.`
     }
   ],
@@ -917,33 +802,23 @@ Deze cursus geeft geen diploma en geen Bewijs van Vakmanschap CO. Fabrikanten zo
   examen: [
     {
       vraag: `Een radiator dichtbij de ketel warmt snel op, terwijl een radiator verder weg traag opwarmt, ook al staan beide afsluiters volledig open. Wat is hier de meest waarschijnlijke oorzaak?`,
-      opties: [
-        `De verste radiator heeft een te hoge kv-waarde`,
-        `Onbalans: het water kiest de weg van de minste weerstand naar de dichtstbijzijnde radiator`,
-        `De verste radiator is defect en moet vervangen worden`,
-        `De ketel heeft een te laag vermogen voor de hele woning`
-      ],
-      goed: 1,
+      opties: [`Onbalans: het water kiest de weg van de minste weerstand naar de dichtstbijzijnde radiator`, `De verste radiator is inwendig defect en moet daarom vervangen worden`, `De ketel heeft een te laag vermogen voor de hele woning, zeker bij een lage buitentemperatuur`, `De verste radiator heeft een te hoge kv-waarde ingesteld op de afsluiter`],
+      goed: 0,
       uitleg: `Dit is het klassieke beeld van een niet waterzijdig ingeregelde installatie: zonder kunstmatige weerstand krijgt de dichtstbijzijnde radiator te veel water en de verste te weinig. Een defecte radiator of een te laag ketelvermogen geven een ander, structureler beeld, en een te hoge kv-waarde bij de verste radiator zou juist meer, niet minder doorstroming geven.`
     },
     {
       vraag: `Bij welke gebeurtenis verplicht artikel 5.21 Besluit bouwwerken leefomgeving in ieder geval dat een verwarmingssysteem "adequaat gedimensioneerd, geinstalleerd, ingeregeld en instelbaar" moet zijn?`,
-      opties: [
-        `Uitsluitend bij een geheel nieuw op te leveren woning`,
-        `Bij het plaatsen of gedeeltelijk vernieuwen of veranderen van een technisch bouwsysteem waarbij de energieprestatie wordt beinvloed`,
-        `Alleen als de klant erom vraagt bij een onderhoudsbeurt`,
-        `Uitsluitend bij woningen die op stadsverwarming zijn aangesloten`
-      ],
-      goed: 1,
+      opties: [`Alleen als de klant er expliciet om vraagt bij een geplande onderhoudsbeurt`, `Uitsluitend bij woningen die rechtstreeks en uitsluitend op stadsverwarming zijn aangesloten`, `Uitsluitend bij een geheel nieuw op te leveren nieuwbouwwoning`, `Bij het plaatsen of vernieuwen van een bouwsysteem dat de energieprestatie beinvloedt`],
+      goed: 3,
       uitleg: `Dit volgt uit artikel 5.21 lid 2 Bbl, en geldt dus breder dan alleen nieuwbouw: ook bij een vervanging van de ketel die de energieprestatie beinvloedt. Het is geen vrijblijvende service en niet beperkt tot stadsverwarming.`
     },
     {
       vraag: `Wat is de autoriteit van een regelventiel, en welke vuistregel geldt voor een goede regelbaarheid?`,
       opties: [
-        `De maximale doorlaat van het ventiel; vuistregel: kvs moet minstens 5 zijn`,
-        `De invloed van een verstelling op de doorstroming, bepaald door het drukverschil over het ventiel ten opzichte van de rest van het circuit; vuistregel: minstens 0,5`,
-        `De temperatuur waarbij het ventiel nog goed afdicht; vuistregel: minstens 90 graden`,
-        `Het aantal standen dat het ventiel heeft; vuistregel: minstens 7 standen`
+        `De maximale doorlaat van het ventiel bij volledig openstand; vuistregel: kvs moet minstens 5 zijn`,
+        `De invloed van een verstelling op de doorstroming, bepaald door het drukverschil over het ventiel`,
+        `De temperatuur waarbij het ventiel nog goed blijft afdichten; vuistregel: minstens 90 graden`,
+        `Het aantal standen dat het ventiel in totaal heeft; vuistregel: minstens 7 standen`
       ],
       goed: 1,
       uitleg: `Autoriteit gaat over de invloed van een verstelling op de doorstroming, bepaald door de verhouding van drukverschillen. De vuistregel van minstens 0,5 (50 procent) komt uit het register. De andere opties verwarren autoriteit met andere begrippen (kvs-waarde, materiaaltemperatuur, aantal standen).`
@@ -956,96 +831,66 @@ Deze cursus geeft geen diploma en geen Bewijs van Vakmanschap CO. Fabrikanten zo
     },
     {
       vraag: `Wat is het belangrijkste nadeel van statisch inregelen ten opzichte van dynamisch inregelen, bij een installatie met veel thermostaatkranen?`,
-      opties: [
-        `Statisch inregelen is altijd duurder dan dynamisch inregelen`,
-        `Bij deellast (als andere afsluiters dichtgaan) neemt het drukverschil over de nog openstaande statische afsluiters toe, met te veel doorstroming als gevolg`,
-        `Statische afsluiters kunnen geen enkele voorinstelling hebben`,
-        `Statisch inregelen werkt alleen bij vloerverwarming, niet bij radiatoren`
-      ],
-      goed: 1,
+      opties: [`Statisch inregelen werkt uitsluitend bij vloerverwarming, en nooit bij radiatoren`, `Statisch inregelen is in alle denkbare gevallen altijd duurder in aanschaf dan dynamisch inregelen`, `Bij deellast neemt het drukverschil over de openstaande afsluiters toe, met te veel doorstroming`, `Statische afsluiters kunnen van fabriekswege geen enkele voorinstelling hebben`],
+      goed: 2,
       uitleg: `Het kernnadeel van statisch inregelen is dat de vaste doorlaat niet meebeweegt met veranderingen in de rest van het systeem, waardoor bij deellast te veel water over de nog openstaande afsluiters kan stromen. Statische afsluiters hebben wel een voorinstelling, en statisch inregelen wordt juist bij radiatoren toegepast, niet primair bij vloerverwarming (waar de debietmeter op de verdeler leidend is).`
     },
     {
       vraag: `Een drukonafhankelijk regelventiel (PICV) combineert welke functies in een enkel huis?`,
       opties: [
-        `Alleen een thermometer en een handwiel`,
-        `Een motorbediende afsluiter, een vaste flowbegrenzing en een drukverschilregelaar`,
-        `Alleen een filter en een terugslagklep`,
-        `Een pomp en een expansievat`
+        `Alleen een thermometer, een handwiel en een losse retourafsluiter`,
+        `Een motorbediende afsluiter met flowbegrenzer en drukregelaar`,
+        `Alleen een filter, een terugslagklep en een handmatige ontluchter`,
+        `Een pomp, een expansievat en een automatische vulkraan`
       ],
       goed: 1,
       uitleg: `Dit is precies de combinatie die Danfoss noemt voor zijn drukonafhankelijke regelventielen, wat het ventiel "100% autoriteit" geeft: drukschommelingen elders in het systeem hebben geen invloed meer op de ingestelde volumestroom.`
     },
     {
       vraag: `Een bestaande radiator heeft een genormeerd vermogen van 1800 W bij 75/65. De installatie wordt teruggezet naar 70/50 (correctiefactor volgens de Danfoss-tabel: 1,37). Wat geeft deze radiator dan werkelijk af?`,
-      opties: [`ongeveer 2466 W`, `ongeveer 1314 W`, `ongeveer 1800 W`, `ongeveer 900 W`],
-      goed: 1,
+      opties: [`ongeveer 1800 W`, `ongeveer 900 W`, `ongeveer 2466 W`, `ongeveer 1314 W`],
+      goed: 3,
       uitleg: `Werkelijk afgegeven vermogen = genormeerd vermogen / correctiefactor = 1800 / 1,37 is ongeveer 1314 W. De radiator geeft dus minder af bij deze lagere temperatuur, niet hetzelfde (1800 W) en niet meer (2466 W, wat uit een verkeerde vermenigvuldiging in plaats van deling zou komen).`
     },
     {
       vraag: `Wat is de eerste stap bij de temperatuurmethode (statisch inregelen op basis van ΔT)?`,
-      opties: [
-        `Alle inregelafsluiters volledig dichtdraaien`,
-        `Alle inregelafsluiters 20 procent openen, en daarna bij elke radiator het ΔT meten`,
-        `Direct de pomp op de hoogste stand zetten`,
-        `Eerst alle radiatoren vervangen door nieuwe exemplaren`
-      ],
-      goed: 1,
+      opties: [`Eerst alle bestaande radiatoren laten vervangen door nieuwe exemplaren`, `Alle inregelafsluiters in één keer volledig dichtdraaien`, `Alle inregelafsluiters 20 procent openen en het ΔT meten`, `Direct de circulatiepomp op de hoogste stand zetten`],
+      goed: 2,
       uitleg: `De temperatuurmethode begint met alle inregelafsluiters 20 procent te openen, waarna bij elke radiator het ΔT tussen aanvoer en retour wordt gemeten en genoteerd. Volledig dichtdraaien zou geen enkele meting mogelijk maken, en de pompstand of het vervangen van radiatoren horen niet bij de eerste stap.`
     },
     {
       vraag: `Bij de temperatuurmethode meet je bij de traagste radiator een ΔT van 6 K en bij de snelste een ΔT van 10 K. Wat is de inregelfactor, en wat betekent die?`,
-      opties: [
-        `1,67; de installatie is al in balans`,
-        `0,6; de installatie is nog niet voldoende in balans, dus je stelt bij`,
-        `4; dat getal heeft in deze methode geen betekenis`,
-        `0,8; precies op de grens, dus je stopt`
-      ],
-      goed: 1,
+      opties: [`0,6; de installatie is nog niet voldoende in balans, dus je stelt bij`, `4; dat getal heeft in deze rekenmethode helemaal geen betekenis`, `0,8; dat is precies op de grens, dus je stopt met inregelen`, `1,67; dat zou betekenen dat de installatie al ruimschoots in balans is`],
+      goed: 0,
       uitleg: `De inregelfactor is Tmin / Tmax = 6 / 10 = 0,6. Dat is lager dan de streefwaarde van 0,8, dus je moet bijstellen: de afsluiter met de grote ΔT (de snelle radiator) verder open, en die met de kleine ΔT (de trage radiator) verder dicht. 1,67 komt uit een verkeerde deling (Tmax/Tmin).`
     },
     {
       vraag: `Waarom werkt de temperatuurmethode niet bij vloerverwarming, en wat gebruik je in plaats daarvan?`,
-      opties: [
-        `Vloerverwarming heeft geen temperatuurverschil, dus er is niets te meten`,
-        `De grote thermische massa van de dekvloer maakt het ΔT traag; gebruik in plaats daarvan de debietmeter op de verdeler`,
-        `Vloerverwarming heeft altijd al een perfecte balans, dus inregelen is nooit nodig`,
-        `De temperatuurmethode werkt bij vloerverwarming juist beter dan bij radiatoren`
-      ],
-      goed: 1,
+      opties: [`Vloerverwarming heeft van nature altijd al een volledig perfecte balans, dus inregelen is nooit nodig`, `De temperatuurmethode werkt bij vloerverwarming eigenlijk juist beter dan bij radiatoren`, `Vloerverwarming heeft in de praktijk geen temperatuurverschil, dus er is niets te meten`, `De thermische massa van de dekvloer maakt het ΔT traag, gebruik de debietmeter op de verdeler`],
+      goed: 3,
       uitleg: `De thermische massa van de dekvloer vertraagt de reactie van het ΔT op een verstelling, en er zijn geen radiatorafsluiters om op te sturen. Bij vloerverwarming lees en stel je daarom het debiet per kring rechtstreeks af op de debietmeter van de verdeler. Vloerverwarming heeft wel degelijk een temperatuurverschil en is niet automatisch in balans.`
     },
     {
       vraag: `Op de aanvoerverdeler van een vloerverwarmingssysteem zit een debietmeter met een schaal van 0 tot 5 l/min. Wat lees en stel je daarmee in?`,
-      opties: [
-        `De temperatuur van het aanvoerwater van die kring`,
-        `Het actuele debiet van die kring, dat je vergelijkt met het berekende of gewenste debiet`,
-        `De totale waterinhoud van de hele vloerverwarmingsinstallatie`,
-        `De gasdruk van de cv-ketel die de vloerverwarming voedt`
-      ],
-      goed: 1,
+      opties: [`De gasdruk van de cv-ketel die de vloerverwarming van warmte voedt`, `De temperatuur van het aanvoerwater van die specifieke kring`, `Het actuele debiet van die kring, tegenover het gewenste debiet`, `De totale waterinhoud van de hele vloerverwarmingsinstallatie samen`],
+      goed: 2,
       uitleg: `De debietmeter op de aanvoerverdeler toont het actuele debiet per kring in l/min, dat je vergelijkt met het berekende of gewenste debiet en waarop je het regelventiel van die kring instelt. Temperatuur, totale waterinhoud en gasdruk worden hier niet mee gemeten.`
     },
     {
       vraag: `Een cv-ketel stookt op 80 graden voor de radiatoren, en dezelfde installatie heeft ook vloerverwarming. Waarom kan de vloerverwarming niet rechtstreeks op deze aanvoer worden aangesloten?`,
       opties: [
-        `Omdat vloerverwarming altijd een eigen, aparte ketel nodig heeft`,
-        `Omdat de vloer een lagere temperatuur toegestaan is dan de radiatoraanvoer, en een mengverdeler dat verschil moet opvangen`,
-        `Omdat vloerverwarming geen retourleiding heeft en dus niet op een gewone ketel past`,
-        `Omdat 80 graden te laag is voor vloerverwarming`
+        `Omdat vloerverwarming altijd een volledig eigen, aparte ketel nodig zou hebben`,
+        `Omdat de vloer een lagere temperatuur toegestaan is, en de mengverdeler dat verschil opvangt`,
+        `Omdat vloerverwarming van zichzelf geen retourleiding heeft en dus nooit op een gewone ketel past`,
+        `Omdat 80 graden simpelweg te laag is voor een goede werking van vloerverwarming`
       ],
       goed: 1,
       uitleg: `De toegestane vloertemperatuur ligt veel lager dan 80 graden (les 7.3); een mengverdeler met eigen pomp mengt het hete aanvoerwater met retourwater tot een temperatuur die de vloer wel toestaat. Vloerverwarming heeft gewoon een retourleiding en werkt niet met een apart ketelcircuit, en 80 graden is voor vloerverwarming te hoog, niet te laag.`
     },
     {
       vraag: `Wat controleer je bij het opleveren van een inregelklus, naast de inregelfactor of het afgelezen debiet?`,
-      opties: [
-        `Alleen of de klant tevreden lijkt, verder niets`,
-        `De opwarmtijd op een koude dag, de waterdruk van de installatie, en of er geen ruisend geluid meer is`,
-        `Uitsluitend het gasverbruik van de afgelopen maand`,
-        `Alleen of de radiatoren van kleur zijn veranderd`
-      ],
-      goed: 1,
+      opties: [`Uitsluitend het totale gasverbruik van de afgelopen kalendermaand`, `Alleen of de radiatoren inmiddels van kleur zijn veranderd`, `Alleen of de klant over het algemeen tevreden lijkt te zijn, verder helemaal niets meer`, `De opwarmtijd op een koude dag, de waterdruk, en of er geen ruisend geluid meer is`],
+      goed: 3,
       uitleg: `Een volledige oplevering controleert meer dan alleen de inregelfactor: de opwarmtijd op een koude dag (niet alleen bij mild weer), de waterdruk, en geluid. De tevredenheid van de klant is geen technische controle, gasverbruik van een enkele maand zegt weinig, en radiatorkleur is niet relevant.`
     }
   ]
