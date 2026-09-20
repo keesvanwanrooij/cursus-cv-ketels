@@ -365,7 +365,7 @@ De nulmeting is geen formaliteit: hij bepaalt het referentiepunt voor alles wat 
 
 Elektrochemische sensoren verouderen door gebruik: de chemische stoffen reageren met het gas waarvoor ze gemaakt zijn en slijten daardoor. Bij een CO-sensor gebeurt dat vrijwel uitsluitend tijdens metingen, omdat CO niet van nature in de omgevingslucht voorkomt: veel korte testmetingen en metingen bij hoge concentraties (een sterk vervuild toestel) verkorten de levensduur extra. Sensoren zijn ook gevoelig voor stofdeeltjes, roet en vocht (vandaar het filter in de sonde) en voor extreme temperatuur of grote temperatuurwisselingen (laat een analyser dus niet bij vorst of hitte in de auto liggen).
 
-De levensduur van een zuurstofsensor loopt sterk uiteen: de betere kwaliteit kan tot ongeveer 7 jaar meegaan, de goedkoopste nog geen jaar. Leveranciers adviseren de analyser jaarlijks op te sturen voor onderhoud en kalibratie, waarbij filters worden vervangen en de veroudering van de sensoren wordt gemeten. Leeg de condensopvang handmatig na elke meting: opgehoopt condensaat kan de sensoren beschadigen en de doorstroming belemmeren.
+De levensduur van een zuurstofsensor loopt sterk uiteen en is geen algemene garantieduur: een sensor van betere kwaliteit (bijvoorbeeld een ECO-sensor, andere meettechniek) kan tot ongeveer 7 jaar meegaan, een goedkope sensor nog geen jaar. Leveranciers adviseren de analyser jaarlijks op te sturen voor onderhoud en kalibratie, waarbij filters worden vervangen en de veroudering van de sensoren wordt gemeten. Leeg de condensopvang handmatig na elke meting: opgehoopt condensaat kan de sensoren beschadigen en de doorstroming belemmeren.
 
 | Onderdeel | Wat kan misgaan | Wat je doet |
 |---|---|---|
@@ -432,7 +432,7 @@ Een rookgasanalyser is pas zo goed als zijn voorbereiding: een schone, correcte 
     { voor: `Waarom nul je een analyser in frisse lucht?`, achter: `De nulmeting bepaalt het referentiepunt. Nullen in vervuilde lucht geeft een stelselmatige, te lage meting daarna.` },
     { voor: `Waarom veroudert een CO-sensor vooral tijdens metingen?`, achter: `CO komt niet van nature in gewone lucht voor, dus de sensor slijt vooral door contact met CO tijdens metingen, meer bij hoge concentraties.` },
     { voor: `Wat is het onderhoudsadvies voor een rookgasanalyser?`, achter: `Jaarlijks kalibreren en onderhouden, filters vervangen, condensopvang na elke meting legen.` },
-    { voor: `Wat is de levensduur van een O2-sensor ongeveer?`, achter: `Sterk wisselend: van minder dan een jaar (goedkope typen) tot ongeveer 7 jaar (betere kwaliteit).` },
+    { voor: `Wat is de levensduur van een O2-sensor ongeveer?`, achter: `Sterk wisselend, geen algemene garantieduur: van minder dan een jaar (goedkope typen) tot ongeveer 7 jaar (bijvoorbeeld een ECO-sensor, betere kwaliteit).` },
     { voor: `Wat betekent "CO onverdund" op een analyser?`, achter: `De luchtvrije, voor zuurstofovermaat gecorrigeerde CO-waarde. Een instrumentfunctie, geen wettelijke maatstaf.` },
     { voor: `Wanneer laat je een analyser eerder dan gepland kalibreren?`, achter: `Na een incident: een val, overbelasting, of blootstelling aan extreme temperatuur.` }
   ],

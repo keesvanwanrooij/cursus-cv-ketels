@@ -3,10 +3,10 @@
    Elk getal is nagelopen tegen het feitenregister (project/docs/feiten/,
    zekerheid A of B) of tegen een les die het register citeert. De feit-id's
    staan in een commentaar boven elke kaart. Geen C- of X-feiten.
-   Bewust NIET opgenomen: CO-maxima in het rookgas (50/200/400 ppm en de
-   fabrikantgrenzen), omdat niet vaststaat of die luchtvrij zijn of zoals
-   afgelezen (CO-43). Waarden per fabrikant zijn voorbeelden met merk en
-   model: het voorschrift van het toestel dat je voor je hebt gaat voor.
+   De CO-maxima in het rookgas (50/200/400 ppm) staan in de kaart 'CO en de
+   wet', met de hedge dat niet vaststaat of ze luchtvrij zijn of zoals
+   afgelezen (CO-43, MTN-05). Waarden per fabrikant zijn voorbeelden met merk
+   en model: het voorschrift van het toestel dat je voor je hebt gaat voor.
    Regels voor de tekst: geen backticks of dollar-accolade in de inhoud,
    geen streepjes als gedachtestreep, geen | in een tabelcel.
    ========================================================================== */
@@ -116,9 +116,11 @@ Voordruk: voorbeeld Remeha Avanta (handleiding v.13, categorie II2EK3P). Het ber
 `
 },
 
-/* Feit-id's: CO-21, CO-35, CO-36, CO-37, CO-38, CO-45, WET-28, WET-42, WET-43, WET-44, WET-46, WET-47, WET-48,
-   WET-51, WET-52, WET-53, MET-16, MET-17, MET-18.
-   Alleen de ruimte-CO (5 en 20 ppm). Rookgas-maxima staan er bewust niet in (CO-43).
+/* Feit-id's: CO-21, CO-35, CO-36, CO-37, CO-38, CO-40, CO-41, CO-45, WET-28, WET-42, WET-43, WET-44, WET-45,
+   WET-46, WET-47, WET-48, WET-51, WET-52, WET-53, MET-16, MET-17, MET-18, MTN-01, MTN-02, MTN-03, MTN-04, MTN-05.
+   Rookgasgrenzen (50/200/400 ppm) nu wel opgenomen: MTN-01 t/m MTN-04 (A) onderzochten de letterlijke wettekst en
+   beide meetprotocollen zelf en vonden geen correctiestap voor zuurstofovermaat; MTN-05 (B) trekt daaruit de
+   voorzichtige conclusie "zoals afgelezen", geen letterlijke wetsuitspraak (uitgewerkt in les 10.4).
    Meldplicht: art. 6.46 Bbl is leidend (WET-47). Wijziging voorgenomen (WET-53), inwerkingtreding niet gevonden. */
 {
   icoon: '⚠️',
@@ -144,6 +146,16 @@ Melden, onverwijld, aan vier partijen:
 De melding bevat minstens de gemeten concentratie en een beschrijving van de ruimte. Sinds 1 april 2026 kan de melding ook via het Digitaal Stelsel Omgevingswet. De wet (Bbl art. 6.46) is leidend: de BRL is niet helemaal eenduidig over volgorde en vorm van de melding.
 
 Komen er bij gebruik ontoelaatbare hoeveelheden CO vrij, dan stel je het toestel buiten bedrijf en stel je het niet in bedrijf. Een toestel uit bedrijf nemen of niet in bedrijf stellen vanwege veiligheidsrisico's is voorbehouden aan een VP.
+
+**CO in het rookgas.** Zonder een maximale waarde van de fabrikant geldt bij een goed afgesteld toestel:
+
+| Toesteltype | Grens |
+|---|---|
+| Open, afvoerloos (A) | 50 ppm |
+| Open, afvoergebonden (B) | 200 ppm |
+| Gesloten (C) | 400 ppm |
+
+Een fabrikantgrens is meestal strenger en gaat voor (Intergas bijvoorbeeld 160 ppm, Remeha Avanta Ace onder 250 ppm, per model verschillend). Ook hier is de op het meetinstrument aangegeven waarde leidend, dat zegt BRL 6000-25 letterlijk. Of deze grenzen luchtvrij zijn (gecorrigeerd voor zuurstofovermaat) of zoals afgelezen, zegt geen van de wettekst, BRL 6000-25 of BRL K25000 met zoveel woorden. De letterlijke tekst wijst op zoals afgelezen: geen correctiestap in het meetprotocol, en de aflezing zelf is leidend. Behandel dat als een voorzichtige conclusie, geen vaststaand feit. Zie de kaart 'CO luchtvrij (rekenmethode)'.
 
 **Let op:** er is een wijziging van de meldplicht voorgenomen (melden aan het bevoegd gezag alleen als het risico niet direct is weggenomen, met vermelding van de oorzaak). Tot die in werking treedt geldt art. 6.46 zoals hierboven. Controleer de actuele tekst.
 
@@ -179,9 +191,9 @@ Weergave van de norm door de Gezondheidsraad (uitgave 2010/A1:2012). De actuele 
 `
 },
 
-/* Feit-id's: CO-30, CO-32, CO-33, CO-34, CO-41, CO-46, MET-08, MET-11, MET-15.
-   CO-43 (X) alleen als hedge verwerkt: de vraag of de wettelijke rookgasgrenzen luchtvrij zijn is open.
-   CO-32: voorbeeldgetallen zijn verzonnen, geen meetgegevens. */
+/* Feit-id's: CO-30, CO-32, CO-33, CO-34, CO-41, CO-46, MET-08, MET-11, MET-15, MTN-01, MTN-02, MTN-04, MTN-05.
+   CO-43 (X) en MTN-05 (B) alleen als hedge verwerkt: de vraag of de wettelijke rookgasgrenzen luchtvrij zijn is
+   open, uitgewerkt in les 10.4. CO-32: voorbeeldgetallen zijn verzonnen, geen meetgegevens. */
 {
   icoon: '🧪',
   titel: 'CO luchtvrij (rekenmethode)',
