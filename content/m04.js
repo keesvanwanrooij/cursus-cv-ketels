@@ -112,6 +112,10 @@ CURSUS.addModule({
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt de gassoorten in Nederland benoemen en uitleggen wat de Wobbe-index en de gasdruk betekenen voor een toestel.',
+  videos: [
+    { taal: 'nl', titel: 'Uitleg stikstofinstallatie Gasunie Zuidbroek (Gasunie)', yt: 'CRRQkVegZvo', duur: '±6 min, 2022' },
+    { taal: 'en', titel: 'Wobbe Index: greener gas in the pipeline? (Worcester Bosch, VK)', yt: 'ymlGDdTCkSw', duur: '±4 min, 2016' }
+  ],
   tekst: `
 ## Twee gaskwaliteiten: G-gas en H-gas
 
@@ -230,6 +234,11 @@ Een gas zet uit bij hogere temperatuur. 1 m³ gas van 15 °C bevat ongeveer 5% m
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt de verbranding van aardgas opstellen en de benodigde hoeveelheid lucht bepalen.',
+  videos: [
+    { taal: 'nl', titel: 'Volledige en onvolledige verbranding (Scheikunde CDH)', yt: 'z7tH3d4xcWs', duur: '±13 min, 2020' },
+    { taal: 'nl', titel: 'Natuurkunde uitleg: aardgas verbranden (WATT!? Natuurkunde)', yt: 'QtGCFdBK9T8', duur: '±3 min, 2021' },
+    { taal: 'en', titel: 'Complete combustion of methane (CH4), balanced equation (chemistNATE)', yt: '_DNF8Z0lMfw', duur: '±2 min, 2019' }
+  ],
   tekst: `
 ## Wat er in de vlam gebeurt
 
@@ -336,6 +345,11 @@ Bij de reactie ontstaat 2 mol waterdamp per mol methaan. De calorische bovenwaar
   duur: 30,
   type: 'les',
   leerdoel: 'Je kunt uit een gemeten O2- of CO2-waarde de luchtovermaat afleiden en beoordelen of de verbranding klopt.',
+  videos: [
+    { taal: 'nl', titel: 'Een HR-cv-ketel controleren en afstellen op O2 en CO2 (Loodgieter Den Haag Stad)', yt: 'oPsXD-NRFVI', duur: '±21 min, 2023' },
+    { taal: 'nl', titel: 'De testo 300 gebruiken voor een verwarmingssysteem (Testo Nederland)', yt: 'UrJuWtZU6Ds', duur: '±3 min, 2022' },
+    { taal: 'en', titel: 'Flue gas measurement with the testo 300 analyzer (Testo)', yt: 'lnv8smfEuJk', duur: '±2 min, 2019' }
+  ],
   tekst: `
 ## Lambda: hoeveel lucht je werkelijk geeft
 
@@ -451,6 +465,11 @@ Bij de Remeha Avanta moet O2 bij vollast lager zijn dan bij laaglast. Het bereik
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen waardoor een verbranding onvolledig wordt en hoe je de oorzaak in de installatie herkent.',
+  videos: [
+    { taal: 'nl', titel: 'Koolmonoxide: hoe ontstaat het en wat zijn de symptomen? (Varen doe je Samen)', yt: 'sl0t-l5OH6M', duur: '±1 min, 2025' },
+    { taal: 'nl', titel: 'Wat is koolmonoxide en waarom is het gevaarlijk? (Ei Electronics Nederland)', yt: 'IEf2u1vGd0w', duur: '±2 min, 2016' },
+    { taal: 'en', titel: 'Combustion and incomplete combustion explained (FuseSchool)', yt: 'Nl0bipxyuyk', duur: '±4 min, 2014' }
+  ],
   tekst: `
 ## Wat er gebeurt als de verbranding tekortschiet
 
@@ -568,6 +587,11 @@ Kiwa definieert de giftigheidsindex als (%CO / %CO2) × 100 en eist in de tegend
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen hoe CO het lichaam aantast en welke klachten bij welke concentratie en duur horen.',
+  videos: [
+    { taal: 'nl', titel: 'Wat is koolmonoxide en wat doet het met je lichaam? (RTL Nieuws)', yt: 'I03M2Hg2WvY', duur: '±2 min, 2016' },
+    { taal: 'nl', titel: 'Ervaringsverhaal: bijna overleden aan koolmonoxide in de slaap (Nederlandse Brandwonden Stichting)', yt: 'UejW3c_smOE', duur: '±2 min, 2017' },
+    { taal: 'en', titel: 'Carbon monoxide and hemoglobin explained (Andrey K)', yt: 'Lsq-zyrzXxE', duur: '±8 min, 2014' }
+  ],
   tekst: `
 ## Wat CO in het bloed doet
 
@@ -679,6 +703,11 @@ De GGD-richtlijn (uit 2008, aangehaald door de Gezondheidsraad in 2019) is bedoe
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen wanneer een ketel condenseert, waarom dat rendement oplevert en wat er met het condensaat gebeurt.',
+  videos: [
+    { taal: 'nl', titel: 'Hoe werkt een condensatieketel? Werking en rendement (Renovatie-Gids)', yt: 'CbFBUIzaUms', duur: '±2 min, 2020' },
+    { taal: 'nl', titel: 'Hoe werkt een hr-ketel van Vaillant? (Vaillant)', yt: 'bviiHAed90g', duur: '±2 min, 2016' },
+    { taal: 'en', titel: 'Dew point temperature explained (MEP Academy)', yt: 'hOhFoga6Ufc', duur: '±9 min, 2024' }
+  ],
   tekst: `
 ## Het dauwpunt hangt af van lambda
 
@@ -795,6 +824,11 @@ Rendement en calorische waarde moeten op dezelfde basis (Hi of Hs) staan, anders
   duur: 25,
   type: 'les',
   leerdoel: 'Je kent de bronnen van CO in een woning, de werking van een CO-melder en de eerste maatregelen bij een alarm.',
+  videos: [
+    { taal: 'nl', titel: 'Een CO-melder plaatsen: hoe doe je dat? (Nederlandse Brandwonden Stichting)', yt: 'i67WbC9mAXI', duur: '±1 min, 2022' },
+    { taal: 'nl', titel: 'Wat te doen bij koolmonoxidevergiftiging (Rode Kruis)', yt: 'wWbOnbP-DFo', duur: '±6 min, 2021' },
+    { taal: 'en', titel: 'Carbon monoxide alarms: what to do if the alarm sounds (Seattle Fire Department, VS)', yt: 'Nd5dbMVvl_8', duur: '±2 min, 2021' }
+  ],
   tekst: `
 ## Waar CO in een woning vandaan komt
 

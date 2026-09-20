@@ -145,6 +145,11 @@ CURSUS.addModule({
   duur: 20,
   type: 'les',
   leerdoel: 'Je kunt uitleggen wat druk en drukverschil zijn, drukeenheden omrekenen en zeggen waarom water alleen stroomt door een drukverschil.',
+  videos: [
+    { taal: 'nl', titel: 'Druk: pascal en bar uitgelegd (Natuurkunde van Helden)', yt: 'DeUnttPee48', duur: '±7 min, 2018' },
+    { taal: 'nl', titel: 'De natuurkunde van een cv-installatie (WATT!? Natuurkunde)', yt: 'ZPdVxCmBMm4', duur: '±2 min, 2017' },
+    { taal: 'en', titel: 'Flow and Pressure in Pipes Explained (Practical Engineering)', yt: 'ZQKpu-obzlU', duur: '±13 min, 2021' }
+  ],
   tekst: `
 ## Wat is druk, en in welke eenheid?
 
@@ -257,6 +262,11 @@ Nog een voorbeeld met de kwadratenregel. Stel dat een radiatorcircuit bij 400 l/
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uit de statische hoogte de voordruk van het vat en de vuldruk van de installatie bepalen en zeggen waarom fabrikanten daarin verschillen.',
+  videos: [
+    { taal: 'nl', titel: 'Werking van het Flexcon expansievat (Flamco)', yt: 'fiQtDufr-kQ', duur: '±4 min, 2011' },
+    { taal: 'nl', titel: 'Een expansievat controleren en vervangen (John Visser cv-optimalisatie)', yt: 'NTfNujKsSDo', duur: '±7 min, 2020' },
+    { taal: 'en', titel: 'Checking the Pre-Charge of an Expansion Vessel (Flamco Flexcontrol)', yt: 'KanqVBXFUOk', duur: '±3 min, 2017' }
+  ],
   tekst: `
 ## Waarom je de hoogte van de installatie nodig hebt
 
@@ -389,6 +399,11 @@ Een bewoner mag zelf cv-water bijvullen, zie [les 1.2](les:m01l02). Je klant hee
   duur: 30,
   type: 'les',
   leerdoel: 'Je kunt uitleggen waarom een expansievat nodig is, hoe je de voordruk controleert en wat een afblazend veiligheidsventiel je vertelt.',
+  videos: [
+    { taal: 'nl', titel: 'Veiligheidsventiel Prescor: bescherming tegen overdruk (Flamco)', yt: 'cB8fmmuDO2g', duur: '±2 min, 2020' },
+    { taal: 'nl', titel: 'Werking van een expansievat, kort uitgelegd (John Visser cv-optimalisatie)', yt: 'L9_t4M7SDuU', duur: '±1 min, 2020' },
+    { taal: 'en', titel: 'How Expansion Vessels Work in Under 3 Minutes (Altecnic)', yt: '-qE8H3Lr0UE', duur: '±3 min, 2020' }
+  ],
   tekst: `
 ## Water zet uit als het warm wordt
 
@@ -529,6 +544,11 @@ Bij een zakkende druk noemt Vaillant voor F.022 onder meer te weinig water, een 
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen hoe pompkarakteristiek en installatieweerstand samen het debiet bepalen en wat je bij te weinig of te veel doorstroming instelt.',
+  videos: [
+    { taal: 'nl', titel: 'Pompkarakteristiek uitgelegd (Willem van Treslong, MTE Rotterdam)', yt: 'iwAtPyvscuY', duur: '±11 min, 2021' },
+    { taal: 'nl', titel: 'De pompgrafiek: theorie versus praktijk (Oveducon)', yt: 'ss0NVjK3GTg', duur: '±5 min, 2019' },
+    { taal: 'en', titel: 'Pump Chart Basics Explained (The Engineering Mindset)', yt: 'U8iWNaDuUek', duur: '±13 min, 2020' }
+  ],
   tekst: `
 ## Wat de pomp doet
 
@@ -649,6 +669,11 @@ Bij het plaatsen of vervangen van een toestel moet het afgiftesysteem waterzijdi
   duur: 25,
   type: 'les',
   leerdoel: 'Je weet welke invloed waterkwaliteit, lucht en vuil op een ketel hebben, waarom fabrikanten eigen eisen stellen en in welke volgorde je spoelt, vult en ontlucht.',
+  videos: [
+    { taal: 'nl', titel: 'Automatische ontluchter voor cv-installaties: SpiroVent (Feenstra)', yt: 'L_67473W_-k', duur: '±1 min, 2015' },
+    { taal: 'nl', titel: 'Vuilafscheider voor cv-installaties: SpiroTrap MB3 (Feenstra)', yt: 'nSscTM0Luqk', duur: '±1 min, 2015' },
+    { taal: 'en', titel: 'Cleaning a Magnetic Filter for Central Heating Sludge (Mark Ballard, Professional Heating Engineer)', yt: 'dwbFx0wG3lk', duur: '±6 min, 2018' }
+  ],
   tekst: `
 ## Het water is onderdeel van de installatie
 
@@ -776,6 +801,11 @@ ATAG noemt meer dan 5 % bijvullen per jaar een structureel probleem. Een install
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uit debiet en temperatuurverschil het overgedragen vermogen berekenen, en omgekeerd, en een installatie daarmee beoordelen.',
+  videos: [
+    { taal: 'nl', titel: 'Rekenen met warmte: vuistregels en rekenvoorbeelden (Harold Halewijn)', yt: 'PLLhbkXBQ04', duur: '±14 min, 2021' },
+    { taal: 'nl', titel: 'Alles over radiatoren berekenen (Ketel Klets)', yt: 'H4_ZQCjsMII', duur: '±10 min, 2021' },
+    { taal: 'en', titel: 'Mass Flow Rate Explained for Heating Engineers (Heat Geek)', yt: 'i2YSRlasgEQ', duur: '±10 min, 2020' }
+  ],
   tekst: `
 ## Vermogen, debiet en temperatuurverschil horen bij elkaar
 
