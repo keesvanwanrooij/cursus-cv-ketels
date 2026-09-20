@@ -22,7 +22,7 @@ CURSUS.addModule({
   intro: 'De elektrische kant van de ketel: voeding, polariteit, aarding, veilig spanningsloos maken, thermostaatbedrading en de metingen die daarbij horen. Voor algemene elektrotechniek verwijst de cursus naar de Cursus Elektrotechniek.',
   inleiding: [
     'Een cv-monteur is geen elektromonteur, maar een ketel is wel een elektrisch toestel: hij heeft een voeding nodig, bewaakt de vlam met een klein elektrisch signaal en communiceert met een thermostaat over een laagspanningslijn. Deze module behandelt precies dat deel: wat een ketel aan voeding en aarding nodig heeft en waarom, hoe je veilig spanningsloos werkt en dat aantoont, hoe de thermostaatbedrading in elkaar zit, en welke metingen je aan een ketel doet. Wat een cv-monteur niet zelf doet (de vaste installatie van het pand aanleggen of wijzigen, een verzegelde meterkast openen) staat er ook bij, met de reden waarom.',
-    'Waar iets echt algemene elektrotechniek is, zoals de wet van Ohm, hoe een multimeter precies werkt of wat spanning en stroom zijn, verwijst deze module naar de Cursus Elektrotechniek (' + '' + 'CURSUS.site.zuster' + '' + '). Hier lees je alleen wat specifiek is voor de ketel: welke klemmen waarvoor zijn, welke waarden een fabrikant noemt, en wat er misgaat als je het verkeerd aansluit. Waarden als zekeringwaarden, klemnummers en kabellengtes verschillen per merk en model en staan daarom steeds met merk en model erbij: voor het toestel waaraan je werkt geldt de handleiding van dat toestel.',
+    'Waar iets echt algemene elektrotechniek is, zoals de wet van Ohm, hoe een multimeter precies werkt of wat spanning en stroom zijn, verwijst deze module naar de Cursus Elektrotechniek. Hier lees je alleen wat specifiek is voor de ketel: welke klemmen waarvoor zijn, welke waarden een fabrikant noemt, en wat er misgaat als je het verkeerd aansluit. Waarden als zekeringwaarden, klemnummers en kabellengtes verschillen per merk en model en staan daarom steeds met merk en model erbij: voor het toestel waaraan je werkt geldt de handleiding van dat toestel.',
     'De voorbeelden komen uit de installatie- en servicehandleidingen van de Remeha Calenta 25s, 28c, 35s en 40c (2017), de Intergas Kombi Kompakt HRE (installatievoorschrift 2021), de Vaillant ecoTEC plus VHR (installatie- en onderhoudshandleiding 2024) en de ATAG i-Serie (installatie- en servicehandleiding 2018), plus wetgeving (Arbeidsomstandighedenbesluit), het certificatieschema BRL 6000-25 en de erkenningsregels van InstallQ.'
   ],
   leerdoelen: [
@@ -453,7 +453,7 @@ Bij de Remeha Calenta zitten een OpenTherm-regelaar en een 2-draads aan/uit-kame
 |---|---|---|---|
 | Remeha Calenta | Klemmen On/off-OT | Klemmen On/off-OT (dezelfde) | Ondersteunt ook een power-stealing-thermostaat op diezelfde klemmen |
 | Intergas Kombi Kompakt HRE | Connector X4, klem 6-7 | Connector X4, klem 11-12 | Buitenvoeler op klem 8-9, apart van de thermostaat |
-| Vaillant ecoTEC plus VHR | Rechtstreeks op de eBUS-aansluiting | Alleen via een losse OpenTherm-module | Toestel spreekt van zichzelf eBUS, niet OpenTherm |
+| Vaillant ecoTEC plus VHR | 24 V RT-aansluiting (X100), apart van de bus | Alleen via een losse OpenTherm-module | Toestel spreekt van zichzelf eBUS, niet OpenTherm |
 | ATAG i-Serie | Potentiaalvrij contact op het aansluitblok | Alleen via een OT-LPA-adapter op de bus | Aansluitblok is gemarkeerd "GEEN 230 V AANSLUITEN" |
 
 !!! kern Vier merken, vier klemmenschema's
@@ -570,7 +570,7 @@ De vraag is niet "is dit aan/uit of OpenTherm", maar "welke klemmen horen daar b
     { voor: `Wat is nodig om een OpenTherm-thermostaat op een ATAG i-Serie aan te sluiten?`, achter: `Een OT-LPA (OpenTherm Low Power Adapter) tussen de stuurautomaat en de thermostaat.` },
     { voor: `Wat gebeurt er als je een OpenTherm-thermostaat bij Intergas op de aan/uit-klemmen aansluit in plaats van de OpenTherm-klemmen?`, achter: `Hij werkt als gewone aan/uit-schakelaar: geen storing, maar ook geen modulatie.` }
   ],
-  bronnen: ['RGL-01', 'RGL-03', 'REG-08', 'ELK-17', 'ELK-18', 'ELK-19', 'ELK-20', 'ELK-21', 'ELK-22', 'ELK-23', 'ELK-24', 'ELK-25', 'ELK-27', 'ELK-28']
+  bronnen: ['RGL-01', 'RGL-03', 'REG-08', 'ELK-17', 'ELK-18', 'ELK-19', 'ELK-20', 'ELK-21', 'ELK-22', 'ELK-23', 'ELK-24', 'ELK-25', 'ELK-26', 'ELK-27', 'ELK-28']
 },
 
 /* ------------------------------------------------------------------ 9.4 */
@@ -612,7 +612,7 @@ Meten aan een ketel gebeurt aan of nabij een elektrische installatie: dezelfde r
 
 ## Ionisatiestroom: een klein signaal met een concrete betekenis
 
-Bij veel moderne ketels lees je de ionisatiestroom van het display af, niet met een los aangesloten multimeter: het bewakingscircuit wordt bij een verkeerde aansluiting van een multimeter in serie snel beschadigd, en een Nederlandse fabrikantprocedure daarvoor is niet gevonden. De grenswaarde verschilt sterk per merk: Remeha (Tzerra Ace, Calenta Ace) reinigt of vervangt de elektrode onder 3 microampere, gemeten bij vol- en laaglast; ATAG XL vraagt meer dan 2,0 microampere op vollast; Nefit ProLine NxT vraagt bij laaglast meer dan 10 (micro)ampere.
+Bij veel moderne ketels lees je de ionisatiestroom van het display af: dat is de methode die de fabrikant zelf voorschrijft. Een Nederlandse fabrikantprocedure om de ionisatiestroom in plaats daarvan met een losse multimeter in serie te meten, is niet gevonden: gebruik daarom het display, niet een zelf verzonnen meetopstelling. De grenswaarde verschilt sterk per merk: Remeha (Tzerra Ace, Calenta Ace) reinigt of vervangt de elektrode onder 3 microampere, gemeten bij vol- en laaglast; ATAG XL vraagt meer dan 2,0 microampere op vollast; Nefit ProLine NxT vraagt bij laaglast meer dan 10 (micro)ampere.
 
 ## Rekenvoorbeeld: past deze NTC-waarde bij dit toestel?
 
@@ -662,10 +662,10 @@ Elke elektrische meting aan een ketel begint met spanningsloos maken en aantonen
         `Omdat een gewone multimeter principieel geen stroom in de orde van microampere kan weergeven, zelfs niet met de juiste meetstand ingesteld`,
         `Omdat het display volgens de fabrikant altijd nauwkeuriger is dan een extern meetinstrument`,
         `Omdat het display van de ketel de enige manier is om enige vorm van spanning te meten`,
-        `Omdat een verkeerd aangesloten multimeter het bewakingscircuit snel kan beschadigen en er geen Nederlandse fabrikantprocedure voor is`
+        `Omdat fabrikanten deze stroom zelf via het display laten aflezen, en een Nederlandse procedure om dit met een losse multimeter in serie te meten niet is gevonden`
       ],
       goed: 3,
-      uitleg: `Het risico op beschadiging van het bewakingscircuit en het ontbreken van een fabrikantprocedure zijn de reden om het display te gebruiken waar dat kan. Een multimeter kan wel degelijk microampere meten; dat is niet de beperking hier.`
+      uitleg: `Fabrikanten laten de ionisatiestroom via het display aflezen; een Nederlandse procedure om dit in plaats daarvan met een losse multimeter te meten is niet gevonden. Een multimeter kan wel degelijk microampere meten; dat is niet de beperking hier.`
     },
     {
       vraag: `Een Remeha Avanta-aanvoersensor moet volgens de handleiding 12 tot 15 kiloohm zijn bij 20 tot 25 graden Celsius. Een monteur meet 33 kiloohm bij kamertemperatuur. Wat is de meest waarschijnlijke conclusie?`,
@@ -705,7 +705,7 @@ Elke elektrische meting aan een ketel begint met spanningsloos maken en aantonen
     { voor: `Welke multimeterstand gebruik je voor netspanning en ventilatorspanning?`, achter: `Wisselspanning (V AC).` },
     { voor: `Welke multimeterstand gebruik je voor een NTC-sensor of de doorgang van een thermostaatleiding?`, achter: `Weerstand (ohm).` },
     { voor: `Welke meetcategorie (CAT) past bij een via een wandcontactdoos gevoede cv-ketel?`, achter: `CAT II. CAT III en hoger horen bij de vaste installatie van het gebouw.` },
-    { voor: `Waarom lees je de ionisatiestroom bij voorkeur van het display af?`, achter: `Een verkeerd aangesloten multimeter in serie kan het bewakingscircuit beschadigen, en een Nederlandse fabrikantprocedure hiervoor is niet gevonden.` },
+    { voor: `Waarom lees je de ionisatiestroom bij voorkeur van het display af?`, achter: `Fabrikanten laten deze meting zelf via het display aflezen; een Nederlandse procedure om dit met een losse multimeter in serie te doen is niet gevonden.` },
     { voor: `Wat doe je altijd voor je met een ohmmeter weerstand meet?`, achter: `Eerst spanning meten en spanningsloosheid aantonen; anders is de meting onjuist en kan het instrument beschadigen.` },
     { voor: `Welke weerstand hoort bij een Remeha Avanta aanvoersensor (NTC) bij 20 tot 25 graden Celsius?`, achter: `12 tot 15 kiloohm (voorbeeld, dit model).` },
     { voor: `Onder welke ionisatiestroom reinigt of vervangt Remeha de elektrode van de Tzerra Ace/Calenta Ace?`, achter: `Onder 3 microampere, gemeten bij vol- en laaglast.` },
