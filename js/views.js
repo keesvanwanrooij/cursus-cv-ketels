@@ -50,7 +50,10 @@ window.Views = (function () {
 
     var hero;
     if (volgende) {
-      var isStart = st.klaar === 0;
+      /* "Begin hier" alleen als je echt aan het begin staat. Wie al ergens heeft gelezen maar nog niets
+         heeft afgerond, krijgt "Verder waar je gebleven was" en niet de indruk dat les 19.1 het begin is. */
+      var eersteLes = CURSUS.alleLessen()[0];
+      var isStart = st.klaar === 0 && (!eersteLes || eersteLes.les.id === volgende.les.id);
       hero =
         '<div class="hero">' +
           '<div>' +
