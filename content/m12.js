@@ -34,7 +34,7 @@ CURSUS.addModule({
       opties: [
         `Een blauwe meerlagenbuis voor drinkwater mag ook voor gas, want de buis is toch KIWA-gekeurd`,
         `Materiaal voor een gasleiding moet een Gastec QA-keuring voor gas hebben (bijvoorbeeld KE 5 voor koperen buis of KE 198 voor meerlagenbuis binnenshuis); een keuring voor drinkwater is niet automatisch een keuring voor gas`,
-        `Voor gas mag elk materiaal dat ook voor cv-water is toegelaten, omdat gas in een woninginstallatie een lagere druk heeft dan cv-water; het drukverschil alleen bepaalt volgens deze gedachte dus of een materiaal geschikt is, ongeacht de toepassing waarvoor het oorspronkelijk bedoeld was`,
+        `Voor gas mag elk materiaal dat ook voor cv-water is toegelaten, omdat gas in een woninginstallatie een lagere druk heeft dan cv-water; het drukverschil alleen bepaalt dus of een materiaal geschikt is, ongeacht de toepassing waarvoor het oorspronkelijk bedoeld was`,
         `Een gasleiding mag van elk materiaal zijn zolang de fitting van hetzelfde merk is als de buis`
       ],
       goed: 1,
@@ -49,10 +49,10 @@ CURSUS.addModule({
     {
       vraag: `Je moet hete werkzaamheden (solderen) uitvoeren in een kruipruimte met houten balklaag erboven. Wat doe je volgens de richtlijn voor brandgevaarlijke werkzaamheden?`,
       opties: [
-        `Direct beginnen: een kruipruimte is te klein om brand te veroorzaken`,
+        `Direct beginnen zonder enige voorbereiding: een kruipruimte is volgens veel monteurs te klein en te vochtig om daar met vonken of hitte werkelijk brand te kunnen veroorzaken`,
         `Alleen een brandblusser meenemen, verder is voorbereiding niet nodig bij kortdurend werk`,
         `Brandbaar materiaal verwijderen of afschermen, blusmiddel binnen handbereik houden, en na het werk minimaal een uur de omgeving controleren op het ontstaan van brand`,
-        `Alleen ventileren tegen gasvorming, want brandgevaar zou volgens deze gedachte bij solderen sowieso niet aan de orde zijn, ook niet in een kruipruimte met een houten balklaag`
+        `Alleen ventileren tegen gasvorming; brandgevaar door vonken en hitte speelt bij solderen in een kruipruimte met een houten balklaag amper een rol`
       ],
       goed: 2,
       uitleg: `Bij hete werkzaamheden hoort: brandbaar materiaal verwijderen of afschermen, een geschikt blusmiddel binnen handbereik, en een nacontrole van minstens een uur na afloop, ook in aangrenzende ruimten, omdat een beginnende brand in een verborgen ruimte lang onopgemerkt kan blijven. Een kruipruimte met een houten balklaag is juist een risicovolle plek voor deze werkzaamheden.`
@@ -61,7 +61,7 @@ CURSUS.addModule({
       vraag: `Wat is het verschil tussen een principeschema en een isometrische tekening op een installatietekening?`,
       opties: [
         `Een principeschema toont de functionele verbindingen tussen componenten, een isometrische tekening toont de werkelijke driedimensionale ligging van de leidingen`,
-        `Een principeschema en een isometrische tekening zijn, volgens deze gedachte, gewoon twee namen voor dezelfde tekening en tonen dus exact dezelfde informatie, zonder enig verschil in wat ze laten zien`,
+        `Een principeschema en een isometrische tekening zijn gewoon twee namen voor dezelfde tekening en tonen dus exact dezelfde informatie, zonder enig verschil in wat ze laten zien`,
         `Een isometrische tekening toont alleen de symbolen-legenda, een principeschema toont de leidingroutes`,
         `Een principeschema is altijd op schaal 1:50, een isometrische tekening nooit`
       ],
@@ -83,7 +83,7 @@ CURSUS.addModule({
       vraag: `Wat is het functionele verschil tussen zacht solderen en hard solderen?`,
       opties: [
         `Zacht solderen gebruikt een brander op aardgas, hard solderen altijd op propaan`,
-        `Zacht solderen is, volgens deze bewering, uitsluitend geschikt voor kunststof leidingen, terwijl hard solderen dan weer uitsluitend voor metalen leidingen zou gelden, ongeacht de gebruikte brander`,
+        `Zacht solderen is uitsluitend geschikt voor kunststof leidingen, terwijl hard solderen uitsluitend voor metalen leidingen geldt, ongeacht de gebruikte brander of het gebruikte soldeermateriaal`,
         `Zacht solderen gebruikt soldeer dat onder ongeveer 450 °C smelt, hard solderen (brazeren) gebruikt soldeer dat daarboven smelt en een hogere brandertemperatuur vraagt`,
         `Zacht solderen en hard solderen verschillen alleen in kleur van het soldeer, niet in smeltpunt`
       ],
@@ -94,7 +94,7 @@ CURSUS.addModule({
       vraag: `Waarom wordt een koperen gasleiding in de installatiepraktijk hard gesoldeerd en niet zacht gesoldeerd?`,
       opties: [
         `Omdat zacht solderen voor een gasleiding in de installatiepraktijk niet gebruikelijk is en wordt afgekeurd; welke methode een fitting toestaat, staat op de fitting of in de fabrikantvoorschriften`,
-        `Omdat zacht solderen, naar men aanneemt, uitsluitend op koudwaterleidingen zou werken en om die reden nooit op een gasleiding kan worden toegepast, ongeacht de temperatuur`,
+        `Omdat zacht solderen uitsluitend op koudwaterleidingen werkt en daarom nooit op een gasleiding kan worden toegepast, ongeacht de temperatuur`,
         `Omdat hard solderen sneller gaat dan zacht solderen`,
         `Omdat zacht solderen een hogere temperatuur vraagt dan de meeste branders kunnen leveren`
       ],
@@ -126,7 +126,7 @@ CURSUS.addModule({
     {
       vraag: `Een meerlagenbuis voor drinkwater (niet geel) wordt gebruikt voor een aardgasaansluiting. Wat is het probleem?`,
       opties: [
-        `Er is geen probleem: elke meerlagenbuis zou, volgens deze gedachte, altijd geschikt zijn voor gas, ongeacht kleur of keurmerk`,
+        `Er is geen probleem: elke meerlagenbuis is altijd geschikt voor gas, ongeacht kleur of keurmerk, want de aluminium kern maakt de buis sterk genoeg voor elk denkbaar medium`,
         `Alleen het uiterlijk is fout, technisch is er niets mis`,
         `Deze buis is niet Gastec QA-gekeurd voor gas (geen KE 198/212-keur) en is niet als gasgeschikt te herkennen aan de kleur; hij mag niet voor een gasaansluiting worden gebruikt`,
         `Het probleem is alleen dat de buis een andere diameter heeft dan gasbuis`
@@ -137,7 +137,7 @@ CURSUS.addModule({
     {
       vraag: `Waarom heeft een kunststof leiding die door een brandscheiding gaat een brandmanchet nodig?`,
       opties: [
-        `Om de leiding tegen vorst te beschermen, want een opzwellend materiaal zou volgens deze gedachte ook isoleren tegen kou`,
+        `Om de leiding tegen vorst te beschermen, want een opzwellend materiaal isoleert net zo goed tegen kou als tegen brand`,
         `Om te voorkomen dat de kunststof leiding gaat trillen`,
         `Om de doorstroomcapaciteit van de leiding te vergroten`,
         `Omdat een kunststof buis bij brand wegsmelt en zonder afdichting een open gat achterlaat waar vuur en rook doorheen kunnen; het opzwellende materiaal in de manchet drukt die opening dan dicht`
@@ -148,7 +148,7 @@ CURSUS.addModule({
     {
       vraag: `Waarom is het temperatuurbereik en de maximale werkdruk van meerlagenbuis geen algemeen getal dat voor elk merk geldt?`,
       opties: [
-        `Omdat de norm voor meerlagenbuis, volgens deze gedachte, elk merk toestaat om de eigen keuring over te slaan zodra het merk maar lang genoeg meegaat`,
+        `Omdat de norm voor meerlagenbuis elk merk toestaat om de eigen keuring over te slaan zodra het merk al lang genoeg op de markt is`,
         `Omdat de opbouw (kunststoflagen, aluminium kern) en de toepassing per fabrikant en systeem verschillen: bijvoorbeeld een Uponor GAS-systeem tot 100 mbar tegenover een Henco Alupex GAS-systeem tot 5 bar`,
         `Omdat meerlagenbuis nooit een keurmerk heeft en dus geen vaste specificatie kent`,
         `Omdat de temperatuur en druk uitsluitend van de binnendiameter afhangen, niet van het merk`
@@ -170,7 +170,7 @@ CURSUS.addModule({
     {
       vraag: `Waarom wordt de condensafvoer van een cv-ketel altijd via een sifon op de riolering aangesloten, en niet rechtstreeks?`,
       opties: [
-        `Rechtstreeks aansluiten is sneller te monteren en is daarom, volgens deze gedachte, de gangbare norm, ook al ontbreekt dan de sifon die bij elk ander lozingstoestel verplicht is`,
+        `Rechtstreeks aansluiten is sneller te monteren en is daarom de gangbare norm, ook al ontbreekt dan de sifon die bij elk ander lozingstoestel verplicht is`,
         `Zonder sifon staat het condenscircuit in open verbinding met het riool, met kans op stank- en gasoverlast uit het riool naar het toestel; met sifon geldt dezelfde eis als bij elk ander lozingstoestel (waterslot van minimaal 50 mm)`,
         `Een sifon is alleen nodig bij een VR-toestel, niet bij een HR-toestel`,
         `Rechtstreeks aansluiten is verboden omdat het condensaat te heet is voor de sifon`
@@ -181,7 +181,7 @@ CURSUS.addModule({
     {
       vraag: `Waarom hangt de maximale beugelafstand van een leiding af van het materiaal en de diameter?`,
       opties: [
-        `Omdat de beugelafstand alleen een esthetische keuze is, zonder enige technische reden die met doorbuigen of materiaalsterkte te maken heeft`,
+        `Omdat de beugelafstand alleen een esthetische keuze is, zonder enige technische reden die met doorbuigen, materiaalsterkte of het gewicht van de gevulde leiding zelf te maken zou hebben`,
         `Omdat beugelafstand alleen bij PVC-afvoer een rol speelt en niet bij koper of staal`,
         `Omdat een grotere diameter juist meer beugels per meter nodig heeft dan een kleine diameter`,
         `Omdat een grotere diameter en een stijver materiaal minder snel doorbuigen tussen twee steunpunten, waardoor de leiding verder uit elkaar gebeugeld kan worden zonder door te zakken`
@@ -272,7 +272,7 @@ In grotere bedrijven en op locaties met verhoogd risico werkt men met een vergun
       vraag: `Je moet solderen op 2 meter van een stapel isolatiemateriaal die je niet kunt verplaatsen. Wat is de juiste maatregel?`,
       opties: [
         `Niets doen, want 2 meter afstand is bij hete werkzaamheden altijd ver genoeg om veilig te werken`,
-        `Alleen een raam openzetten voor wat extra ventilatie, verder is er volgens deze redenering geen enkele extra voorzorgsmaatregel nodig bij dit soort materiaal`,
+        `Alleen een raam openzetten voor wat extra ventilatie, verder is er bij dit soort materiaal geen enkele extra voorzorgsmaatregel nodig`,
         `Doorwerken zonder maatregelen, want isolatiemateriaal is van zichzelf niet brandbaar te noemen`,
         `Het isolatiemateriaal afschermen, bijvoorbeeld met een lasdeken, omdat de richtlijn een afstand van 5 tot 20 meter tot brandbaar materiaal aanhoudt`
       ],
@@ -288,9 +288,9 @@ In grotere bedrijven en op locaties met verhoogd risico werkt men met een vergun
     {
       vraag: `Waarom kun je fittingen van verschillende leidingsystemen niet zomaar mengen, ook als de maat hetzelfde lijkt?`,
       opties: [
-        `Omdat elk systeem, volgens deze gedachte, wettelijk verplicht zou zijn om een eigen en goed herkenbare kleur fitting te gebruiken`,
+        `Omdat elk systeem wettelijk verplicht is om een eigen en goed herkenbare kleur fitting te gebruiken`,
         `Omdat fabrikanten fittingen afstemmen op hun eigen buiswanddikte en diameter; een ander merk wijkt daar net iets in af, wat de verbinding niet gegarandeerd lekvrij maakt`,
-        `Omdat het mengen van fittingen van verschillende merken in Nederland voor ieder denkbaar leidingsysteem, zonder enige uitzondering, wettelijk verboden zou zijn, volgens deze bewering`,
+        `Omdat het mengen van fittingen van verschillende merken in Nederland voor ieder denkbaar leidingsysteem, zonder enige uitzondering, wettelijk verboden is`,
         `Omdat fittingen van verschillende merken volgens de norm altijd een andere schroefdraadmaat hebben`
       ],
       goed: 1,
@@ -606,9 +606,9 @@ Dit is een theoretisch maximum: in de praktijk kost een moeilijk bereikbare verb
       vraag: `Wat is het verschil tussen zacht solderen en hard solderen?`,
       opties: [
         `Zacht solderen gebruikt soldeer dat onder ongeveer 450 graden smelt, hard solderen (brazeren) soldeer dat daarboven smelt met een hogere brandertemperatuur`,
-        `Zacht solderen is bedoeld voor stalen leidingen, en hard solderen zou dan weer alleen voor koperen leidingen gelden`,
-        `Zacht solderen gebeurt, volgens deze bewering, altijd geheel zonder een brander, terwijl hard solderen juist altijd met een brander op de werkplek wordt uitgevoerd`,
-        `Het verschil zit, volgens deze redenering, alleen in de kleur van het gebruikte soldeermateriaal en niet in het smeltpunt`
+        `Zacht solderen is uitsluitend bedoeld voor stalen leidingen, terwijl hard solderen dan weer alleen voor koperen leidingen zou gelden, ongeacht de fitting`,
+        `Zacht solderen gebeurt altijd geheel zonder een brander, terwijl hard solderen altijd met een brander op de werkplek wordt uitgevoerd`,
+        `Het verschil zit alleen in de kleur van het gebruikte soldeermateriaal en niet in het smeltpunt`
       ],
       goed: 0,
       uitleg: `Het onderscheid tussen zacht en hard solderen is het smeltpunt van het soldeer: ongeveer 450 °C is de grens. Hard solderen vraagt een hogere brandertemperatuur. Beide technieken gebruiken een brander, en beide worden vooral bij koper toegepast, niet bij staal.`
@@ -622,8 +622,8 @@ Dit is een theoretisch maximum: in de praktijk kost een moeilijk bereikbare verb
     {
       vraag: `Waarom teken je de insteekdiepte van een pers- of knelfitting af op de buis voordat je hem insteekt?`,
       opties: [
-        `Om de buis, volgens deze gedachte, een iets mooiere en gladdere afwerking aan het uiteinde te geven, zodat hij netter oogt`,
-        `Om te voorkomen dat de buis daarna nog te lang blijft voor de rest van het traject`,
+        `Om de buis een iets mooiere en gladdere afwerking aan het uiteinde te geven, zodat hij netter oogt`,
+        `Om te voorkomen dat de buis daarna nog te lang blijft voor de rest van het leidingtraject, wat verderop een probleem zou geven`,
         `Om vóór het persen of knellen te controleren of de fitting ver genoeg over de buis zit, en na het persen als extra controle`,
         `Om te onthouden, achteraf, welke fitting nu precies bij welke buis hoorde`
       ],
@@ -633,7 +633,7 @@ Dit is een theoretisch maximum: in de praktijk kost een moeilijk bereikbare verb
     {
       vraag: `Waarom wordt een koperen gasleiding hard gesoldeerd en niet zacht gesoldeerd?`,
       opties: [
-        `Omdat zacht solderen, in deze redenering, uitsluitend voor kunststof leidingen bedoeld zou zijn en nooit voor enig ander materiaal`,
+        `Omdat zacht solderen uitsluitend voor kunststof leidingen is bedoeld en dus nooit voor enig metalen leidingmateriaal gebruikt zou worden`,
         `Omdat zacht solderen voor een gasleiding niet gebruikelijk is en wordt afgekeurd; de fitting of fabrikantvoorschriften zeggen welke methode wel is toegestaan`,
         `Omdat hard solderen, naar men beweert, aanzienlijk goedkoper zou uitvallen dan zacht solderen`,
         `Omdat zacht solderen zogenaamd een hogere temperatuur zou vragen dan de meeste branders kunnen leveren`
@@ -652,8 +652,8 @@ Dit is een theoretisch maximum: in de praktijk kost een moeilijk bereikbare verb
       opties: [
         `De fitting is hoe dan ook defect en moet zonder verdere controle worden vervangen`,
         `De verbinding is per ongeluk niet geperst: SC-Contur is juist ontworpen om dat tijdens de drukproef zichtbaar te maken`,
-        `De drukproef is volgens deze gedachte gewoon te hoog uitgevoerd geweest`,
-        `Dit betekent, naar men aanneemt, helemaal niets: elke persverbinding zou toch altijd een beetje lekken tijdens de allereerste drukproef`
+        `De testdruk van de drukproef is aanzienlijk te hoog geweest, waardoor ook een prima geperste verbinding daardoor even is gaan druppelen`,
+        `Dit betekent helemaal niets: elke persverbinding lekt toch altijd een beetje tijdens de allereerste drukproef`
       ],
       goed: 1,
       uitleg: `SC-Contur laat een per ongeluk niet-geperste verbinding juist zichtbaar lekken tussen 0,1 en 0,65 MPa tijdens de drukproef, zodat de fout wordt opgespoord voor de installatie in gebruik gaat. Dit wijst dus niet automatisch op een defecte fitting of een te hoge testdruk, en een goed geperste verbinding lekt niet.`
@@ -732,8 +732,8 @@ Een klant wil een keukenblok verplaatsen en de gasleiding naar het fornuis mee l
       opties: [
         `Aan een gele kleur of gele markering, met een Gastec QA-keurmerk voor gas (KE 198 of KE 212)`,
         `Aan een grotere diameter dan bij buis voor drinkwater, die altijd smaller wordt gemaakt`,
-        `Aan een stevigere aluminium kern, die volgens deze bewering altijd zichtbaar is aan de buitenkant`,
-        `Er is volgens deze gedachte geen zichtbaar verschil te zien, alleen de fabrikant zou het weten`
+        `Aan een stevigere aluminium kern, die altijd goed zichtbaar is aan de buitenkant van de buis`,
+        `Er is geen zichtbaar verschil te zien: dat is alleen af te leiden uit de typeaanduiding op de verpakking`
       ],
       goed: 0,
       uitleg: `Gasgeschikte meerlagenbuis is te herkennen aan een gele kleur of gele markering en moet het Gastec QA-keurmerk voor gas dragen. Diameter en de aluminium kern zeggen niets over geschiktheid voor gas.`
@@ -741,10 +741,10 @@ Een klant wil een keukenblok verplaatsen en de gasleiding naar het fornuis mee l
     {
       vraag: `Waarom mag je een Uponor GAS-buis niet met een knelkoppeling van een ander merk verbinden?`,
       opties: [
-        `Omdat knelkoppelingen, in deze redenering, in het algemeen verboden zouden zijn voor elke vorm van gas`,
-        `Omdat een ander merk, naar men aanneemt, altijd toevallig een net verkeerde diameter zou hebben`,
+        `Omdat knelkoppelingen in het algemeen verboden zijn voor elke vorm van gasleiding, ongeacht het gebruikte materiaal`,
+        `Omdat een knelkoppeling van een ander merk toevallig bijna altijd een net iets verkeerde diameter heeft voor deze specifieke buis`,
         `Omdat Uponor GAS uitsluitend met de bijbehorende Uponor GAS Plus-persfittingen wordt verbonden, niet met knelkoppelingen`,
-        `Omdat knelkoppelingen, volgens deze bewering, uitsluitend voor koperbuis zouden bestaan en voor helemaal niets anders geschikt zouden zijn`
+        `Omdat knelkoppelingen uitsluitend voor koperbuis bestaan en voor helemaal niets anders geschikt zijn`
       ],
       goed: 2,
       uitleg: `Voor dit specifieke systeem schrijft de fabrikant uitsluitend de eigen persfittingen voor, geen knelkoppeling. Dat is een voorschrift van dit systeem, geen algemeen verbod op knelkoppelingen voor gas (zie les 12.4, KE 35), en diameter is niet de kern van het probleem.`
@@ -752,7 +752,7 @@ Een klant wil een keukenblok verplaatsen en de gasleiding naar het fornuis mee l
     {
       vraag: `Henco Alupex GAS heeft een maximale werkdruk van 5 bar, Uponor GAS SACP van 100 mbar. Wat leer je daaruit?`,
       opties: [
-        `Dat een van de twee systemen, ondanks de aanwezige keuring, blijkbaar toch eigenlijk niet echt gasgeschikt zou zijn`,
+        `Dat een van de twee systemen, ondanks de aanwezige officiele keuring, blijkbaar toch eigenlijk niet echt gasgeschikt zou zijn`,
         `Dat 100 mbar en 5 bar, ondanks het cijferverschil, in de praktijk gewoon hetzelfde zouden zijn`,
         `Dat Uponor GAS SACP eigenlijk alleen voor drinkwater bedoeld zou zijn en niet voor gas`,
         `Dat de maximale werkdruk van gasgeschikte meerlagenbuis per systeem verschilt, en je die dus per systeem moet opzoeken`
@@ -764,8 +764,8 @@ Een klant wil een keukenblok verplaatsen en de gasleiding naar het fornuis mee l
       vraag: `Waarom heeft een kunststof gasleiding door een brandscheiding een brandmanchet nodig?`,
       opties: [
         `Omdat de kunststof buis bij brand wegsmelt en zonder afdichting een open gat achterlaat waar vuur en rook doorheen kunnen`,
-        `Om de leiding, naar men zegt, vooral en uitsluitend tegen inwerking van UV-licht op de langere termijn te beschermen`,
-        `Om, volgens deze gedachte, condensvorming binnen in de leiding op de lange duur te voorkomen`,
+        `Om de kunststof leiding vooral en uitsluitend tegen de inwerking van UV-licht en zoninstraling op de langere termijn te beschermen`,
+        `Om condensvorming binnen in de leiding op de lange duur te voorkomen`,
         `Om de doorstroomcapaciteit van de leiding op die ene plek juist te vergroten`
       ],
       goed: 0,
@@ -774,10 +774,10 @@ Een klant wil een keukenblok verplaatsen en de gasleiding naar het fornuis mee l
     {
       vraag: `Wat maakt de aluminium kernlaag van een meerlagenbuis functioneel belangrijk voor een cv-installatie?`,
       opties: [
-        `Ze maakt de buis, in deze redenering, vooral een stuk lichter dan een buis van puur kunststof`,
+        `Ze maakt de buis vooral een stuk lichter dan een buis van puur kunststof`,
         `Ze voorkomt zuurstofdiffusie, wat corrosie in de installatie kan bevorderen, en maakt de buis vormvast met een lagere uitzetting`,
-        `Ze zorgt er, volgens deze bewering, voor dat de buis elektrisch geleidend wordt, wat verplicht zou zijn voor elke cv-leiding zonder uitzondering`,
-        `Ze maakt de buis, naar men aanneemt, eenvoudigweg een stuk goedkoper dan koperbuis van dezelfde maat`
+        `Ze zorgt ervoor dat de buis elektrisch geleidend wordt, wat verplicht is voor elke cv-leiding zonder enige uitzondering of vrijstelling`,
+        `Ze maakt de buis eenvoudigweg een stuk goedkoper dan koperbuis van dezelfde maat`
       ],
       goed: 1,
       uitleg: `De aluminium kern voorkomt zuurstofdiffusie en geeft de buis vormvastheid met een lagere lineaire uitzetting dan bij pure kunststof. Gewicht en prijs zijn geen kernfunctie van de aluminium laag, en elektrische geleiding is voor een cv-leiding geen eis.`
@@ -864,10 +864,10 @@ Bij een temperatuur onder 5 °C mag je in de regel niet lijmen zonder extra maat
     {
       vraag: `Waarom heeft elk lozingstoestel, ook de condensafvoer van een cv-ketel, een sifon met waterslot nodig?`,
       opties: [
-        `Om het afvalwater, volgens deze gedachte, gewoon een stuk sneller te laten stromen naar het riool`,
-        `Om, naar men aanneemt, vooral vaste deeltjes zoals haar en vet uit het afvoerwater te filteren`,
+        `Om het afvalwater gewoon een stuk sneller te laten stromen naar het riool`,
+        `Om vooral vaste deeltjes zoals haar en vet uit het afvoerwater te filteren`,
         `Om weerstand te bieden tegen drukschommelingen in het rioleringsstelsel en riooldamp buiten de ruimte te houden`,
-        `Om de aansluitleiding zelf, in deze redenering, een stuk korter te kunnen uitvoeren`
+        `Om de aansluitleiding zelf een stuk korter te kunnen uitvoeren`
       ],
       goed: 2,
       uitleg: `Een sifon met waterslot (minimaal 50 mm) biedt weerstand tegen drukschommelingen en houdt riooldamp buiten. Snelheid van de afvoer, filtering en leidinglengte zijn geen functie van de sifon.`
@@ -889,8 +889,8 @@ Bij een temperatuur onder 5 °C mag je in de regel niet lijmen zonder extra maat
       opties: [
         `Om, naar men zou kunnen denken, te onthouden welke lijmsoort er precies gebruikt is bij deze verbinding`,
         `Om te zorgen dat de buis met de juiste insteeklengte in de mof komt, zodat de verbinding voldoende overlap heeft`,
-        `Om, in deze redenering, alleen de kleur van de gebruikte buis nog eens goed te controleren`,
-        `Om, volgens deze gedachte, achteraf het gewicht van het afgekorte stuk buis te kunnen bepalen`
+        `Om alleen de kleur van de gebruikte buis nog eens goed te controleren`,
+        `Om achteraf het gewicht van het afgekorte stuk buis te kunnen bepalen`
       ],
       goed: 1,
       uitleg: `De markering laat zien hoe ver de buis in de mof moet, zodat de verbinding de juiste overlap (insteeklengte) krijgt. Lijmsoort, kleur en gewicht hebben hier niets mee te maken.`
@@ -898,7 +898,7 @@ Bij een temperatuur onder 5 °C mag je in de regel niet lijmen zonder extra maat
     {
       vraag: `Je moet PVC lijmen in een onverwarmde ruimte van 3 °C. Wat is de juiste aanpak?`,
       opties: [
-        `Gewoon doorgaan, want de temperatuur zou volgens deze gedachte geen enkele invloed hebben op PVC-lijm`,
+        `Gewoon doorgaan, want de temperatuur heeft geen enkele invloed op het uitharden van PVC-lijm`,
         `Meer lijm gebruiken dan normaal, om zo de lage temperatuur van de ruimte te compenseren`,
         `Alleen de buis zelf verwarmen met een föhn en daarna verder helemaal normaal doorlijmen`,
         `De ruimte tijdelijk verwarmen tot boven 5 °C of het werk uitstellen, want onder 5 °C mag in de regel niet zonder extra maatregelen worden gelijmd`
@@ -910,9 +910,9 @@ Bij een temperatuur onder 5 °C mag je in de regel niet lijmen zonder extra maat
       vraag: `Waarom mag je niet roken of met open vuur werken tijdens het verlijmen van PVC?`,
       opties: [
         `Omdat PVC-lijm brandbaar is en de damp explosief kan zijn`,
-        `Omdat de lijm, naar men aanneemt, daardoor juist een stuk sneller zou opdrogen dan gewenst is`,
-        `Omdat rook, volgens deze bewering, de uiteindelijke kleur van de lijmverbinding zou aantasten`,
-        `Omdat een brandende sigaret, in deze redenering, per ongeluk de hele lijmbus zou kunnen omstoten`
+        `Omdat de lijm daardoor juist een stuk sneller opdroogt dan gewenst is`,
+        `Omdat rook de uiteindelijke kleur van de lijmverbinding aantast`,
+        `Omdat een brandende sigaret per ongeluk de hele lijmbus zou kunnen omstoten`
       ],
       goed: 0,
       uitleg: `PVC-lijm is brandbaar en de damp is explosief: dat is de reden voor het rook- en vuurverbod tijdens het lijmen, niet de droogtijd, de kleur of een omgestoten bus.`
@@ -1024,10 +1024,10 @@ Je hebt een radiator aangesloten met een lange, strak bevestigde koperen aanvoer
     {
       vraag: `Waarom kan een lange, volledig strak bevestigde koperen leiding gaan tikken zodra de verwarming aanslaat?`,
       opties: [
-        `Omdat koper, in deze redenering, bij opwarming juist zou krimpen in plaats van uitzetten`,
+        `Omdat koper bij opwarming juist krimpt in plaats van uitzet, net als de meeste andere metalen bij afkoeling doen`,
         `Omdat de leiding bij opwarming uitzet en, zonder vast punt en glijruimte, tegen de strakke bevestiging aan drukt`,
-        `Omdat koper, naar men aanneemt, alleen zou tikken wanneer de radiator zelf defect is`,
-        `Omdat een strakke bevestiging, volgens deze gedachte, vooral de doorstroming door de leiding zou verminderen`
+        `Omdat koper alleen tikt wanneer de radiator zelf defect is`,
+        `Omdat een strakke bevestiging vooral de doorstroming door de leiding vermindert`
       ],
       goed: 1,
       uitleg: `Bij opwarming zet de leiding uit; zonder ruimte om te bewegen (vast punt plus glijpunten) drukt die uitzetting tegen een volledig strakke bevestiging, wat een tikkend geluid geeft. Koper zet uit, krimpt niet, bij verwarming, en dit heeft niets met een defecte radiator of de doorstroming te maken.`
@@ -1035,10 +1035,10 @@ Je hebt een radiator aangesloten met een lange, strak bevestigde koperen aanvoer
     {
       vraag: `Waarom controleer je voor de exacte montagehoogte van een radiator altijd de handleiding van dat specifieke model, in plaats van een maat over te nemen van een andere installatie?`,
       opties: [
-        `Omdat elke radiator, volgens deze redenering, wettelijk op precies dezelfde hoogte zou moeten hangen`,
-        `Omdat de hoogte, naar men zou kunnen denken, uitsluitend decoratief is en geen enkele technische betekenis heeft`,
+        `Omdat elke radiator wettelijk op precies dezelfde hoogte moet hangen`,
+        `Omdat de hoogte van een radiator uitsluitend decoratief is en geen enkele technische betekenis heeft voor het gewicht of de bevestiging`,
         `Omdat de fabrikant de hoogte en beugelafstand baseert op het gewicht en de afmeting van dat specifieke model, wat per model verschilt`,
-        `Omdat elke radiator, in deze gedachte, precies dezelfde beugels zou gebruiken, ongeacht het gewicht`
+        `Omdat elke radiator precies dezelfde beugels gebruikt, ongeacht het gewicht`
       ],
       goed: 2,
       uitleg: `Gewicht en afmeting verschillen per model, en de fabrikant stemt de montage-instructie daarop af. Er is geen wettelijke, voor elk model gelijke hoogte, de hoogte is niet louter decoratief, en beugels zijn niet voor elk model identiek.`
@@ -1047,9 +1047,9 @@ Je hebt een radiator aangesloten met een lange, strak bevestigde koperen aanvoer
       vraag: `Waarom wordt cv-leidingwerk dat in een muur of onder de vloer wordt aangelegd, beschermd tegen mechanische beschadiging en corrosie?`,
       opties: [
         `Omdat een beschadiging na het instorten of inmetselen niet meer te zien is voordat hij een lek geeft`,
-        `Omdat beschermde leiding, naar men aanneemt, aanzienlijk minder warmte zou verliezen dan onbeschermde leiding`,
-        `Omdat onbeschermde leiding, volgens deze bewering, altijd binnen een jaar zou breken`,
-        `Omdat dit principe, in deze gedachte, alleen voor gasleiding zou gelden en toevallig ook bij cv wordt toegepast`
+        `Omdat beschermde leiding aanzienlijk minder warmte verliest dan onbeschermde leiding, wat de stooklasten flink verlaagt`,
+        `Omdat onbeschermde leiding altijd binnen een jaar breekt`,
+        `Omdat dit principe alleen voor gasleiding geldt en toevallig ook bij cv wordt toegepast`
       ],
       goed: 0,
       uitleg: `Eenmaal ingestort of ingemetseld is een beschadiging aan de leiding niet meer zichtbaar voordat hij een lek geeft, dus bescherming vooraf is essentieel. Warmteverlies en een vaste levensduur van "binnen een jaar" zijn hier niet de reden, en het principe geldt voor leidingwerk in het algemeen, niet uitsluitend voor gas.`
