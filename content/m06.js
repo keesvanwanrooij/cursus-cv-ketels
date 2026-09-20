@@ -628,7 +628,7 @@ Volgens het Waterwerkblad reken je bij het ontwerp van een woninginstallatie met
 | Keuken + douche | 7,5 l/min |
 | Keuken + douche + bad | 12,5 l/min |
 
-Een toestel met CW4 (minstens 7,5 l/min bij 60 graden) is dus voldoende voor keuken plus douche tegelijk, maar niet voor keuken, douche en bad tegelijk: daar is minstens CW6 voor nodig.
+Een toestel met CW4 (minstens 7,5 l/min bij 60 graden) is dus voldoende voor keuken plus douche tegelijk (7,5 l/min). Voor keuken, douche en bad samen (12,5 l/min) garandeert de CW-klasse op zich niet genoeg debiet: de Gaskeur CW-klasse en de Waterwerkblad-ontwerptabel gebruiken niet dezelfde debieten. Kijk bij twijfel naar het specifieke debiet warm water uit de fabrikantspecificatie van het toestel, niet alleen naar het CW-nummer.
 
 ## Praktijkgeval: eco- of comfortstand
 
@@ -742,7 +742,7 @@ De temperatuureisen volgen uit diezelfde logica: hoe hoger de temperatuur boven 
 | Woning met circulatie | 60 graden |
 | Collectief leidingnet (zonder of met circulatie) | 60 graden |
 
-Wordt de ingestelde temperatuur niet continu overal gehaald, dan moet het warmtapwatertoestel wekelijks thermisch worden gedesinfecteerd: kortstondig op een hogere temperatuur brengen om eventuele bacterien te doden. Incidentele pieken in het verbruik mogen de temperatuur tijdelijk laten zakken, mits die binnen 24 uur weer op de vereiste waarde is. Structureel lager instellen dan vereist is niet toegestaan, ook niet in combinatie met periodieke desinfectie.
+Haalt een warmwatervoorraadtoestel (boiler) niet continu overal de vereiste temperatuur, dan moet het wekelijks thermisch worden gedesinfecteerd: kortstondig op een hogere temperatuur brengen om eventuele bacterien te doden. Incidentele pieken in het verbruik mogen de temperatuur tijdelijk laten zakken, mits die binnen 24 uur weer op de vereiste waarde is. Structureel lager instellen dan vereist is niet toegestaan, ook niet in combinatie met periodieke desinfectie.
 
 ## Wat wel en niet onder jouw verantwoordelijkheid valt
 
@@ -834,7 +834,7 @@ Bij een renovatie vraagt een klant met twee jonge kinderen om "gewoon veilig war
   kaarten: [
     { voor: `In welk temperatuurbereik groeit legionella?`, achter: `Tussen ongeveer 25 en 50 graden. Stilstaand water en biofilm vergroten het risico.` },
     { voor: `Welke minimale tappunttemperatuur geldt bij een woning zonder circulatie?`, achter: `55 graden. Met circulatie of bij een collectief net: 60 graden.` },
-    { voor: `Wat moet er gebeuren als een warmtapwatertoestel niet continu overal de vereiste temperatuur haalt?`, achter: `Wekelijks thermisch desinfecteren (kortstondig op hogere temperatuur brengen).` },
+    { voor: `Wat moet er gebeuren als een warmwatervoorraadtoestel (boiler) niet continu overal de vereiste temperatuur haalt?`, achter: `Wekelijks thermisch desinfecteren (kortstondig op hogere temperatuur brengen).` },
     { voor: `Wat is een prioritaire instelling volgens het Drinkwaterbesluit?`, achter: `Onder meer ziekenhuizen, zorginstellingen, hotels, zwembaden en jachthavens: daar zijn een risicoanalyse en beheersplan verplicht. Een gewone woning valt hier niet onder.` },
     { voor: `Waarom mag je de boiler niet zomaar verlagen tegen verbrandingsgevaar?`, achter: `Onder 50 graden vergroot je het legionellarisico. Los verbranding op met een thermostatische mengkraan, niet met een lagere toesteltemperatuur.` },
     { voor: `Aan welke eis moet een thermostatische mengkraan bij een niet-modulerend toestel voldoen?`, achter: `BRL-K610 (Kiwa-beoordelingsrichtlijn).` },
