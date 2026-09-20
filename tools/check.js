@@ -178,6 +178,12 @@ function controleer(ctx, root, opties) {
       if (!l.tekst || l.tekst.length < 1500) fout(lp + ': lestekst is te kort (' + (l.tekst ? l.tekst.length : 0) + ' tekens, minimaal 1500)');
       if (l.tekst && !/^\s*## /m.test(l.tekst)) fout(lp + ': lestekst heeft geen ## kop');
       if (l.tekst && !/^!!! kern/m.test(l.tekst)) waarschuw(lp + ': geen "!!! kern" blok, elke les heeft minstens een kernpunt');
+      /* Een blok zonder sluitregel slokt de rest van de les op: de renderer leest door tot een losse "!!!". */
+      if (l.tekst) {
+        var open = (l.tekst.match(/^!!! \S/gm) || []).length;
+        var dicht = (l.tekst.match(/^!!!\s*$/gm) || []).length;
+        if (open !== dicht) fout(lp + ': ' + open + ' blokken geopend met "!!! " en ' + dicht + ' afgesloten met een losse "!!!"; zonder sluitregel verdwijnt de rest van de les in het blok');
+      }
       if (!Array.isArray(l.checklist) || l.checklist.length < 3) fout(lp + ': minstens 3 checklistpunten');
       controleerVragen(l.quiz, lp, fout, waarschuw, 3);
       vraagTotaal += (l.quiz || []).length;
