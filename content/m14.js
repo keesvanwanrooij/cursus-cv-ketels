@@ -55,7 +55,7 @@ Zonder inregelafsluiters kiest het water de weg van de minste weerstand. De pomp
 - De radiator dichtst bij de ketel warmt snel op en krijgt meer water dan nodig, en geeft de warmte niet eens de tijd om er goed uit te stromen.
 - De radiator het verst van de ketel warmt traag op of blijft koud, doordat er te weinig water doorheen komt.
 - De retourtemperatuur van de installatie is hoger dan nodig, wat het rendement van een HR-ketel verlaagt (zie les 7.2) en een warmtepomp minder efficient laat draaien.
-- Bij gedeeltelijke warmtevraag (thermostaatkranen die dichtgaan) kan de doorstroming over de nog openstaande radiatoren onder het minimum van de ketel zakken, waardoor die vaker aan- en uitslaat (pendelen). Les 14.5 rekent dit minimum uit.
+- Bij gedeeltelijke warmtevraag (thermostaatkranen die dichtgaan) kan de doorstroming over de nog openstaande radiatoren onder het minimum van de ketel zakken, waardoor die vaker aan- en uitslaat (pendelen). Les 14.5 gaat verder in op het instellen van de pomp en het ketelvermogen bij het inregelen.
 
 !!! kern Water stroomt niet gelijk verdeeld, tenzij je het afdwingt
 Een installatie zonder inregelafsluiters verdeelt het water niet automatisch eerlijk over de radiatoren. De radiator met de minste weerstand tussen zich en de pomp krijgt het meeste water, ongeacht of die radiator dat nodig heeft. Inregelen zet daar bewust een kunstmatige weerstand tegenover, zodat elke radiator zijn eigen, berekende aandeel krijgt.
@@ -361,7 +361,7 @@ Danfoss levert met de PFM100 drukverschilmeter (met de dP-tool-uitbreiding) een 
   tekst: `
 ## Van vermogen naar debiet: dezelfde formule als in module 3
 
-Uit module 3 (les 3.6) ken je de debietformule: debiet (l/h) = vermogen (W) / (1,163 x ΔT (K)). Fabrikanten van inregelmateriaal schrijven dezelfde formule vaak als qv = 0,86 x P / ΔT, met dezelfde eenheden: 1 gedeeld door 1,163 is namelijk 0,86. Twee onafhankelijke bronnen (Intergas en Remeha in module 3, Danfoss hier) komen dus op dezelfde constante uit, wat de formule bevestigt.
+Uit module 3 (les 3.6) ken je de debietformule: debiet (l/h) = vermogen (W) / (1,163 x ΔT (K)). Fabrikanten van inregelmateriaal schrijven dezelfde formule vaak als qv = 0,86 x P / ΔT, met dezelfde eenheden: 1 gedeeld door 1,163 is namelijk 0,86. Twee onafhankelijke fabrikantbronnen (Intergas in module 3, Danfoss hier) komen dus op dezelfde constante uit, wat de formule bevestigt.
 
 !!! kern Je moet het vermogen kennen voor je het debiet kunt bepalen
 Om een radiator waterzijdig in te regelen, heb je eerst het vermogen nodig dat die radiator moet leveren bij het gekozen temperatuurregime. Pas daarna kun je met de debietformule uitrekenen hoeveel water daarvoor nodig is, en met de kv-formule uit les 14.2 welke afsluiterstand daarbij hoort.
@@ -426,8 +426,8 @@ Is het vermogen bij het gekozen regime bekend, dan volgt het debiet uit de formu
     {
       vraag: `Een radiator moet 1600 W leveren bij een temperatuurverschil van 20 K. Wat is het benodigde debiet, met debiet = vermogen / (1,163 x ΔT)?`,
       opties: [`ongeveer 137 l/h`, `ongeveer 69 l/h`, `ongeveer 690 l/h`, `ongeveer 1376 l/h`],
-      goed: 2,
-      uitleg: `1600 / (1,163 x 20) = 1600 / 23,26 is ongeveer 69 l/h... let op de eenheid: 1600 W is een klein vermogen voor 20 K, dus reken door: 1600 / 23,26 = 68,8, dus ongeveer 69 l/h is in dit geval wel juist als je het vermogen letterlijk als 1600 W neemt. Controleer daarom altijd of het vermogen in W of kW gegeven is voor je de formule invult.`
+      goed: 1,
+      uitleg: `1600 / (1,163 x 20) = 1600 / 23,26 is ongeveer 69 l/h. De andere opties komen uit veelgemaakte rekenfouten: 137 l/h ontstaat als je per ongeluk met de helft van het ΔT rekent (1600 / (1,163 x 10)), 690 l/h als je een decimaal verkeerd zet in de constante (1600 / (0,1163 x 20)), en 1376 l/h als je het ΔT helemaal vergeet en alleen door 1,163 deelt (1600 / 1,163).`
     },
     {
       vraag: `Waarom is de bouwjaartabel (verwarmingscapaciteit per m2) niet geschikt om een officiele warmteverliesberekening te vervangen?`,
