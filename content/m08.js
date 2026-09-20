@@ -200,6 +200,11 @@ CURSUS.addModule({
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt open (B) en gesloten (C) toestellen uit elkaar houden en uitleggen wat dat betekent voor lucht en afvoer.',
+  videos: [
+    { taal: 'nl', titel: 'Een veilige rookgasafvoer, deel 1: introductie (Ubbink, via Installatie.nl)', yt: 'HYFTkH2KEYY', duur: '±1 min, 2019' },
+    { taal: 'nl', titel: 'Hoe werkt een HR-ketel? Veiligheidsmaatregelen uitgelegd (Van Gemert Installatiegroep, bron Nefit)', yt: 'Cd5O2a4qabo', duur: '±6 min, 2018' },
+    { taal: 'en', titel: 'Open flue system explained (Tomkat Gas Training, VK, ter vergelijking)', yt: 'NFVhVvMJ48M', duur: '±10 min, 2021' }
+  ],
   tekst: `
 ## Drie letters: hoe komt de lucht binnen en het rookgas weg?
 
@@ -319,6 +324,11 @@ Je legt de toestelindeling A, B of C vast bij het afmelden van je werk. Ze bepaa
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt de aansluitwijzen van gesloten toestellen herkennen en per type uitleggen hoe lucht en rookgas lopen.',
+  videos: [
+    { taal: 'nl', titel: 'Montagevideo concentrisch verlengsysteem push-fit (Ubbink Nederland)', yt: 'ypFsNopZSiU', duur: '±3 min, 2022' },
+    { taal: 'nl', titel: 'Gasgeiser met concentrische rookgasafvoer (Homekeur, bouwkundige keuring)', yt: 'hEQoS4qzw4o', duur: '±2 min, 2023' },
+    { taal: 'en', titel: 'How to extend a coaxial flue terminal (ATI)', yt: 'nw-fU06YuQs', duur: '±1 min, 2019' }
+  ],
   tekst: `
 ## Het eerste cijfer: hoe is de uitmonding opgebouwd?
 
@@ -448,6 +458,11 @@ Welke aansluitwijzen een toestel toelaat, staat in de installatiehandleiding.
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt het materiaal en de temperatuurklasse van een afvoer bij het toestel kiezen en uitleggen waarom mengen van systemen niet mag.',
+  videos: [
+    { taal: 'nl', titel: 'Een veilige rookgasafvoer, deel 2: materialen niet mengen (Ubbink, via Installatie.nl)', yt: 'BiTZTKOI1io', duur: '±1 min, 2019' },
+    { taal: 'nl', titel: 'Montagefilm starre kunststof rookgasafvoer Safe-PP (Burgerhout, via JTCA)', yt: '7_QMBcwe0xo', duur: '±2 min, 2015' },
+    { taal: 'en', titel: 'Centrotherm InnoFlue boiler and water heater vent pipe (Ask the Builder)', yt: 'H3I3sxgS6Xo', duur: '±2 min, 2019' }
+  ],
   tekst: `
 ## Waarom een HR-afvoer nat is
 
@@ -580,6 +595,11 @@ Een klant heeft een oud toestel met natuurlijke trek op een bouwkundig kanaal, e
   duur: 30,
   type: 'les',
   leerdoel: 'Je kunt een afvoer volgens de fabrikantinstructies monteren met correct afschot, beugels en ruimte voor uitzetting.',
+  videos: [
+    { taal: 'nl', titel: 'Een veilige rookgasafvoer, deel 3: afschot (Ubbink Nederland)', yt: 'sbpzTM1UioU', duur: '±1 min, 2019' },
+    { taal: 'nl', titel: 'Rolux kunststof beugel 80 PP: altijd beugelen om de mof (Ubbink International)', yt: 'XZi0XRsbMwk', duur: '±1 min, 2013' },
+    { taal: 'en', titel: 'How do I measure and fit the flue correctly? (Ideal Heating)', yt: 'mss_D8_6LZY', duur: '±2 min, 2022' }
+  ],
   tekst: `
 ## Wat staat waar?
 
@@ -714,6 +734,11 @@ Loop na de montage elke verbinding na: zit de afdichtring erin en op de juiste p
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt beoordelen of een uitmonding goed zit, de verdunning van rookgas begrijpen en herkennen wanneer rookgas opnieuw wordt aangezogen.',
+  videos: [
+    { taal: 'nl', titel: 'Montagevideo dakdoorvoer tegen recirculatie van rookgassen (Ubbink Nederland)', yt: 'nnMpundA40A', duur: '±4 min, 2022' },
+    { taal: 'en', titel: 'Flue guard requirements: afstanden en hoogtes per type (Universal Skills, VK)', yt: 'hpcD-uGhatg', duur: '±3 min, 2022' },
+    { taal: 'en', titel: 'Can a boiler flue plume management kit fix an illegal terminal position? (Tomkat Gas Training, VK)', yt: 'b9qmeWNGP2s', duur: '±16 min, 2025' }
+  ],
   tekst: `
 ## Waar mag een uitmonding zitten?
 
@@ -828,6 +853,11 @@ Een concentrisch C13-toestel geeft af en toe een ionisatiefout (vlamverlies). Je
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt beoordelen of een opstellingsruimte geschikt is voor een gasverbrandingstoestel en je oordeel onderbouwen.',
+  videos: [
+    { taal: 'nl', titel: 'Bijzondere technische ruimte met een cv-ketel (Installatie.nl)', yt: 'mbCFMDWqgG0', duur: '±3 min, 2021' },
+    { taal: 'nl', titel: 'Onveilige cv-ketelsituatie ontdekt op zolder (Homekeur, bouwkundige keuring)', yt: 'rpghgQZhwcM', duur: '±3 min, 2026' },
+    { taal: 'en', titel: 'Ventilation for room-sealed gas appliances (Allen Hart / Viva Training Academy, VK)', yt: 'U-rUMoH-FsA', duur: '±12 min, 2020' }
+  ],
   tekst: `
 ## Wat de wet vraagt en wat niet
 
@@ -966,6 +996,11 @@ Je vervangt een open geiser die in de badruimte van een bestaande woning hangt. 
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen hoe ventilatie, afzuiging en onderdruk de verbrandingslucht en de afvoer van een toestel beïnvloeden.',
+  videos: [
+    { taal: 'nl', titel: 'Waarschuwing koolmonoxide: onderhoud je cv-ketel (Loodgieter Den Haag Stad)', yt: 'WGoi5dhNrio', duur: '±3 min, 2024' },
+    { taal: 'en', titel: 'Flue flow test and spillage on an open flue boiler (Tomkat Gas Training, VK)', yt: 'W7bN3OJqS4E', duur: '±12 min, 2023' },
+    { taal: 'en', titel: 'How air pressure in a house can cause backdraft (Home Performance / Building Performance Center)', yt: '6hdQmsPtFTI', duur: '±8 min, 2022' }
+  ],
   tekst: `
 ## Wat de wet vraagt van de verbrandingslucht
 
@@ -1091,6 +1126,11 @@ Meet je in de opstellingsruimte meer dan 20 ppm CO, dan stel je het toestel niet
   duur: 30,
   type: 'les',
   leerdoel: 'Je kunt uitleggen hoe een collectief lucht- en rookgassysteem werkt, waarom het extra risico\'s heeft en waarop je let als je er een toestel op aansluit.',
+  videos: [
+    { taal: 'nl', titel: 'CLV-kanalen controleren in een appartementengebouw (IJmond Content)', yt: 'Q0D_UnR6VWs', duur: '±6 min, 2019' },
+    { taal: 'nl', titel: 'Podcast: rookgasafvoerkanalen in gestapelde bouw (VvE Belang)', yt: 'z7kFhwIHx08', duur: '±55 min, 2021' },
+    { taal: 'en', titel: 'Vertex flue, SE-duct en U-duct: specialistische en gedeelde afvoersystemen (Tomkat Gas Training, VK)', yt: 'fvfAPT7rE9U', duur: '±13 min, 2022' }
+  ],
   tekst: `
 ## Wat is een CLV?
 
@@ -1229,6 +1269,11 @@ BRL 6000-25 kent twee deelgebieden: (1) toestellen met individuele luchttoevoer 
   duur: 30,
   type: 'les',
   leerdoel: 'Je kunt een bestaande afvoer stap voor stap beoordelen en een afkeuring onderbouwen en vastleggen.',
+  videos: [
+    { taal: 'nl', titel: 'Een veilige rookgasafvoer, deel 5: afvoer meevervangen bij ketelvervanging (Ubbink, via Installatie.nl)', yt: 'Ttjv3p117us', duur: '±1 min, 2020' },
+    { taal: 'nl', titel: 'Rookgasafvoer fout aangelegd: levensgevaar (Loodgieter Den Haag Stad)', yt: 'LSNUdg6FteY', duur: '±6 min, 2025' },
+    { taal: 'en', titel: 'Dangerous boiler flues: what trainee gas engineers must check when inspecting (Tomkat Gas Training, VK)', yt: 'qUUksVg6Mx8', duur: '±3 min, 2021' }
+  ],
   tekst: `
 ## Waarom je dit elke keer doet
 

@@ -111,6 +111,11 @@ CURSUS.addModule({
   duur: 20,
   type: 'les',
   leerdoel: 'Je kunt het verschil tussen temperatuur en warmte uitleggen en met Q = m × c × ΔT de warmte of het debiet van water berekenen.',
+  videos: [
+    { taal: 'nl', titel: 'Soortelijke warmte (Meneer Wietsma Natuurkunde)', yt: 'Jnr_Yi2jYZ4', duur: '±7 min, 2016' },
+    { taal: 'nl', titel: 'Soortelijke warmte: Q = c x m x ΔT (WATT!? Natuurkunde)', yt: 'C40Po-3d70M', duur: '±4 min, 2016' },
+    { taal: 'en', titel: 'Specific heat capacity (FuseSchool)', yt: 'TqJFIBODrjM', duur: '±3 min, 2018' }
+  ],
   tekst: `
 ## Temperatuur en warmte zijn twee verschillende dingen
 
@@ -228,6 +233,11 @@ Niet alle warmte zie je terug op een thermometer. Als waterdamp in het rookgas c
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt vermogen en energie uit elkaar houden en uit vermogen en rendement het gasverbruik in m³ en de energie in kWh berekenen.',
+  videos: [
+    { taal: 'nl', titel: 'Wat is een kWh: stroom en gas in kWh (Ketel Klets)', yt: 'eW--k9y2m3w', duur: '±7 min, 2022' },
+    { taal: 'nl', titel: 'Een kW omrekenen naar kWh (Ketel Klets)', yt: '--a_QRwGk3g', duur: '±8 min, 2021' },
+    { taal: 'en', titel: 'What is a kWh: kilowatt hour explained (The Engineering Mindset)', yt: 'SMPhh8gT_1E', duur: '±6 min, 2017' }
+  ],
   tekst: `
 ## Vermogen is de snelheid, energie is de afstand
 
@@ -333,6 +343,11 @@ Welke referentie de m³ op een gasrekening heeft (0 °C, 15 °C of de omstandigh
   duur: 20,
   type: 'les',
   leerdoel: 'Je herkent geleiding, stroming en straling in een cv-installatie en weet welke invloed elk heeft op comfort en rendement.',
+  videos: [
+    { taal: 'nl', titel: 'Warmtetransport: geleiding, stroming en straling (Meneer Wietsma Natuurkunde)', yt: 'DpgOe1v25O0', duur: '±7 min, 2016' },
+    { taal: 'nl', titel: 'De drie vormen van warmteoverdracht (De Huizendokter)', yt: 'IhxY5XxGec0', duur: '±6 min, 2023' },
+    { taal: 'en', titel: 'Conduction, convection and radiation explained (Cognito)', yt: 'rUnABMRPzvg', duur: '±5 min, 2025' }
+  ],
   tekst: `
 ## Drie manieren waarop warmte zich verplaatst
 
@@ -434,6 +449,11 @@ Hoe lager de retourtemperatuur, hoe meer warmte je uit het rookgas haalt. Onder 
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen waar het warmteverlies van een woning vandaan komt en het benodigde ketelvermogen in grote lijnen beoordelen.',
+  videos: [
+    { taal: 'nl', titel: 'Wat is een warmteverliesberekening (Peter Luteijn)', yt: 'l6VwsGKM8AQ', duur: '±2 min, 2023' },
+    { taal: 'nl', titel: 'Warmteverliesberekening: transmissie uitgelegd (Leever Installatie adviseurs)', yt: 'isoz1fh-rIs', duur: '±1 min, 2020' },
+    { taal: 'en', titel: 'U-values explained (SURE Insulation)', yt: 'YZ4pmMneLOo', duur: '±11 min, 2020' }
+  ],
   tekst: `
 ## Waar raakt een woning warmte kwijt?
 
@@ -552,6 +572,11 @@ Bij een open opstelling mag de luchttoevoeropening van het toestel niet worden a
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen hoe het rendement van een ketel is opgebouwd en waarom Hs en Hi twee verschillende referenties zijn.',
+  videos: [
+    { taal: 'nl', titel: 'Hoe werkt een HR-ketel (Van Gemert Installatiegroep)', yt: 'Cd5O2a4qabo', duur: '±6 min, 2018' },
+    { taal: 'nl', titel: 'CV-ketel aanvoertemperatuur verlagen of niet (Ketel Klets)', yt: 'jRFdlFYO90A', duur: '±6 min, 2022' },
+    { taal: 'en', titel: 'How a condensing boiler works (MEP Academy)', yt: 'oRr3q3IraRU', duur: '±9 min, 2022' }
+  ],
   tekst: `
 ## Rendement: wat je eruit haalt, gedeeld door wat je erin stopt
 

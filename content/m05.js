@@ -153,6 +153,11 @@ CURSUS.addModule({
   duur: 20,
   type: 'les',
   leerdoel: 'Je kunt de vier stromen door een HR-ketel beschrijven en aanwijzen waar ze elkaar ontmoeten.',
+  videos: [
+    { taal: 'nl', titel: 'Hoe werkt een HR-ketel? (Van Gemert Installatiegroep)', yt: 'Cd5O2a4qabo', duur: '±6 min, 2018' },
+    { taal: 'nl', titel: 'Animatie warmtewisselaar cv-ketel (ATAG Verwarming Nederland)', yt: 'IE_Cquu4giI', duur: '±1 min, 2018' },
+    { taal: 'en', titel: 'How a condensing boiler works (MEP Academy)', yt: 'oRr3q3IraRU', duur: '±9 min, 2022' }
+  ],
   tekst: `
 ## Vier stromen, twee ontmoetingen
 
@@ -281,6 +286,11 @@ Wie alleen aan de elektrode denkt, vervangt onderdelen die niet stuk zijn. Bij e
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen hoe een voorgemengde brander werkt en hoe de ketel gas en lucht op elkaar afstemt.',
+  videos: [
+    { taal: 'nl', titel: 'HR-ketel afstellen op O2 en CO2 (Loodgieter Den Haag Stad)', yt: 'oPsXD-NRFVI', duur: '±21 min, 2023' },
+    { taal: 'nl', titel: 'Werking van een modulerend gasblok (Patrik De Paep)', yt: 'dB6QpokTyl4', duur: '±5 min, 2021' },
+    { taal: 'en', titel: 'How to use a flue gas analyser and understand the results, deel 1 (Tomkat Gas Training, VK)', yt: 'ZIiLGeFcjXI', duur: '±28 min, 2019' }
+  ],
   tekst: `
 ## Waarom gas en lucht op elkaar moeten passen
 
@@ -420,6 +430,11 @@ Je meet bij een Remeha Tzerra Ace 24C op vollast op G25.3 5,6% O2. De handleidin
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen wat een gasblok in de keten doet, hoe je de gasvoordruk controleert en waarom de gasafsluiting bij storing zo belangrijk is.',
+  videos: [
+    { taal: 'nl', titel: 'Drukmeting en gaslekdetectie bij een cv-ketel (Euro-Index)', yt: 'jvx5GIafwJw', duur: '±4 min, 2019' },
+    { taal: 'nl', titel: 'Onderhoud van een Intergas HRE cv-ketel (Loodgieter Den Haag Stad)', yt: 'MNKLC9zzSD0', duur: '±31 min, 2021' },
+    { taal: 'en', titel: 'Gas pressures: working pressure and standing pressure (Allen Hart, VK)', yt: '1fe2rBSgzzE', duur: '±8 min, 2021' }
+  ],
   tekst: `
 ## Wat het gasblok in de keten doet
 
@@ -539,6 +554,11 @@ Een Intergas Kombi Kompakt HRE toont code 4, geen vlamsignaal. Onder de oorzaken
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen hoe de ketel de vlam ontsteekt en met ionisatie bewaakt, en wat er bij verlies van de vlam gebeurt.',
+  videos: [
+    { taal: 'nl', titel: 'Vitodens 200: ionisatiestroom controleren (Viessmann Academy BeNeLux)', yt: 'pwui3U_yxM8', duur: '±1 min, 2019' },
+    { taal: 'en', titel: 'Flame rectification: how to test (Allen Hart, VK)', yt: 'mcw5PDPnORU', duur: '±14 min, 2022' },
+    { taal: 'en', titel: 'Testing ionisation probes and ignition electrodes (Andrew Millward, VK)', yt: 'nc2xFq9W5rc', duur: '±1 min, 2018' }
+  ],
   tekst: `
 ## Van vonk naar vlam
 
@@ -681,6 +701,11 @@ Op de klemmen L en N van een Vaillant ecoTEC plus VHR staat continu spanning en 
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen hoe de warmtewisselaar warmte overdraagt, waar condensaat ontstaat en hoe de sifon werkt.',
+  videos: [
+    { taal: 'nl', titel: 'Corrosie in de warmtewisselaar herkennen (TV Emiel)', yt: 'A3Jy4Q9hE2Y', duur: '±2 min, 2021' },
+    { taal: 'nl', titel: 'Lekkage cv-ketel: de warmtewisselaar eenvoudig checken, deel 1 (TV Emiel)', yt: 'RLQ21T8amOY', duur: '±3 min, 2024' },
+    { taal: 'en', titel: 'How to clean a stainless steel boiler heat exchanger (Tomkat Gas Training, VK)', yt: 'eCkyMX7qGI8', duur: '±13 min, 2021' }
+  ],
   tekst: `
 ## Waar de warmte van het rookgas naar het water gaat
 
@@ -813,6 +838,11 @@ Een Vaillant ecoTEC plus VHR meldt F.028: vlamsignaal in de ontstekingsfase niet
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt uitleggen hoe pomp en 3-wegklep het water door de ketel sturen bij verwarming en bij tapwater.',
+  videos: [
+    { taal: 'nl', titel: 'Driewegklep van een cv-ketel reviseren (Gijs Weezepoel)', yt: 'C-_z0eh9vZU', duur: '±3 min, 2017' },
+    { taal: 'nl', titel: 'CV-ketel: driewegklep repareren (Wendela Plasschaert)', yt: 'pqOYQU5atmA', duur: '±7 min, 2021' },
+    { taal: 'en', titel: 'Common causes of reduced hot water at the tap with a combi boiler (Baxi, VK)', yt: 'PCzOY4oC3ZQ', duur: '±2 min, 2020' }
+  ],
   tekst: `
 ## Twee routes voor het warme water
 
@@ -942,6 +972,11 @@ Pomp en driewegklep voeren 230 V (Nefit ProLine NxT). Maak het toestel eerst spa
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt de sensoren en beveiligingen van een ketel benoemen en uitleggen wat er gebeurt als een meetwaarde niet klopt.',
+  videos: [
+    { taal: 'nl', titel: 'Wat is een NTC-weerstand? (Kapotte Spullen)', yt: 'DWM68TiSXmg', duur: '±7 min, 2022' },
+    { taal: 'nl', titel: 'Flamco Prescor veiligheidsventiel: bescherming tegen overdruk (Flamco)', yt: 'cB8fmmuDO2g', duur: '±2 min, 2020' },
+    { taal: 'en', titel: 'How to test thermistors, in perfect and imperfect scenarios (Baxi, VK)', yt: 'ncVJGNHQDSs', duur: '±2 min, 2018' }
+  ],
   tekst: `
 ## Wat de ketel meet
 
@@ -1075,6 +1110,11 @@ Branderautomaat, ventilator, pomp en driewegklep voeren 230 V (Nefit ProLine NxT
   duur: 25,
   type: 'les',
   leerdoel: 'Je kunt de startvolgorde van een ketel doorlopen en bij een storing aanwijzen in welke stap het misgaat.',
+  videos: [
+    { taal: 'nl', titel: 'CV-ketel in storing: wat doe je? (Gasservice - Gaswacht)', yt: 'LPUVUYy9Dt4', duur: '±2 min, 2021' },
+    { taal: 'nl', titel: 'Uitleg van de knoppen en codes van een Intergas Kombi Kompakt HRE (JW B)', yt: 'eI_1jQ_kHls', duur: '±5 min, 2020' },
+    { taal: 'en', titel: 'How a boiler fires up: step-by-step sequence explained (SKAN Academy)', yt: '8rwt_1Xn5OE', duur: '±7 min, 2025' }
+  ],
   tekst: `
 ## Een storing is een stap die niet lukt
 
