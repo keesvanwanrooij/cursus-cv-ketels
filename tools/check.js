@@ -128,6 +128,34 @@ function metaTaal(vragen, pad, waarschuw) {
   if (raak >= 3) waarschuw(pad + ': ' + raak + ' antwoordopties gebruiken meta-taal ("volgens deze gedachte", "naar men aanneemt"), schrijf ze als gewone bewering');
 }
 
+/* Een module-examen hoort samenhang te toetsen, niet de lesvragen te herhalen. Bijna dezelfde vraagtekst
+   betekent dat een leerling het examen haalt door de lesvragen te onthouden. */
+function woordenSet(t) {
+  var uit = {};
+  String(t).toLowerCase().replace(/[^a-z0-9À-ſ ]/g, ' ').split(/\s+/).forEach(function (w) { if (w.length > 3) uit[w] = 1; });
+  return Object.keys(uit);
+}
+
+function examenHerhaalt(m, pad, waarschuw) {
+  if (!Array.isArray(m.examen) || !m.examen.length) return;
+  var lesVragen = [];
+  (m.lessen || []).forEach(function (l) { (l.quiz || []).forEach(function (q) { lesVragen.push(woordenSet(q.vraag)); }); });
+  if (!lesVragen.length) return;
+  var herhaald = 0;
+  m.examen.forEach(function (q) {
+    var a = woordenSet(q.vraag);
+    if (!a.length) return;
+    var beste = 0;
+    lesVragen.forEach(function (b) {
+      var gedeeld = a.filter(function (w) { return b.indexOf(w) !== -1; }).length;
+      var samen = a.length + b.length - gedeeld;
+      if (samen && gedeeld / samen > beste) beste = gedeeld / samen;
+    });
+    if (beste >= 0.7) herhaald++;
+  });
+  if (herhaald >= 3) waarschuw(pad + ' module-examen: ' + herhaald + ' vragen lijken bijna woordelijk op een lesvraag, laat het examen samenhang toetsen');
+}
+
 function controleer(ctx, root, opties) {
   opties = opties || {};
   var fouten = [], waarschuwingen = [];
@@ -159,6 +187,7 @@ function controleer(ctx, root, opties) {
     (m.lessen || []).forEach(function (l) { (l.quiz || []).forEach(function (q) { alleVragen.push(q); }); });
     (m.examen || []).forEach(function (q) { alleVragen.push(q); });
     if (alleVragen.length >= 10) metaTaal(alleVragen, mp, waarschuw);
+    if (alleKlaar) examenHerhaalt(m, mp, waarschuw);
     else if (m.examen && m.examen.length) controleerVragen(m.examen, mp + ' module-examen', fout, waarschuw, 1);
     vraagTotaal += (m.examen || []).length;
 
