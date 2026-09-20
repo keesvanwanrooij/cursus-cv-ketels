@@ -421,6 +421,69 @@ Een plicht om de netbeheerder te informeren bij afkeuren is in wet en schema nie
 - Ik weet wat ik bij een melding minimaal vastleg
 - Ik weet wanneer ik 112 bel en dat de wet leidend is boven het schema
 
+### Les 1.7: Veilig werken op locatie: hoogte, asbest en bescherming
+
+URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/veilig-werken-op-locatie-hoogte-asbest-en-bescherming/
+
+**Leerdoel:** Je herkent de belangrijkste risico's op een werklocatie (hoogte, besloten ruimten, asbest, gaslucht) en weet welke maatregelen en grenzen daarbij gelden.
+
+#### De andere kant van het vak: niet alleen de ketel, ook de werkplek
+
+CO-veiligheid gaat over het toestel en de installatie. Deze les gaat over jou: de ladder waarop je staat, de kruipruimte waar je induikt, het board dat mogelijk asbest bevat en de gasgeur die je op locatie tegenkomt. Dit zijn geen cv-specifieke regels maar de algemene Arbowet en het Arbeidsomstandighedenbesluit (Arbobesluit), die voor elke werknemer in Nederland gelden. Eerste hulp bij CO-vergiftiging staat in (les:m01l06) en (les:m04l05), elektrische veiligheid in module 9: die stof komt hier niet terug.
+
+#### Werken op hoogte: ladder, trap of steiger?
+
+Vanaf een hoogte van 2,5 meter geldt in de regel valgevaar, en dan moet er een veilige steiger, stelling, bordes of werkvloer zijn, of een doelmatig hekwerk of leuning die minstens tot 1 meter boven het werkvlak beveiligt. Ook onder 2,5 meter kan een voorziening verplicht zijn, bijvoorbeeld bij een vloeropening of een extra risico zoals water of verkeer.
+
+Een ladder of trap mag je alleen als werkplek gebruiken als het werk kort duurt, het risico laag is en een veiliger arbeidsmiddel niet gerechtvaardigd is. Sta je op een ladder, dan moet je altijd veilige steun en houvast hebben: een last met de hand dragen mag dat houvast nooit belemmeren, en de ladder staat op een stabiele, stevige ondergrond zodat de sporten horizontaal blijven. Kan een steiger of hekwerk niet worden aangebracht, of levert die zelf meer gevaar op, dan is een vangnet of een veiligheidsgordel met vanglijn het laatste redmiddel, niet de eerste keuze.
+
+Werk je met een steiger, dan wordt de constructie regelmatig door een deskundig persoon gecontroleerd: in elk geval voor het eerste gebruik, na elke wijziging, na een periode van stilstand en na slecht weer. Een steiger mag niet worden overbelast en een verrijdbare steiger staat vast tijdens het werk.
+
+> **Twee getallen om te onthouden**
+> 2,5 meter is de hoogte waarboven een voorziening tegen valgevaar in de regel verplicht is. 1 meter is de hoogte waartot een hekwerk of leuning minstens moet beveiligen om als doelmatig te tellen. Een ladder mag je alleen gebruiken als werkplek bij kort, veilig en laag-risicowerk: geen vaste vervanger van een steiger.
+
+> **Vallen van hoogte is dodelijk**
+> Een val van een paar meter kan al fataal zijn of blijvend letsel geven. Twijfel je of een ladder voor dit werk veilig genoeg is, gebruik dan een steiger, bordes of ander deugdelijk arbeidsmiddel. Werk nooit op een dak of bij een dakdoorvoer zonder dat de valbeveiliging in orde is, ook niet voor "twee minuutjes".
+
+#### Besloten ruimten en kruipruimten: eerst meten, dan naar binnen
+
+Een kruipruimte, kelder of andere ruimte die niet is ingericht om in te verblijven en waar gevaar kan bestaan voor verstikking, bedwelming, vergiftiging, brand of explosie, is een besloten ruimte. Kan dat gevaar worden vermoed, dan mag je die ruimte alleen betreden als onderzoek uitwijst dat het gevaar er niet is. Blijkt uit dat onderzoek dat het gevaar er wél is, dan worden eerst doeltreffende maatregelen genomen (ventileren, meten, beschermingsmiddelen) voordat iemand naar binnen gaat.
+
+**Praktijkgeval:** je moet in een kruipruimte onder een tussenwoning een leidingaansluiting controleren. De kruipruimte is laag, er staat wat water en je ruikt niets bijzonders. Toch meet je eerst: een gaslek elders in het pand of een opgehoopte concentratie CO kan zich ophopen in een laaggelegen, slecht geventileerde ruimte zonder dat je dat ruikt of voelt. Pas als de meting geen gevaar aantoont, ga je naar binnen. Trek je conclusie nooit alleen op je neus.
+
+#### Asbest: herkennen, en vooral niet zelf bewerken
+
+In gebouwen en installaties van vóór 1994 kan asbest voorkomen: in pakkingen en koord bij aansluitingen, in brandwerende platen of board rond een ketel, geiser of schoorsteen, in doorvoeren door vloer of dak, en in het rookgasafvoerkanaal zelf. Zolang dat materiaal intact blijft, komen er geen vezels vrij. Boren, zagen, breken of schuren kan dat wel doen.
+
+> **Vermoeden van asbest: stoppen, niet doorwerken**
+> Zie je verouderd, beschadigd plaatmateriaal, board of koord dat mogelijk asbest bevat: bewerk het niet, rond het werk op die plek niet af en informeer de eigenaar. Alleen een bedrijf dat gecertificeerd is volgens SC-540 mag vaststellen of het om asbest gaat en in welke risicoklasse (1, 2 of 2a). Jij bepaalt dat nooit zelf op het oog.
+
+Is de risicoklasse eenmaal vastgesteld, dan bepaalt die wat er verder mag. Risicoklasse 2 en 2a mogen alleen worden verwijderd door een bedrijf met het procescertificaat asbestverwijdering, met personeel dat een DAV-1, DAV-2 (Deskundig Asbestverwijderaar) of DTA (Deskundig Toezichthouder) persoonscertificaat heeft. Bij risicoklasse 1 mag ook een niet-gecertificeerd bedrijf het werk uitvoeren, maar alleen als de klasse vooraf door een gecertificeerd bedrijf is vastgesteld, het werk vakkundig gebeurt, het gemeld is bij de Nederlandse Arbeidsinspectie, de monteur is voorgelicht en getraind, en hem een arbeidsgezondheidskundig onderzoek is aangeboden. Het volledig en onbeschadigd verwijderen van een oud verwarmingstoestel wordt in de praktijk soms als risicoklasse 1 beoordeeld, maar ook dat stelt niet de monteur zelf vast.
+
+Een particuliere eigenaar mag in en om zijn eigen woning zelf maximaal 35 m2 van bepaald, hechtgebonden materiaal verwijderen (geschroefde platen, vloertegels). Dat is een uitzondering voor de particulier zelf, geen regel die voor jou als monteur van een bedrijf geldt.
+
+#### Persoonlijke beschermingsmiddelen en fysieke belasting
+
+De werkgever moet zorgen voor de veiligheid en gezondheid van zijn werknemers en kiest daarvoor, op basis van de risico-inventarisatie, geschikte persoonlijke beschermingsmiddelen (PBM): bijvoorbeeld werkschoenen, handschoenen, een stofmasker of een valharnas. Die middelen moeten voldoende beschikbaar zijn, onderhouden en op tijd vervangen worden, en de kosten daarvan zijn voor de werkgever: hij mag ze niet op je loon inhouden. Werk je als zzp'er, dan ben je in dit opzicht zelf "de werkgever".
+
+Voor tillen en dragen geldt een landelijke praktijkrichtlijn: bij incidenteel tillen niet meer dan 23 kg, bij meer dan 12 keer per dienst tillen niet meer dan 12 kg, en bij dragen op heuphoogte niet meer dan 15 kg. Onder minder gunstige omstandigheden (bukken, draaien, een trap op) ligt de werkelijke grens lager. Een boiler of gasfles is zwaarder dan die grenzen: gebruik een steekwagen, hulp van een collega of een tilhulpmiddel.
+
+#### Gaslucht op locatie: geen vonken
+
+Ruik je tijdens je werk plotseling sterk gas, dus los van de storing waaraan je al werkt: maak geen vuur, bedien geen schakelaar, verlichting, deurbel of mobiele telefoon in die ruimte (een kleine vonk kan al genoeg zijn), open ramen en deuren, draai de hoofdgaskraan dicht en bel van buiten de ruimte. Het landelijke, gratis nummer voor een gasstoring of gaslucht is 0800-9009; bij acuut gevaar of een sterke lucht waarvan je de bron niet kent, bel je 112.
+
+#### VCA: los van het CO-stelsel
+
+VCA (Veiligheid, Gezondheid en Milieu Checklist Aannemers) is een apart veiligheidscertificaat, beheerd door stichting SSVV. Het is niet wettelijk verplicht, maar veel opdrachtgevers in bouw, industrie en installatietechniek eisen het voordat je op hun locatie mag werken. VCA vervangt niets van het CO-stelsel uit (les:m01l02) en (les:m01l04): het is een generieke check op veilig werken in het algemeen, geen vervanging voor het Bewijs van Vakmanschap CO of de bedrijfscertificering.
+
+**Controleer jezelf:**
+
+- Ik weet vanaf welke hoogte een voorziening tegen valgevaar verplicht is en wanneer een ladder als werkplek mag
+- Ik onderzoek een kruipruimte of andere besloten ruimte op gevaarlijke atmosfeer voordat ik naar binnen ga
+- Ik herken waar asbest in een oude cv-installatie kan voorkomen en bewerk vermoedelijk asbesthoudend materiaal nooit zelf
+- Ik weet aan welke voorwaarden zelf werken aan asbest van risicoklasse 1 moet voldoen
+- Ik weet wat ik doe als ik op locatie plotseling gas ruik
+
 ## Module 2: Warmte, energie en vermogen
 
 URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/warmte-energie-en-vermogen/
