@@ -222,8 +222,8 @@ Een woonkamer op de begane grond is 5 bij 4 m (20 m2 vloeroppervlak), met één 
 | Transmissie gevel (opaak, 10 m2) | 10 x 0,213 x 32 | 68 W |
 | Transmissie glas (3 m2) | 3 x 1,1 x 32 | 106 W |
 | Ventilatiedebiet (Bbl, 20 m2 x 0,9 dm3/s) | 20 x 0,9 = 18 dm3/s | 64,8 m3/h |
-| Ventilatieverlies | 0,34 x 64,8 x 32 | 706 W |
-| Totaal (zonder opwarmtoeslag) | 68 + 106 + 706 | 880 W |
+| Ventilatieverlies | 0,34 x 64,8 x 32 | 705 W |
+| Totaal (zonder opwarmtoeslag) | 68 + 106 + 705 | 879 W |
 
 Voor deze ene ruimte, zonder de vloer en zonder opwarmtoeslag, komt de warmtevraag al op bijna 0,9 kW, en het ventilatieverlies is daarvan het grootste deel. Voor de hele woning tel je dit per vertrek op.
 
