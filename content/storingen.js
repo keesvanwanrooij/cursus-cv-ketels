@@ -80,3 +80,129 @@ Een HR-combiketel van negen jaar oud in een tussenwoning, met radiatoren op twee
     'Een druppelend veiligheidsventiel is vaak het gevolg van een ander probleem, niet de oorzaak.'
   ]
 });
+
+/* ------------------------------------------------------------------ s02 */
+/* Feiten: STO-11, TAP-01, TAP-13, ONT-19, KET-23 (project/docs/feiten/05 en 03).
+   De getallen in de situatie zijn een voorbeeld, geen meetgegevens. */
+CURSUS.addCasus({
+  id: 's02',
+  titel: 'Warm water wordt niet meer warm genoeg',
+  niveau: 'Gemiddeld',
+  duur: 15,
+  klacht: 'De douche wordt na een paar minuten al kouder, en de kraan geeft eigenlijk nooit meer echt heet water, terwijl dat vroeger geen probleem was.',
+  context: `
+Een combiketel van 11 jaar oud in een rijtjeswoning in een gebied met hard water. De klant heeft nooit een waterontharder gehad en kan zich niet herinneren dat er de afgelopen 3 jaar onderhoud is geweest. De klacht is volgens hem geleidelijk erger geworden, niet plotseling.
+`,
+  les: 'm16l03',
+  acties: [
+    { id: 'a1', groep: 'Vragen aan de klant', tekst: 'Vraag of de klacht plotseling begon of geleidelijk erger werd', resultaat: 'Geleidelijk, de afgelopen maanden steeds iets minder warm en iets korter warm.', nuttig: true },
+    { id: 'a2', groep: 'Vragen aan de klant', tekst: 'Vraag wanneer het toestel voor het laatst onderhouden is', resultaat: 'Niet meer sinds de plaatsing, voor zover de klant weet, meer dan 3 jaar geleden.', nuttig: true },
+    { id: 'a3', groep: 'Vragen aan de klant', tekst: 'Vraag of de klant weet of het water in de wijk hard is', resultaat: 'Ja, de klant weet van de buren dat het waterleidingbedrijf hard water levert; er is geen waterontharder geplaatst.', nuttig: true },
+    { id: 'a4', groep: 'Water', tekst: 'Meet de tapflow bij volledig geopende warmwaterkraan', resultaat: 'Ongeveer 10 l/min, binnen de normale capaciteit van dit toestel.' },
+    { id: 'a5', groep: 'Water', tekst: 'Meet de uitstroomtemperatuur bij lage en bij normale doorstroming', resultaat: 'Bij een klein straaltje water is de temperatuur nog wel op de ingestelde 60 graden, bij een normaal geopende kraan blijft de temperatuur duidelijk daaronder.', essentieel: true },
+    { id: 'a6', groep: 'Water', tekst: 'Controleer de waterdruk van de cv-installatie', resultaat: '1,6 bar, geen afwijking.' },
+    { id: 'a7', groep: 'Regeling', tekst: 'Lees de ingestelde warmtapwatertemperatuur op het display af', resultaat: '60 graden ingesteld, zoals de klant ook aangeeft te willen.' },
+    { id: 'a8', groep: 'Elektra', tekst: 'Meet of de driewegklep tijdens het tappen spanning krijgt en schakelt', resultaat: 'De klep krijgt spanning op het moment dat er getapt wordt en schakelt hoorbaar naar de warmwaterstand.', essentieel: true },
+    { id: 'a9', groep: 'Water', tekst: 'Demonteer de tapwatercartridge en inspecteer de platenwarmtewisselaar', resultaat: 'Duidelijke witte kalkaanslag op de platen, een deel van de kleine doorstroomkanalen is zichtbaar dichtgeslibd.', essentieel: true },
+    { id: 'a10', groep: 'Gas', tekst: 'Lees de ionisatiestroom op het display af', resultaat: 'Ruim boven de grenswaarde van de fabrikant, geen afwijking.' }
+  ],
+  oorzaken: [
+    {
+      tekst: 'Kalkaanslag in de platenwarmtewisselaar vermindert de warmteoverdracht naar het tapwater',
+      goed: true,
+      uitleg: 'Kalkafzetting hangt af van waterhardheid, bedrijfsuren, tapgedrag en de ingestelde temperatuur, en bouwt zich geleidelijk op. Dat past bij een klacht die langzaam erger werd, bij een toestel dat al jaren niet is onderhouden in een gebied met hard water, en bij een normale tapflow die toch niet genoeg warmte overdraagt zodra er meer water doorheen stroomt.'
+    },
+    {
+      tekst: 'De driewegklep is defect en blijft in de cv-stand hangen',
+      goed: false,
+      uitleg: 'De klep kreeg tijdens het tappen spanning en schakelde hoorbaar naar de warmwaterstand: dat sluit uit dat de klep vastzit of niet meer schakelt.'
+    },
+    {
+      tekst: 'De warmtapwatertemperatuur staat te laag ingesteld',
+      goed: false,
+      uitleg: 'Het display toont 60 graden, precies wat de klant wil. Een verkeerde instelling zou bovendien niet verklaren waarom het probleem geleidelijk erger werd.'
+    },
+    {
+      tekst: 'De ionisatiestroom is te laag, waardoor de ketel minder vermogen levert',
+      goed: false,
+      uitleg: 'De ionisatiestroom ligt ruim boven de grenswaarde: de brander en de vlambewaking functioneren dus normaal, dat is niet de beperkende factor bij deze klacht.'
+    }
+  ],
+  oplossing: `
+1. **Volg de volgorde van de les.** Doorstroming en driewegklep zijn hier al gecontroleerd en in orde, dus de volgende stap in de keten is de platenwisselaar, niet meteen een duur onderdeel raden.
+2. **Bewijs het met de temperatuur bij verschillende debieten.** Blijft de temperatuur bij een klein straaltje wel op peil en zakt hij bij een normaal geopende kraan, dan wijst dat op te weinig warmteoverdracht per tijdseenheid: precies het beeld van een deels dichtgeslibde wisselaar.
+3. **Reinig de platenwisselaar samen met de tapwatercartridge.** Dat is de aanpak die de fabrikant bij een merkbaar lagere tapcapaciteit voorschrijft, bijvoorbeeld met een geschikt ontkalkingsmiddel, gevolgd door grondig naspoelen met leidingwater.
+4. **Adviseer structureel onderhoud.** Bij hard water en geen waterontharder komt kalkaanslag terug: leg de klant uit waarom jaarlijks onderhoud en eventueel een waterontharder dit in de toekomst voorkomen.
+5. **Test na de reparatie.** Meet de uitstroomtemperatuur opnieuw bij een normaal geopende kraan en vergelijk met de ingestelde temperatuur.
+`,
+  veiligheid: 'Het water en de platenwisselaar kunnen heet zijn: laat het toestel afkoelen en maak het drukloos voor je de tapwatercartridge demonteert. Een ontkalkingsmiddel is een chemisch product: volg de voorschriften van de fabrikant en spoel na.',
+  leerpunten: [
+    'Kalkaanslag in de platenwisselaar geeft een geleidelijke achteruitgang, geen plotselinge storing.',
+    'Meet de temperatuur bij een laag en bij een normaal debiet: dat onderscheidt een capaciteitsprobleem van een sensor- of klepstoring.',
+    'Test de driewegklep door te controleren of hij tijdens het tappen echt spanning krijgt en schakelt, niet alleen visueel.',
+    'Reinig bij een lagere tapcapaciteit de platenwisselaar samen met de tapwatercartridge, zoals de fabrikant voorschrijft.'
+  ]
+});
+
+/* ------------------------------------------------------------------ s03 */
+/* Feiten: STO-05, KET-05, MET-26, ELK-08, ELK-09 (project/docs/feiten/05, 03 en 09).
+   De getallen in de situatie zijn een voorbeeld, geen meetgegevens. */
+CURSUS.addCasus({
+  id: 's03',
+  titel: 'De ketel ontsteekt niet meer',
+  niveau: 'Gevorderd',
+  duur: 15,
+  klacht: 'M\'n cv-ketel doet helemaal niets meer: geen verwarming en geen warm water, en op het display staat een foutmelding.',
+  context: `
+Een Remeha-toestel van 8 jaar oud (voorbeeld, de aanpak verschilt per merk en model). De storing begon vlak na een korte stroomstoring in de wijk. De klant heeft zelf al een keer geprobeerd te resetten, zonder resultaat.
+`,
+  les: 'm16l06',
+  acties: [
+    { id: 'a1', groep: 'Vragen aan de klant', tekst: 'Vraag of de storing echt meteen na de stroomstoring begon', resultaat: 'Ja, meteen daarna probeerde de ketel een paar keer op te starten en toen bleef de foutmelding staan.', nuttig: true },
+    { id: 'a2', groep: 'Vragen aan de klant', tekst: 'Vraag of er bij het opstarten een tikkend of knetterend geluid te horen was', resultaat: 'Ja, een paar keer een tikkend geluid vlak voor de foutmelding kwam.', nuttig: true },
+    { id: 'a3', groep: 'Elektra', tekst: 'Controleer de netspanning en de aarding van de netaansluiting van het toestel', resultaat: 'Spanning en aarding van de netaansluiting zijn in orde.' },
+    { id: 'a4', groep: 'Gas', tekst: 'Controleer of de gaskraan bij de ketel volledig open staat', resultaat: 'De gaskraan staat volledig open.' },
+    { id: 'a5', groep: 'Gas', tekst: 'Meet de gasvoordruk dynamisch, met het toestel in bedrijf', resultaat: 'Binnen het toegestane bereik van dit toestel.' },
+    { id: 'a6', groep: 'Water', tekst: 'Controleer of de sifon gevuld en niet verstopt is', resultaat: 'Sifon is gevuld tot de markering en niet verstopt.' },
+    { id: 'a7', groep: 'Gas', tekst: 'Lees de ionisatiestroom af via het display, in vol- en laaglast', resultaat: 'Ruim onder de grenswaarde van de fabrikant, in beide standen.', essentieel: true },
+    { id: 'a8', groep: 'Elektra', tekst: 'Controleer de elektrodeafstand en de staat van de ontstekings-/ionisatie-elektrode', resultaat: 'De elektrode is zwaar vervuild en op één punt duidelijk verkleurd door corrosie.', essentieel: true },
+    { id: 'a9', groep: 'Elektra', tekst: 'Controleer de massaverbinding van de brander zelf, los van de netaarding van het toestel', resultaat: 'De massa-aansluiting van de brander vertoont corrosie en zit niet meer stevig vast.', essentieel: true },
+    { id: 'a10', groep: 'Gas', tekst: 'Controleer de gas-luchtafstelling (bijvoorbeeld met een rookgasanalyse)', resultaat: 'Binnen de normale grenzen van dit toestel.' }
+  ],
+  oorzaken: [
+    {
+      tekst: 'Een vervuilde elektrode en een slechte massaverbinding van de brander door corrosie, waardoor de gelijkrichting van de ionisatiestroom grotendeels wegvalt',
+      goed: true,
+      uitleg: 'Ionisatiebewaking werkt doordat de vlam een wisselspanning tussen elektrode en massa asymmetrisch gelijkricht. Zowel een vervuilde elektrode als een slechte massaverbinding kunnen die gelijkrichting laten wegvallen, ook al is er wel een vonk en soms zelfs kort een vlam. De gemeten ionisatiestroom ver onder de grenswaarde in zowel vol- als laaglast bevestigt dit.'
+    },
+    {
+      tekst: 'Het gasblok is door de stroomstoring beschadigd',
+      goed: false,
+      uitleg: 'De gasvoordruk en de gas-luchtafstelling zijn normaal: er is geen aanwijzing dat het gasblok zelf niet meer goed werkt.'
+    },
+    {
+      tekst: 'De sifon is verstopt geraakt, waardoor de ketel niet meer ontsteekt',
+      goed: false,
+      uitleg: 'De sifon is gevuld en niet verstopt: dat sluit deze oorzaak uit, ook al staat een verstopte sifon wel vaker in de oorzakenlijst bij deze klacht.'
+    },
+    {
+      tekst: 'De gaskraan is per ongeluk dichtgedraaid tijdens of na de stroomstoring',
+      goed: false,
+      uitleg: 'De gaskraan staat volledig open: dat is dus niet de oorzaak van deze storing.'
+    }
+  ],
+  oplossing: `
+1. **Herken de tak van de klacht.** Een tikkend geluid vlak voor de foutmelding wijst op wel een vonk, maar te weinig ionisatie of geen (stabiele) vlam: dat stuurt het onderzoek naar elektrode, aarding en gas-/luchtpad, niet naar het gasblok of de sifon.
+2. **Meet de ionisatiestroom in vol- en laaglast** voor je iets vervangt: een waarde ver onder de grenswaarde in beide standen bevestigt het vermoeden en sluit uit dat het alleen aan de belasting ligt.
+3. **Maak het toestel spanningsloos** voor je de elektrode en de massa-aansluiting van de brander controleert en reinigt of herstelt.
+4. **Herstel de massa-aansluiting en reinig of vervang de elektrode.** Beide oorzaken spelen hier tegelijk: alleen de elektrode vervangen zonder de corrosie op de massa-aansluiting te verhelpen, laat de storing terugkomen.
+5. **Meet opnieuw** de ionisatiestroom in vol- en laaglast om te bevestigen dat de reparatie de waarde boven de grenswaarde van de fabrikant heeft gebracht, en test een volledige opstart- en stopcyclus.
+`,
+  veiligheid: 'Maak het toestel spanningsloos voordat je aan de elektrode of de massa-aansluiting werkt, en toon aan dat het circuit spanningsloos is voor je verder meet. Overbrug de vlambewaking nooit om te testen of de ketel dan wel aanslaat: bij vlamverlies zonder werkende bewaking kan onverbrand gas vrijkomen.',
+  leerpunten: [
+    'Een tikkend geluid gevolgd door een foutmelding wijst op de tak "wel vonk, weinig of geen ionisatie", niet automatisch op het gasblok.',
+    'Meet de ionisatiestroom altijd in vol- en laaglast voor je concludeert dat de elektrode of de aarding de oorzaak is.',
+    'Een slechte massaverbinding van de brander geeft hetzelfde beeld als een vervuilde elektrode: controleer beide.',
+    'Een stroomstoring kan corrosie of een losse verbinding "activeren" die er al was, zonder dat de stroomstoring zelf iets heeft beschadigd.'
+  ]
+});
