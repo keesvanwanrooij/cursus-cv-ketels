@@ -80,26 +80,26 @@ CURSUS.addModule({
       uitleg: `Ovalisering en knikken ontstaan bij een te kleine buigradius voor de gebruikte diameter en buigmethode. Ontbramen voorkomt een braam bij een verbinding, niet ovalisering bij het buigen. Een buigveer kan aan binnen- of buitenzijde gebruikt worden afhankelijk van het buigtype, en de lengte van de afgekorte buis heeft geen invloed op ovalisering.`
     },
     {
-      vraag: `Wat is het functionele verschil tussen zacht solderen en hard solderen?`,
+      vraag: `Een monteur vergelijkt twee juiste keuzes voor een gasleiding: koperbuis die hard wordt gesoldeerd, en Uponor GAS-meerlagenbuis die uitsluitend met de bijbehorende Uponor GAS Plus-persfittingen wordt verbonden. Wat is het gemeenschappelijke principe achter deze twee keuzes?`,
       opties: [
-        `Zacht solderen gebruikt een brander op aardgas, hard solderen altijd op propaan`,
-        `Zacht solderen is uitsluitend geschikt voor kunststof leidingen, terwijl hard solderen uitsluitend voor metalen leidingen geldt, ongeacht de gebruikte brander of het gebruikte soldeermateriaal`,
-        `Zacht solderen gebruikt soldeer dat onder ongeveer 450 °C smelt, hard solderen (brazeren) gebruikt soldeer dat daarboven smelt en een hogere brandertemperatuur vraagt`,
-        `Zacht solderen en hard solderen verschillen alleen in kleur van het soldeer, niet in smeltpunt`
+        `Beide keuzes zijn toevallig de goedkoopste optie die op de markt beschikbaar is`,
+        `Voor een gasleiding is niet elke gangbare techniek of fitting toegestaan: alleen wat specifiek voor gas is toegelaten of voorgeschreven, mag je gebruiken`,
+        `Beide keuzes gelden op precies dezelfde manier voor drinkwater- en cv-leidingen`,
+        `Beide keuzes zijn voorbeelden van technieken die voor koperbuis of meerlagenbuis geen enkele keuring nodig hebben`
       ],
-      goed: 2,
-      uitleg: `Het onderscheid tussen zacht en hard solderen is het smeltpunt van het soldeermateriaal: onder of boven ongeveer 450 °C. Hard solderen (brazeren) vraagt een hogere brandertemperatuur, vaak zuurstof-acetyleen. Het onderscheid gaat niet over het type brandstof van de brander of over kunststof versus metaal.`
+      goed: 1,
+      uitleg: `Zacht solderen is voor een koperen gasleiding niet gebruikelijk en wordt afgekeurd, en een systeem als Uponor GAS schrijft uitsluitend de eigen fittingen voor. Beide gevallen laten zien dat voor gas niet elke gangbare methode of fitting is toegestaan: alleen wat specifiek voor gas is toegelaten of door de fabrikant is voorgeschreven, mag je gebruiken. Dat geldt niet zonder meer voor drinkwater of cv, waar andere regels gelden, en het gaat hier niet om prijs of om het ontbreken van elke keuring.`
     },
     {
-      vraag: `Waarom wordt een koperen gasleiding in de installatiepraktijk hard gesoldeerd en niet zacht gesoldeerd?`,
+      vraag: `Een monteur wil een koperen gasleiding met een knelkoppeling verbinden in plaats van te solderen. Mag dat, en wat is daarvoor nodig?`,
       opties: [
-        `Omdat zacht solderen voor een gasleiding in de installatiepraktijk niet gebruikelijk is en wordt afgekeurd; welke methode een fitting toestaat, staat op de fitting of in de fabrikantvoorschriften`,
-        `Omdat zacht solderen uitsluitend op koudwaterleidingen werkt en daarom nooit op een gasleiding kan worden toegepast, ongeacht de temperatuur`,
-        `Omdat hard solderen sneller gaat dan zacht solderen`,
-        `Omdat zacht solderen een hogere temperatuur vraagt dan de meeste branders kunnen leveren`
+        `Nee, een koperen gasleiding mag uitsluitend gesoldeerd worden, een knelkoppeling is nooit toegestaan`,
+        `Ja, elke knelkoppeling voor koperbuis is automatisch ook geschikt voor gas, want de buis zelf is al gekeurd`,
+        `Ja, maar dan moet de knelkoppeling een eigen Gastec QA-keur (KE 35) hebben voor gas: niet elke knelkoppeling is daarvoor geschikt`,
+        `Nee, knelkoppelingen zijn uitsluitend voor drinkwaterleidingen bedoeld en gelden nooit voor enig ander medium`
       ],
-      goed: 0,
-      uitleg: `Meerdere onafhankelijke vakbronnen zijn het erover eens dat zacht solderen voor een koperen gasleiding niet gebruikelijk is en wordt afgekeurd, ook al is dit niet met een letterlijke normtekst bevestigd. Snelheid is niet de reden, en zacht solderen vraagt juist een lagere temperatuur dan hard solderen, niet een hogere.`
+      goed: 2,
+      uitleg: `Een knelkoppeling mag op een koperen gasleiding, maar dan moet hij vallen onder KE 35, de Gastec QA-keur specifiek voor knelfittingen op koperen gasleiding: dat is een andere keuring dan die van de buis zelf (KE 5) of van een persfitting (KE 186). Solderen is dus niet de enige toegestane methode, en een keuring van de buis zegt niets over de geschiktheid van de fitting. Knelkoppelingen zijn ook niet uitsluitend voor drinkwater bedoeld.`
     },
     {
       vraag: `Een Viega-persfitting met SC-Contur is per ongeluk niet geperst. Wat gebeurt er bij de drukproef?`,
@@ -135,15 +135,15 @@ CURSUS.addModule({
       uitleg: `Meerlagenbuis die geschikt is voor gas is te herkennen aan een gele kleur of gele markering en moet het Gastec QA-keurmerk voor gas dragen (KE 198 binnenshuis of KE 212 buitenshuis). Een gewone (niet-gele) buis voor drinkwater of cv heeft die keuring niet en is niet zonder meer geschikt voor gas, los van de diameter.`
     },
     {
-      vraag: `Waarom heeft een kunststof leiding die door een brandscheiding gaat een brandmanchet nodig?`,
+      vraag: `Een monteur moet een Uponor GAS-meerlagenbuis door een brandwerende wand voeren en overweegt de opening gewoon dicht te kitten met een gewone brandwerende kit, zonder brandmanchet. Is dat voldoende?`,
       opties: [
-        `Om de leiding tegen vorst te beschermen, want een opzwellend materiaal isoleert net zo goed tegen kou als tegen brand`,
-        `Om te voorkomen dat de kunststof leiding gaat trillen`,
-        `Om de doorstroomcapaciteit van de leiding te vergroten`,
-        `Omdat een kunststof buis bij brand wegsmelt en zonder afdichting een open gat achterlaat waar vuur en rook doorheen kunnen; het opzwellende materiaal in de manchet drukt die opening dan dicht`
+        `Ja, zolang de kit zelf brandwerend gekeurd is, maakt het niet uit van welk materiaal de leiding zelf is`,
+        `Nee, zonder een voor deze toepassing beproefde voorziening zoals een brandmanchet blijft er bij brand een open gat over als de kunststof lagen van de buis wegsmelten; gewone kit dicht dat niet`,
+        `Ja, want de aluminium kern van een meerlagenbuis smelt niet weg bij brand, dus is kit hier voldoende`,
+        `Nee, maar dan is een standaard koudwaterfitting rond de doorvoer al genoeg bescherming`
       ],
-      goed: 3,
-      uitleg: `Een kunststof buis smelt bij brand weg en laat dan een open gat in de brandscheiding achter. Een brandmanchet bevat een opzwellend (grafiet)materiaal dat bij verhitting uitzet en de opening dichtdrukt, zodat de brandwerendheid van de scheiding behouden blijft. Vorstbescherming, trilling en doorstroomcapaciteit hebben hier niets mee te maken.`
+      goed: 1,
+      uitleg: `Ook een meerlagenbuis heeft kunststof lagen die bij brand wegsmelten: zonder een voor deze toepassing beproefde voorziening, zoals een brandmanchet volgens NEN-EN 1366-3, blijft er een open gat in de brandscheiding over waar vuur en rook doorheen kunnen. Gewone brandwerende kit is niet zo'n beproefde voorziening voor een leidingdoorvoer, de aluminium kern van de meerlagenbuis voorkomt het smelten van de kunststof lagen niet, en een gewone koudwaterfitting heeft hier geen functie.`
     },
     {
       vraag: `Waarom is het temperatuurbereik en de maximale werkdruk van meerlagenbuis geen algemeen getal dat voor elk merk geldt?`,
