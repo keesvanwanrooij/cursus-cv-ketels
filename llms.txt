@@ -16,6 +16,7 @@ Deze cursus is bedoeld voor aankomend cv-monteurs, zij-instromers en monteurs di
 - [1.4 Bedrijfscertificering: BRL 6000-25 en BRL K25000](https://keesvanwanrooij.github.io/cursus-cv-ketels/les/bedrijfscertificering-brl-6000-25-en-brl-k25000/): Je kunt het verschil uitleggen tussen persoonlijke en bedrijfscertificering en wat een bedrijf moet regelen.
 - [1.5 Bronnen en hiërarchie: wet, norm, fabrikant, werkinstructie](https://keesvanwanrooij.github.io/cursus-cv-ketels/les/bronnen-en-hierarchie-wet-norm-fabrikant-werkinstructie/): Je weet welke bron voorgaat bij strijdige informatie en hoe je bij twijfel de juiste voorschriften vindt.
 - [1.6 Afkeuren, melden en aansprakelijkheid](https://keesvanwanrooij.github.io/cursus-cv-ketels/les/afkeuren-melden-en-aansprakelijkheid/): Je weet wat je doet bij een onveilige situatie, hoe je vastlegt wat je vaststelt en waar je verantwoordelijkheid ligt.
+- [1.7 Veilig werken op locatie: hoogte, asbest en bescherming](https://keesvanwanrooij.github.io/cursus-cv-ketels/les/veilig-werken-op-locatie-hoogte-asbest-en-bescherming/): Je herkent de belangrijkste risico's op een werklocatie (hoogte, besloten ruimten, asbest, gaslucht) en weet welke maatregelen en grenzen daarbij gelden.
 
 ## Module 2: Warmte, energie en vermogen
 
