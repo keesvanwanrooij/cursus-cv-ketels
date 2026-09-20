@@ -515,7 +515,7 @@ Geeft de fabrikant geen maximale CO-waarde, dan noemt het schema (BRL 6000-25, n
 | Gesloten (type C) | 400 ppm |
 
 !!! kern Luchtvrij is een rekenmethode: of de wettelijke grenzen luchtvrij zijn, is niet vastgesteld
-Of de grenzen in de tabel luchtvrij zijn of zoals afgelezen, is niet vastgesteld: de tekst van de Omgevingsregeling en van de schema's zegt het niet, en BRL 6000-25 zegt dat de op het instrument aangegeven waarde leidend is. Gebruik de luchtvrije omrekening om metingen bij verschillende luchtovermaat te vergelijken. Beroep je er niet op als wettelijke beoordeling. Twijfel je, vraag je certificerende instelling of docent.
+Of de grenzen in de tabel luchtvrij zijn of zoals afgelezen, is niet vastgesteld: de tekst van de Omgevingsregeling en van de schema's zegt het niet, en BRL 6000-25 zegt dat de op het instrument aangegeven waarde leidend is. Gebruik de luchtvrije omrekening om metingen bij verschillende luchtovermaat te vergelijken. Beroep je er niet op als wettelijke beoordeling. Twijfel je, vraag je certificerende instelling of docent. Les [10.4](les:m10l04) werkt dit verder uit, met de letterlijke tekst van de wet en van beide meetprotocollen.
 !!!
 
 ?? Verdieping: de giftigheidsindex
@@ -576,7 +576,7 @@ Kiwa definieert de giftigheidsindex als (%CO / %CO2) × 100 en eist in de tegend
     { voor: `Hoe controleer je recirculatie in een concentrisch systeem?`, achter: `CO2 meten op het meetpunt van de luchttoevoer (gesloten mantel): buitenluchtwaarde, tot circa 1% door wind toelaatbaar, veel hoger wijst op interne lekkage.` },
     { voor: `Waar meet je CO bij een open toestel met trekonderbreker?`, achter: `In de trekonderbreker vóór de luchtbijmenging, anders is het monster verdund.` }
   ],
-  bronnen: ['VER-13', 'VER-15', 'CO-30', 'CO-31', 'CO-32', 'CO-33', 'CO-34', 'CO-35', 'CO-38', 'CO-40', 'CO-41', 'CO-45', 'CO-46', 'CO-47', 'WET-44', 'WET-45', 'WET-86', 'LUC-08', 'RGA-02', 'RGA-28', 'RGA-30', 'RGA-77', 'RGA-79', 'MET-11', 'MET-13', 'MET-14', 'MET-17']
+  bronnen: ['VER-13', 'VER-15', 'CO-30', 'CO-31', 'CO-32', 'CO-33', 'CO-34', 'CO-35', 'CO-38', 'CO-40', 'CO-41', 'CO-45', 'CO-46', 'CO-47', 'WET-44', 'WET-45', 'WET-86', 'LUC-08', 'RGA-02', 'RGA-28', 'RGA-30', 'RGA-77', 'RGA-79', 'MET-11', 'MET-13', 'MET-14', 'MET-17', 'MTN-01', 'MTN-02', 'MTN-05']
 },
 
 /* ------------------------------------------------------------------ 4.5 */
