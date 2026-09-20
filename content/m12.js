@@ -34,7 +34,7 @@ CURSUS.addModule({
       opties: [
         `Een blauwe meerlagenbuis voor drinkwater mag ook voor gas, want de buis is toch KIWA-gekeurd`,
         `Materiaal voor een gasleiding moet een Gastec QA-keuring voor gas hebben (bijvoorbeeld KE 5 voor koperen buis of KE 198 voor meerlagenbuis binnenshuis); een keuring voor drinkwater is niet automatisch een keuring voor gas`,
-        `Voor gas mag elk materiaal dat ook voor cv-water is toegelaten, omdat gas een lagere druk heeft dan cv-water in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere uitzonderingen in de dagelijkse installatiepra`,
+        `Voor gas mag elk materiaal dat ook voor cv-water is toegelaten, omdat gas in een woninginstallatie een lagere druk heeft dan cv-water; het drukverschil alleen bepaalt volgens deze gedachte dus of een materiaal geschikt is, ongeacht de toepassing waarvoor het oorspronkelijk bedoeld was`,
         `Een gasleiding mag van elk materiaal zijn zolang de fitting van hetzelfde merk is als de buis`
       ],
       goed: 1,
@@ -52,7 +52,7 @@ CURSUS.addModule({
         `Direct beginnen: een kruipruimte is te klein om brand te veroorzaken`,
         `Alleen een brandblusser meenemen, verder is voorbereiding niet nodig bij kortdurend werk`,
         `Brandbaar materiaal verwijderen of afschermen, blusmiddel binnen handbereik houden, en na het werk minimaal een uur de omgeving controleren op het ontstaan van brand`,
-        `Alleen ventileren tegen gasvorming, brandgevaar is bij solderen niet aan de orde in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere uitzonderingen in `
+        `Alleen ventileren tegen gasvorming, want brandgevaar zou volgens deze gedachte bij solderen sowieso niet aan de orde zijn, ook niet in een kruipruimte met een houten balklaag`
       ],
       goed: 2,
       uitleg: `Bij hete werkzaamheden hoort: brandbaar materiaal verwijderen of afschermen, een geschikt blusmiddel binnen handbereik, en een nacontrole van minstens een uur na afloop, ook in aangrenzende ruimten, omdat een beginnende brand in een verborgen ruimte lang onopgemerkt kan blijven. Een kruipruimte met een houten balklaag is juist een risicovolle plek voor deze werkzaamheden.`
@@ -61,7 +61,7 @@ CURSUS.addModule({
       vraag: `Wat is het verschil tussen een principeschema en een isometrische tekening op een installatietekening?`,
       opties: [
         `Een principeschema toont de functionele verbindingen tussen componenten, een isometrische tekening toont de werkelijke driedimensionale ligging van de leidingen`,
-        `Een principeschema en een isometrische tekening zijn twee namen voor dezelfde tekening in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere uitzond`,
+        `Een principeschema en een isometrische tekening zijn, volgens deze gedachte, gewoon twee namen voor dezelfde tekening en tonen dus exact dezelfde informatie, zonder enig verschil in wat ze laten zien`,
         `Een isometrische tekening toont alleen de symbolen-legenda, een principeschema toont de leidingroutes`,
         `Een principeschema is altijd op schaal 1:50, een isometrische tekening nooit`
       ],
@@ -83,7 +83,7 @@ CURSUS.addModule({
       vraag: `Wat is het functionele verschil tussen zacht solderen en hard solderen?`,
       opties: [
         `Zacht solderen gebruikt een brander op aardgas, hard solderen altijd op propaan`,
-        `Zacht solderen is alleen voor kunststof leidingen, hard solderen alleen voor metaal in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere uitzonderingen i`,
+        `Zacht solderen is, volgens deze bewering, uitsluitend geschikt voor kunststof leidingen, terwijl hard solderen dan weer uitsluitend voor metalen leidingen zou gelden, ongeacht de gebruikte brander`,
         `Zacht solderen gebruikt soldeer dat onder ongeveer 450 °C smelt, hard solderen (brazeren) gebruikt soldeer dat daarboven smelt en een hogere brandertemperatuur vraagt`,
         `Zacht solderen en hard solderen verschillen alleen in kleur van het soldeer, niet in smeltpunt`
       ],
@@ -94,7 +94,7 @@ CURSUS.addModule({
       vraag: `Waarom wordt een koperen gasleiding in de installatiepraktijk hard gesoldeerd en niet zacht gesoldeerd?`,
       opties: [
         `Omdat zacht solderen voor een gasleiding in de installatiepraktijk niet gebruikelijk is en wordt afgekeurd; welke methode een fitting toestaat, staat op de fitting of in de fabrikantvoorschriften`,
-        `Omdat zacht solderen alleen werkt op koudwaterleidingen, nooit op gasleidingen ongeacht temperatuur in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere uitzonderingen in de dagelijk`,
+        `Omdat zacht solderen, naar men aanneemt, uitsluitend op koudwaterleidingen zou werken en om die reden nooit op een gasleiding kan worden toegepast, ongeacht de temperatuur`,
         `Omdat hard solderen sneller gaat dan zacht solderen`,
         `Omdat zacht solderen een hogere temperatuur vraagt dan de meeste branders kunnen leveren`
       ],
@@ -106,7 +106,7 @@ CURSUS.addModule({
       opties: [
         `Niets: SC-Contur voorkomt dat een ongeperste verbinding ooit lekt`,
         `De verbinding lekt zichtbaar tussen 0,1 en 0,65 MPa, zodat de fout voor ingebruikname wordt ontdekt`,
-        `De fitting knapt volledig los van de buis, met waterschade als gevolg in de dagelijkse installatieprak`,
+        `De fitting knapt volledig los van de buis, met waterschade als gevolg zodra de installatie wordt gevuld`,
         `De verbinding blijft dicht tot de installatie een jaar in gebruik is en gaat daarna pas lekken`
       ],
       goed: 1,
@@ -116,17 +116,17 @@ CURSUS.addModule({
       vraag: `Een meerlagenbuis moet worden voorzien van een knelkoppeling. Wat doe je eerst?`,
       opties: [
         `De buis meteen in de fitting drukken, kalibreren is bij knelkoppelingen niet nodig`,
-        `De buis ontbramen en kalibreren, zodat hij weer precies rond is en de fitting goed en lekvrij aansluit`,
-        `De buis verwarmen met een brander om hem soepeler te maken in de dagelijkse installatiepraktijk op de wer`,
-        `De buis inkorten tot de helft van de oorspronkelijke lengte`
+        `De buis inkorten tot de helft van de oorspronkelijke lengte`,
+        `De buis verwarmen met een brander om hem soepeler te maken, zodat de fitting er zonder kalibreren overheen schuift`,
+        `De buis ontbramen en kalibreren, zodat hij weer precies rond is en de fitting goed en lekvrij aansluit`
       ],
-      goed: 1,
+      goed: 3,
       uitleg: `Na het afkorten van meerlagenbuis wordt eerst ontbraamd en gekalibreerd: de calibrator maakt de buis weer precies rond en verwijdert de braam aan de binnenzijde, zodat een knel- of persfitting goed aansluit. Verwarmen met een brander of het inkorten van de buis heeft hier geen functie.`
     },
     {
       vraag: `Een meerlagenbuis voor drinkwater (niet geel) wordt gebruikt voor een aardgasaansluiting. Wat is het probleem?`,
       opties: [
-        `Er is geen probleem, elke meerlagenbuis is geschikt voor gas in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere uitzonderingen in de dagelijkse installatieprak`,
+        `Er is geen probleem: elke meerlagenbuis zou, volgens deze gedachte, altijd geschikt zijn voor gas, ongeacht kleur of keurmerk`,
         `Alleen het uiterlijk is fout, technisch is er niets mis`,
         `Deze buis is niet Gastec QA-gekeurd voor gas (geen KE 198/212-keur) en is niet als gasgeschikt te herkennen aan de kleur; hij mag niet voor een gasaansluiting worden gebruikt`,
         `Het probleem is alleen dat de buis een andere diameter heeft dan gasbuis`
@@ -137,18 +137,18 @@ CURSUS.addModule({
     {
       vraag: `Waarom heeft een kunststof leiding die door een brandscheiding gaat een brandmanchet nodig?`,
       opties: [
-        `Om de leiding tegen vorst te beschermen in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere uitzonderingen in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere u`,
+        `Om de leiding tegen vorst te beschermen, want een opzwellend materiaal zou volgens deze gedachte ook isoleren tegen kou`,
         `Om te voorkomen dat de kunststof leiding gaat trillen`,
-        `Omdat een kunststof buis bij brand wegsmelt en zonder afdichting een open gat achterlaat waar vuur en rook doorheen kunnen; het opzwellende materiaal in de manchet drukt die opening dan dicht`,
-        `Om de doorstroomcapaciteit van de leiding te vergroten`
+        `Om de doorstroomcapaciteit van de leiding te vergroten`,
+        `Omdat een kunststof buis bij brand wegsmelt en zonder afdichting een open gat achterlaat waar vuur en rook doorheen kunnen; het opzwellende materiaal in de manchet drukt die opening dan dicht`
       ],
-      goed: 2,
+      goed: 3,
       uitleg: `Een kunststof buis smelt bij brand weg en laat dan een open gat in de brandscheiding achter. Een brandmanchet bevat een opzwellend (grafiet)materiaal dat bij verhitting uitzet en de opening dichtdrukt, zodat de brandwerendheid van de scheiding behouden blijft. Vorstbescherming, trilling en doorstroomcapaciteit hebben hier niets mee te maken.`
     },
     {
       vraag: `Waarom is het temperatuurbereik en de maximale werkdruk van meerlagenbuis geen algemeen getal dat voor elk merk geldt?`,
       opties: [
-        `Omdat de norm voor meerlagenbuis expliciet toestaat dat elk merk zijn eigen keuring overslaat in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere uitzonderingen in de dagelijkse installat`,
+        `Omdat de norm voor meerlagenbuis, volgens deze gedachte, elk merk toestaat om de eigen keuring over te slaan zodra het merk maar lang genoeg meegaat`,
         `Omdat de opbouw (kunststoflagen, aluminium kern) en de toepassing per fabrikant en systeem verschillen: bijvoorbeeld een Uponor GAS-systeem tot 100 mbar tegenover een Henco Alupex GAS-systeem tot 5 bar`,
         `Omdat meerlagenbuis nooit een keurmerk heeft en dus geen vaste specificatie kent`,
         `Omdat de temperatuur en druk uitsluitend van de binnendiameter afhangen, niet van het merk`
@@ -159,18 +159,18 @@ CURSUS.addModule({
     {
       vraag: `Wat is de functie van de stankafsluiter (sifon) met waterslot bij een lozingstoestel op de binnenriolering?`,
       opties: [
-        `Hij vertraagt de afvoer van water zodat het riool niet overbelast raakt in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere uitzonderingen in`,
+        `Hij vertraagt de afvoer van water, zodat het riool bij veel lozingstoestellen tegelijk niet overbelast raakt`,
         `Hij filtert vaste deeltjes uit het afvalwater`,
-        `Hij biedt met een waterslot van minimaal 50 mm weerstand tegen drukschommelingen in het rioleringsstelsel en voorkomt zo dat riooldamp de ruimte binnenkomt`,
-        `Hij zorgt voor het afschot van de leiding`
+        `Hij zorgt voor het afschot van de leiding`,
+        `Hij biedt met een waterslot van minimaal 50 mm weerstand tegen drukschommelingen in het rioleringsstelsel en voorkomt zo dat riooldamp de ruimte binnenkomt`
       ],
-      goed: 2,
+      goed: 3,
       uitleg: `De sifon met waterslot (minimaal 50 mm) biedt weerstand tegen drukschommelingen in de binnenriolering en houdt zo riooldamp en -lucht buiten de ruimte. Vertraging van de afvoer, filtering van vaste stoffen en het afschot van de leiding zijn geen functies van de sifon.`
     },
     {
       vraag: `Waarom wordt de condensafvoer van een cv-ketel altijd via een sifon op de riolering aangesloten, en niet rechtstreeks?`,
       opties: [
-        `Rechtstreeks aansluiten is sneller te monteren en daarom de norm in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere uitzonderingen in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere uitzonderingen`,
+        `Rechtstreeks aansluiten is sneller te monteren en is daarom, volgens deze gedachte, de gangbare norm, ook al ontbreekt dan de sifon die bij elk ander lozingstoestel verplicht is`,
         `Zonder sifon staat het condenscircuit in open verbinding met het riool, met kans op stank- en gasoverlast uit het riool naar het toestel; met sifon geldt dezelfde eis als bij elk ander lozingstoestel (waterslot van minimaal 50 mm)`,
         `Een sifon is alleen nodig bij een VR-toestel, niet bij een HR-toestel`,
         `Rechtstreeks aansluiten is verboden omdat het condensaat te heet is voor de sifon`
@@ -181,12 +181,12 @@ CURSUS.addModule({
     {
       vraag: `Waarom hangt de maximale beugelafstand van een leiding af van het materiaal en de diameter?`,
       opties: [
-        `Omdat de beugelafstand alleen een esthetische keuze is zonder technische reden in de dagelijkse installatiepraktijk op de werkvloer, zonder verdere uitzonderingen in de dagelijkse ins`,
-        `Omdat een grotere diameter en een stijver materiaal minder snel doorbuigen tussen twee steunpunten, waardoor de leiding verder uit elkaar gebeugeld kan worden zonder door te zakken`,
+        `Omdat de beugelafstand alleen een esthetische keuze is, zonder enige technische reden die met doorbuigen of materiaalsterkte te maken heeft`,
+        `Omdat beugelafstand alleen bij PVC-afvoer een rol speelt en niet bij koper of staal`,
         `Omdat een grotere diameter juist meer beugels per meter nodig heeft dan een kleine diameter`,
-        `Omdat beugelafstand alleen bij PVC-afvoer een rol speelt en niet bij koper of staal`
+        `Omdat een grotere diameter en een stijver materiaal minder snel doorbuigen tussen twee steunpunten, waardoor de leiding verder uit elkaar gebeugeld kan worden zonder door te zakken`
       ],
-      goed: 1,
+      goed: 3,
       uitleg: `Zowel bij PVC/PP-afvoer (bijvoorbeeld 10 keer de diameter, tot een maximum) als bij koperen en stalen leidingen geldt: een grotere diameter en een stijver materiaal buigen minder snel door, dus mag de beugelafstand groter zijn. Het is geen esthetische keuze en het geldt niet alleen voor PVC.`
     }
   ],
