@@ -654,13 +654,8 @@ Loop na de montage elke verbinding na: zit de afdichtring erin en op de juiste p
   quiz: [
     {
       vraag: `Waarom moet een horizontale rookgasleiding afschot naar het toestel hebben?`,
-      opties: [
-        `Zodat het rookgas sneller en met minder weerstand naar buiten stroomt`,
-        `Zodat condens kan terugstromen naar het toestel`,
-        `Omdat het Bbl 3 graden voorschrijft`,
-        `Zodat de leiding minder uitzet`
-      ],
-      goed: 1,
+      opties: [`Zodat condens kan terugstromen naar het toestel`, `Omdat het Bbl 3 graden voorschrijft`, `Zodat de leiding minder uitzet`, `Zodat het rookgas sneller en met minder weerstand naar buiten stroomt`],
+      goed: 0,
       uitleg: `Het afschot van 3 graden (50 mm per meter) loopt naar het toestel, zodat condens kan terugstromen. Het percentage komt uit fabrikant- en Rogafa-voorschriften, niet uit het Bbl. Het afschot heeft niets met uitzetting of stroomsnelheid te maken.`
     },
     {
@@ -671,13 +666,8 @@ Loop na de montage elke verbinding na: zit de afdichtring erin en op de juiste p
     },
     {
       vraag: `Een kunststof verbinding lijkt licht te lekken. Een collega wil hem met siliconenkit dichtzetten. Wat doe je?`,
-      opties: [
-        `Dat mag als de kit zuurvrij is`,
-        `Dat mag als je er ook een beugel bij plaatst`,
-        `Dat mag alleen bij het toestelaansluitstuk`,
-        `Nee: kitten, schuimen of plakken van verbindingen is verboden. Controleer of de afdichtring aanwezig en goed geplaatst is en herstel de verbinding volgens het voorschrift`
-      ],
-      goed: 3,
+      opties: [`Dat mag alleen bij het toestelaansluitstuk`, `Nee: kitten, schuimen of plakken van verbindingen is verboden. Controleer of de afdichtring aanwezig en goed geplaatst is en herstel de verbinding volgens het voorschrift`, `Dat mag als de kit zuurvrij is`, `Dat mag als je er ook een beugel bij plaatst`],
+      goed: 1,
       uitleg: `Kunststof afvoer wordt met steekverbindingen en afdichtringen gemaakt. Kitten is verboden, en een ontbrekende ring breng je alsnog aan met een originele ring van de juiste maat. Een lekkende verbinding op overdruk is een direct risico.`
     },
     {
@@ -693,13 +683,8 @@ Loop na de montage elke verbinding na: zit de afdichtring erin en op de juiste p
     },
     {
       vraag: `Wat is de minimale insteeklengte van een mof na montage volgens Rogafa en Ubbink, en wat geldt op het toestel zelf?`,
-      opties: [
-        `10 mm na montage, en op het toestel ook 10 mm, want de dilatatie vraagt om ruimte`,
-        `40 mm na montage, en op het toestel de waarde uit de handleiding (bij een Remeha Calenta 30 mm)`,
-        `50 mm overal, zowel bij de moffen in de leiding als bij de aansluiting op het toestel en op de schacht`,
-        `40 mm overal, ook op het toestel`
-      ],
-      goed: 1,
+      opties: [`40 mm overal, ook op het toestel`, `10 mm na montage, en op het toestel ook 10 mm, want de dilatatie vraagt om ruimte`, `40 mm na montage, en op het toestel de waarde uit de handleiding (bij een Remeha Calenta 30 mm)`, `50 mm overal, zowel bij de moffen in de leiding als bij de aansluiting op het toestel en op de schacht`],
+      goed: 2,
       uitleg: `40 mm na montage voor moffen en spie-einden, 50 mm vrij bij aansluiting op een schacht na het plaatsen van brandmanchetten. De aansluiting op het toestel kan afwijken: bij een Remeha Calenta is dat 30 mm. Daarom lees je altijd ook de handleiding van het toestel.`
     },
     {
@@ -1184,24 +1169,14 @@ BRL 6000-25 kent twee deelgebieden: (1) toestellen met individuele luchttoevoer 
   quiz: [
     {
       vraag: `Een collega noemt C4 "een gedeelde schoorsteen". Wat is C4?`,
-      opties: [
-        `Een aansluiting op een gemeenschappelijk CLV-systeem met twee kanalen, dat bij het gebouw hoort`,
-        `Een gemeenschappelijke schoorsteen voor meerdere open toestellen zonder eigen luchttoevoer voor elk toestel`,
-        `Een toestel zonder afvoer naar buiten dat zijn rookgas in de opstellingsruimte afgeeft`,
-        `Een individuele dakdoorvoer met concentrische lucht- en rookgasopening voor één toestel`
-      ],
-      goed: 0,
+      opties: [`Een gemeenschappelijke schoorsteen voor meerdere open toestellen zonder eigen luchttoevoer voor elk toestel`, `Een toestel zonder afvoer naar buiten dat zijn rookgas in de opstellingsruimte afgeeft`, `Een individuele dakdoorvoer met concentrische lucht- en rookgasopening voor één toestel`, `Een aansluiting op een gemeenschappelijk CLV-systeem met twee kanalen, dat bij het gebouw hoort`],
+      goed: 3,
       uitleg: `C4 is een type C-toestel op een gemeenschappelijk leidingsysteem voor meer dan één toestel met twee kanalen. Het systeem hoort bij het gebouw. Een gedeelde schoorsteen is het niet.`
     },
     {
       vraag: `Van een CLV waarop je werkt is geen geschiktheidsverklaring aanwezig. Wat moet je als installateur volgens BRL 6000-25 adviseren?`,
-      opties: [
-        `Niets: de VvE is verantwoordelijk voor het CLV en jij alleen voor je eigen toestel`,
-        `CO-melders adviseren in de opstelruimten van de toestellen`,
-        `De toestellen altijd buiten bedrijf stellen tot er een geschiktheidsverklaring is`,
-        `Het CLV zelf certificeren`
-      ],
-      goed: 1,
+      opties: [`Het CLV zelf certificeren`, `Niets: de VvE is verantwoordelijk voor het CLV en jij alleen voor je eigen toestel`, `CO-melders adviseren in de opstelruimten van de toestellen`, `De toestellen altijd buiten bedrijf stellen tot er een geschiktheidsverklaring is`],
+      goed: 2,
       uitleg: `Zonder geschiktheidsverklaring adviseer je CO-melders in de opstelruimten (par. 5.2.11). Het is een advies en geen plicht om ze te plaatsen. Buiten bedrijf stellen is aan de orde bij ontoelaatbare hoeveelheden CO.`
     },
     {
@@ -1217,24 +1192,14 @@ BRL 6000-25 kent twee deelgebieden: (1) toestellen met individuele luchttoevoer 
     },
     {
       vraag: `Een HR-toestel met ventilator is aangesloten op een collectief bouwkundig kanaal met natuurlijke trek (shunt). Wat is het risico?`,
-      opties: [
-        `Geen risico, want de ventilator zorgt voor voldoende trek`,
-        `Het toestel krijgt te weinig gas`,
-        `Rookgassen kunnen bij boven- of benedenburen naar binnen worden geblazen, en een shunt is niet geschikt voor condenserende rookgassen`,
-        `Het kanaal gaat sneller roesten`
-      ],
-      goed: 2,
+      opties: [`Het kanaal gaat sneller roesten`, `Geen risico, want de ventilator zorgt voor voldoende trek`, `Het toestel krijgt te weinig gas`, `Rookgassen kunnen bij boven- of benedenburen naar binnen worden geblazen, en een shunt is niet geschikt voor condenserende rookgassen`],
+      goed: 3,
       uitleg: `Een ventilator in een toestel kan rookgas in een kanaal met natuurlijke trek zo sterk voortstuwen dat het bij buren naar binnen komt. Een shuntkanaal is bovendien niet geschikt voor condenserende rookgassen.`
     },
     {
       vraag: `Mag het condensaat uit het gemeenschappelijke kanaal van een CLV via een van de aangesloten toestellen worden afgevoerd?`,
-      opties: [
-        `Ja, via het toestel op de laagste verdieping, want daar loopt het condensaat vanzelf naartoe`,
-        `Ja, als de sifon groot genoeg is`,
-        `Alleen bij een half CLV`,
-        `Nee: het CLV heeft een eigen condensafvoer die toegankelijk is voor inspectie en onderhoud`
-      ],
-      goed: 3,
+      opties: [`Alleen bij een half CLV`, `Nee: het CLV heeft een eigen condensafvoer die toegankelijk is voor inspectie en onderhoud`, `Ja, via het toestel op de laagste verdieping, want daar loopt het condensaat vanzelf naartoe`, `Ja, als de sifon groot genoeg is`],
+      goed: 1,
       uitleg: `Een CLV-systeem moet een toegankelijke condensafvoer hebben en het condensaat mag niet via een van de aangesloten toestellen worden afgevoerd.`
     },
     {

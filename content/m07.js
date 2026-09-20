@@ -30,41 +30,26 @@ CURSUS.addModule({
     },
     {
       vraag: `Waarom is het referentieregime van een radiator vastgelegd op 75/65/20 met een overtemperatuur van 50 K?`,
-      opties: [
-        `Omdat elke radiator in de praktijk altijd op precies die temperatuur wordt gestookt`,
-        `Om radiatoren van verschillende merken te kunnen vergelijken`,
-        `Omdat een radiator bij een lagere temperatuur onherstelbaar beschadigd zou raken`,
-        `Omdat de wet dit regime voor elk verwarmingstoestel verplicht voorschrijft`
-      ],
-      goed: 1,
+      opties: [`Omdat de wet dit regime voor elk verwarmingstoestel verplicht voorschrijft`, `Omdat elke radiator in de praktijk altijd op precies die temperatuur wordt gestookt`, `Om radiatoren van verschillende merken te kunnen vergelijken`, `Omdat een radiator bij een lagere temperatuur onherstelbaar beschadigd zou raken`],
+      goed: 2,
       uitleg: `Een vast referentieregime maakt het mogelijk om het genormeerde vermogen van verschillende radiatoren onderling te vergelijken. In de praktijk wordt juist vaak op een andere, vaak lagere temperatuur gestookt (dat is precies het onderwerp van deze module), en het is geen wettelijke verplichting voor elk toestel.`
     },
     {
       vraag: `Een Remeha Calenta 25s levert bij een nominale belasting van 25,0 kW (Hi) 24,8 kW bij regime 80/60 en 25,5 kW bij regime 50/30. Wat verklaart dit verschil?`,
-      opties: [
-        `Bij 50/30 verbruikt de ketel merkbaar meer gas per geleverde kWh`,
-        `Bij 80/60 draait de ventilator van de ketel duidelijk harder`,
-        `Bij 50/30 ligt de retourtemperatuur ver onder het condensatiepunt`,
-        `Het verschil komt uitsluitend door een meetfout in de fabrieksgegevens`
-      ],
-      goed: 2,
+      opties: [`Bij 80/60 draait de ventilator van de ketel duidelijk harder`, `Bij 50/30 ligt de retourtemperatuur ver onder het condensatiepunt`, `Het verschil komt uitsluitend door een meetfout in de fabrieksgegevens`, `Bij 50/30 verbruikt de ketel merkbaar meer gas per geleverde kWh`],
+      goed: 1,
       uitleg: `Een lagere retourtemperatuur laat meer waterdamp condenseren, wat de latente warmte aan het cv-water toevoegt en het rendement op onderwaarde boven 100 procent kan brengen. Gasverbruik per kWh, ventilatortoerental en een meetfout zijn hier niet de verklaring.`
     },
     {
       vraag: `Bij lage temperatuur (aanvoer onder 45 graden) geeft een radiator bij gelijke afmeting ongeveer hoeveel keer minder vermogen dan bij hoge temperatuur, volgens Buildwise?`,
-      opties: [`1,5 keer minder`, `2 keer minder`, `10 keer minder`, `3 keer minder`],
-      goed: 3,
+      opties: [`3 keer minder`, `1,5 keer minder`, `2 keer minder`, `10 keer minder`],
+      goed: 0,
       uitleg: `Buildwise noemt ongeveer 3 keer minder vermogen bij gelijke afmeting. Dat is een vuistregel, geen exacte waarde voor elk regime: gebruik de exponentformule voor een preciezere berekening.`
     },
     {
       vraag: `Wat is het verschil tussen een LT-radiator (bijvoorbeeld Jaga Strada Hybrid) en een LT-convector met ventilator (bijvoorbeeld Jaga Mini Canal Hybrid)?`,
-      opties: [
-        `Alleen de LT-convector heeft een ventilator`,
-        `Een LT-radiator heeft juist wel een ventilator, een LT-convector niet`,
-        `Er bestaat geen echt verschil tussen deze twee productnamen`,
-        `Een LT-convector werkt uitsluitend bij een hoge aanvoertemperatuur`
-      ],
-      goed: 0,
+      opties: [`Er bestaat geen echt verschil tussen deze twee productnamen`, `Een LT-convector werkt uitsluitend bij een hoge aanvoertemperatuur`, `Alleen de LT-convector heeft een ventilator`, `Een LT-radiator heeft juist wel een ventilator, een LT-convector niet`],
+      goed: 2,
       uitleg: `Een LT-radiator (voorbeeld Strada Hybrid) werkt zonder ventilator op lage temperatuur; een LT-convector met ventilator (voorbeeld Mini Canal Hybrid) gebruikt de ventilator juist om bij lage temperatuur veel meer warmte af te geven. De andere opties keren dit om of ontkennen het verschil onterecht.`
     },
     {
@@ -80,24 +65,14 @@ CURSUS.addModule({
     },
     {
       vraag: `Wat is de maximale oppervlaktetemperatuur van vloerverwarming in de verblijfszone, en waarom ligt die grens er?`,
-      opties: [
-        `Ongeveer 50 graden, gelijk aan de maximale aanvoertemperatuur van het water`,
-        `Er bestaat geen maximale temperatuur voor een afgewerkte vloer`,
-        `Ongeveer 29 graden, vanwege comfort en de vloerafwerking`,
-        `Ongeveer 60 graden, gelijk aan de temperatuur van warm tapwater`
-      ],
-      goed: 2,
+      opties: [`Ongeveer 60 graden, gelijk aan de temperatuur van warm tapwater`, `Ongeveer 50 graden, gelijk aan de maximale aanvoertemperatuur van het water`, `Er bestaat geen maximale temperatuur voor een afgewerkte vloer`, `Ongeveer 29 graden, vanwege comfort en de vloerafwerking`],
+      goed: 3,
       uitleg: `De grens van ongeveer 29 graden in de verblijfszone houdt rekening met comfort voor de huid en met de vloerafwerking. De maximale aanvoertemperatuur van het water (bijvoorbeeld 50 graden bij een Rehau-voorbeeld) is een andere, hogere grens die niet gelijk is aan de oppervlaktetemperatuur.`
     },
     {
       vraag: `Waarom is een mengverdeler met eigen pomp nodig als een cv-ketel op ongeveer 80 graden zowel radiatoren als vloerverwarming voedt?`,
-      opties: [
-        `Om het debiet naar de radiatoren flink extra te verhogen`,
-        `Om de druk in de gehele installatie te verlagen`,
-        `Om de productie van warm tapwater te ondersteunen`,
-        `Om het ketelwater te mengen tot een lagere temperatuur`
-      ],
-      goed: 3,
+      opties: [`Om de druk in de gehele installatie te verlagen`, `Om de productie van warm tapwater te ondersteunen`, `Om het ketelwater te mengen tot een lagere temperatuur`, `Om het debiet naar de radiatoren flink extra te verhogen`],
+      goed: 2,
       uitleg: `De mengverdeler verlaagt de temperatuur van het aanvoerwater naar de vloerverwarming door het te mengen met retourwater. Debietverhoging naar radiatoren, drukverlaging in het geheel en tapwaterproductie zijn geen functies van deze mengverdeler.`
     },
     {
@@ -108,13 +83,8 @@ CURSUS.addModule({
     },
     {
       vraag: `Een driewegklepset (voorbeeld Intergas) splitst een installatie in een hogetemperatuurzone en een laagtemperatuurzone. Wat is de functie van de aanlegsensor op de laagtemperatuurzone?`,
-      opties: [
-        `Hij meet de gasdruk vlak voor de branderautomaat`,
-        `Hij bewaakt de vloerverwarmingszone als beveiliging`,
-        `Hij regelt de kamertemperatuur van de andere zone apart`,
-        `Hij meet het debiet van elke radiator afzonderlijk`
-      ],
-      goed: 1,
+      opties: [`Hij regelt de kamertemperatuur van de andere zone apart`, `Hij meet het debiet van elke radiator afzonderlijk`, `Hij meet de gasdruk vlak voor de branderautomaat`, `Hij bewaakt de vloerverwarmingszone als beveiliging`],
+      goed: 3,
       uitleg: `De aanlegsensor bewaakt de temperatuur van de laagtemperatuurzone (de vloerverwarming) en schakelt de brander uit als de veiligheidstemperatuur wordt overschreden. Gasdruk, kamertemperatuur van de andere zone en radiatordebiet zijn geen taken van deze sensor.`
     },
     {
@@ -130,35 +100,20 @@ CURSUS.addModule({
     },
     {
       vraag: `Wat is de eerste stap bij het beoordelen van een afgiftesysteem dat het bij een lagere temperatuur niet warm genoeg lijkt te krijgen?`,
-      opties: [
-        `Meteen alle radiatoren vervangen door nieuwe LT-radiatoren`,
-        `Wachten tot de volgende storing en dan pas kijken`,
-        `Direct de bestaande ketel vervangen door een warmtepomp`,
-        `Eerst testen, dan pas oordelen`
-      ],
-      goed: 3,
+      opties: [`Direct de bestaande ketel vervangen door een warmtepomp`, `Eerst testen, dan pas oordelen`, `Meteen alle radiatoren vervangen door nieuwe LT-radiatoren`, `Wachten tot de volgende storing en dan pas kijken`],
+      goed: 1,
       uitleg: `Een praktijktest op een koude dag, samen met het controleren van debiet, kranen en lucht in het systeem, geeft de basis voor een gerichte beoordeling. Meteen vervangen of wachten op een storing slaat de beoordeling over en kan tot onnodige kosten of onopgeloste klachten leiden.`
     },
     {
       vraag: `Waarom geeft een geschiktheidstest voor lage temperatuur die alleen bij mild weer wordt uitgevoerd een onbetrouwbaar beeld?`,
-      opties: [
-        `Klachten komen vooral naar voren op de koudste dagen`,
-        `De ketel verbruikt bij mild weer merkbaar minder gas`,
-        `De retourtemperatuur is bij mild weer niet goed meetbaar`,
-        `Een test bij mild weer is volgens de wet niet geldig`
-      ],
-      goed: 0,
+      opties: [`De ketel verbruikt bij mild weer merkbaar minder gas`, `De retourtemperatuur is bij mild weer niet goed meetbaar`, `Een test bij mild weer is volgens de wet niet geldig`, `Klachten komen vooral naar voren op de koudste dagen`],
+      goed: 3,
       uitleg: `Bij mild weer is de warmtevraag laag, waardoor een tekort aan vermogen niet aan het licht komt. Pas bij lage buitentemperaturen wordt het afgiftesysteem echt op de proef gesteld. De andere opties zijn geen juiste verklaring.`
     },
     {
       vraag: `Een ruimte krijgt bij regime 55/45/20 onvoldoende vermogen van de bestaande radiator, maar het tekort is klein. Wat is een logische, eenvoudige eerste maatregel voor je de radiator vervangt?`,
-      opties: [
-        `Direct de hele woning ombouwen naar vloerverwarming`,
-        `Een ventilator aan de bestaande radiator toevoegen`,
-        `De warmteverliesberekening van de ruimte gewoon negeren`,
-        `De ruimte voortaan maar helemaal niet meer verwarmen`
-      ],
-      goed: 1,
+      opties: [`De ruimte voortaan maar helemaal niet meer verwarmen`, `Direct de hele woning ombouwen naar vloerverwarming`, `Een ventilator aan de bestaande radiator toevoegen`, `De warmteverliesberekening van de ruimte gewoon negeren`],
+      goed: 2,
       uitleg: `Een ventilator kan het vermogen van een bestaande radiator met ongeveer 25 procent verhogen, wat een klein tekort vaak al oplost, en is eenvoudiger dan de hele woning ombouwen. De berekening negeren of de ruimte niet meer verwarmen zijn geen oplossingen.`
     }
   ],
@@ -233,58 +188,38 @@ Een radiator die op lage temperatuur te weinig vermogen geeft, dwingt de ketel n
   quiz: [
     {
       vraag: `Een radiator heeft een genormeerd vermogen van 1800 W bij het referentieregime. Bij regime 60/50/20 (delta T 35 K) is het vermogen met exponent n = 1,3 ongeveer:`,
-      opties: [`1800 W (verandert niet)`, `1260 W (lineair met delta T)`, `1130 W (met de exponentformule)`, `882 W (kwadratisch met delta T)`],
-      goed: 2,
+      opties: [`1260 W (lineair met delta T)`, `1130 W (met de exponentformule)`, `882 W (kwadratisch met delta T)`, `1800 W (verandert niet)`],
+      goed: 1,
       uitleg: `(35 / 50)^1,3 is ongeveer 0,63, dus 1800 x 0,63 is ongeveer 1130 W. Lineair rekenen (1260 W) onderschat de daling, kwadratisch rekenen (882 W) overschat hem, en aannemen dat het vermogen niet verandert (1800 W) klopt al helemaal niet.`
     },
     {
       vraag: `Waarom daalt het vermogen van een radiator sneller dan het temperatuurverschil zelf als je de aanvoertemperatuur verlaagt?`,
-      opties: [
-        `Omdat de radiator dan minder water bevat`,
-        `Omdat de exponent in de vermogensformule groter is dan 1`,
-        `Omdat de pomp minder hard moet werken bij een lagere temperatuur`,
-        `Omdat de ketel het debiet dan automatisch verlaagt`
-      ],
-      goed: 1,
+      opties: [`Omdat de pomp minder hard moet werken bij een lagere temperatuur`, `Omdat de ketel het debiet dan automatisch verlaagt`, `Omdat de radiator dan minder water bevat`, `Omdat de exponent in de vermogensformule groter is dan 1`],
+      goed: 3,
       uitleg: `De formule Phi = Km x (delta T)^n heeft een exponent n van ongeveer 1,3. Omdat n groter is dan 1, daalt het vermogen sneller dan delta T zelf: een halvering van delta T geeft dus minder dan de helft van het vermogen. Waterinhoud, pompwerking en debiet spelen hier geen rol in.`
     },
     {
       vraag: `Twee radiatoren hebben dezelfde buitenafmeting: een kale ledenradiator zonder convectieplaat en een paneelradiator met convectieplaat. Wat is het meest waarschijnlijke verschil in vermogen bij hetzelfde regime?`,
-      opties: [
-        `Ze hebben altijd precies hetzelfde vermogen bij gelijke afmeting`,
-        `De ledenradiator heeft meer vermogen, omdat gietijzer beter warmte geleidt`,
-        `De paneelradiator met convectieplaat heeft meestal meer vermogen, doordat de plaat extra lucht laat convecteren`,
-        `Het vermogen hangt alleen af van het watervolume, niet van de vorm`
-      ],
-      goed: 2,
+      opties: [`De ledenradiator heeft meer vermogen, omdat gietijzer beter warmte geleidt`, `De paneelradiator met convectieplaat heeft meestal meer vermogen, doordat de plaat extra lucht laat convecteren`, `Het vermogen hangt alleen af van het watervolume, niet van de vorm`, `Ze hebben altijd precies hetzelfde vermogen bij gelijke afmeting`],
+      goed: 1,
       uitleg: `Een convectieplaat vergroot het effectieve warmteafgevend oppervlak en verhoogt de luchtstroming langs de radiator, wat meer vermogen geeft bij gelijke buitenafmeting. Het materiaal van de radiator (gietijzer of staal) is hier niet de verklarende factor.`
     },
     {
       vraag: `Een convector en een paneelradiator hebben dezelfde buitenafmeting. Wat geldt meestal?`,
-      opties: [
-        `De convector heeft meestal meer vermogen dan de radiator`,
-        `De radiator heeft meestal meer vermogen dan de convector`,
-        `Ze hebben nooit een verschillend vermogen bij gelijke afmeting`,
-        `Het vermogen van een convector hangt niet af van de watertemperatuur`
-      ],
-      goed: 0,
+      opties: [`De radiator heeft meestal meer vermogen dan de convector`, `Ze hebben nooit een verschillend vermogen bij gelijke afmeting`, `Het vermogen van een convector hangt niet af van de watertemperatuur`, `De convector heeft meestal meer vermogen dan de radiator`],
+      goed: 3,
       uitleg: `Een convector heeft veel lamellenoppervlak in een compacte ombouw, waardoor hij bij dezelfde buitenafmeting meestal meer vermogen heeft dan een radiator. Ook een convector volgt overigens dezelfde temperatuurafhankelijkheid als een radiator: bij lage temperatuur daalt zijn vermogen net zo goed.`
     },
     {
       vraag: `Een Jaga LT-convector met ventilator (voorbeeld: Mini Canal Hybrid) geeft bij lage temperatuur ongeveer hoeveel keer zoveel warmte als zonder ventilator?`,
-      opties: [`1,5 keer zoveel`, `2 keer zoveel`, `10 keer zoveel`, `3 tot 4 keer zoveel`],
-      goed: 3,
+      opties: [`2 keer zoveel`, `10 keer zoveel`, `3 tot 4 keer zoveel`, `1,5 keer zoveel`],
+      goed: 2,
       uitleg: `Jaga noemt voor dit model 3 tot 4 keer zoveel warmteafgifte met het ventilatorsysteem dan zonder. Dat is een voorbeeld van dit merk en model: een ander merk of model kan een andere verhouding hebben.`
     },
     {
       vraag: `Bij welke radiator wijkt de exponentformule (Phi = Km x delta T^n) volgens onderzoek het meest af van de werkelijke warmteafgifte?`,
-      opties: [
-        `Bij een kale ledenradiator zonder convectieplaat`,
-        `Bij een paneelradiator met convectieplaat, vooral bij een laag waterdebiet`,
-        `Bij elke radiator, ongeacht het debiet`,
-        `Bij geen enkele radiator: de formule is altijd exact`
-      ],
-      goed: 1,
+      opties: [`Bij een paneelradiator met convectieplaat, vooral bij een laag waterdebiet`, `Bij elke radiator, ongeacht het debiet`, `Bij geen enkele radiator: de formule is altijd exact`, `Bij een kale ledenradiator zonder convectieplaat`],
+      goed: 0,
       uitleg: `Bij radiatoren met een convectieplaat wijkt de voorspelde warmteafgifte bij een laag debiet tot ongeveer 10 procent af van metingen, omdat de temperatuurverdeling in het water dan afwijkt van de aanname in de formule. Bij een radiator zonder convectieplaat blijft de formule betrouwbaarder.`
     }
   ],
@@ -358,30 +293,20 @@ Onder het condensatiepunt condenseert er steeds meer waterdamp naarmate de retou
   quiz: [
     {
       vraag: `Een HR-ketel condenseert meer waterdamp uit de rookgassen naarmate:`,
-      opties: [
-        `de retourtemperatuur lager is`,
-        `de aanvoertemperatuur hoger is`,
-        `het debiet lager is`,
-        `de ketel meer vermogen levert`
-      ],
-      goed: 0,
+      opties: [`het debiet lager is`, `de ketel meer vermogen levert`, `de retourtemperatuur lager is`, `de aanvoertemperatuur hoger is`],
+      goed: 2,
       uitleg: `De retourtemperatuur bepaalt hoe ver de rookgastemperatuur onder het condensatiepunt (ongeveer 55 graden bij de Remeha Calenta) komt. Aanvoertemperatuur, debiet en geleverd vermogen zijn niet de bepalende factor voor condensatie.`
     },
     {
       vraag: `Een ketel met een nominale belasting van 30,0 kW (Hi) levert bij regime 45/30 een vermogen van 30,6 kW. Wat is het rendement op onderwaarde bij dit regime?`,
-      opties: [`98,0 %`, `100,0 %`, `102,0 %`, `106,0 %`],
-      goed: 2,
+      opties: [`102,0 %`, `106,0 %`, `98,0 %`, `100,0 %`],
+      goed: 0,
       uitleg: `30,6 / 30,0 = 1,02, dus 102,0 procent. Een rendement boven 100 procent op onderwaarde is normaal bij een HR-ketel die condenseert: de latente warmte uit de waterdamp komt erbij.`
     },
     {
       vraag: `Waarom kun je de aanvoertemperatuur van een ketel niet zomaar verlagen zonder de afgifte te controleren?`,
-      opties: [
-        `Omdat de ketel dan in storing valt zodra de aanvoer onder 60 graden komt`,
-        `Omdat radiatoren bij een lagere temperatuur veel minder vermogen geven, waardoor de woning kouder kan blijven`,
-        `Omdat een lagere aanvoertemperatuur het condenswater laat bevriezen in de sifon`,
-        `Omdat de pomp dan buiten zijn werkgebied komt en kapot kan raken`
-      ],
-      goed: 1,
+      opties: [`Omdat een lagere aanvoertemperatuur het condenswater laat bevriezen in de sifon`, `Omdat de pomp dan buiten zijn werkgebied komt en kapot kan raken`, `Omdat de ketel dan in storing valt zodra de aanvoer onder 60 graden komt`, `Omdat radiatoren bij een lagere temperatuur veel minder vermogen geven, waardoor de woning kouder kan blijven`],
+      goed: 3,
       uitleg: `Uit les 7.1: het vermogen van een radiator daalt sterker dan het temperatuurverschil. Bij een te lage aanvoer geeft de radiator te weinig warmte en blijft de woning koud. De andere opties zijn niet de reden waarom je dit eerst moet controleren.`
     },
     {
@@ -392,24 +317,14 @@ Onder het condensatiepunt condenseert er steeds meer waterdamp naarmate de retou
     },
     {
       vraag: `Een installatie stookt op regime 45/35/20 in plaats van 75/65/20. Wat is het gevolg voor het benodigde debiet bij hetzelfde vermogen?`,
-      opties: [
-        `Het debiet moet lager zijn, omdat het water minder snel afkoelt`,
-        `Het debiet verandert niet, want dat hangt alleen af van de pompinstelling`,
-        `Het debiet wordt onbepaald zonder de retourtemperatuur te meten`,
-        `Het debiet moet hoger zijn, omdat het temperatuurverschil tussen aanvoer en retour kleiner is`
-      ],
-      goed: 3,
+      opties: [`Het debiet wordt onbepaald zonder de retourtemperatuur te meten`, `Het debiet moet hoger zijn, omdat het temperatuurverschil tussen aanvoer en retour kleiner is`, `Het debiet moet lager zijn, omdat het water minder snel afkoelt`, `Het debiet verandert niet, want dat hangt alleen af van de pompinstelling`],
+      goed: 1,
       uitleg: `Uit de debietformule (vermogen gedeeld door 1,163 keer delta T) volgt dat een kleiner delta T bij hetzelfde vermogen een groter debiet vraagt. De pompinstelling is het gevolg van die eis, niet de oorzaak.`
     },
     {
       vraag: `Waarom levert de eerste stap onder het condensatiepunt meestal de grootste rendementswinst op, en de volgende stappen steeds minder?`,
-      opties: [
-        `Omdat de ketel bij een lagere retour minder gas verbruikt per graad`,
-        `Omdat de meeropbrengst van verder dalende retourtemperatuur afneemt naarmate je al lager zit`,
-        `Omdat de ketel onder een bepaalde temperatuur automatisch uitschakelt`,
-        `Omdat het rendement lineair blijft stijgen, zonder afvlakking`
-      ],
-      goed: 1,
+      opties: [`Omdat de ketel onder een bepaalde temperatuur automatisch uitschakelt`, `Omdat het rendement lineair blijft stijgen, zonder afvlakking`, `Omdat de ketel bij een lagere retour minder gas verbruikt per graad`, `Omdat de meeropbrengst van verder dalende retourtemperatuur afneemt naarmate je al lager zit`],
+      goed: 3,
       uitleg: `De relatie tussen retourtemperatuur en rendement is geen rechte lijn: de grootste winst zit in de eerste stap onder het condensatiepunt, en elke volgende stap levert minder extra rendement op. Lineair blijven denken (optie 4) klopt dus niet.`
     }
   ],
@@ -488,63 +403,38 @@ De opwarmtijd en de warmteafgifte per vierkante meter hangen af van de buisafsta
   quiz: [
     {
       vraag: `Waarom kan vloerverwarming met een veel lagere aanvoertemperatuur werken dan een radiator?`,
-      opties: [
-        `Omdat de vloer een veel groter oppervlak heeft`,
-        `Omdat het water in de vloer duidelijk sneller stroomt dan in een radiator`,
-        `Omdat vloerverwarming geen retourwater heeft`,
-        `Omdat de dekvloer het water extra opwarmt`
-      ],
-      goed: 0,
+      opties: [`Omdat de dekvloer het water extra opwarmt`, `Omdat de vloer een veel groter oppervlak heeft`, `Omdat het water in de vloer duidelijk sneller stroomt dan in een radiator`, `Omdat vloerverwarming geen retourwater heeft`],
+      goed: 1,
       uitleg: `Een groot oppervlak hoeft maar weinig warmer te zijn dan de ruimte om voldoende vermogen te leveren. Snelheid van het water, het al dan niet hebben van retourwater en opwarming door de dekvloer zijn hier niet de verklaring.`
     },
     {
       vraag: `Wat is een kenmerkend verschil tussen een nat en een droog vloerverwarmingssysteem?`,
-      opties: [
-        `Een nat systeem heeft altijd meer vermogen dan een droog systeem`,
-        `Een droog systeem heeft juist een grotere thermische massa en warmt merkbaar langzamer op`,
-        `Een nat systeem heeft meer massa en warmt dus langzamer op`,
-        `Een droog systeem kan niet op een houten vloerconstructie worden toegepast`
-      ],
-      goed: 2,
+      opties: [`Een droog systeem kan niet op een houten vloerconstructie worden toegepast`, `Een nat systeem heeft altijd meer vermogen dan een droog systeem`, `Een droog systeem heeft juist een grotere thermische massa en warmt merkbaar langzamer op`, `Een nat systeem heeft meer massa en warmt dus langzamer op`],
+      goed: 3,
       uitleg: `De dekvloer van een nat systeem geeft veel thermische massa, waardoor het systeem langzamer opwarmt en afkoelt. Een droog systeem heeft minder massa en reageert sneller, en is juist wel geschikt op een houten vloerconstructie.`
     },
     {
       vraag: `Een badkamer wordt verbouwd met maar 6,5 cm ruimte tussen de bestaande vloer en de tegelafwerking. Welk systeem past hier het best?`,
-      opties: [
-        `Een nat systeem, want dat is in alle gevallen beter geïsoleerd dan droog`,
-        `Een droog systeem: dat kan al vanaf ongeveer 6 cm`,
-        `Geen van beide: vloerverwarming past nooit in minder dan 10 cm`,
-        `Een nat systeem zonder isolatielaag om hoogte te besparen`
-      ],
-      goed: 1,
+      opties: [`Een nat systeem zonder isolatielaag om hoogte te besparen`, `Een nat systeem, want dat is in alle gevallen beter geïsoleerd dan droog`, `Een droog systeem: dat kan al vanaf ongeveer 6 cm`, `Geen van beide: vloerverwarming past nooit in minder dan 10 cm`],
+      goed: 2,
       uitleg: `Een droog systeem heeft een minimale inbouwhoogte van ongeveer 6 cm en past hier net. Een nat systeem vraagt 18 tot 20 cm en past niet. Een isolatielaag weglaten bij een nat systeem is geen oplossing: dan verdwijnt warmte naar de constructie onder de vloer.`
     },
     {
       vraag: `Wat is de maximale oppervlaktetemperatuur van vloerverwarming in de gewone verblijfszone van een woonkamer?`,
-      opties: [`24 graden`, `35 graden`, `40 graden`, `29 graden`],
-      goed: 3,
+      opties: [`40 graden`, `29 graden`, `24 graden`, `35 graden`],
+      goed: 1,
       uitleg: `De grens voor de verblijfszone ligt op ongeveer 29 graden. 35 graden is de grens voor de randzone, waar meer warmteafgifte nodig is, bijvoorbeeld bij een grote glaspartij. 24 en 40 graden horen niet bij deze norm.`
     },
     {
       vraag: `Wat regelt ISSO-publicatie 49 in Nederland?`,
-      opties: [
-        `De keuring van gasverbrandingstoestellen`,
-        `Het ontwerp van vloerverwarming, aansluitend bij EN 1264`,
-        `De maximale gasdruk in een woninginstallatie`,
-        `De certificering van monteurs voor werken aan gasverbrandingstoestellen`
-      ],
-      goed: 1,
+      opties: [`De maximale gasdruk in een woninginstallatie`, `De certificering van monteurs voor werken aan gasverbrandingstoestellen`, `De keuring van gasverbrandingstoestellen`, `Het ontwerp van vloerverwarming, aansluitend bij EN 1264`],
+      goed: 3,
       uitleg: `ISSO 49 is de Nederlandse ontwerprichtlijn voor vloerverwarming en -koeling en sluit aan bij EN 1264. Gaskeuring, gasdruk en monteurscertificering staan in andere delen van deze cursus (module 1 en 8).`
     },
     {
       vraag: `Een vloerafwerking met een dikke tapijtlaag isoleert meer dan tegels. Wat betekent dat voor de benodigde watertemperatuur bij hetzelfde vermogen?`,
-      opties: [
-        `De watertemperatuur kan lager zijn dan bij tegels`,
-        `De watertemperatuur maakt bij tapijt eigenlijk helemaal niets uit`,
-        `De watertemperatuur moet hoger zijn, tot de toegestane grens`,
-        `Tapijt kan nooit met vloerverwarming worden gecombineerd`
-      ],
-      goed: 2,
+      opties: [`De watertemperatuur maakt bij tapijt eigenlijk helemaal niets uit`, `De watertemperatuur moet hoger zijn, tot de toegestane grens`, `Tapijt kan nooit met vloerverwarming worden gecombineerd`, `De watertemperatuur kan lager zijn dan bij tegels`],
+      goed: 1,
       uitleg: `Een beter isolerende vloerafwerking heeft meer warmteweerstand, dus is bij hetzelfde vermogen een hogere watertemperatuur nodig, zolang die binnen de toegestane grens blijft. Tapijt is dus niet uitgesloten, maar vraagt wel meer aandacht bij het ontwerp.`
     }
   ],
@@ -622,13 +512,8 @@ Sluit je een vloerverwarmingsverdeler met een eigen pomp aan op de ketel, zorg d
   quiz: [
     {
       vraag: `Wat is de functie van de verdeler van een vloerverwarmingssysteem?`,
-      opties: [
-        `Hij verlaagt de watertemperatuur naar het niveau dat de vloer nodig heeft`,
-        `Hij verdeelt het aangevoerde water gericht over de aangesloten kringen`,
-        `Hij regelt de kamertemperatuur rechtstreeks zonder thermostaat`,
-        `Hij verhoogt de druk in het vloerverwarmingscircuit`
-      ],
-      goed: 1,
+      opties: [`Hij verdeelt het aangevoerde water gericht over de aangesloten kringen`, `Hij regelt de kamertemperatuur rechtstreeks zonder thermostaat`, `Hij verhoogt de druk in het vloerverwarmingscircuit`, `Hij verlaagt de watertemperatuur naar het niveau dat de vloer nodig heeft`],
+      goed: 0,
       uitleg: `De verdeler verdeelt het debiet over de kringen; het verlagen van de temperatuur is de taak van de mengklep of mengverdeler, niet van de verdeler zelf. Kamerregeling en drukverhoging zijn functies van andere onderdelen.`
     },
     {
@@ -644,41 +529,26 @@ Sluit je een vloerverwarmingsverdeler met een eigen pomp aan op de ketel, zorg d
     },
     {
       vraag: `Wat is het verschil tussen de maximale aanvoertemperatuur van het water naar de vloer (een fabrikant noemt als voorbeeld 50 graden) en de maximale oppervlaktetemperatuur van de afgewerkte vloer?`,
-      opties: [
-        `Er is geen verschil: beide grenzen zijn altijd gelijk`,
-        `De oppervlaktetemperatuur van de vloer ligt in werkelijkheid hoger dan de aanvoertemperatuur van het water`,
-        `De aanvoertemperatuur van het water ligt hoger dan de oppervlaktetemperatuur`,
-        `De aanvoertemperatuur geldt alleen voor droge systemen, de oppervlaktetemperatuur alleen voor natte systemen`
-      ],
-      goed: 2,
+      opties: [`De oppervlaktetemperatuur van de vloer ligt in werkelijkheid hoger dan de aanvoertemperatuur van het water`, `De aanvoertemperatuur van het water ligt hoger dan de oppervlaktetemperatuur`, `De aanvoertemperatuur geldt alleen voor droge systemen, de oppervlaktetemperatuur alleen voor natte systemen`, `Er is geen verschil: beide grenzen zijn altijd gelijk`],
+      goed: 1,
       uitleg: `Het water dat de verdeler in gaat, is warmer dan wat je op de afgewerkte vloer voelt: isolatie, dekvloer en afwerking verlagen de temperatuur op weg naar het oppervlak. Dit zijn twee verschillende grenzen die je niet mag verwisselen.`
     },
     {
       vraag: `Wat kan er gebeuren als een mengklep in een vloerverwarmingssysteem vastloopt in de verkeerde stand?`,
-      opties: [
-        `De vloer kan te heet worden, met kans op schade`,
-        `De pomp brandt dan onmiddellijk door`,
-        `De ketel komt dan vrijwel altijd automatisch in storing terecht`,
-        `De druk in het systeem wordt dan te laag`
-      ],
-      goed: 0,
+      opties: [`De pomp brandt dan onmiddellijk door`, `De ketel komt dan vrijwel altijd automatisch in storing terecht`, `De druk in het systeem wordt dan te laag`, `De vloer kan te heet worden, met kans op schade`],
+      goed: 3,
       uitleg: `Zonder correcte menging krijgt de vloer de hoge ketelaanvoertemperatuur, wat de vloerafwerking kan beschadigen en de oppervlaktetemperatuur boven de veilige grens kan brengen. Dat de pomp doorbrandt, de ketel automatisch stopt of de druk daalt, volgt hier niet automatisch uit.`
     },
     {
       vraag: `Een vloerverwarmingskring levert 600 W bij een aangenomen delta T van 5 K. Wat is het benodigde debiet ongeveer?`,
-      opties: [`26 l/h`, `103 l/h`, `52 l/h`, `600 l/h`],
-      goed: 1,
+      opties: [`600 l/h`, `26 l/h`, `103 l/h`, `52 l/h`],
+      goed: 2,
       uitleg: `Debiet = 600 / (1,163 x 5) is ongeveer 103 l/h. 26 l/h hoort bij een delta T van 20 K (zoals bij een radiatorcircuit), 52 l/h is de helft daarvan en klopt niet met de formule, en 600 l/h is het vermogen zelf, geen debiet.`
     },
     {
       vraag: `Waarom vraagt een vloerverwarmingskring bij hetzelfde vermogen meestal een groter debiet dan een radiatorcircuit?`,
-      opties: [
-        `Omdat vloerverwarmingsbuizen een grotere diameter hebben`,
-        `Omdat vloerverwarming altijd op een hogere temperatuur werkt dan radiatoren`,
-        `Omdat de pomp van een vloerverwarmingsverdeler altijd zwakker is`,
-        `Omdat het temperatuurverschil bij vloerverwarming meestal kleiner is`
-      ],
-      goed: 3,
+      opties: [`Omdat de pomp van een vloerverwarmingsverdeler altijd zwakker is`, `Omdat het temperatuurverschil bij vloerverwarming meestal kleiner is`, `Omdat vloerverwarmingsbuizen een grotere diameter hebben`, `Omdat vloerverwarming altijd op een hogere temperatuur werkt dan radiatoren`],
+      goed: 1,
       uitleg: `Bij een kleiner delta T is voor hetzelfde vermogen meer debiet nodig, volgens de debietformule. Buisdiameter, pompsterkte en de aanname dat vloerverwarming op hogere temperatuur werkt (het is juist andersom) zijn hier niet de verklaring.`
     }
   ],
@@ -759,35 +629,20 @@ Gaat de hele installatie (ook de radiatorzone) naar een temperatuur die de vloer
     },
     {
       vraag: `Een driewegklepset (voorbeeld: Intergas) splitst een installatie in een hogetemperatuurzone en een laagtemperatuurzone. Welke onderdelen horen bij de laagtemperatuurzone?`,
-      opties: [
-        `De radiatoren, rechtstreeks op de ketelaanvoer`,
-        `De vloerverwarming, bewaakt door een aanlegsensor`,
-        `Alleen de warmwatervoorziening van de ketel`,
-        `De gehele installatie, dus radiatoren en vloerverwarming precies samen`
-      ],
-      goed: 1,
+      opties: [`Alleen de warmwatervoorziening van de ketel`, `De gehele installatie, dus radiatoren en vloerverwarming precies samen`, `De radiatoren, rechtstreeks op de ketelaanvoer`, `De vloerverwarming, bewaakt door een aanlegsensor`],
+      goed: 3,
       uitleg: `De laagtemperatuurzone is de vloerverwarming, bewaakt door een aanlegsensor die de brander uitschakelt bij overschrijding van de veiligheidstemperatuur. De radiatoren horen bij de hogetemperatuurzone, en warmwater en "de gehele installatie" zijn hier niet de laagtemperatuurzone.`
     },
     {
       vraag: `Waarom noemt Vaillant vloerverwarming het meest efficiënte afgiftesysteem voor een warmtepomp?`,
-      opties: [
-        `Omdat vloerverwarming minder onderhoud nodig heeft dan radiatoren`,
-        `Omdat vloerverwarming een aanzienlijk hoger vermogen heeft dan elke gewone radiator`,
-        `Omdat vloerverwarming voldoende heeft aan een lage watertemperatuur`,
-        `Omdat vloerverwarming geen debiet nodig heeft`
-      ],
-      goed: 2,
+      opties: [`Omdat vloerverwarming een aanzienlijk hoger vermogen heeft dan elke gewone radiator`, `Omdat vloerverwarming voldoende heeft aan een lage watertemperatuur`, `Omdat vloerverwarming geen debiet nodig heeft`, `Omdat vloerverwarming minder onderhoud nodig heeft dan radiatoren`],
+      goed: 1,
       uitleg: `Vloerverwarming werkt met een lage watertemperatuur (Vaillant noemt ongeveer 35 graden), waardoor de warmtepomp minder hard hoeft te werken en efficiënter draait. Onderhoud, vergelijking van vermogen en het ontbreken van debiet zijn hier niet de verklaring.`
     },
     {
       vraag: `Wat gebeurt er met het benodigde debiet als een installatie overstapt naar een lagere aanvoertemperatuur, bij gelijk vermogen?`,
-      opties: [
-        `Het debiet daalt, omdat het water minder snel afkoelt`,
-        `Het debiet blijft exact gelijk, want dat hangt alleen af van het vermogen van de ketel`,
-        `Het debiet wordt onbepaald zonder de retourtemperatuur te meten`,
-        `Het debiet stijgt, omdat het temperatuurverschil kleiner wordt`
-      ],
-      goed: 3,
+      opties: [`Het debiet stijgt, omdat het temperatuurverschil kleiner wordt`, `Het debiet daalt, omdat het water minder snel afkoelt`, `Het debiet blijft exact gelijk, want dat hangt alleen af van het vermogen van de ketel`, `Het debiet wordt onbepaald zonder de retourtemperatuur te meten`],
+      goed: 0,
       uitleg: `Bij een kleiner temperatuurverschil is voor hetzelfde vermogen meer debiet nodig (les 7.2 en 7.4). Dat kan betekenen dat bestaande leidingen te klein worden voor de nieuwe situatie. Alleen naar het ketelvermogen kijken is dus niet genoeg.`
     },
     {
@@ -803,13 +658,8 @@ Gaat de hele installatie (ook de radiatorzone) naar een temperatuur die de vloer
     },
     {
       vraag: `Een woning krijgt naast de bestaande radiatoren een nieuwe vloerverwarmingszone. Wat is de juiste volgorde van redeneren voor de aansluiting op de warmtebron?`,
-      opties: [
-        `Eerst de temperatuur per zone vaststellen, dan een mengverdeler plaatsen en bewaken`,
-        `Eerst kijken welk merk mengverdeler het goedkoopst is, dan pas de temperaturen bepalen`,
-        `De vloerverwarming voor het gemak altijd op dezelfde temperatuur als de radiatoren laten werken`,
-        `Wachten tot er een storing optreedt en dan pas de zone-indeling aanpassen`
-      ],
-      goed: 0,
+      opties: [`Wachten tot er een storing optreedt en dan pas de zone-indeling aanpassen`, `Eerst de temperatuur per zone vaststellen, dan een mengverdeler plaatsen en bewaken`, `Eerst kijken welk merk mengverdeler het goedkoopst is, dan pas de temperaturen bepalen`, `De vloerverwarming voor het gemak altijd op dezelfde temperatuur als de radiatoren laten werken`],
+      goed: 1,
       uitleg: `Eerst de benodigde temperatuur per zone bepalen, dan de vloerverwarmingszone via een mengverdeler op zijn eigen, lagere temperatuur brengen en bewaken. Prijs vooraf laten bepalen, beide zones gelijk laten werken, of wachten op een storing zijn geen veilige of doordachte aanpak.`
     }
   ],
@@ -887,24 +737,14 @@ Een systematische beoordeling van een bestaand afgiftesysteem doorloopt: de gewe
   quiz: [
     {
       vraag: `Waarom is het verstandig om eerst een praktijktest te doen voordat je een radiator vervangt of vloerverwarming aanlegt?`,
-      opties: [
-        `Omdat een test snel laat zien wat het systeem al aankan`,
-        `Omdat een praktijktest wettelijk verplicht is voor elke verbouwing`,
-        `Omdat een praktijktest de hele warmteverliesberekening in alle gevallen overbodig maakt`,
-        `Omdat een praktijktest de enige manier is om de retourtemperatuur te meten`
-      ],
-      goed: 0,
+      opties: [`Omdat een praktijktest wettelijk verplicht is voor elke verbouwing`, `Omdat een praktijktest de hele warmteverliesberekening in alle gevallen overbodig maakt`, `Omdat een praktijktest de enige manier is om de retourtemperatuur te meten`, `Omdat een test snel laat zien wat het systeem al aankan`],
+      goed: 3,
       uitleg: `Een test zoals de Verwarmingstest of de vierstappentest geeft snel een praktische indicatie. Hij is niet wettelijk verplicht, maakt een berekening niet in alle gevallen overbodig (bij twijfel blijft rekenen nodig), en is niet de enige manier om de retourtemperatuur te meten.`
     },
     {
       vraag: `Een ruimte blijft koud bij een lagere aanvoertemperatuur. Wat controleer je als eerste, voordat je concludeert dat de radiator te klein is?`,
-      opties: [
-        `Meteen een grotere radiator bestellen`,
-        `De kleur van de radiator, want een donkere radiator straalt merkbaar meer warmte uit`,
-        `Of de kranen open staan en het debiet voldoende is`,
-        `Of de bewoner de thermostaat wel op de juiste kamer heeft gezet`
-      ],
-      goed: 2,
+      opties: [`De kleur van de radiator, want een donkere radiator straalt merkbaar meer warmte uit`, `Of de kranen open staan en het debiet voldoende is`, `Of de bewoner de thermostaat wel op de juiste kamer heeft gezet`, `Meteen een grotere radiator bestellen`],
+      goed: 1,
       uitleg: `Onvoldoende debiet, een dichte kraan of lucht in het systeem kunnen hetzelfde effect geven als een te kleine radiator. Die controleer je eerst. De kleur van een radiator heeft geen relevant effect op dit probleem, en de thermostaatplaatsing is een ander onderwerp.`
     },
     {
@@ -931,24 +771,14 @@ Een systematische beoordeling van een bestaand afgiftesysteem doorloopt: de gewe
     },
     {
       vraag: `Waarom geeft een geschiktheidstest die alleen op een milde dag wordt uitgevoerd een onbetrouwbaar beeld?`,
-      opties: [
-        `Omdat de ketel op milde dagen minder nauwkeurig regelt`,
-        `Omdat een milde dag de retourtemperatuur volledig onmeetbaar en onbetrouwbaar zou maken`,
-        `Comfortklachten komen het scherpst naar voren op de koudste dagen`,
-        `Omdat de test dan wettelijk niet geldig is`
-      ],
-      goed: 2,
+      opties: [`Omdat de test dan wettelijk niet geldig is`, `Omdat de ketel op milde dagen minder nauwkeurig regelt`, `Omdat een milde dag de retourtemperatuur volledig onmeetbaar en onbetrouwbaar zou maken`, `Comfortklachten komen het scherpst naar voren op de koudste dagen`],
+      goed: 3,
       uitleg: `Bij mild weer is er weinig warmtevraag, waardoor een tekort niet aan het licht komt. Pas bij lage buitentemperaturen wordt het afgiftesysteem echt op de proef gesteld. De andere opties zijn niet de verklaring.`
     },
     {
       vraag: `Waarom kan het vervangen van een radiator zonder eerst het debiet te controleren onnodige kosten geven?`,
-      opties: [
-        `Omdat de klacht kan blijven bestaan als de oorzaak elders zit`,
-        `Omdat een nieuwe radiator vrijwel altijd duurder is dan het oorspronkelijke probleem ooit waard was`,
-        `Omdat een nieuwe radiator wettelijk gekeurd moet worden`,
-        `Omdat vervanging van een radiator altijd een nieuwe ketel vereist`
-      ],
-      goed: 0,
+      opties: [`Omdat vervanging van een radiator altijd een nieuwe ketel vereist`, `Omdat de klacht kan blijven bestaan als de oorzaak elders zit`, `Omdat een nieuwe radiator vrijwel altijd duurder is dan het oorspronkelijke probleem ooit waard was`, `Omdat een nieuwe radiator wettelijk gekeurd moet worden`],
+      goed: 1,
       uitleg: `Als de oorzaak in het debiet zit, verdwijnt de klacht niet met een nieuwe radiator: dan heb je vervangen zonder de oorzaak op te lossen. De andere opties beschrijven geen echte reden voor onnodige kosten in deze situatie.`
     }
   ],

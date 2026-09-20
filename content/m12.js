@@ -863,13 +863,8 @@ Bij een temperatuur onder 5 °C mag je in de regel niet lijmen zonder extra maat
   quiz: [
     {
       vraag: `Waarom heeft elk lozingstoestel, ook de condensafvoer van een cv-ketel, een sifon met waterslot nodig?`,
-      opties: [
-        `Om het afvalwater gewoon een stuk sneller te laten stromen naar het riool`,
-        `Om vooral vaste deeltjes zoals haar en vet uit het afvoerwater te filteren`,
-        `Om weerstand te bieden tegen drukschommelingen in het rioleringsstelsel en riooldamp buiten de ruimte te houden`,
-        `Om de aansluitleiding zelf een stuk korter te kunnen uitvoeren`
-      ],
-      goed: 2,
+      opties: [`Om vooral vaste deeltjes zoals haar en vet uit het afvoerwater te filteren`, `Om weerstand te bieden tegen drukschommelingen in het rioleringsstelsel en riooldamp buiten de ruimte te houden`, `Om de aansluitleiding zelf een stuk korter te kunnen uitvoeren`, `Om het afvalwater gewoon een stuk sneller te laten stromen naar het riool`],
+      goed: 1,
       uitleg: `Een sifon met waterslot (minimaal 50 mm) biedt weerstand tegen drukschommelingen en houdt riooldamp buiten. Snelheid van de afvoer, filtering en leidinglengte zijn geen functie van de sifon.`
     },
     {
@@ -880,19 +875,14 @@ Bij een temperatuur onder 5 °C mag je in de regel niet lijmen zonder extra maat
     },
     {
       vraag: `Je legt een horizontale PVC-afvoerleiding van 63 mm diameter. Wat is de maximale beugelafstand volgens de regel "10 keer de diameter, met een maximum van 2,5 m"?`,
-      opties: [`0,63 m`, `1,8 m, de maximumwaarde voor een standleiding`, `2,5 m, de plafondwaarde die hier niet geldt`, `6,3 m, een rekenfout met de diameter`],
-      goed: 0,
+      opties: [`2,5 m, de plafondwaarde die hier niet geldt`, `6,3 m, een rekenfout met de diameter`, `0,63 m`, `1,8 m, de maximumwaarde voor een standleiding`],
+      goed: 2,
       uitleg: `10 x 63 mm = 630 mm = 0,63 m, en dat is kleiner dan het maximum van 2,5 m, dus geldt 0,63 m. 1,8 m is de maximumwaarde voor een verticale standleiding, 2,5 m is de plafondwaarde voor horizontale leidingen (die hier niet bereikt wordt) en 6,3 m zou een rekenfout met de diameter in meters zijn.`
     },
     {
       vraag: `Bij het verlijmen van een PVC mof-spieverbinding schuif je de buis tot aan de eerder aangebrachte markering. Waarom teken je die markering vooraf af?`,
-      opties: [
-        `Om, naar men zou kunnen denken, te onthouden welke lijmsoort er precies gebruikt is bij deze verbinding`,
-        `Om te zorgen dat de buis met de juiste insteeklengte in de mof komt, zodat de verbinding voldoende overlap heeft`,
-        `Om alleen de kleur van de gebruikte buis nog eens goed te controleren`,
-        `Om achteraf het gewicht van het afgekorte stuk buis te kunnen bepalen`
-      ],
-      goed: 1,
+      opties: [`Om te zorgen dat de buis met de juiste insteeklengte in de mof komt, zodat de verbinding voldoende overlap heeft`, `Om alleen de kleur van de gebruikte buis nog eens goed te controleren`, `Om achteraf het gewicht van het afgekorte stuk buis te kunnen bepalen`, `Om, naar men zou kunnen denken, te onthouden welke lijmsoort er precies gebruikt is bij deze verbinding`],
+      goed: 0,
       uitleg: `De markering laat zien hoe ver de buis in de mof moet, zodat de verbinding de juiste overlap (insteeklengte) krijgt. Lijmsoort, kleur en gewicht hebben hier niets mee te maken.`
     },
     {
@@ -908,13 +898,8 @@ Bij een temperatuur onder 5 °C mag je in de regel niet lijmen zonder extra maat
     },
     {
       vraag: `Waarom mag je niet roken of met open vuur werken tijdens het verlijmen van PVC?`,
-      opties: [
-        `Omdat PVC-lijm brandbaar is en de damp explosief kan zijn`,
-        `Omdat de lijm daardoor juist een stuk sneller opdroogt dan gewenst is`,
-        `Omdat rook de uiteindelijke kleur van de lijmverbinding aantast`,
-        `Omdat een brandende sigaret per ongeluk de hele lijmbus zou kunnen omstoten`
-      ],
-      goed: 0,
+      opties: [`Omdat rook de uiteindelijke kleur van de lijmverbinding aantast`, `Omdat een brandende sigaret per ongeluk de hele lijmbus zou kunnen omstoten`, `Omdat PVC-lijm brandbaar is en de damp explosief kan zijn`, `Omdat de lijm daardoor juist een stuk sneller opdroogt dan gewenst is`],
+      goed: 2,
       uitleg: `PVC-lijm is brandbaar en de damp is explosief: dat is de reden voor het rook- en vuurverbod tijdens het lijmen, niet de droogtijd, de kleur of een omgestoten bus.`
     }
   ],

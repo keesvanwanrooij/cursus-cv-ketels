@@ -608,8 +608,8 @@ Bij een niet-kritieke afwijking volgt een extra vervolgonderzoek als het niet bi
   quiz: [
     {
       vraag: `Wie beheert het certificatieschema BRL 6000-25?`,
-      opties: [`InstallQ, die zelf geen certificerende instelling is`, `Vakmanschap Techniek, als exameninstelling voor monteurs`, `Kiwa, die het schema beheert en zelf certificeert`, `De TloKB, als toezichthouder op het stelsel`],
-      goed: 0,
+      opties: [`Vakmanschap Techniek, als exameninstelling voor monteurs`, `Kiwa, die het schema beheert en zelf certificeert`, `De TloKB, als toezichthouder op het stelsel`, `InstallQ, die zelf geen certificerende instelling is`],
+      goed: 3,
       uitleg: `InstallQ beheert BRL 6000-25 als schemabeheerder. Certificeren doen de aangewezen certificerende instellingen. Bij BRL K25000 is Kiwa zowel schemabeheerder als certificerende instelling.`
     },
     {
@@ -620,14 +620,14 @@ Bij een niet-kritieke afwijking volgt een extra vervolgonderzoek als het niet bi
     },
     {
       vraag: `Hoe lang is een bedrijfscertificaat maximaal geldig en hoe vaak is er vervolgonderzoek?`,
-      opties: [`Onbeperkt, met vervolgonderzoek na een klacht`, `5 jaar, met vervolgonderzoek om de 5 jaar`, `3 jaar, met jaarlijks vervolgonderzoek`, `1 jaar, met een nieuw toelatingsonderzoek`],
-      goed: 2,
+      opties: [`1 jaar, met een nieuw toelatingsonderzoek`, `Onbeperkt, met vervolgonderzoek na een klacht`, `5 jaar, met vervolgonderzoek om de 5 jaar`, `3 jaar, met jaarlijks vervolgonderzoek`],
+      goed: 3,
       uitleg: `Het certificaat is maximaal drie jaar geldig en de certificerende instelling doet ongeveer jaarlijks een vervolgonderzoek, dat onaangekondigd kan zijn. Het persoonlijke Bewijs van Vakmanschap CO is daarentegen vijf jaar geldig.`
     },
     {
       vraag: `Hoe vaak moet een certificaathouder voltooide werkzaamheden en inbedrijfstellingen afmelden bij de certificerende instelling?`,
-      opties: [`Alleen bij een incident`, `Elk jaar`, `Elke maand`, `Ten minste wekelijks`],
-      goed: 3,
+      opties: [`Elke maand`, `Ten minste wekelijks`, `Alleen bij een incident`, `Elk jaar`],
+      goed: 1,
       uitleg: `Onder BRL 6000-25 moet elke voltooide werkzaamheid en inbedrijfstelling ten minste wekelijks worden afgemeld, met o.a. datum, toesteltype en de naam van degene die in bedrijf stelde.`
     },
     {
@@ -723,19 +723,14 @@ Bij het rekenen op een getal dat je ergens leest (bijvoorbeeld "boven 35 ppm CO 
   quiz: [
     {
       vraag: `Een handboek noemt een CO-grens die afwijkt van wat de wet en het schema zeggen. Welke bron volg je?`,
-      opties: [`De wet en het certificatieschema`, `Het gemiddelde van beide`, `Wat je collega zegt`, `Het handboek, want het is recenter`],
-      goed: 0,
+      opties: [`Het handboek, want het is recenter`, `De wet en het certificatieschema`, `Het gemiddelde van beide`, `Wat je collega zegt`],
+      goed: 1,
       uitleg: `Wet en schema staan bovenaan. Een handboek of website is hulp om de bron te begrijpen en kan fouten bevatten. Bij afwijkingen ga je terug naar de bron.`
     },
     {
       vraag: `Waar zoek je de maximale beugelafstand van een rookgasafvoer?`,
-      opties: [
-        `In art. 4.136 van het Bbl, over de rookgasafvoer`,
-        `In het fabrikantvoorschrift van de afvoer en in NPR 3378`,
-        `In NEN 1078, de norm voor het gasleidingwerk`,
-        `In de Woningwet, waarmee het stelsel is ingevoerd`
-      ],
-      goed: 1,
+      opties: [`In NEN 1078, de norm voor het gasleidingwerk`, `In de Woningwet, waarmee het stelsel is ingevoerd`, `In art. 4.136 van het Bbl, over de rookgasafvoer`, `In het fabrikantvoorschrift van de afvoer en in NPR 3378`],
+      goed: 3,
       uitleg: `Het Bbl stelt alleen prestatie-eisen. Afschot, beugelafstand, insteekdiepte en dilatatie staan in het fabrikantvoorschrift en in NPR 3378, waarnaar BRL 6000-25 verwijst.`
     },
     {
@@ -746,8 +741,8 @@ Bij het rekenen op een getal dat je ergens leest (bijvoorbeeld "boven 35 ppm CO 
     },
     {
       vraag: `Iemand zegt dat NEN 1006 de norm voor de gasinstallatie is. Wat klopt?`,
-      opties: [`NEN 1006 gaat over de geschiktheid van de rookgasafvoer`, `NEN 1006 gaat over elektrische laagspanningsinstallaties`, `Dat klopt, NEN 1006 is de norm voor het gasleidingwerk`, `NEN 1006 gaat over drinkwaterinstallaties, niet over gas`],
-      goed: 3,
+      opties: [`Dat klopt, NEN 1006 is de norm voor het gasleidingwerk`, `NEN 1006 gaat over drinkwaterinstallaties, niet over gas`, `NEN 1006 gaat over de geschiktheid van de rookgasafvoer`, `NEN 1006 gaat over elektrische laagspanningsinstallaties`],
+      goed: 1,
       uitleg: `NEN 1006 gaat over leidingwaterinstallaties. Deze verwarring komt in adviezen en handboeken regelmatig voor. Het gasleidingwerk staat in NEN 1078 en NEN 8078.`
     },
     {
@@ -852,36 +847,26 @@ Een plicht om de netbeheerder te informeren bij afkeuren is in wet en schema nie
   quiz: [
     {
       vraag: `Je meet in de opstellingsruimte 3 ppm CO. Wat is de conclusie?`,
-      opties: [
-        `Je mag in bedrijf stellen, mits de rest in orde is`,
-        `Je moet melden aan de gemeente en de eigenaar`,
-        `Je moet de bewoner laten ventileren en opnieuw meten`,
-        `Je moet het toestel buiten bedrijf stellen`
-      ],
-      goed: 0,
+      opties: [`Je moet de bewoner laten ventileren en opnieuw meten`, `Je moet het toestel buiten bedrijf stellen`, `Je mag in bedrijf stellen, mits de rest in orde is`, `Je moet melden aan de gemeente en de eigenaar`],
+      goed: 2,
       uitleg: `Onder 5 ppm mag je in bedrijf stellen (mits ook de rest van de installatie in orde is). Vanaf 5 ppm volgt nader onderzoek, en boven 20 ppm de wettelijke meldplicht.`
     },
     {
       vraag: `Je meet 12 ppm CO in de opstellingsruimte. Wat doe je?`,
-      opties: [
-        `Niets doen, want 12 ppm ligt ruim onder de meldgrens van 20 ppm`,
-        `Nader onderzoek, oorzaak wegnemen en opdrachtgever informeren`,
-        `Direct het pand ontruimen en de brandweer waarschuwen`,
-        `Alleen noteren op de werkbon en het toestel laten draaien`
-      ],
-      goed: 1,
+      opties: [`Nader onderzoek, oorzaak wegnemen en opdrachtgever informeren`, `Direct het pand ontruimen en de brandweer waarschuwen`, `Alleen noteren op de werkbon en het toestel laten draaien`, `Niets doen, want 12 ppm ligt ruim onder de meldgrens van 20 ppm`],
+      goed: 0,
       uitleg: `Tussen 5 en 20 ppm volgt nader onderzoek, wordt de oorzaak weggenomen en informeer je de opdrachtgever. De wettelijke meldplicht geldt pas boven 20 ppm.`
     },
     {
       vraag: `Aan welke vier partijen moet een certificaathouder een CO-melding boven de meldgrens onverwijld doen?`,
-      opties: [`Eigenaar, ILT, fabrikant en de verzekeraar van het pand`, `Bewoner, gemeente, TloKB en de schemabeheerder InstallQ`, `Bewoner, eigenaar, gemeente en certificerende instelling`, `Bewoner, huisarts, brandweer en de lokale netbeheerder`],
-      goed: 2,
+      opties: [`Bewoner, huisarts, brandweer en de lokale netbeheerder`, `Eigenaar, ILT, fabrikant en de verzekeraar van het pand`, `Bewoner, gemeente, TloKB en de schemabeheerder InstallQ`, `Bewoner, eigenaar, gemeente en certificerende instelling`],
+      goed: 3,
       uitleg: `Art. 6.46 Bbl noemt de bewoner of gebruiker, de eigenaar, het bevoegd gezag (gemeente) en de certificerende instelling. De netbeheerder staat er niet bij.`
     },
     {
       vraag: `De BRL 6000-25 en de wet zijn niet helemaal eenduidig over de vorm van de melding. Welke lezing volg je?`,
-      opties: [`Wat je opdrachtgever wil, want hij betaalt het werk`, `De volgorde die het minste tijd en papierwerk kost`, `De BRL, want een schema is specifieker dan de wet`, `De wet: onverwijld melden aan alle vier partijen`],
-      goed: 3,
+      opties: [`De volgorde die het minste tijd en papierwerk kost`, `De BRL, want een schema is specifieker dan de wet`, `De wet: onverwijld melden aan alle vier partijen`, `Wat je opdrachtgever wil, want hij betaalt het werk`],
+      goed: 2,
       uitleg: `De wet staat boven het schema. Dus: onverwijld melden aan alle vier partijen, ook als het schema in een paragraaf een andere volgorde noemt.`
     },
     {
@@ -892,13 +877,8 @@ Een plicht om de netbeheerder te informeren bij afkeuren is in wet en schema nie
     },
     {
       vraag: `Welke uitspraak over onderhoud klopt?`,
-      opties: [
-        `De wet verplicht eigenaren tot jaarlijks onderhoud door een certificaathouder`,
-        `De wet eist geen periodiek onderhoud, BRL 6000-25 zonder fabrikantvoorschrift wel jaarlijks`,
-        `Onderhoud is alleen verplicht voor toestellen boven 50 kW, kleinere toestellen zijn vrijgesteld`,
-        `Onderhoud is verplicht na elke storing, ook als het toestel daarna weer normaal werkt`
-      ],
-      goed: 1,
+      opties: [`Onderhoud is alleen verplicht voor toestellen boven 50 kW, kleinere toestellen zijn vrijgesteld`, `Onderhoud is verplicht na elke storing, ook als het toestel daarna weer normaal werkt`, `De wet verplicht eigenaren tot jaarlijks onderhoud door een certificaathouder`, `De wet eist geen periodiek onderhoud, BRL 6000-25 zonder fabrikantvoorschrift wel jaarlijks`],
+      goed: 3,
       uitleg: `Er is geen generieke wettelijke onderhoudsplicht (de eigenaar moet wel zorgen dat de installatie functioneert en geen gevaar oplevert). Het schema eist dat de installateur de klant informeert en zonder fabrikantvoorschrift geldt minimaal eens per 12 maanden.`
     }
   ],
@@ -990,41 +970,26 @@ VCA (Veiligheid, Gezondheid en Milieu Checklist Aannemers) is een apart veilighe
   quiz: [
     {
       vraag: `Vanaf welke hoogte geldt in de regel dat er een voorziening tegen valgevaar moet zijn, zoals een steiger of een hekwerk?`,
-      opties: [`2,5 meter`, `1,5 meter`, `3 meter`, `2 meter`],
-      goed: 0,
+      opties: [`3 meter`, `2 meter`, `2,5 meter`, `1,5 meter`],
+      goed: 2,
       uitleg: `Artikel 3.16 Arbobesluit noemt 2,5 meter als de hoogte waarboven valgevaar in de regel bestaat. Onder die hoogte kan een voorziening ook verplicht zijn bij extra risico, zoals een vloeropening of werk boven water.`
     },
     {
       vraag: `Je moet vlak bij een dakdoorvoer een korte, eenvoudige controle doen. Wat zegt de wet over het gebruik van een ladder hierbij?`,
-      opties: [
-        `Alleen met een steiger, een ladder mag hier nooit`,
-        `Een ladder mag, als het werk kort en veilig op de ladder kan`,
-        `Een hekwerk is verplicht, ook bij werk van twee minuten`,
-        `Een gordel met vanglijn is hier de eerste keuze`
-      ],
-      goed: 1,
+      opties: [`Een ladder mag, als het werk kort en veilig op de ladder kan`, `Een hekwerk is verplicht, ook bij werk van twee minuten`, `Een gordel met vanglijn is hier de eerste keuze`, `Alleen met een steiger, een ladder mag hier nooit`],
+      goed: 0,
       uitleg: `Een ladder mag als werkplek als het werk kort duurt, het risico laag is en een veiliger arbeidsmiddel niet gerechtvaardigd is. Een vanglijn is het laatste redmiddel als een steiger niet kan of meer gevaar geeft, niet de standaardoplossing.`
     },
     {
       vraag: `Wat is de juiste volgorde voor je een kruipruimte ingaat waar gevaar kan worden vermoed?`,
-      opties: [
-        `Eerst naar binnen gaan en pas ventileren als het benauwd aanvoelt`,
-        `Alleen laten onderzoeken als er al eerder een gaslek is geweest`,
-        `Eerst onderzoeken of de atmosfeer gevaar oplevert, dan naar binnen`,
-        `Een adembeschermingsmasker opzetten en meteen naar binnen gaan`
-      ],
-      goed: 2,
+      opties: [`Een adembeschermingsmasker opzetten en meteen naar binnen gaan`, `Eerst naar binnen gaan en pas ventileren als het benauwd aanvoelt`, `Alleen laten onderzoeken als er al eerder een gaslek is geweest`, `Eerst onderzoeken of de atmosfeer gevaar oplevert, dan naar binnen`],
+      goed: 3,
       uitleg: `Artikel 3.5g Arbobesluit eist dat je bij een vermoeden van gevaar (verstikking, bedwelming, vergiftiging, brand, explosie) eerst onderzoekt of het gevaar er is. Alleen als dat onderzoek geen gevaar aantoont, ga je naar binnen; blijkt er wel gevaar, dan volgen eerst maatregelen.`
     },
     {
       vraag: `Je ziet tijdens onderhoud een oude, beschadigde plaat die mogelijk asbest bevat. Wat doe je?`,
-      opties: [
-        `Voorzichtig een klein stukje afzagen voor onderzoek`,
-        `De plaat schoonmaken en het werk gewoon afronden`,
-        `Een foto maken en zelf inschatten dat het asbest is`,
-        `Niet bewerken, stoppen en de eigenaar inschakelen`
-      ],
-      goed: 3,
+      opties: [`Een foto maken en zelf inschatten dat het asbest is`, `Niet bewerken, stoppen en de eigenaar inschakelen`, `Voorzichtig een klein stukje afzagen voor onderzoek`, `De plaat schoonmaken en het werk gewoon afronden`],
+      goed: 1,
       uitleg: `Bewerken (zagen, breken, schuren) kan vezels laten vrijkomen. Je stopt het werk op die plek, informeert de eigenaar en laat een SC-540-gecertificeerd bedrijf vaststellen of het om asbest gaat en in welke risicoklasse. Zelf inschatten of een stukje wegzagen is geen van beide toegestaan.`
     },
     {
@@ -1040,13 +1005,8 @@ VCA (Veiligheid, Gezondheid en Milieu Checklist Aannemers) is een apart veilighe
     },
     {
       vraag: `Welke uitspraak over VCA klopt?`,
-      opties: [
-        `VCA vervangt het Bewijs van Vakmanschap CO voor gaswerk`,
-        `VCA is een apart veiligheidscertificaat naast het CO-stelsel`,
-        `VCA is wettelijk verplicht voor iedereen die met gas werkt`,
-        `VCA geldt alleen voor bedrijven in de bouwsector`
-      ],
-      goed: 1,
+      opties: [`VCA is wettelijk verplicht voor iedereen die met gas werkt`, `VCA geldt alleen voor bedrijven in de bouwsector`, `VCA vervangt het Bewijs van Vakmanschap CO voor gaswerk`, `VCA is een apart veiligheidscertificaat naast het CO-stelsel`],
+      goed: 3,
       uitleg: `VCA is een generiek, niet wettelijk verplicht veiligheidscertificaat dat opdrachtgevers naast het CO-stelsel kunnen eisen. Het vervangt niet het Bewijs van Vakmanschap CO of de BRL-bedrijfscertificering, en geldt niet uitsluitend voor de bouw.`
     }
   ],

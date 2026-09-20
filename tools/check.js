@@ -68,6 +68,19 @@ function controleerVragen(vragen, pad, fout, waarschuw, min) {
     if (lengtes[q.goed] === max && lengtes.filter(function (l) { return l === max; }).length === 1) langste++;
   });
   if (vragen.length >= 5 && langste / vragen.length > 0.5) waarschuw(pad + ': het juiste antwoord is in ' + Math.round(langste / vragen.length * 100) + '% van de vragen het langste, maak de afleiders even lang en even concreet');
+  /* Een vaste volgorde (A, B, C, D, A, ...) valt niet op in de verdeling, maar is net zo raadbaar. */
+  if (vragen.length >= 5) {
+    var stappen = 0, paren = 0;
+    for (var v = 1; v < vragen.length; v++) {
+      var vorige = vragen[v - 1], deze = vragen[v];
+      if (typeof vorige.goed !== 'number' || typeof deze.goed !== 'number' || !Array.isArray(deze.opties)) continue;
+      paren++;
+      if ((deze.goed - vorige.goed + deze.opties.length) % deze.opties.length === 1) stappen++;
+    }
+    /* Toeval geeft ongeveer een op drie; pas vanaf vier opeenvolgende stappen en driekwart van de paren is het een patroon. */
+    if (paren >= 4 && stappen >= 4 && stappen / paren >= 0.75) waarschuw(pad + ': het juiste antwoord schuift steeds een plek op (' + stappen + ' van ' + paren + ' keer), dat is even raadbaar als steeds dezelfde plek');
+  }
+
   /* Ook de plek van het juiste antwoord mag geen patroon zijn. Vanaf 5 vragen, net als de lengtecontrole hierboven. */
   if (vragen.length >= 5) {
     Object.keys(verdeling).forEach(function (k) {
