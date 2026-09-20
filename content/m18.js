@@ -222,7 +222,7 @@ De enige gepubliceerde toetsmatrijs voor de initiele theorietoets is van 15 juli
 
 ## Als je zakt
 
-Tegen de uitslag van de theorietoets is geen beroep mogelijk, alleen een klacht bij Vakmanschap Techniek. Zakken betekent een nieuwe, betaalde poging. Er is geen minimale wachttijd of maximumaantal pogingen in de officiele bronnen gevonden.
+Ben je het niet eens met de uitslag, dan kun je eerst een klacht indienen en, als je het daarna nog oneens bent, in beroep gaan bij de onafhankelijke beroepscommissie uit het examenreglement. Dat verandert niets aan de kernregel: ben je gezakt, dan doe je een nieuwe, betaalde poging. Er is geen minimale wachttijd of maximumaantal pogingen in de officiele bronnen gevonden.
 
 ## Wat deze cursus wel en niet is
 
@@ -232,7 +232,7 @@ Deze cursus bereidt je voor, maar is geen vervanging van het examen: je haalt hi
     `Ik weet hoeveel vragen mijn profiel telt en welke onderwerpen het zwaarst wegen`,
     `Ik heb de gratis zelftest gehaald voordat ik de echte toets boek`,
     `Ik reken de cesuur uit voor mijn eigen profiel in plaats van "70% klinkt wel genoeg" aan te nemen`,
-    `Ik weet dat een gezakte toets alleen via een nieuwe, betaalde poging kan worden overgedaan`,
+    `Ik weet dat een gezakte toets een nieuwe, betaalde poging vraagt, ook als ik eerst nog een klacht of beroep indien over de uitslag`,
     `Ik weet dat deze cursus geen diploma en geen Bewijs van Vakmanschap CO oplevert`
   ],
   quiz: [
@@ -279,12 +279,12 @@ Deze cursus bereidt je voor, maar is geen vervanging van het examen: je haalt hi
       vraag: `Wat gebeurt er als je voor de theorietoets zakt?`,
       opties: [
         `Je krijgt automatisch binnen een maand een herkansing zonder extra kosten`,
-        `Je moet een nieuwe, betaalde poging doen; beroep tegen de uitslag is niet mogelijk`,
-        `Je kunt in beroep gaan bij InstallQ tegen de uitslag`,
+        `Je moet sowieso een nieuwe, betaalde poging doen, ook als je eerst een klacht of beroep indient`,
+        `Je hoeft niets te doen: de uitslag wordt na verloop van tijd automatisch bijgesteld`,
         `Je krijgt een vrijstelling voor het onderdeel waar je net onder de norm zat`
       ],
       goed: 1,
-      uitleg: `Zakken betekent een nieuwe, betaalde poging. Tegen de uitslag is geen beroep mogelijk, alleen een klacht bij Vakmanschap Techniek. Geen van de bronnen noemt een gratis herkansing, een beroep bij InstallQ of een deelvrijstelling.`
+      uitleg: `Zakken betekent een nieuwe, betaalde poging, ook als je het niet eens bent met de uitslag: een klacht en eventueel daarna beroep bij de beroepscommissie kunnen die uitslag heroverwegen, maar vervangen de herkansing niet. Geen van de bronnen noemt een gratis herkansing, een automatische bijstelling zonder actie, of een deelvrijstelling.`
     },
     {
       vraag: `Waarom kan deze cursus je geen Bewijs van Vakmanschap CO geven, ook niet als je alle toetsvragen in de lessen goed maakt?`,
@@ -302,12 +302,12 @@ Deze cursus bereidt je voor, maar is geen vervanging van het examen: je haalt hi
     { voor: `Hoeveel vragen telt de theorietoets voor de Eerste Monteur WI+SO?`, achter: `55 vragen, cesuur 70%. De monteur (niet eerste monteur) van dit dubbele profiel heeft 40 vragen.` },
     { voor: `Welke twee onderwerpen wegen het zwaarst in de toetsmatrijs?`, achter: `Onderhoud van toestellen en rookgasafvoer (8 tot 12 vragen) en de opstellingsruimte (7 tot 9 vragen).` },
     { voor: `Hoe lang duurt de theorietoets en waar maak je hem?`, achter: `Ongeveer anderhalf uur, digitaal, op een zelfgekozen plek en moment, in een keer af te maken.` },
-    { voor: `Wat kun je doen als je zakt voor de theorietoets?`, achter: `Een nieuwe, betaalde poging doen. Beroep tegen de uitslag is niet mogelijk, een klacht bij Vakmanschap Techniek wel.` },
+    { voor: `Wat kun je doen als je zakt voor de theorietoets?`, achter: `Een nieuwe, betaalde poging doen. Tegen de uitslag kun je wel een klacht en daarna beroep indienen, maar dat vervangt de herkansing niet.` },
     { voor: `Is de toetsmatrijs van 2019 nog de actuele bron?`, achter: `Het is de enige gepubliceerde matrijs (gecontroleerd 20-9-2026); de site zelf noemt geen aantallen. Vraag bij twijfel de helpdesk.` },
     { voor: `Wat is het risico van leren uit een fabrikanthandleiding voor de theorietoets?`, achter: `Je onthoudt een merkspecifieke waarde als algemene regel, terwijl de toets de regel uit wet, schema of norm vraagt.` },
     { voor: `Geeft deze cursus een Bewijs van Vakmanschap CO?`, achter: `Nee. Opleiden en examineren zijn gescheiden; het Bewijs komt alleen van een door InstallQ geaccrediteerde exameninstelling.` }
   ],
-  bronnen: ['EXA-14', 'EXA-15', 'EXA-16', 'EXA-17', 'EXA-20', 'EXA-21', 'EXA-43', 'WET-43', 'WET-44', 'BPR-23']
+  bronnen: ['EXA-14', 'EXA-15', 'EXA-16', 'EXA-17', 'EXA-20', 'EXA-21', 'EXA-43', 'WET-43', 'WET-44', 'WET-45', 'BPR-23']
 },
 
 /* ------------------------------------------------------------------ 18.2 */
@@ -365,14 +365,14 @@ Je brengt je eigen, goedgekeurde meetinstrumenten en gereedschap mee; de praktij
 
 ## Resultaat
 
-Het resultaat van het praktijkexamen is bindend. Zak je, dan moet je het examen opnieuw boeken en betalen; verzetten kan alleen in overleg met de praktijkorganisatie.
+Het resultaat van het praktijkexamen is bindend. Zak je voor een onderdeel, dan boek en betaal je binnen 10 werkdagen herexamen voor dat onderdeel (bij meerdere onvoldoende onderdelen gebeurt dat op dezelfde dag); verzetten van de examendatum zelf kan alleen in overleg met de praktijkorganisatie.
 `,
   checklist: [
     `Ik weet uit welke drie onderdelen het praktijkexamen bestaat`,
     `Ik benoem mijn bevindingen en de regel waarop ik mijn beslissing baseer, hardop`,
     `Ik houd een veilige beslissing vast, ook als de "klant" tegenwerpt`,
     `Ik controleer voor het examen of mijn meetinstrumenten gekalibreerd zijn`,
-    `Ik weet dat het resultaat bindend is en een nieuwe poging opnieuw wordt betaald`
+    `Ik weet dat het resultaat bindend is en dat herexamen voor het onvoldoende onderdeel opnieuw wordt betaald`
   ],
   quiz: [
     {
@@ -420,15 +420,15 @@ Het resultaat van het praktijkexamen is bindend. Zak je, dan moet je het examen 
       uitleg: `De kandidaat brengt zelf de meetinstrumenten en gereedschappen mee; de praktijklocatie levert de opstelling en montagematerialen. Een eigen assessor of een verslag van een eerdere klus horen niet bij het examen.`
     },
     {
-      vraag: `Wat gebeurt er als je zakt voor het praktijkexamen?`,
+      vraag: `Je doet het praktijkexamen voor het dubbele profiel (installatie- en onderhoudsopdracht) en haalt alleen de onderhoudsopdracht niet. Wat is de juiste vervolgstap?`,
       opties: [
-        `Je krijgt een half examen: alleen het onderdeel dat onvoldoende was, doe je opnieuw`,
-        `Je boekt en betaalt een volledig nieuw praktijkexamen`,
+        `Je boekt en betaalt herexamen voor alleen de onderhoudsopdracht`,
+        `Je moet het hele praktijkexamen, beide opdrachten, opnieuw boeken en betalen`,
         `De assessor mag de uitslag op verzoek herzien binnen twee weken`,
         `Je theorietoets vervalt ook en moet opnieuw worden gedaan`
       ],
-      goed: 1,
-      uitleg: `Het resultaat is bindend; een nieuw praktijkexamen moet volledig opnieuw worden geboekt en betaald. Er is geen gedeeltelijk herexamen, geen herzieningstermijn voor de assessor, en de al gehaalde theorietoets blijft geldig.`
+      goed: 0,
+      uitleg: `Herexamen kan per onderdeel: bij een deels onvoldoende resultaat boek en betaal je binnen 10 werkdagen alleen voor het onvoldoende onderdeel, niet voor het al behaalde onderdeel. Er is geen herzieningstermijn voor de assessor, en de al gehaalde theorietoets blijft geldig.`
     }
   ],
   kaarten: [
@@ -438,7 +438,7 @@ Het resultaat van het praktijkexamen is bindend. Zak je, dan moet je het examen 
     { voor: `Wie speelt de klant tijdens het praktijkexamen?`, achter: `De assessor.` },
     { voor: `Wat verwacht de toetsmatrijs van je als de "klant" tegenwerpt bij een afkeuring?`, achter: `Dat je onder druk toch een veilige beslissing neemt, ook als dat voor de klant een impopulaire maatregel is.` },
     { voor: `Wat breng je zelf mee naar het praktijkexamen?`, achter: `Je eigen, goedgekeurde en gekalibreerde meetinstrumenten en gereedschappen.` },
-    { voor: `Wat gebeurt er als je zakt voor het praktijkexamen?`, achter: `Je boekt en betaalt een volledig nieuw examen; het resultaat is bindend.` }
+    { voor: `Wat gebeurt er als je zakt voor het praktijkexamen?`, achter: `Je boekt en betaalt binnen 10 werkdagen herexamen voor het onvoldoende onderdeel; het resultaat is bindend.` }
   ],
   bronnen: ['EXA-22', 'EXA-23', 'EXA-24', 'EXA-25', 'EXA-26', 'EXA-27', 'EXA-28', 'EXA-30', 'WET-44', 'KLA-10', 'BPR-21', 'BPR-22']
 },
