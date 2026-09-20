@@ -626,26 +626,26 @@ Twee metingen, dezelfde plek en hoogte, en een vaste tabel met acties: dat is de
   quiz: [
     {
       vraag: `Op welke hoogte en afstand meet je CO in de opstellingsruimte?`,
-      opties: [`Ongeveer 1,7 meter hoog, 1 meter van het toestel`, `Tegen het plafond, in de verste hoek van de ruimte`, `Op de hoogte van de gasmeter, buiten de opstellingsruimte`, `Op vloerhoogte, vlak naast de voet van het toestel`],
-      goed: 0,
+      opties: [`Op de hoogte van de gasmeter, buiten de opstellingsruimte`, `Op vloerhoogte, vlak naast de voet van het toestel`, `Ongeveer 1,7 meter hoog, 1 meter van het toestel`, `Tegen het plafond, in de verste hoek van de ruimte`],
+      goed: 2,
       uitleg: `De meting gebeurt op ongeveer 1,7 meter hoogte (ademhoogte) en 1 meter afstand van het toestel: dat benadert de blootstelling van een volwassene in de ruimte, niet de rookgasstroom zelf.`
     },
     {
       vraag: `Waarom meet je CO in de opstellingsruimte zowel voor als na de werkzaamheden?`,
-      opties: [`Om te controleren of het meetinstrument zelf goed werkt en gekalibreerd is`, `Twee losse verplichte metingen: de startsituatie vastleggen en achteraf bewijzen dat het veilig is`, `De meting na het werk is optioneel`, `Om te bepalen of de gasmeter goed is afgelezen`],
-      goed: 1,
+      opties: [`Twee losse verplichte metingen: de startsituatie vastleggen en achteraf bewijzen dat het veilig is`, `De meting na het werk is optioneel`, `Om te bepalen of de gasmeter goed is afgelezen`, `Om te controleren of het meetinstrument zelf goed werkt en gekalibreerd is`],
+      goed: 0,
       uitleg: `Beide metingen zijn verplicht en hebben een ander doel: de eerste legt de startsituatie vast (was het al onveilig voor je aankwam), de tweede bewijst dat het toestel na jouw ingreep veilig is voordat je het weer in bedrijf stelt.`
     },
     {
       vraag: `Je meet voor de werkzaamheden 8 ppm CO in de opstellingsruimte. Wat doe je?`,
-      opties: [`Direct het toestel buiten bedrijf stellen en melden aan de gemeente`, `Niets, 8 ppm is te laag om iets mee te doen`, `De oorzaak onderzoeken, wegnemen en de opdrachtgever informeren`, `Wachten met werken tot een collega een tweede meting doet`],
-      goed: 2,
+      opties: [`Wachten met werken tot een collega een tweede meting doet`, `Direct het toestel buiten bedrijf stellen en melden aan de gemeente`, `Niets, 8 ppm is te laag om iets mee te doen`, `De oorzaak onderzoeken, wegnemen en de opdrachtgever informeren`],
+      goed: 3,
       uitleg: `Tussen 5 en 20 ppm geldt nader onderzoek: de oorzaak opsporen, wegnemen, en de opdrachtgever informeren. Melden aan bevoegd gezag en certificerende instelling geldt vanaf 20 ppm, niet al bij 8 ppm.`
     },
     {
       vraag: `Wanneer mag je een toestel na werkzaamheden weer in bedrijf stellen?`,
-      opties: [`Zodra de rookgasmeting is uitgevoerd, ongeacht de uitkomst in de ruimte`, `Altijd binnen een uur na afronding van het werk`, `Zodra de klant daar om vraagt`, `Als de ruimte onder 5 ppm CO blijft en jij het toestel veilig beoordeelt`],
-      goed: 3,
+      opties: [`Altijd binnen een uur na afronding van het werk`, `Zodra de klant daar om vraagt`, `Als de ruimte onder 5 ppm CO blijft en jij het toestel veilig beoordeelt`, `Zodra de rookgasmeting is uitgevoerd, ongeacht de uitkomst in de ruimte`],
+      goed: 2,
       uitleg: `Beide voorwaarden gelden samen: de gemeten concentratie moet onder 5 ppm liggen, én jij moet het toestel naar je professionele oordeel veilig vinden en conform de wet. Een van de twee alleen is niet genoeg.`
     },
     {
@@ -656,8 +656,8 @@ Twee metingen, dezelfde plek en hoogte, en een vaste tabel met acties: dat is de
     },
     {
       vraag: `Wat is verplicht zodra je 22 ppm CO meet in de opstellingsruimte, ook als je de oorzaak meteen kunt wegnemen?`,
-      opties: [`Niets, want als je de oorzaak zelf al hebt weggenomen vervalt de plicht om het voorval te melden`, `Onverwijld en schriftelijk melden aan bewoner of gebruiker, eigenaar, bevoegd gezag en certificerende instelling`, `Alleen de bewoner op de hoogte stellen, verdere melding laat je aan het installatiebedrijf over`, `Wachten tot de volgende onderhoudsbeurt om het te melden`],
-      goed: 1,
+      opties: [`Alleen de bewoner op de hoogte stellen, verdere melding laat je aan het installatiebedrijf over`, `Wachten tot de volgende onderhoudsbeurt om het te melden`, `Niets, want als je de oorzaak zelf al hebt weggenomen vervalt de plicht om het voorval te melden`, `Onverwijld en schriftelijk melden aan bewoner of gebruiker, eigenaar, bevoegd gezag en certificerende instelling`],
+      goed: 3,
       uitleg: `Vanaf 20 ppm is de meldplicht van artikel 6.46 Bbl van toepassing, aan alle vier de partijen, onverwijld: dat geldt ook als je de oorzaak zelf al hebt weggenomen. De meldplicht is een wettelijke verplichting, geen eigen afweging op basis van hoe snel je het probleem oploste.`
     }
   ],
@@ -741,8 +741,8 @@ Water, temperatuur en elektra zijn de metingen die je het vaakst doet, juist omd
   quiz: [
     {
       vraag: `Waarom kan een infraroodthermometer op blank koperleidingwerk een onbetrouwbare temperatuur tonen?`,
-      opties: [`Blank koper heeft een lage emissiefactor en reflecteert de omgeving`, `Een infraroodmeter werkt principieel niet op metaal en meet dan de lucht ervoor`, `De meter heeft dan te weinig batterijspanning`, `Koper is te heet om te meten`],
-      goed: 0,
+      opties: [`Een infraroodmeter werkt principieel niet op metaal en meet dan de lucht ervoor`, `De meter heeft dan te weinig batterijspanning`, `Koper is te heet om te meten`, `Blank koper heeft een lage emissiefactor en reflecteert de omgeving`],
+      goed: 3,
       uitleg: `Glimmend metaal zoals koper heeft een lage emissiefactor (ongeveer 0,02 tot 0,07): het straalt zijn eigen temperatuur nauwelijks uit en reflecteert vooral de omgeving. Een contactthermometer of een mat meetpunt op de leiding geeft een betrouwbaardere waarde.`
     },
     {
@@ -753,8 +753,8 @@ Water, temperatuur en elektra zijn de metingen die je het vaakst doet, juist omd
     },
     {
       vraag: `Een cv-circuit levert 20 kW bij een delta T van 30 K. Wat is het debiet ongeveer?`,
-      opties: [`1720 l/h`, `290 l/h`, `573 l/h`, `860 l/h`],
-      goed: 2,
+      opties: [`573 l/h`, `860 l/h`, `1720 l/h`, `290 l/h`],
+      goed: 0,
       uitleg: `20.000 / (1,163 × 30) ≈ 573 l/h. De 860 l/h hoort bij delta T 20 K in plaats van 30 K, de 290 en 1720 l/h komen uit rekenfouten met de factor 2.`
     },
     {
@@ -765,14 +765,14 @@ Water, temperatuur en elektra zijn de metingen die je het vaakst doet, juist omd
     },
     {
       vraag: `Waarom bewijst een multimeter die 0 volt aangeeft niet automatisch dat een circuit veilig is om aan te raken?`,
-      opties: [`Omdat een kapotte meter of een verkeerde meetstand ook 0 volt kan tonen`, `Omdat de spanning bij een cv-ketel voortdurend wisselt tussen 0 en 230 volt`, `Omdat multimeters nooit spanning kunnen meten`, `Omdat 0 volt altijd 230 volt betekent bij een cv-ketel`],
-      goed: 0,
+      opties: [`Omdat 0 volt altijd 230 volt betekent bij een cv-ketel`, `Omdat een kapotte meter of een verkeerde meetstand ook 0 volt kan tonen`, `Omdat de spanning bij een cv-ketel voortdurend wisselt tussen 0 en 230 volt`, `Omdat multimeters nooit spanning kunnen meten`],
+      goed: 1,
       uitleg: `Een gewone spanningsmeting met een multimeter is geen betrouwbaar bewijs van spanningsloosheid: een fout aan de meter zelf, een verkeerde stand of instelling kan ten onrechte 0 volt tonen. Spanningsloosheid toon je aan met een daarvoor bedoeld, tweepolig instrument dat je voor en na gebruik controleert.`
     },
     {
       vraag: `Wanneer wijst een wegzakkende waterdruk na het vullen en ontluchten van een cv-installatie op een probleem?`,
-      opties: [`Nooit, een dalende druk is na het vullen altijd normaal gedrag van de installatie`, `Als de druk blijft zakken nadat vullen en ontluchten klaar zijn`, `Alleen als de druk boven 3 bar uitkomt`, `Alleen als je geen manometer op het toestel hebt`],
-      goed: 1,
+      opties: [`Als de druk blijft zakken nadat vullen en ontluchten klaar zijn`, `Alleen als de druk boven 3 bar uitkomt`, `Alleen als je geen manometer op het toestel hebt`, `Nooit, een dalende druk is na het vullen altijd normaal gedrag van de installatie`],
+      goed: 0,
       uitleg: `Na goed vullen en ontluchten hoort de druk stabiel te blijven. Zakt hij daarna toch weg, dan is dat een aanwijzing voor een lek of voor lucht die nog niet volledig is verwijderd, geen normaal verschijnsel dat je kunt negeren.`
     }
   ],

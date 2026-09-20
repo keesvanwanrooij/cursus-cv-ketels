@@ -335,47 +335,32 @@ Een bewoner mag zelf cv-water bijvullen, zie [les 1.2](les:m01l02). Je klant hee
   quiz: [
     {
       vraag: `Het hoogste punt van een installatie ligt 8 m boven het aansluitpunt van het vat. Wat is de voordruk volgens de Flamco-formule (toeslag 0,2 bar, naar boven afronden op 0,5 bar)?`,
-      opties: [`0,8 bar`, `1,3 bar`, `1,0 bar`, `1,5 bar`],
-      goed: 2,
+      opties: [`1,5 bar`, `0,8 bar`, `1,3 bar`, `1,0 bar`],
+      goed: 3,
       uitleg: `P_ST = 8 x 0,1 = 0,8 bar. Met de toeslag: 0,8 + 0,2 = 1,0 bar. Dat is al een veelvoud van 0,5, dus de voordruk is 1,0 bar. 0,8 bar vergeet de toeslag, 1,3 bar is de vuldruk (voordruk plus 0,3) en geen voordruk.`
     },
     {
       vraag: `Een vat heeft 1,0 bar voordruk. Een monteur vult de koude installatie tot 1,1 bar. Wat klopt?`,
-      opties: [
-        `Dat is goed: de vuldruk ligt boven de voordruk`,
-        `Dat is te hoog: vuldruk en voordruk moeten gelijk zijn`,
-        `Dat is goed: de ketel geeft pas onder 0,8 bar een waarschuwing`,
-        `Dat is te laag: Vaillant vraagt minstens 1,2 bar en EN 12828 via Flamco 1,3 bar`
-      ],
-      goed: 3,
+      opties: [`Dat is goed: de ketel geeft pas onder 0,8 bar een waarschuwing`, `Dat is te laag: Vaillant vraagt minstens 1,2 bar en EN 12828 via Flamco 1,3 bar`, `Dat is goed: de vuldruk ligt boven de voordruk`, `Dat is te hoog: vuldruk en voordruk moeten gelijk zijn`],
+      goed: 1,
       uitleg: `De vuldruk moet een marge boven de voordruk hebben: Vaillant vraagt minstens 0,2 bar, Flamco op basis van EN 12828 0,3 bar. Met 1,1 bar zit het vat bij koude installatie bijna leeg en heeft het te weinig waterreserve. De 0,8 bar is de ondergrens van de ketel en zegt niets over wat het vat nodig heeft.`
     },
     {
       vraag: `De manometer op de ketel staat op 1,3 bar (pomp uit, ketel en vat op dezelfde hoogte). Een radiator zit 6 m boven de ketel. Welke overdruk staat er ongeveer bij die radiator?`,
-      opties: [`0,7 bar`, `1,3 bar`, `1,9 bar`, `0,6 bar`],
-      goed: 0,
+      opties: [`1,3 bar`, `1,9 bar`, `0,6 bar`, `0,7 bar`],
+      goed: 3,
       uitleg: `Elke meter hoogte kost ongeveer 0,1 bar: 6 m is 0,6 bar. Dus 1,3 - 0,6 = 0,7 bar. 1,9 bar krijg je door de hoogte op te tellen. 0,6 bar is alleen het hoogteverlies, niet de druk die overblijft.`
     },
     {
       vraag: `ATAG noemt bij 5 m een voordruk van 0,5 bar, terwijl de Flamco-berekening op 1,0 bar uitkomt. Hoe ga je daarmee om?`,
-      opties: [
-        `Een van de twee heeft een rekenfout gemaakt, dus je kiest de hoogste waarde om veilig te zijn`,
-        `De fabrikanten hanteren een andere methode en toeslag, dus je volgt de tabel of berekening bij jouw ketel en vat`,
-        `Flamco is een vatfabrikant en ATAG een ketelfabrikant, dus je volgt altijd de berekening van Flamco`,
-        `Het verschil komt door het weer en de buitentemperatuur, want water zet in de winter anders uit`
-      ],
-      goed: 1,
+      opties: [`Het verschil komt door het weer en de buitentemperatuur, want water zet in de winter anders uit`, `Een van de twee heeft een rekenfout gemaakt, dus je kiest de hoogste waarde om veilig te zijn`, `De fabrikanten hanteren een andere methode en toeslag, dus je volgt de tabel of berekening bij jouw ketel en vat`, `Flamco is een vatfabrikant en ATAG een ketelfabrikant, dus je volgt altijd de berekening van Flamco`],
+      goed: 2,
       uitleg: `Beide waarden komen uit een fabrikantbron en zijn met een eigen methode bepaald: Flamco rekent met een toeslag van minstens 0,2 bar en rondt naar boven af op 0,5 bar, ATAG geeft een tabel. Er is geen algemeen juist getal. Rekenfout is dus een te snelle conclusie.`
     },
     {
       vraag: `Een klant meldt dat zijn Remeha Calenta een lagedrukwaarschuwing geeft bij 0,6 bar. Wat is een verstandige eerste stap?`,
-      opties: [
-        `Bijvullen tot 3 bar, want dan hoeft de klant nooit meer bij te vullen en blijft de druk hoog genoeg`,
-        `Het veiligheidsventiel vervangen, want dat laat vermoedelijk druk weglopen zodra de installatie afkoelt`,
-        `Bijvullen naar de geadviseerde 1,5 tot 2 bar, ontluchten, de druk opnieuw controleren en vragen hoe vaak het gebeurt`,
-        `De voordruk van het vat naar 3 bar brengen, zodat het vat de druk beter vasthoudt bij afkoelen en bijvullen niet meer nodig is`
-      ],
-      goed: 2,
+      opties: [`Het veiligheidsventiel vervangen, want dat laat vermoedelijk druk weglopen zodra de installatie afkoelt`, `Bijvullen naar de geadviseerde 1,5 tot 2 bar, ontluchten, de druk opnieuw controleren en vragen hoe vaak het gebeurt`, `De voordruk van het vat naar 3 bar brengen, zodat het vat de druk beter vasthoudt bij afkoelen en bijvullen niet meer nodig is`, `Bijvullen tot 3 bar, want dan hoeft de klant nooit meer bij te vullen en blijft de druk hoog genoeg`],
+      goed: 1,
       uitleg: `Remeha noemt 0,8 bar als minimum en 1,5 tot 2 bar als geadviseerde vuldruk. De druk zakt na ontluchten vaak licht, dus controleer opnieuw. 3 bar is de maximale bedrijfsdruk en de openingsdruk van het ventiel: dan blaast de installatie bij opwarmen af. Vraag ook hoe vaak het gebeurt, want structureel drukverlies heeft een oorzaak.`
     }
   ],

@@ -296,14 +296,14 @@ Bij de reactie ontstaat 2 mol waterdamp per mol methaan. De calorische bovenwaar
   quiz: [
     {
       vraag: `Hoeveel m³ zuurstof is minimaal nodig om 1 m³ methaan volledig te verbranden?`,
-      opties: [`1 m³`, `2 m³`, `4 m³`, `9,55 m³`],
-      goed: 1,
+      opties: [`9,55 m³`, `1 m³`, `2 m³`, `4 m³`],
+      goed: 2,
       uitleg: `CH4 + 2 O2 → CO2 + 2 H2O: per mol methaan zijn 2 mol zuurstof nodig, en bij gassen is dat gelijk aan 2 m³ per m³. De 9,55 m³ is de hoeveelheid lucht die 2 m³ zuurstof bevat, niet de hoeveelheid zuurstof zelf.`
     },
     {
       vraag: `Hoeveel m³ lucht is minimaal nodig voor 1 m³ methaan, als lucht 20,94% zuurstof bevat?`,
-      opties: [`0,42 m³`, `4,8 m³`, `9,55 m³`, `21 m³`],
-      goed: 2,
+      opties: [`9,55 m³`, `21 m³`, `0,42 m³`, `4,8 m³`],
+      goed: 0,
       uitleg: `Je hebt 2 m³ zuurstof nodig en lucht bevat maar 0,2094 m³ zuurstof per m³: 2 / 0,2094 = 9,55 m³. De 0,42 m³ komt uit vermenigvuldigen in plaats van delen, de 4,8 m³ uit rekenen met 1 m³ zuurstof.`
     },
     {
@@ -314,14 +314,14 @@ Bij de reactie ontstaat 2 mol waterdamp per mol methaan. De calorische bovenwaar
     },
     {
       vraag: `Waarom heeft G25-achtig gas (86% CH4, 14% N2) minder lucht nodig per m³ dan zuiver methaan?`,
-      opties: [`Alleen het methaandeel verbrandt: 0,86 × 9,55 = 8,21 m³ lucht`, `De stikstof in het gas neemt zuurstof op, dus minder lucht nodig`, `Het gas staat onder lagere druk, dus is er minder lucht nodig`, `De stikstof in het gas vervangt een deel van de zuurstof in de lucht`],
-      goed: 0,
+      opties: [`Het gas staat onder lagere druk, dus is er minder lucht nodig`, `De stikstof in het gas vervangt een deel van de zuurstof in de lucht`, `Alleen het methaandeel verbrandt: 0,86 × 9,55 = 8,21 m³ lucht`, `De stikstof in het gas neemt zuurstof op, dus minder lucht nodig`],
+      goed: 2,
       uitleg: `Stikstof brandt niet en vraagt dus geen zuurstof. Per m³ gas is er maar 0,86 m³ methaan, dat 0,86 × 9,55 = 8,21 m³ lucht vraagt. De druk verandert niets aan de stoichiometrie.`
     },
     {
       vraag: `Een open toestel staat in een kapsalon en haalt zijn verbrandingslucht uit de salon, waar dagelijks spuitbussen worden gebruikt. Wat is het risico?`,
-      opties: [`Te weinig zuurstof in de salon omdat de spuitbus zuurstof verbruikt`, `Corrosie door chloor- en fluorverbindingen in de aangezogen lucht`, `Een te hoge gasdruk bij het toestel door de drijfgassen in de lucht`, `Meer stikstof in het rookgas door de aangezogen spuitbuslucht`],
-      goed: 1,
+      opties: [`Corrosie door chloor- en fluorverbindingen in de aangezogen lucht`, `Een te hoge gasdruk bij het toestel door de drijfgassen in de lucht`, `Meer stikstof in het rookgas door de aangezogen spuitbuslucht`, `Te weinig zuurstof in de salon omdat de spuitbus zuurstof verbruikt`],
+      goed: 0,
       uitleg: `Spuitbussen, verf en reinigingsmiddelen bevatten chloor- en fluorverbindingen, die uitermate corrosief zijn. Kapsalons staan met name genoemd als ruimte waaruit je geen verbrandingslucht moet aanzuigen. Het zuurstofgehalte van de lucht verandert er nauwelijks door.`
     }
   ],
@@ -531,38 +531,38 @@ Kiwa definieert de giftigheidsindex als (%CO / %CO2) × 100 en eist in de tegend
   quiz: [
     {
       vraag: `Een ketel is afgesteld op lambda 0,95. Wat is het gevolg?`,
-      opties: [`Alle brandstof verbrandt volledig tot CO2 en waterdamp`, `Te weinig zuurstof: een deel van de brandstof wordt CO`, `Alleen het rendement stijgt, door minder rookgasverlies`, `Er ontstaat extra waterdamp, maar er ontstaat geen CO`],
-      goed: 1,
+      opties: [`Te weinig zuurstof: een deel van de brandstof wordt CO`, `Alleen het rendement stijgt, door minder rookgasverlies`, `Er ontstaat extra waterdamp, maar er ontstaat geen CO`, `Alle brandstof verbrandt volledig tot CO2 en waterdamp`],
+      goed: 0,
       uitleg: `Onder lambda 1,0 is er te weinig zuurstof voor de reactievergelijking: een deel van de brandstof verbrandt tot CO en levert minder warmte. Een tekort aan lucht is dus nooit gunstig voor het rendement.`
     },
     {
       vraag: `Je meet in het rookgas 80 ppm CO bij 5,0% O2 (droog). Wat is de luchtvrije waarde?`,
-      opties: [`61 ppm`, `84 ppm`, `105 ppm`, `336 ppm`],
-      goed: 2,
+      opties: [`336 ppm`, `61 ppm`, `84 ppm`, `105 ppm`],
+      goed: 3,
       uitleg: `CO luchtvrij = 80 × 21 / (21 − 5,0) = 80 × 1,3125 = 105 ppm. De 61 ppm komt uit vermenigvuldigen met (21 − O2) / 21, dus de omgekeerde factor. De 336 ppm komt uit 21 / O2 in plaats van 21 / (21 − O2).`
     },
     {
       vraag: `Je meet in de woonkamer met een rookgasmeter 12 ppm CO en O2 van 20,9%. Een collega rekent dat om naar luchtvrij. Wat klopt?`,
-      opties: [`Dat is verplicht: ruimte-CO beoordeel je altijd als luchtvrije waarde`, `Dat geeft een lagere en dus veiligere waarde dan de aflezing zelf`, `De uitkomst vergelijk je daarna met de 5 en 20 ppm uit het schema`, `Zinloos: de noemer nadert nul, ruimte-CO beoordeel je zoals afgelezen`],
-      goed: 3,
+      opties: [`De uitkomst vergelijk je daarna met de 5 en 20 ppm uit het schema`, `Zinloos: de noemer nadert nul, ruimte-CO beoordeel je zoals afgelezen`, `Dat is verplicht: ruimte-CO beoordeel je altijd als luchtvrije waarde`, `Dat geeft een lagere en dus veiligere waarde dan de aflezing zelf`],
+      goed: 1,
       uitleg: `De luchtvrije correctie geldt alleen voor rookgas met luchtovermaat. Bij een O2 van circa 20,9% wordt 21 − O2 bijna nul en levert de formule een onzinnige waarde. Voor de ruimte gelden de aflezingen zoals ze zijn: onder 5 ppm inbedrijfstellen, boven 20 ppm melden.`
     },
     {
       vraag: `Een gesloten toestel (type C) heeft geen maximale CO-waarde in het voorschrift van de fabrikant. Je meet 400 ppm CO in het rookgas. De bron zegt niet of de grens luchtvrij is. Wat zegt de grens die het schema noemt?`,
-      opties: [`De grens is 'niet hoger dan 400 ppm': precies 400 ppm is nog toegestaan`, `De grens is 'lager dan 400 ppm': bij precies 400 ppm moet je afkeuren`, `De grens voor type C is 200 ppm, en 400 ppm is de grens voor type B`, `Voor type C bestaat geen grens, alleen voor open toestellen zijn er maxima`],
-      goed: 0,
+      opties: [`De grens is 'lager dan 400 ppm': bij precies 400 ppm moet je afkeuren`, `De grens voor type C is 200 ppm, en 400 ppm is de grens voor type B`, `Voor type C bestaat geen grens, alleen voor open toestellen zijn er maxima`, `De grens is 'niet hoger dan 400 ppm': precies 400 ppm is nog toegestaan`],
+      goed: 3,
       uitleg: `BRL 6000-25 noemt 50 (type A), 200 (type B) en 400 ppm (type C) als maxima zonder fabrikantgrens, met 'niet hoger dan'. De 200 ppm hoort bij type B. Of de waarde luchtvrij is, staat in de bron niet.`
     },
     {
       vraag: `Een Intergas Kombi Kompakt HRE (voorbeeldmodel, maximaal 160 ppm CO volgens het voorschrift) meet bij hooglast 180 ppm CO. Het schema noemt 400 ppm voor gesloten toestellen. Welke grens telt?`,
-      opties: [`400 ppm: de wettelijke grens gaat voor de fabrikantgrens`, `160 ppm: de fabrikantgrens gaat voor, 180 ppm is te hoog`, `200 ppm: dat is de grens voor open afvoergebonden toestellen`, `Er is geen grens bij hooglast, alleen bij laaglast`],
-      goed: 1,
+      opties: [`Er is geen grens bij hooglast, alleen bij laaglast`, `400 ppm: de wettelijke grens gaat voor de fabrikantgrens`, `160 ppm: de fabrikantgrens gaat voor, 180 ppm is te hoog`, `200 ppm: dat is de grens voor open afvoergebonden toestellen`],
+      goed: 2,
       uitleg: `De grenzen van het schema gelden alleen als de fabrikant geen maximale CO-waarde geeft. Een fabrikantgrens is strenger en gaat voor. De 180 ppm is dus te hoog: onderzoek de oorzaak in plaats van de meetwaarde af te ronden.`
     },
     {
       vraag: `Je meet CO2 op het meetpunt van de verbrandingsluchttoevoer van een concentrisch systeem (gesloten mantel) en leest 4,5%. Wat betekent dat?`,
-      opties: [`Normaal: de buitenlucht bevat circa 4,5% CO2, dit is de gewone waarde`, `Normaal: door windaanval is een waarde tot circa 5% CO2 toelaatbaar`, `Veel hoger dan de toelaatbare 1% door wind: dat wijst op interne lekkage`, `Het meetpunt is verkeerd gekozen, want CO2 meet je alleen in de afvoer`],
-      goed: 2,
+      opties: [`Veel hoger dan de toelaatbare 1% door wind: dat wijst op interne lekkage`, `Het meetpunt is verkeerd gekozen, want CO2 meet je alleen in de afvoer`, `Normaal: de buitenlucht bevat circa 4,5% CO2, dit is de gewone waarde`, `Normaal: door windaanval is een waarde tot circa 5% CO2 toelaatbaar`],
+      goed: 0,
       uitleg: `Bij een goed werkend systeem is CO2 in de luchttoevoer gelijk aan de buitenluchtwaarde, ongeveer 0,04%. Door wind kan tot circa 1% CO2 optreden. 4,5% is veel hoger en duidt op rookgas dat via een lek in de luchttoevoer terugkomt.`
     }
   ],
@@ -879,8 +879,8 @@ Wat je als certificaathouder daarna doet (het toestel buiten bedrijf stellen, me
   quiz: [
     {
       vraag: `Volgens NEN-EN 50291 mag een CO-melder bij 30 ppm gedurende 120 minuten geen alarm geven. Wat volgt daaruit voor een bewoner met een melder in huis?`,
-      opties: [`Een stille melder betekent dat er geen CO in de ruimte zit`, `Een stille melder sluit CO-waarden zoals 30 ppm niet uit`, `De melder is defect als hij bij 30 ppm niet alarmeert`, `30 ppm is voor iedereen ongevaarlijk, ook bij lange blootstelling`],
-      goed: 1,
+      opties: [`Een stille melder sluit CO-waarden zoals 30 ppm niet uit`, `De melder is defect als hij bij 30 ppm niet alarmeert`, `30 ppm is voor iedereen ongevaarlijk, ook bij lange blootstelling`, `Een stille melder betekent dat er geen CO in de ruimte zit`],
+      goed: 0,
       uitleg: `De norm laat melders bewust zwijgen bij 30 ppm gedurende 120 minuten en eist alarm pas bij hogere waarden of langere tijd. 30 ppm is ongeveer de WHO-richtwaarde voor 1 uur, dus stilte is geen bewijs van veiligheid. De melder is bij 30 ppm niet defect.`
     },
     {
@@ -891,26 +891,26 @@ Wat je als certificaathouder daarna doet (het toestel buiten bedrijf stellen, me
     },
     {
       vraag: `Je onderhoudt een open toestel in een woning zonder CO-melder. Wat verlangt BRL 6000-25 van jou?`,
-      opties: [`De melder zelf plaatsen en aansluiten in de opstellingsruimte`, `Het toestel afkeuren zolang er geen melder in de ruimte hangt`, `Niets: een melder is alleen de zaak van de bewoner`, `Een melder adviseren en vastleggen dat je dat hebt gedaan`],
-      goed: 3,
+      opties: [`Een melder adviseren en vastleggen dat je dat hebt gedaan`, `De melder zelf plaatsen en aansluiten in de opstellingsruimte`, `Het toestel afkeuren zolang er geen melder in de ruimte hangt`, `Niets: een melder is alleen de zaak van de bewoner`],
+      goed: 0,
       uitleg: `Bij een open of afvoerloos toestel zonder melder adviseer je er een. Het schema eist het adviseren en het vastleggen ervan, en niet het plaatsen of afkeuren. Bij plaatsing raadpleeg je het Brandweeradvies.`
     },
     {
       vraag: `Waar hang je volgens het Brandweeradvies een CO-melder in de ruimte met het toestel?`,
-      opties: [`Aan het plafond, 1 tot 3 m horizontaal van de bron en minimaal 30 cm van muren`, `Vlak boven het toestel, tegen de muur, zodat hij eerst de rookgassen meet`, `Laag bij de vloer, op 1 tot 3 m horizontale afstand van de bron en van muren`, `In de meterkast, zodat hij bij de gasmeter meteen alarmeert bij een lek`],
-      goed: 0,
+      opties: [`Laag bij de vloer, op 1 tot 3 m horizontale afstand van de bron en van muren`, `In de meterkast, zodat hij bij de gasmeter meteen alarmeert bij een lek`, `Aan het plafond, 1 tot 3 m horizontaal van de bron en minimaal 30 cm van muren`, `Vlak boven het toestel, tegen de muur, zodat hij eerst de rookgassen meet`],
+      goed: 2,
       uitleg: `Het Brandweeradvies is plafond, 1 tot 3 m horizontaal van de bron en minimaal 30 cm van muren. In een slaapkamer hang je hem op ademhoogte. Tegen de muur of vlak boven het toestel geeft geen goede plaatsing volgens dat advies.`
     },
     {
       vraag: `Een CO-melder gaat af in een woning. Wat zijn de eerste maatregelen?`,
-      opties: [`Ramen openzetten, binnen blijven en wachten tot de melder stopt`, `De melder resetten en de installateur bellen als hij opnieuw afgaat`, `Iedereen waarschuwen, direct naar buiten gaan en 112 bellen`, `Eerst het toestel zelf proberen uit te zetten en te repareren`],
-      goed: 2,
+      opties: [`De melder resetten en de installateur bellen als hij opnieuw afgaat`, `Iedereen waarschuwen, direct naar buiten gaan en 112 bellen`, `Eerst het toestel zelf proberen uit te zetten en te repareren`, `Ramen openzetten, binnen blijven en wachten tot de melder stopt`],
+      goed: 1,
       uitleg: `Brandweer Nederland adviseert bij alarm iedereen te waarschuwen, direct naar buiten te gaan en 112 te bellen. Resetten of repareren houdt mensen in de gevarenzone.`
     },
     {
       vraag: `Wat is een gebruikelijke achtergrondwaarde voor CO in een woning zonder bronnen?`,
-      opties: [`5 ppm, de grens voor nader onderzoek`, `20 ppm, de grens voor de meldplicht`, `9 ppm, de WHO-richtwaarde voor 8 uur`, `Circa 0,4 ppm (buiten onder 1 ppm)`],
-      goed: 3,
+      opties: [`Circa 0,4 ppm (buiten onder 1 ppm)`, `5 ppm, de grens voor nader onderzoek`, `20 ppm, de grens voor de meldplicht`, `9 ppm, de WHO-richtwaarde voor 8 uur`],
+      goed: 0,
       uitleg: `In woningen zonder bronnen is de gemiddelde CO-concentratie circa 0,4 ppm, buiten onder 1 ppm. De 5 en 20 ppm zijn de grenzen uit het schema voor de ruimte, en 9 ppm is de WHO-richtwaarde voor 8 uur.`
     }
   ],
