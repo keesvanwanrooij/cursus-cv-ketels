@@ -78,9 +78,9 @@ CURSUS.addModule({
     },
     {
       vraag: `Een ATAG-toestel toont code 118 (druk te laag). De installatiehandleiding noemt als eerste maatregel het handmatig deblokkeren van de ketelpomp. Waarom kan een vastgelopen pomp samen met deze klacht voorkomen?`,
-      opties: [`Een vastgelopen pomp verhoogt de gasdruk, wat de code 118 veroorzaakt`, `Een vastgelopen pomp heeft niets met de waterdruk te maken, de code wijst dan op iets anders`, `Een vastgelopen pomp kan de druksensor beschadigen en daardoor een onjuiste te-lage-drukmelding geven`, `Een vastgelopen pomp is bij ATAG de enige mogelijke oorzaak van code 118`],
+      opties: [`Een vastgelopen pomp verhoogt de gasdruk, wat de code 118 veroorzaakt`, `Een vastgelopen pomp heeft niets met de waterdruk te maken, de code wijst dan op iets anders`, `Code 118 verschijnt ook bij een te lage pompdrukverhoging, en een vastgelopen pomp wekt geen drukverhoging op`, `Een vastgelopen pomp is bij ATAG de enige mogelijke oorzaak van code 118`],
       goed: 2,
-      uitleg: `ATAG noemt bij code 118 het handmatig deblokkeren van de ketelpomp als eerste maatregel (MRK-15): een vastgezeten pomp kan de drukmeting of de circulatie zo verstoren dat het toestel een te lage druk registreert. Andere oorzaken (lek, expansievat) blijven ook mogelijk en moeten apart worden nagelopen.`
+      uitleg: `ATAG geeft code 118 zowel bij een te lage waterdruk als bij een te lage pompdrukverhoging, met als eerste maatregel het handmatig deblokkeren van de ketelpomp (MRK-15): een vastgezeten pomp wekt geen drukverhoging op, en dat meldt het toestel dan als code 118, los van de werkelijke statische waterdruk. Andere oorzaken (lek, expansievat) blijven ook mogelijk en moeten apart worden nagelopen.`
     },
     {
       vraag: `Volgens Remeha (Avanta) leidt "wel ontstekingsvonk maar geen vlam" onder meer naar gaskraan, gasvoedingsdruk, lucht-/rookgasleiding en een gevulde, niet verstopte sifon. Wat is het gemeenschappelijke kenmerk van die oorzaken?`,
@@ -257,7 +257,7 @@ De BRL 6000-25 vraagt van elke controle of meting vast te leggen wat er is gecon
     { voor: `Wat doe je bij meer dan 20 ppm CO in de opstellingsruimte?`, achter: `Onverwijld en schriftelijk melden aan bewoner, gebouweigenaar, bevoegd gezag en de certificerende instelling (KLA-09).` },
     { voor: `Wat leg je minimaal vast na een controle of meting?`, achter: `Wat je hebt gecontroleerd, met welk instrument, wanneer, en wat de uitkomst was (KLA-01).` }
   ],
-  bronnen: ['STO-01', 'STO-04', 'STO-05', 'MET-03', 'MET-16', 'MET-26', 'KLA-01', 'KLA-07', 'KLA-09', 'KLA-10', 'ONT-17', 'ELK-33', 'ELK-34']
+  bronnen: ['STO-01', 'STO-04', 'STO-05', 'MET-03', 'MET-16', 'MET-26', 'KLA-01', 'KLA-07', 'KLA-09', 'KLA-10', 'ONT-17', 'ELK-33']
 },
 
 /* ------------------------------------------------------------------ 16.2 */
@@ -593,7 +593,7 @@ Een Remeha Calenta 25s heeft een minimale belasting van ongeveer 5,2 kW. Vraagt 
     { voor: `Welke spanning controleert Intergas op de regeling bij "geen verwarming"?`, achter: `24 V. Ontbreekt die, dan zit de oorzaak in de voeding van het regelcircuit, niet in de thermostaat zelf (MET-25).` },
     { voor: `Waarom kan een kleine vernauwing in de installatie een relatief grote invloed hebben op de doorstroming?`, achter: `De drukval groeit ongeveer kwadratisch met het debiet (HYD-21), dus een beetje extra weerstand remt verhoudingsgewijs veel af.` }
   ],
-  bronnen: ['STO-09', 'STO-10', 'STO-13', 'REG-11', 'KET-15', 'KET-28', 'HYD-21', 'ELK-17', 'ELK-20', 'ELK-21', 'MET-25']
+  bronnen: ['STO-09', 'REG-11', 'KET-15', 'KET-28', 'HYD-21', 'ELK-17', 'ELK-20', 'ELK-21', 'MET-25']
 },
 
 /* ------------------------------------------------------------------ 16.5 */
