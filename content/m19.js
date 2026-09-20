@@ -31,23 +31,23 @@ CURSUS.addModule({
     {
       vraag: `Een klant zegt: "Mijn oude ketel heeft geen ventilator en toch is hij nooit gekeurd zoals mijn HR-ketel." Wat is de juiste reactie?`,
       opties: [
-        `Klopt niet: een atmosferisch of VR-toestel is ook een gasverbrandingstoestel en valt onder BRL 6000-25`,
         `Klopt niet: een toestel zonder ventilator valt altijd buiten de certificeringsplicht`,
         `Klopt: alleen toestellen met een ventilator vallen onder de Gasketelwet`,
+        `Klopt niet: een atmosferisch of VR-toestel is ook een gasverbrandingstoestel en valt onder BRL 6000-25`,
         `Klopt: onderhoud aan oudere toestellen is vrijgesteld zolang het toestel nog op natuurlijke trek werkt zonder enige vorm van ventilator`
       ],
-      goed: 0,
+      goed: 2,
       uitleg: `De certificeringsplicht van Bbl art. 6.45 en BRL 6000-25 geldt voor gebouwgebonden gasverbrandingstoestellen in het algemeen, niet alleen voor toestellen met een ventilator (zie TST-24 en RGA-01). Een atmosferisch of VR-toestel verbrandt gas en heeft dus net als een HR-ketel een CO-certificaat en een Bewijs van Vakmanschap CO nodig voor onderhoud en inbedrijfstelling.`
     },
     {
       vraag: `Waarom is een atmosferisch of VR-toestel gevoeliger voor een CO-incident dan een moderne gesloten HR-ketel?`,
       opties: [
-        `Omdat een atmosferisch toestel volgens een hardnekkig misverstand altijd op propaan werkt in plaats van op aardgas`,
         `Omdat een atmosferisch toestel zijn lucht uit de opstelruimte haalt en dus gevoelig is voor onderdruk`,
+        `Omdat een atmosferisch toestel volgens een hardnekkig misverstand altijd op propaan werkt in plaats van op aardgas`,
         `Omdat een atmosferisch toestel een hoger vermogen heeft dan een HR-ketel`,
         `Omdat een atmosferisch toestel altijd op een CLV is aangesloten`
       ],
-      goed: 1,
+      goed: 0,
       uitleg: `Een open toestel (type B, zoals de meeste atmosferische en VR-ketels) haalt zijn lucht uit de opstelruimte (TST-11, RGA-01). Onderdruk in die ruimte, bijvoorbeeld door een afzuigkap, kan ervoor zorgen dat rookgas niet via de trekonderbreker naar buiten gaat maar de ruimte in komt. Een gesloten HR-toestel haalt zijn lucht van buiten en is daar niet gevoelig voor. Brandstof, vermogen en CLV zeggen hier niets over.`
     },
     {
@@ -55,120 +55,120 @@ CURSUS.addModule({
       opties: [
         `Hij verhoogt de gasdruk bij tegenvallende trek`,
         `Hij meet voortdurend de CO-waarde in het rookgas en sluit de gastoevoer automatisch af bij een te hoge waarde`,
-        `Hij zorgt dat de werking van het toestel wordt bepaald door de eigen thermische trek, niet door de wind`,
-        `Hij regelt de warmwatertemperatuur bij een combitoestel`
+        `Hij regelt de warmwatertemperatuur bij een combitoestel`,
+        `Hij zorgt dat de werking van het toestel wordt bepaald door de eigen thermische trek, niet door de wind`
       ],
-      goed: 2,
+      goed: 3,
       uitleg: `De trekonderbreker (TST-07, RGA-07) ontkoppelt de brander van wisselende windinvloeden: een deel van de omgevingslucht wordt door de opening aangezogen, zodat de trek van het toestel zelf de doorslag geeft. Hij meet niets en regelt geen temperatuur of druk.`
     },
     {
       vraag: `Een waakvlam dooft. Wat gebeurt er met de gastoevoer naar de brander, en waarom?`,
       opties: [
         `Er gebeurt niets: de brander blijft gewoon aan totdat iemand het merkt`,
+        `Het thermokoppel koelt af, de spanning verdwijnt en de klep sluit de gastoevoer automatisch`,
         `De gastoevoer wordt automatisch geblokkeerd door een druksensor die optisch controleert of de vlam nog brandt`,
-        `De ventilator slaat af, waardoor de gasklep mechanisch dichtklapt`,
-        `Het thermokoppel koelt af, de spanning verdwijnt en de klep sluit de gastoevoer automatisch`
+        `De ventilator slaat af, waardoor de gasklep mechanisch dichtklapt`
       ],
-      goed: 3,
+      goed: 1,
       uitleg: `De waakvlam verhit een thermokoppel, dat een kleine spanning opwekt om een gasklep open te houden (TST-09). Dooft de vlam, dan koelt het thermokoppel af, verdwijnt de spanning en sluit de klep. Dit is een thermo-elektrische beveiliging, geen optische sensor, drukmeting of ventilatorschakeling.`
     },
     {
       vraag: `Wat is volgens het RIVM waar over de kans op een CO-ongeval bij een geiser vergeleken met een cv-ketel?`,
       opties: [
-        `De kans is bij een geiser groter, al veroorzaken cv-ketels tegenwoordig meer incidenten in absolute aantallen`,
         `De kans is precies gelijk, want beide toestellen verbranden ongeveer dezelfde hoeveelheid gas per branduur, ongeacht het toesteltype of de leeftijd van de installatie`,
         `De kans is bij een geiser kleiner, omdat een geiser maar kort per keer draait`,
-        `De kans is bij een geiser groter, maar alleen bij een geiser die op propaan werkt`
+        `De kans is bij een geiser groter, maar alleen bij een geiser die op propaan werkt`,
+        `De kans is bij een geiser groter, al veroorzaken cv-ketels tegenwoordig meer incidenten in absolute aantallen`
       ],
-      goed: 0,
+      goed: 3,
       uitleg: `Het RIVM stelt dat de kans op een CO-ongeval bij een geiser groter is dan bij een cv-ketel (TST-13). Omdat het aantal geisers in woningen sterk is afgenomen, veroorzaken cv-ketels tegenwoordig wel meer incidenten in absolute aantallen. Draaitijd, brandstofsoort en verbruik per uur zijn hier niet de verklaring.`
     },
     {
       vraag: `Je treft bij een klant een oude keukengeiser aan zonder CO-melder in de ruimte. Wat schrijft BRL 6000-25 hierover voor?`,
       opties: [
         `Je moet de geiser direct en zonder verder onderzoek buiten bedrijf stellen, want afvoerloze toestellen zijn overal verboden`,
-        `Je adviseert een CO-melder en legt dat advies vast; verwijderen is geen wettelijke plicht`,
         `Je hoeft niets te doen: een geiser in de keuken valt buiten elke regel`,
+        `Je adviseert een CO-melder en legt dat advies vast; verwijderen is geen wettelijke plicht`,
         `Je meldt dit altijd bij de gemeente, ook zonder gemeten CO-waarde`
       ],
-      goed: 1,
+      goed: 2,
       uitleg: `Zonder CO-melder bij een open of afvoerloos toestel adviseer je een CO-melder en leg je dat advies vast (TST-18, WET-61). Dat is iets anders dan het toestel verwijderen of zelf een melder plaatsen: dat schrijft het schema niet voor. Een keukengeiser tot 15 kW in bestaande bouw mag onder voorwaarden blijven staan (RGA-01), en een melding aan de gemeente is pas aan de orde bij een gemeten CO-waarde boven 20 ppm.`
     },
     {
       vraag: `Wat is het verschil tussen een open en een gesloten gaskachel?`,
       opties: [
+        `Een open kachel gebruikt lucht uit de ruimte, een gesloten kachel heeft een eigen luchttoevoer naar buiten`,
         `Een gesloten kachel heeft volgens een hardnekkig misverstand geen brander, terwijl een open kachel er wel een heeft`,
         `Een gesloten kachel werkt alleen op propaan, een open kachel alleen op aardgas`,
-        `Een open kachel gebruikt lucht uit de ruimte, een gesloten kachel heeft een eigen luchttoevoer naar buiten`,
         `Een open kachel heeft een hoger rendement dan een gesloten kachel`
       ],
-      goed: 2,
+      goed: 0,
       uitleg: `Een open gaskachel haalt zijn verbrandingslucht uit de ruimte waarin hij staat, ook met glas of een deurtje voor de vlammen; een gesloten kachel heeft een eigen leiding naar buiten (TST-19). Beide typen hebben een brander en kunnen op verschillende gassoorten staan. Milieu Centraal noemt gesloten kachels juist veiliger en zuiniger, niet omgekeerd.`
     },
     {
       vraag: `Een gebouwgebonden gasinfraroodstraler van 60 kW hangt in een werkplaats. Een losse, verplaatsbare terraskachel van 8 kW staat op een terras. Welke van de twee valt onder de CO-certificeringsplicht van Bbl art. 6.45?`,
       opties: [
         `Beide, want allebei verbranden ze op de een of andere manier gas, en de wet maakt daarbij geen onderscheid naar vermogen of plaats`,
+        `Alleen de gebouwgebonden infraroodstraler; de losse terraskachel valt daarbuiten`,
         `Alleen de terraskachel, omdat een terraskachel meer risico geeft in de buitenlucht`,
-        `Geen van beide, want beide toestellen zijn onder de 100 kW-grens`,
-        `Alleen de gebouwgebonden infraroodstraler; de losse terraskachel valt daarbuiten`
+        `Geen van beide, want beide toestellen zijn onder de 100 kW-grens`
       ],
-      goed: 3,
+      goed: 1,
       uitleg: `De certificeringsplicht geldt voor gebouwgebonden gasverbrandingstoestellen tot 100 kW, waaronder gebouwgebonden helder- en donkerstralers (TST-22). Een losse, verplaatsbare terraskachel die niet aan het gebouw is verbonden valt daarbuiten, ongeacht het vermogen. De 100 kW-grens speelt hier dus geen rol: het gaat om "gebouwgebonden" of niet.`
     },
     {
       vraag: `Een klant vraagt of jij als CO-gecertificeerd monteur ook zijn oude olieketel mag onderhouden. Wat is het juiste antwoord?`,
       opties: [
-        `Nee: BRL 6000-25 en het Bewijs van Vakmanschap CO gelden alleen voor gasverbrandingstoestellen`,
         `Ja, olie en gas verbranden allebei op basis van hetzelfde chemische principe, dus het Bewijs van Vakmanschap CO dekt dit ook`,
         `Ja, zolang het vermogen van de olieketel onder 100 kW blijft`,
+        `Nee: BRL 6000-25 en het Bewijs van Vakmanschap CO gelden alleen voor gasverbrandingstoestellen`,
         `Nee, tenzij de olieketel op propaan is afgesteld`
       ],
-      goed: 0,
+      goed: 2,
       uitleg: `BRL 6000-25 en de certificeringsplicht van Bbl art. 6.45 gelden uitsluitend voor toestellen die op gas werken (TST-24). Een olieketel verbrandt geen gas en valt dus buiten dit certificeringsstelsel, ook al is het verbrandingsprincipe verwant. Het vermogen en een eventuele propaanafstelling (die alleen voor gastoestellen relevant is) veranderen dat niet.`
     },
     {
       vraag: `Wat klopt over het koudemiddelcircuit van een gasabsorptiewarmtepomp (bijvoorbeeld met ammoniak als koudemiddel)?`,
       opties: [
         `Dat circuit valt automatisch onder het Bewijs van Vakmanschap CO, want het toestel heeft ook een gasbrander die daaronder valt`,
-        `Daarvoor is sinds 29 september 2025 een apart certificaat voor natuurlijke koudemiddelen nodig, los van het CO-certificaat`,
         `Dat circuit valt nergens onder, omdat ammoniak geen F-gas is`,
-        `Dat circuit mag alleen door de fabrikant zelf worden geopend, nooit door een gecertificeerd installateur`
+        `Dat circuit mag alleen door de fabrikant zelf worden geopend, nooit door een gecertificeerd installateur`,
+        `Daarvoor is sinds 29 september 2025 een apart certificaat voor natuurlijke koudemiddelen nodig, los van het CO-certificaat`
       ],
-      goed: 1,
+      goed: 3,
       uitleg: `Sinds 29 september 2025 is voor alle koudemiddelen, ook natuurlijke zoals ammoniak, een apart persoonscertificaat verplicht (TST-30, TST-31). De gasbrander van het toestel valt onder de CO-certificering, het koudemiddelcircuit onder deze aparte certificering: het zijn twee verschillende vakgebieden in één toestel, niet automatisch gedekt door elkaar.`
     },
     {
       vraag: `Een woning wordt aangesloten op een warmtenet met een afleverset. Welke uitspraak klopt over wie dat mag plaatsen?`,
       opties: [
         `Alleen iemand met het Bewijs van Vakmanschap CO, want een afleverset is toch ook een soort verwarmingstoestel voor de woning`,
-        `Iedereen mag dit doen: er bestaat geen erkenning voor afleversets`,
         `InstallQ heeft voor het plaatsen van afleversets een eigen erkenningsregeling, los van het Bewijs van Vakmanschap CO`,
+        `Iedereen mag dit doen: er bestaat geen erkenning voor afleversets`,
         `Alleen medewerkers van het warmtebedrijf zelf, nooit een installatiebedrijf`
       ],
-      goed: 2,
+      goed: 1,
       uitleg: `InstallQ heeft de erkenningsregeling Afleversets ontwikkeld, met eigen e-learning, theorietoets en praktijkexamen (TST-33). Dit staat los van het Bewijs van Vakmanschap CO, omdat een afleverset geen gas verbrandt en dus niet onder BRL 6000-25 valt. De regeling staat open voor erkende installatiebedrijven, niet uitsluitend voor het warmtebedrijf zelf.`
     },
     {
       vraag: `Je vervangt een atmosferisch toestel op een bouwkundig collectief kanaal (shunt, onderdruk) door een HR-ketel. Waarom is dat kanaal niet zonder meer geschikt voor het nieuwe toestel?`,
       opties: [
+        `Een HR-toestel geeft met een ventilator lichte overdruk bij een lagere, condenserende rookgastemperatuur, wat niet past bij het oude kanaal`,
         `Omdat het kanaal te breed is voor een HR-toestel`,
         `Omdat een HR-toestel volgens een hardnekkig misverstand alleen op een individuele afvoer mag, nooit op een collectief kanaal, wat voor elk toestel zou gelden`,
-        `Omdat het kanaal na 1 april 2023 wettelijk is afgeschreven`,
-        `Een HR-toestel geeft met een ventilator lichte overdruk bij een lagere, condenserende rookgastemperatuur, wat niet past bij het oude kanaal`
+        `Omdat het kanaal na 1 april 2023 wettelijk is afgeschreven`
       ],
-      goed: 3,
+      goed: 0,
       uitleg: `Een atmosferisch toestel werkt op natuurlijke trek (onderdruk, warme rookgassen die opstijgen); een HR-toestel drukt het rookgas met een ventilator en lichte overdruk weg, bij een veel lagere temperatuur (TST-38, RGA-24). Een bouwkundig kanaal dat voor de oude situatie is berekend, is daar niet zonder meer geschikt voor. Een individuele afvoer is niet de enige oplossing (een modern overdruk-CLV bestaat) en 1 april 2023 heeft hier niets mee te maken.`
     },
     {
       vraag: `Wat controleer je volgens BRL 6000-25 bij het vervangen van een afvoergebonden toestel, voordat je de bestaande afvoer laat zitten?`,
       opties: [
         `Alleen of de afvoer er esthetisch nog netjes uitziet`,
-        `Of de afvoer grondig is gecontroleerd en beoordeeld als geschikt voor minimaal 15 jaar resterende levensduur`,
         `Niets: de afvoer hoort volgens sommige monteurs bij het gebouw en is dus alleen de verantwoordelijkheid van de eigenaar, niet van de installateur`,
-        `Alleen of de afvoer van hetzelfde merk is als het nieuwe toestel`
+        `Alleen of de afvoer van hetzelfde merk is als het nieuwe toestel`,
+        `Of de afvoer grondig is gecontroleerd en beoordeeld als geschikt voor minimaal 15 jaar resterende levensduur`
       ],
-      goed: 1,
+      goed: 3,
       uitleg: `BRL 6000-25 eist dat het bestaande afvoersysteem gelijktijdig met het toestel wordt vervangen, tenzij het grondig is gecontroleerd en beoordeeld als geschikt voor minimaal 15 jaar resterende levensduur (TST-39, RGA-80). De buitenkant zegt daar te weinig over, het merk van de afvoer is niet de eis, en de installateur blijft verantwoordelijk voor deze beoordeling.`
     }
   ],
@@ -210,7 +210,7 @@ Een **HR-ketel** (hoogrendement) koelt het rookgas in de warmtewisselaar zo ver 
 Het onderscheid tussen VR en HR gaat niet over "wel of geen ventilator", maar over "wel of geen condensatie van de waterdamp in het rookgas". Een VR-ketel kan een ventilator hebben en toch niet condenseren. Herken een HR-ketel aan de kunststof of RVS afvoer met weerstandsklasse W en aan een condensaataansluiting (zie [les 8.3](les:m08l03)).
 !!!
 
-Het Gaskeur-label van Kiwa kende vroeger drie HR-niveaus (HR100, HR104 en HR107). Sinds september 2015 bestaat alleen nog het HR-label, met een eis die gelijk is aan die van het voormalige HR107: 107% rendement op onderwaarde, ongeveer 96,5% op bovenwaarde. De precieze percentages van de oude labels HR100 en HR104 zijn in het feitenregister niet met een sterke bron te bevestigen: gebruik ze niet als harde getallen, alleen als naam die je nog op een oud typeplaatje kunt tegenkomen.
+Het Gaskeur-label van Kiwa kende vroeger drie HR-niveaus (HR100, HR104 en HR107); op een gegeven moment is dat samengevoegd tot een enkel HR-label, met een eis die gelijk is aan die van het voormalige HR107: 107% rendement op onderwaarde, ongeveer 96,5% op bovenwaarde. Het precieze moment van die samenvoeging en de precieze percentages van de oude labels HR100 en HR104 zijn in het feitenregister niet met een sterke bron te bevestigen: gebruik ze niet als harde datum of harde getallen, alleen als naam die je nog op een oud typeplaatje kunt tegenkomen.
 
 ## Solo of combi
 
@@ -241,34 +241,34 @@ Alleen met het typeplaatje en de handleiding erbij weet je zeker wat je voor je 
     {
       vraag: `Wat is het wezenlijke verschil tussen een VR-ketel en een HR-ketel?`,
       opties: [
-        `Een HR-ketel condenseert de waterdamp in het rookgas en benut die warmte, een VR-ketel niet`,
         `Een HR-ketel heeft altijd een ventilator die de rookgassen actief wegblaast, en een VR-ketel werkt altijd op natuurlijke trek zonder ventilator`,
+        `Een HR-ketel condenseert de waterdamp in het rookgas en benut die warmte, een VR-ketel niet`,
         `Een VR-ketel werkt alleen op propaan, een HR-ketel alleen op aardgas`,
         `Een VR-ketel is altijd een combiketel en een HR-ketel altijd solo`
       ],
-      goed: 0,
+      goed: 1,
       uitleg: `Het onderscheidende kenmerk is condensatie: een HR-ketel koelt het rookgas zo ver af dat de waterdamp condenseert en die warmte wordt benut, een VR-ketel doet dat niet. De ventilator, de brandstofsoort en solo/combi zijn losse kenmerken die hier niets mee te maken hebben.`
     },
     {
       vraag: `Een oud typeplaatje vermeldt "HR104". Wat is de juiste omgang met dat getal in je werk?`,
       opties: [
         `Je rekent er zonder twijfel mee als exact rendement op onderwaarde`,
-        `Je gebruikt het als herkenningsnaam van een oud Gaskeur-label; het precieze percentage is niet met een sterke bron bevestigd`,
         `Je zet het zonder verder nadenken gelijk aan het huidige HR-label van 107 procent op onderwaarde, want de labelnaam klinkt vergelijkbaar genoeg`,
-        `Je negeert het label volledig, want het zegt niets over het toestel`
+        `Je negeert het label volledig, want het zegt niets over het toestel`,
+        `Je gebruikt het als herkenningsnaam van een oud Gaskeur-label; het precieze percentage is niet met een sterke bron bevestigd`
       ],
-      goed: 1,
+      goed: 3,
       uitleg: `HR104 was een van de oude Gaskeur-niveaus, sinds 2015 vervangen door één HR-label. Het exacte percentage van HR104 is in het feitenregister niet met een primaire bron bevestigd (alleen HR107/HR is dat wel), dus gebruik het als naam en niet als rekengetal. Het zegt wel iets (dit was een condenserend toestel), dus volledig negeren is ook niet juist.`
     },
     {
       vraag: `Wat bepaalt of een toestel solo of combi is?`,
       opties: [
+        `Of het toestel alleen cv-water verwarmt, of ook warm tapwater op het moment van gebruik`,
         `Of het toestel condenseert of niet`,
         `Of het toestel op natuurlijke trek of met een ventilator werkt`,
-        `Of het toestel alleen cv-water verwarmt, of ook warm tapwater op het moment van gebruik`,
         `Of het toestel open of gesloten is, dus of de verbrandingslucht uit de opstelruimte komt of van buiten via een eigen leiding`
       ],
-      goed: 2,
+      goed: 0,
       uitleg: `Solo/combi gaat over de functie: alleen verwarming (solo, met eventueel een apart toestel voor warm water) of verwarming plus warm tapwater in één toestel (combi). Condensatie (VR/HR), open/gesloten en de aanwezigheid van een ventilator zijn drie andere, onafhankelijke kenmerken.`
     },
     {
@@ -276,10 +276,10 @@ Alleen met het typeplaatje en de handleiding erbij weet je zeker wat je voor je 
       opties: [
         `Alleen in het feitenregister van deze cursus`,
         `Nooit op het toestel zelf: je moet daarvoor altijd rechtstreeks contact opnemen met de fabrikant of de importeur van het toestel`,
-        `Op de meterkast, samen met de gasmeter`,
-        `Op het typeplaatje van het toestel, met verdere details in de installatiehandleiding`
+        `Op het typeplaatje van het toestel, met verdere details in de installatiehandleiding`,
+        `Op de meterkast, samen met de gasmeter`
       ],
-      goed: 3,
+      goed: 2,
       uitleg: `De toestelcategorie en de aansluitwijze staan op het typeplaatje van het toestel zelf; de installatiehandleiding geeft de details en de toegestane varianten. Het feitenregister van deze cursus is bedoeld voor de cursist, niet voor het toestel, en de gasmeter zegt niets over het toestel.`
     },
     {
@@ -309,7 +309,7 @@ Alleen met het typeplaatje en de handleiding erbij weet je zeker wat je voor je 
     { voor: `Wat is het verschil tussen een conventionele ketel, een VR-ketel en een HR-ketel?`, achter: `Conventioneel en VR condenseren niet (VR is een verbeterde uitvoering met minder verlies); HR koelt het rookgas zo ver af dat de waterdamp condenseert en benut die warmte.` },
     { voor: `Wat is het verschil tussen een solo ketel en een combiketel?`, achter: `Solo verwarmt alleen het cv-water (apart toestel nodig voor warm water); combi verwarmt ook het tapwater, op het moment van gebruik.` },
     { voor: `Welke drie onafhankelijke kenmerken deel je een gasverbrandingstoestel op in?`, achter: `Rendementsklasse (conventioneel/VR/HR), solo of combi, en open of gesloten (type B of C).` },
-    { voor: `Wat betekende het oude Gaskeur-label HR107, en geldt dat nog?`, achter: `107% rendement op onderwaarde, circa 96,5% op bovenwaarde. Sinds 2015 heet dit gewoon "HR", met dezelfde eis.` },
+    { voor: `Wat betekende het oude Gaskeur-label HR107, en geldt dat nog?`, achter: `107% rendement op onderwaarde, circa 96,5% op bovenwaarde. Dit heet inmiddels gewoon "HR", met dezelfde eis.` },
     { voor: `Waarom mag je de oude percentages van HR100 en HR104 niet als hard feit gebruiken?`, achter: `Ze zijn in het feitenregister niet met een primaire bron (een Kiwa-BRL van voor 2015) bevestigd; gebruik ze alleen als herkenningsnaam.` },
     { voor: `Wat staat er op het typeplaatje van een gasverbrandingstoestel?`, achter: `Onder meer de toestelcategorie (bijvoorbeeld II2EK3P), de aansluitwijze (A/B/C-indeling), de CE-markering en het vermogen.` },
     { voor: `Hoe herken je snel of een toestel condenseert?`, achter: `Aan het materiaal van de afvoer (kunststof of RVS met weerstandsklasse W wijst op HR) en de aanwezigheid van een condensaataansluiting.` }
@@ -354,7 +354,7 @@ Een atmosferisch of VR-toestel is bijna altijd een **open toestel** (type B): he
 Daar komt bij dat een ouder toestel vaker een oudere, niet meer optimale afvoer heeft, en dat de veiligheidsvoorzieningen (alleen een thermokoppel, geen elektronische bewaking van de rookgasafvoer) minder uitgebreid zijn dan bij een modern toestel. De Onderzoeksraad voor Veiligheid concludeerde in 2015 dat de meeste CO-ongevallen echter met moderne en goed onderhouden installaties gebeurden, niet uitsluitend met oude toestellen (zie [les 8.1](les:m08l01), WET-81): leeftijd alleen is dus geen garantie voor veiligheid, en jeugdigheid alleen is geen garantie voor gevaar.
 
 !!! gevaar Terugslag bij een open toestel
-Rook je bij een klant plotseling rookgaslucht in de opstelruimte van een atmosferisch of VR-toestel, of zie je roetsporen boven de trekonderbreker, dan is dat een teken van terugslag (spillage): rookgas dat niet via de afvoer naar buiten gaat. Stel het toestel buiten bedrijf, zoek de oorzaak (onderdruk, verstopte of beschadigde afvoer, te weinig ventilatie) voor je het weer in bedrijf stelt, en informeer de opdrachtgever. Bij twijfel: meet CO in de ruimte volgens de procedure uit [les 1.6](les:m01l06).
+Ruik je bij een klant plotseling rookgaslucht in de opstelruimte van een atmosferisch of VR-toestel, of zie je roetsporen boven de trekonderbreker, dan is dat een teken van terugslag (spillage): rookgas dat niet via de afvoer naar buiten gaat. Stel het toestel buiten bedrijf, zoek de oorzaak (onderdruk, verstopte of beschadigde afvoer, te weinig ventilatie) voor je het weer in bedrijf stelt, en informeer de opdrachtgever. Bij twijfel: meet CO in de ruimte volgens de procedure uit [les 1.6](les:m01l06).
 !!!
 
 ## Extra controles bij een atmosferisch of VR-toestel
@@ -374,34 +374,34 @@ Rook je bij een klant plotseling rookgaslucht in de opstelruimte van een atmosfe
     {
       vraag: `Wat is natuurlijke trek bij een atmosferisch toestel?`,
       opties: [
-        `Het effect dat hete, lichtere rookgassen opstijgen en daardoor lucht van onderaf de brander in trekken`,
         `Een ventilator die de rookgassen actief wegblaast`,
+        `Het effect dat hete, lichtere rookgassen opstijgen en daardoor lucht van onderaf de brander in trekken`,
         `De onderdruk die een afzuigkap of een ander mechanisch ventilatiesysteem in de opstelruimte kan veroorzaken, los van de brander zelf`,
         `De trek die de gasleveraar op de meter zet bij lage temperaturen`
       ],
-      goed: 0,
+      goed: 1,
       uitleg: `Natuurlijke trek is het opstijgen van warme, lichtere rookgassen, waardoor lucht van onderaf wordt aangezogen: hetzelfde principe als bij een open haard. Er is geen ventilator bij een atmosferisch toestel, en onderdruk door een afzuigkap is juist een risico voor dit principe, niet de oorzaak ervan.`
     },
     {
       vraag: `Wat doet een trekonderbreker bij een open toestel op natuurlijke trek?`,
       opties: [
         `Hij regelt de warmwatertemperatuur van een combitoestel door de brandersterkte tijdens het tappen automatisch aan te passen aan de gevraagde temperatuur`,
-        `Hij zorgt dat de werking van het toestel wordt bepaald door zijn eigen thermische trek in plaats van door wisselende windinvloeden`,
         `Hij verlaagt de gasdruk bij een te hoge voordruk`,
-        `Hij meet CO in het rookgas en schakelt het toestel uit`
+        `Hij meet CO in het rookgas en schakelt het toestel uit`,
+        `Hij zorgt dat de werking van het toestel wordt bepaald door zijn eigen thermische trek in plaats van door wisselende windinvloeden`
       ],
-      goed: 1,
+      goed: 3,
       uitleg: `De trekonderbreker ontkoppelt de brander van de wisselende trek in de schoorsteen door windinvloeden en temperatuurverschillen. Temperatuurregeling, gasdruk en CO-meting zijn functies van andere onderdelen, niet van de trekonderbreker.`
     },
     {
       vraag: `Een waakvlam dooft door een tochtvlaag. Wat gebeurt er direct daarna met de gasklep, en waarom?`,
       opties: [
+        `De klep sluit, omdat het afkoelende thermokoppel geen spanning meer opwekt om de elektromagnetische klep open te houden`,
         `Niets: de gasklep blijft open totdat de brander op een later moment handmatig wordt uitgezet, ook als er inmiddels allang geen vlam meer brandt`,
         `De klep sluit, omdat een drukverschilsensor de tocht detecteert`,
-        `De klep sluit, omdat het afkoelende thermokoppel geen spanning meer opwekt om de elektromagnetische klep open te houden`,
         `De klep gaat verder open, om de brander opnieuw te ontsteken`
       ],
-      goed: 2,
+      goed: 0,
       uitleg: `Zonder vlam koelt het thermokoppel af en verdwijnt de kleine spanning die de elektromagnetische klep openhoudt: de klep sluit automatisch. Er is geen sensor die tocht "detecteert", en de klep gaat zeker niet verder open.`
     },
     {
@@ -409,10 +409,10 @@ Rook je bij een klant plotseling rookgaslucht in de opstelruimte van een atmosfe
       opties: [
         `Omdat een atmosferisch toestel altijd meer gas verbruikt dan een HR-toestel bij dezelfde warmtevraag, waardoor er sneller CO ontstaat`,
         `Omdat een atmosferisch toestel altijd zonder afvoer werkt`,
-        `Omdat een atmosferisch toestel geen thermokoppel heeft`,
-        `Omdat een atmosferisch toestel meestal een open toestel is en zijn lucht uit de opstelruimte haalt, gevoelig voor onderdruk`
+        `Omdat een atmosferisch toestel meestal een open toestel is en zijn lucht uit de opstelruimte haalt, gevoelig voor onderdruk`,
+        `Omdat een atmosferisch toestel geen thermokoppel heeft`
       ],
-      goed: 3,
+      goed: 2,
       uitleg: `Een atmosferisch of VR-toestel is bijna altijd type B (open): het haalt lucht uit de opstelruimte en is dus gevoelig voor onderdruk, bijvoorbeeld door mechanische ventilatie. Gasverbruik zegt hier niets over, de meeste atmosferische toestellen hebben wel een afvoer, en de meeste hebben juist wel een thermokoppel (dat is typisch voor dit type toestel).`
     },
     {
@@ -470,16 +470,16 @@ Een gasgeiser (doorstroomtoestel) verwarmt water alleen op het moment dat de war
 
 ## Waarom geisers historisch zoveel CO-ongevallen gaven
 
-Volgens het RIVM is de kans op een CO-ongeval bij een geiser groter dan bij een cv-ketel. Drie redenen liggen daaraan ten grondslag:
+Volgens het RIVM is de kans op een CO-ongeval bij een geiser groter dan bij een cv-ketel. Het RIVM noemt daar zelf geen specifieke oorzaak bij. Denkbare verklaringen, die volgen uit wat je al weet over CO en ventilatie (zie [les 8.7](les:m08l07)) maar niet apart door het RIVM zijn bevestigd:
 
-- **Vaak in een kleine ruimte.** Een keuken of badruimte is kleiner dan een cv-ketelruimte, dus een lek CO-hoeveelheid verspreidt zich sneller tot een gevaarlijke concentratie.
-- **Kortstondig, herhaald gebruik.** Een geiser slaat vaak aan en uit, precies op het moment dat iemand in de buurt staat (afwassen, douchen).
+- **Vaak in een kleinere ruimte.** Een keuken of badruimte is vaak kleiner dan een cv-ketelruimte, waardoor een lek CO-hoeveelheid zich sneller tot een gevaarlijke concentratie kan opbouwen.
+- **Kortstondig, herhaald gebruik.** Een geiser slaat vaak aan en uit, op het moment dat iemand in de buurt staat (afwassen, douchen).
 - **Vaak minder goed onderhouden en ouder.** Een geiser wordt door bewoners vaker als "gewoon een kraantje warm water" gezien dan als verbrandingstoestel dat onderhoud nodig heeft.
 
 Omdat het aantal geisers in woningen sinds ongeveer 2001 sterk is afgenomen, veroorzaken cv-ketels tegenwoordig in absolute aantallen wel meer CO-incidenten dan geisers, ook al is de kans per toestel bij een geiser groter.
 
-!!! kern Klein, kort en onopgemerkt: de risico-optelsom van een geiser
-Een geiser is per toestel risicovoller dan een cv-ketel: hij staat vaak in een kleine ruimte, slaat kort en herhaald aan precies op het moment dat iemand in de buurt is, en wordt door bewoners minder snel als onderhoudsplichtig verbrandingstoestel gezien. Geen van die drie punten is op zich al gevaarlijk, maar de combinatie is dat wel.
+!!! kern Klein, kort en onopgemerkt: een mogelijke verklaring voor het risico van een geiser
+Het RIVM stelt vast dat een geiser per toestel risicovoller is dan een cv-ketel, zonder daar zelf een oorzaak bij te geven. Een aannemelijke verklaring: hij staat vaak in een kleinere ruimte, slaat kort en herhaald aan precies op het moment dat iemand in de buurt is, en wordt door bewoners minder snel als onderhoudsplichtig verbrandingstoestel gezien. Geen van die drie punten is op zich al gevaarlijk, maar de combinatie kan dat wel zijn.
 !!!
 
 !!! gevaar Een geiser in een afgesloten ruimte
@@ -502,7 +502,7 @@ Bij een renovatie tref je in de badkamer een oude keukengeiser aan die daar ooit
 `,
   checklist: [
     'Ik kan uitleggen hoe een doorstroomtoestel werkt en het verschil met een boiler benoemen',
-    'Ik kan drie redenen noemen waarom geisers historisch veel CO-ongevallen gaven',
+    'Ik kan een aannemelijke verklaring geven voor het hogere CO-risico van een geiser per toestel',
     'Ik weet dat een open toestel nooit in een toilet- of badruimte mag staan',
     'Ik weet wat ik doe als ik een geiser zonder CO-melder aantref'
   ],
@@ -624,34 +624,34 @@ Een gebouwgebonden gasinfraroodstraler (helder- of donkerstraler) valt onder dez
     {
       vraag: `Wat maakt een gaskachel "gesloten" in plaats van "open"?`,
       opties: [
-        `Een gesloten kachel heeft een eigen leiding naar buiten voor de verbrandingslucht`,
         `Een gesloten kachel heeft glas of een deurtje voor de vlammen`,
+        `Een gesloten kachel heeft een eigen leiding naar buiten voor de verbrandingslucht`,
         `Een gesloten kachel werkt zonder brander`,
         `Een gesloten kachel heeft altijd een hoger vermogen dan een open kachel, omdat de gesloten uitvoering standaard een grotere brander heeft`
       ],
-      goed: 0,
+      goed: 1,
       uitleg: `Gesloten betekent een eigen luchttoevoerleiding naar buiten. Glas of een deurtje voor de vlammen maakt een toestel niet gesloten: dat blijft een open toestel dat lucht uit de ruimte gebruikt. Vermogen en de aanwezigheid van een brander zeggen hier niets over.`
     },
     {
       vraag: `Hoe werkt een convectorkachel?`,
       opties: [
         `Met een ventilator die warme lucht actief wegblaast`,
-        `Door lucht langs een verwarmd oppervlak te laten circuleren, zonder ventilator`,
         `Uitsluitend door straling, zonder luchtcirculatie`,
-        `Door het cv-water rechtstreeks, zonder warmtewisselaar, door de ruimte langs de vloer te laten stromen`
+        `Door het cv-water rechtstreeks, zonder warmtewisselaar, door de ruimte langs de vloer te laten stromen`,
+        `Door lucht langs een verwarmd oppervlak te laten circuleren, zonder ventilator`
       ],
-      goed: 1,
+      goed: 3,
       uitleg: `Een convector werkt met natuurlijke convectie: lucht warmt op langs een verwarmd oppervlak, stijgt op, koelt af en zakt weer naar beneden, zonder ventilator. Straling zonder luchtcirculatie is het principe van een stralingskachel, niet van een convector, en een convector staat los van het cv-water.`
     },
     {
       vraag: `Een fabrikant claimt dat een extra voorziening op een afvoerloze gashaard een deel van de verbrandingsproducten omzet. Wat blijft daardoor nodig?`,
       opties: [
+        `Voldoende ventilatie in de ruimte, want de haard blijft een afvoerloos toestel`,
         `Een aparte waakvlam boven op de bestaande vlam`,
         `Een aparte gasaansluiting naast de bestaande aansluiting, voor het geval de voorziening extra brandstof nodig heeft`,
-        `Voldoende ventilatie in de ruimte, want de haard blijft een afvoerloos toestel`,
         `Een extra thermokoppel bovenop het bestaande thermokoppel`
       ],
-      goed: 2,
+      goed: 0,
       uitleg: `Zo'n voorziening vervangt geen ventilatie: de haard blijft een afvoerloos toestel (type A) dat zijn verbrandingsproducten in de ruimte afgeeft, dus blijft voldoende luchttoevoer nodig, wat er ook op de haard is aangebracht. Een tweede waakvlam, gasaansluiting of thermokoppel zijn geen onderdelen die hierbij horen.`
     },
     {
@@ -659,10 +659,10 @@ Een gebouwgebonden gasinfraroodstraler (helder- of donkerstraler) valt onder dez
       opties: [
         `De kachel gaat vanzelf harder branden, omdat de brander automatisch meer gas toelaat bij minder lucht in de ruimte`,
         `De gasdruk bij de kachel loopt op tot een gevaarlijk niveau`,
-        `De kachel schakelt automatisch over op elektrische verwarming`,
-        `Verbrandingsgassen kunnen niet via de afvoer naar buiten en komen (deels) de ruimte in`
+        `Verbrandingsgassen kunnen niet via de afvoer naar buiten en komen (deels) de ruimte in`,
+        `De kachel schakelt automatisch over op elektrische verwarming`
       ],
-      goed: 3,
+      goed: 2,
       uitleg: `Bij te veel onderdruk (bijvoorbeeld door te weinig verse lucht of mechanische ventilatie elders) kunnen verbrandingsgassen niet via de afvoer naar buiten en komen ze de ruimte in. Dit heeft geen effect op de brandersterkte, de gasdruk of een omschakeling naar elektrisch: die bestaat niet bij een gaskachel.`
     },
     {
