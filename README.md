@@ -13,7 +13,7 @@ Geen account, geen betaalmuur, geen tracking. Werkt in de browser en is offline 
 
 ## Wat je leert
 
-Een leerlijn van 19 modules en 121 lessen (ongeveer 148 uur), opgebouwd van fundament naar vakmanschap.
+Een leerlijn van 19 modules en 121 lessen, opgebouwd van fundament naar vakmanschap. De lesteksten zelf zijn ongeveer 52 uur; met de 907 toetsvragen, 846 flashcards, de module-examens en de storingzoeker kom je op ongeveer 150 uur.
 
 **Deel I, kennis en fundament, in volgorde:**
 
