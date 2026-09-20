@@ -39,10 +39,15 @@ CURSUS.addModule({
       uitleg: `Een instrument waarvan de kalibratiestatus onzeker is, kan een verkeerde beslissing opleveren: 180 ppm ligt dicht bij de grens van 200 ppm, dus een kleine afwijking kan de uitkomst kantelen. Bij twijfel meet je opnieuw met een instrument waarvan je de kalibratie kent, in plaats van zomaar goed- of af te keuren op basis van een onzekere meting of de laagste van twee metingen zonder toelichting aan te houden.`
     },
     {
-      vraag: `Wat is het verschil tussen kalibreren en justeren van een meetinstrument?`,
-      opties: [`Kalibreren stelt de afwijking vast, justeren corrigeert die pas als hij te groot is`, `Justeren stelt de afwijking vast, kalibreren corrigeert die daarna als hij te groot is`, `Kalibreren gebeurt altijd door de fabrikant zelf, justeren mag de monteur zelf doen`, `Kalibreren en justeren zijn in de praktijk gewoon twee namen voor dezelfde handeling`],
+      vraag: `Een monteur ontdekt bij de kalibratie van zijn rookgasanalyser dat het instrument fors moest worden gejusteerd. Vorige week keurde hij daarmee een meting van 190 ppm CO goed op een toestel met een grens van 200 ppm. Wat is de juiste vervolgstap?`,
+      opties: [
+        `Nagaan of de eerdere beoordeling van 190 ppm met het afwijkende instrument nog steeds klopt, want die waarde lag dicht bij de grens van 200 ppm`,
+        `Niets, want de meter is na de justering weer in orde en de oude beoordeling blijft geldig`,
+        `Alleen de fabrikant van het instrument hierover informeren, verder niets doen`,
+        `De klant vragen zelf een nieuwe rookgasmeting door een ander bedrijf te laten uitvoeren`
+      ],
       goed: 0,
-      uitleg: `Kalibreren stelt vast hoe groot de afwijking van een instrument ten opzichte van een standaard is. Blijkt die afwijking groter dan toegestaan, dan volgt justeren: het instrument afregelen tot de aangeduide waarde weer binnen de toegestane meetfout valt. Het is dus niet omgekeerd, niet dezelfde handeling, en niet per definitie voorbehouden aan alleen de fabrikant of alleen de monteur.`
+      uitleg: `Na een justering ga je na of eerdere metingen met het afwijkende instrument tot een andere beslissing hadden moeten leiden. Bij 190 ppm, dicht bij de grens van 200 ppm, kan een kleine afwijking de uitkomst kantelen: dat verdient dus expliciete aandacht, niet de aanname dat de oude beoordeling vanzelf nog klopt. Alleen de fabrikant informeren of de verantwoordelijkheid bij de klant leggen lost dit niet op: de heroverweging is aan de monteur die de oorspronkelijke beoordeling deed.`
     },
     {
       vraag: `Een G4-gasmeter laat maximaal 6 m³ per uur door. Wat is ongeveer de maximale belasting die je daarmee op bovenwaarde kunt meten, met Groningen-equivalent gas (9,769 kWh/m³)?`,
@@ -63,22 +68,37 @@ CURSUS.addModule({
       uitleg: `Het protocol laat je de meter inschakelen, wachten tot de meting stabiel is, meten op vollast (en zo nodig deellast), aflezen en vastleggen in het projectdossier, maar geeft geen stap om de afgelezen waarde te corrigeren voor zuurstofovermaat. Dat is een van de aanwijzingen dat de wettelijke grenzen zoals afgelezen worden getoetst, niet luchtvrij.`
     },
     {
-      vraag: `Een open, afvoergebonden toestel met trekonderbreker: waar plaats je de sonde voor de rookgasmeting?`,
-      opties: [`Buiten, bij de uitmonding van de rookgasafvoer boven op het dak van de woning`, `In de trekonderbreker, dicht bij de warme kant van het toestel, vóór de luchtbijmenging`, `Vlak na de trekonderbreker, waar de omgevingslucht al is bijgemengd met het rookgas`, `Op een willekeurige plek, de trekonderbreker mengt toch alles gelijk door elkaar`],
-      goed: 1,
-      uitleg: `Je meet vóór de plek waar de trekonderbreker omgevingslucht bijmengt: erna (of buiten bij de uitmonding) is het rookgas al verdund en meet je een te lage CO- en te hoge O2-waarde, ook al is de verbranding niet verbeterd. De sonde hoort dus aan de warme kant, in de trekonderbreker.`
-    },
-    {
-      vraag: `Je meet in de opstellingsruimte voor aanvang van de werkzaamheden 12 ppm CO. Wat doe je?`,
-      opties: [`Niets doen, onder 20 ppm is bij aanvang van het werk altijd veilig genoeg`, `Wachten met werken tot de bewoner zelf een raam heeft geopend in de ruimte`, `Nader onderzoek doen naar de oorzaak, deze melden aan de opdrachtgever, dan verder werken`, `Direct het toestel buiten bedrijf stellen en meteen 112 bellen zonder verder onderzoek`],
+      vraag: `Een monteur meet per ongeluk ná de trekonderbreker in plaats van vóór de bijmenging, en krijgt 40 ppm CO met veel O2. Een collega stelt voor de waarde met de CO-luchtvrij-formule (CO luchtvrij = CO gemeten x luchtfactor) te corrigeren. Lost dat de verkeerde sondeplaatsing op?`,
+      opties: [
+        `Ja, de CO-luchtvrij-formule corrigeert precies voor de bijgemengde lucht, dus de waarde is daarna weer betrouwbaar`,
+        `Ja, zolang de gemeten O2 onder 6% blijft, mag de gemeten CO gewoon met de wettelijke tabel vergeleken worden`,
+        `Nee, de luchtvrije correctie is een rekenmethode voor iets anders en compenseert niet voor de verkeerde meetlocatie: de sonde moet vóór de bijmenging en de meting opnieuw`,
+        `Nee, maar een tweede meting op deellast in plaats van vollast maakt deze meting alsnog geldig`
+      ],
       goed: 2,
-      uitleg: `Tussen 5 en 20 ppm is nader onderzoek nodig: de oorzaak van de verhoogde concentratie opsporen en dat melden aan de opdrachtgever, waarna je verder werkt. Dat is geen reden om het toestel meteen buiten bedrijf te stellen en 112 te bellen (dat geldt bij acuut gevaar) en zeker geen reden om het te negeren of alleen op de bewoner te wachten.`
+      uitleg: `Meten na de bijmenging verdunt het rookgas met omgevingslucht: de gemeten CO is dan te laag en O2 te hoog, ongeacht welke rekenmethode je erop toepast. De CO-luchtvrij-formule is bedoeld om bij een correct geplaatste sonde te vergelijken met een ander referentiepunt, niet om een verkeerd geplaatste sonde te compenseren. De oplossing is de sonde vóór de bijmenging plaatsen en opnieuw meten, niet corrigeren of op deellast meten.`
     },
     {
-      vraag: `Waarom meet je CO in de opstellingsruimte zowel voor als na de werkzaamheden aan een toestel?`,
-      opties: [`Om te bewijzen dat de start- en eindsituatie beide veilig waren: twee verplichte metingen`, `Om te bepalen of de gasmeter aan het begin van de dag goed is afgelezen door de monteur`, `De meting na het werk is eigenlijk optioneel en dient alleen de klanttevredenheid`, `Alleen om te controleren of het meetinstrument zelf nog steeds naar behoren functioneert`],
+      vraag: `Voor de werkzaamheden meet je 16 ppm CO in de opstellingsruimte. Je onderzoekt de oorzaak, verhelpt een verstopt luchtinlaatfilter en meet na het werk 6 ppm. Mag je het toestel weer in bedrijf stellen?`,
+      opties: [
+        `Ja, want 6 ppm is een duidelijke verbetering ten opzichte van de 16 ppm ervoor`,
+        `Ja, zolang de voormeting maar hoger is dan de nameting, mag het toestel altijd weer aan`,
+        `Nee, en dat betekent hier automatisch ook een wettelijke meldplicht aan het bevoegd gezag`,
+        `Nee, want de nameting moet onder 5 ppm liggen: 6 ppm is een verbetering maar nog niet veilig genoeg`
+      ],
+      goed: 3,
+      uitleg: `In bedrijf stellen mag alleen als de nameting onder 5 ppm ligt, plus je eigen veiligheidsoordeel. 6 ppm is een verbetering, maar voldoet niet aan die grens: verder onderzoek is nodig voor je het toestel weer aanzet. Een verbetering ten opzichte van de voormeting is geen vervanging voor de grens van 5 ppm, en de wettelijke meldplicht aan het bevoegd gezag geldt pas vanaf 20 ppm, niet hier.`
+    },
+    {
+      vraag: `Een monteur meet 3 ppm CO in de opstellingsruimte en concludeert dat de verbranding van het toestel dus in orde is. Klopt die redenering?`,
+      opties: [
+        `Nee, CO in de opstellingsruimte gaat over de blootstelling van mensen in die ruimte; de verbrandingskwaliteit toets je met een rookgasmeting`,
+        `Ja, een lage CO-waarde in de opstellingsruimte bewijst dat de verbranding volledig is`,
+        `Ja, want beide metingen gebruiken exact dezelfde sonde en dezelfde meetprocedure`,
+        `Nee, maar een losse CO-melder in de ruimte is wel voldoende bewijs voor een goede verbranding`
+      ],
       goed: 0,
-      uitleg: `De meting voor het werk legt de startsituatie vast, de meting na het werk (voor je het toestel weer in bedrijf stelt) bewijst dat het toestel na jouw ingreep veilig is. Beide zijn verplicht, niet optioneel, en ze gaan niet over de gasmeter aflezen of alleen het instrument zelf testen.`
+      uitleg: `De meting in de opstellingsruimte, op ademhoogte en een meter van het toestel, gaat over de blootstelling van mensen in die ruimte, ook als er bijvoorbeeld iets anders lekt terwijl het toestel zelf goed verbrandt. Of de verbranding zelf goed is, toets je met een rookgasmeting, met de sonde op de juiste plek in de afvoer of trekonderbreker. Beide metingen hebben een andere sonde, een ander doel en een andere meetplek, en een CO-melder vervangt geen rookgasmeting bij onderhoud of oplevering.`
     },
     {
       vraag: `Een elektrochemische CO-sensor veroudert vooral door blootstelling aan CO tijdens metingen. Wat betekent dit voor het gebruik van de analyser?`,

@@ -23,10 +23,15 @@ CURSUS.addModule({
   ],
   examen: [
     {
-      vraag: `Een radiator heeft een genormeerd vermogen van 2000 W bij het referentieregime 75/65/20. Wat is ongeveer het vermogen bij regime 70/50/20 (delta T 40 K), met exponent n = 1,3?`,
-      opties: [`1500 W`, `2000 W`, `1600 W`, `1040 W`],
-      goed: 0,
-      uitleg: `(40/50)^1,3 is ongeveer 0,75, dus 2000 x 0,75 is ongeveer 1500 W. Aannemen dat het vermogen niet verandert (2000 W) klopt niet, en de andere twee opties horen bij een verkeerde exponent of een rekenfout.`
+      vraag: `Een radiator heeft een genormeerd vermogen van 1600 W bij het referentieregime 75/65/20 (delta T 50 K, n = 1,3). Bij regime 55/45/20 (delta T 30 K) vraagt de ruimte nog 900 W. Levert de radiator dat, en is een ventilator (+25% vermogen) een oplossing als dat niet zo is?`,
+      opties: [
+        `Ja, de radiator levert bij delta T 30 K nog steeds ongeveer 960 W, dus een ventilator is niet nodig`,
+        `Nee, de radiator levert bij delta T 30 K nog maar ongeveer 824 W; met een ventilator wordt dat ongeveer 1030 W, en dat is genoeg`,
+        `Nee, de radiator levert bij delta T 30 K nog maar ongeveer 576 W, en ook met een ventilator blijft dat te weinig`,
+        `Ja, het vermogen blijft 1600 W, want dat verandert niet met de temperatuur`
+      ],
+      goed: 1,
+      uitleg: `(30/50)^1,3 is ongeveer 0,515, dus de radiator levert nog maar 1600 x 0,515 is ongeveer 824 W: te weinig voor de gevraagde 900 W. Een ventilator kan het vermogen met ongeveer 25% verhogen: 824 x 1,25 is ongeveer 1030 W, en dat is wel genoeg. 960 W is de lineaire berekening (30/50 x 1600) en onderschat de daling. 576 W komt uit een kwadratische berekening ((30/50)^2), die de daling juist overschat. Het vermogen verandert wel degelijk met de temperatuur: dat is precies waarom de exponentformule bestaat.`
     },
     {
       vraag: `Waarom is het referentieregime van een radiator vastgelegd op 75/65/20 met een overtemperatuur van 50 K?`,
@@ -76,10 +81,15 @@ CURSUS.addModule({
       uitleg: `De mengverdeler verlaagt de temperatuur van het aanvoerwater naar de vloerverwarming door het te mengen met retourwater. Debietverhoging naar radiatoren, drukverlaging in het geheel en tapwaterproductie zijn geen functies van deze mengverdeler.`
     },
     {
-      vraag: `Een vloerverwarmingskring levert 800 W bij een aangenomen delta T van 5 K. Wat is het benodigde debiet ongeveer, met de formule debiet = vermogen / (1,163 x delta T)?`,
-      opties: [`137 l/h`, `34 l/h`, `800 l/h`, `4000 l/h`],
-      goed: 0,
-      uitleg: `800 / (1,163 x 5) is ongeveer 137 l/h. 34 l/h zou horen bij een delta T van 20 K (zoals bij een radiatorcircuit), en de andere twee opties zijn geen zinnige uitkomst van deze formule.`
+      vraag: `Een vloerverwarmingskring vraagt 1000 W bij een aangenomen delta T van 5 K. Een monteur overweegt dezelfde ruimte in plaats daarvan met een radiator te verwarmen op een delta T van 20 K. Hoeveel keer meer of minder debiet heeft de radiator dan nodig, bij gelijk vermogen?`,
+      opties: [
+        `De radiator heeft ongeveer 4 keer meer debiet nodig`,
+        `Ze hebben evenveel debiet nodig, want het vermogen is gelijk`,
+        `De radiator heeft ongeveer 4 keer minder debiet nodig`,
+        `De radiator heeft ongeveer 2 keer minder debiet nodig`
+      ],
+      goed: 2,
+      uitleg: `Debiet = vermogen / (1,163 x delta T): bij de vloerverwarmingskring is dat 1000 / (1,163 x 5) is ongeveer 172 l/h, bij de radiator 1000 / (1,163 x 20) is ongeveer 43 l/h. Het debiet is omgekeerd evenredig met delta T, en 20 K is 4 keer zo groot als 5 K, dus de radiator heeft ongeveer 4 keer minder debiet nodig. Evenveel debiet zou alleen kloppen bij een gelijk delta T, en de verhouding 2 keer hoort niet bij deze getallen.`
     },
     {
       vraag: `Een driewegklepset (voorbeeld Intergas) splitst een installatie in een hogetemperatuurzone en een laagtemperatuurzone. Wat is de functie van de aanlegsensor op de laagtemperatuurzone?`,
@@ -88,15 +98,15 @@ CURSUS.addModule({
       uitleg: `De aanlegsensor bewaakt de temperatuur van de laagtemperatuurzone (de vloerverwarming) en schakelt de brander uit als de veiligheidstemperatuur wordt overschreden. Gasdruk, kamertemperatuur van de andere zone en radiatordebiet zijn geen taken van deze sensor.`
     },
     {
-      vraag: `Waarom is vloerverwarming volgens Vaillant het meest efficiënte afgiftesysteem voor een warmtepomp?`,
+      vraag: `Een woning met radiatoren op hoge temperatuur stapt over op een warmtepomp. De installateur wil de bestaande radiatoren handhaven en verlaagt de aanvoertemperatuur flink, voor een betere COP. Wat moet hij daarnaast extra controleren?`,
       opties: [
-        `Vloerverwarming vraagt in de praktijk zelden enig onderhoud`,
-        `Vloerverwarming heeft een hoger genormeerd vermogen dan elke radiator`,
-        `Vloerverwarming vraagt maar een lage watertemperatuur`,
-        `Vloerverwarming heeft nooit een mengverdeler nodig bij een warmtepomp`
+        `Niets, radiatoren leveren bij elke aanvoertemperatuur evenveel vermogen`,
+        `Of het bestaande debiet en de leidingdiameters groot genoeg zijn, want een lagere aanvoertemperatuur vraagt bij gelijk vermogen meer debiet`,
+        `Alleen of de radiatoren qua uiterlijk bij de nieuwe warmtepomp passen`,
+        `Of de mengverdeler van de vloerverwarming ook voor de radiatoren gebruikt kan worden`
       ],
-      goed: 2,
-      uitleg: `Een lage watertemperatuur laat de warmtepomp efficiënter werken (hogere COP). Onderhoud, vergelijking van genormeerd vermogen en het al dan niet nodig zijn van een mengverdeler zijn hier niet de verklaring: ook bij een warmtepomp kan een mengverdeler nodig zijn als niet de hele installatie op dezelfde lage temperatuur werkt.`
+      goed: 1,
+      uitleg: `Bij een lagere aanvoertemperatuur is voor hetzelfde vermogen meer debiet nodig, waardoor bestaande leidingen te klein kunnen zijn voor de nieuwe situatie. Radiatoren leveren juist minder vermogen bij een lagere temperatuur, niet evenveel. Uiterlijk is geen technische controle, en een mengverdeler voor vloerverwarming heeft geen functie bij radiatoren die al op de lage temperatuur van de warmtepomp werken.`
     },
     {
       vraag: `Wat is de eerste stap bij het beoordelen van een afgiftesysteem dat het bij een lagere temperatuur niet warm genoeg lijkt te krijgen?`,

@@ -747,10 +747,15 @@ Zorg dat de klant na je vertrek weet: waar de gebruiksaanwijzing van het toestel
       uitleg: `Voor renovatie of onderhoud aan een bouwwerk van voor 1994 is doorgaans eerst een asbestinventarisatie nodig. Handschoenen dragen of "een klein stukje" verandert daar niets aan: het risico zit in het bewerken, niet in de hoeveelheid.`
     },
     {
-      vraag: `Is er een wettelijk voorgeschreven volgorde om gas, water, elektra en afvoer op een nieuwe ketel aan te sluiten?`,
-      opties: [`Nee, de volgorde is helemaal vrij, dus het maakt in de praktijk ook nooit iets uit`, `Ja, altijd eerst gas, dan water, dan elektra, dan afvoer`, `Nee, fabrikanten kiezen zelf een volgorde in hun installatiehandleiding`, `Ja, maar alleen bij toestellen boven 35 kW`],
-      goed: 2,
-      uitleg: `Er bestaat geen wettelijk voorgeschreven volgorde: elke fabrikant kiest een eigen volgorde in de installatiehandleiding, en die kan per merk verschillen. Dat de volgorde vrij is, betekent niet dat ze "niets uitmaakt": een verkeerde volgorde kan je dwingen aansluitingen weer los te maken.`
+      vraag: `Een leerling wil eerst de gasleiding aansluiten voordat het toestel definitief is vastgezet, "want dat is het spannendste onderdeel". Waarom is dat averechts, ook al is er geen wettelijk voorgeschreven volgorde?`,
+      opties: [
+        `Omdat het toestel nog niet vaststaat: de aansluiting hangt onder spanning en kan later los moeten`,
+        `Omdat de wet toch een vaste volgorde voorschrijft die altijd met de watertoevoer begint`,
+        `Omdat de gasleiding bij elke fabrikant zonder uitzondering als laatste stap in de handleiding staat`,
+        `Dat maakt niet uit, zolang alle vier de aansluitingen maar gemaakt zijn voor de eerste warmtevraagtest`
+      ],
+      goed: 0,
+      uitleg: `Er is geen wettelijk voorgeschreven volgorde, maar de volgorde uit de handleiding is niet willekeurig: staat het toestel nog niet vast, dan hangt een al aangesloten leiding onder spanning en moet die mogelijk worden losgekoppeld als de opstelling toch gecorrigeerd moet worden. Er bestaat geen wettelijke volgorde die met water begint, "de gasleiding altijd als laatste" klopt niet bij elk merk, en "het maakt niet uit" is te kort door de bocht: fabrikanten kiezen elk hun eigen volgorde, en een verkeerde volgorde kost onnodig werk.`
     },
     {
       vraag: `Een fabrikant geeft geen maten voor de vrije ruimte rond een cv-ketel. Welke brancherichtlijn geldt dan als vangnet?`,
@@ -764,28 +769,48 @@ Zorg dat de klant na je vertrek weet: waar de gebruiksaanwijzing van het toestel
       uitleg: `De brancherichtlijn voor hoog-rendement cv-ketels noemt 2 m vrije hoogte, 1 m vrij looppad en 10 cm tot andere wanden, met ruimte voor praktische afwijking bij vervanging in bestaande bouw. Het Bbl zelf legt geen vaste maat vast.`
     },
     {
-      vraag: `Waarom is een terugstroombeveiliging nodig bij een vulkraan van een cv-installatie op het drinkwaternet?`,
-      opties: [`Om te voorkomen dat cv-water, mogelijk met een toevoegmiddel, teruggezogen wordt in het drinkwaternet`, `Om het geluid van de vulkraan te dempen`, `Alleen relevant bij een installatie boven 100 kW`, `Om de wateropbrengst van de kraan te vergroten`],
-      goed: 0,
-      uitleg: `Een terugstroombeveiliging voorkomt dat verontreinigd cv-water in het drinkwaternet terechtkomt. Opbrengst en geluid van de kraan hebben hier niets mee te doen, en de eis is niet gekoppeld aan een vermogensgrens van 100 kW.`
-    },
-    {
-      vraag: `Wat is het verschil tussen de sterkteproef en de dichtheidsproef van een nieuwe gasleiding?`,
-      opties: [`De sterkteproef geldt alleen voor bestaande installaties`, `De dichtheidsproef gaat altijd vooraf aan de sterkteproef`, `Geen verschil, het zijn synoniemen`, `De sterkteproef test met een drukstoot van 5 bar of de leiding een hoge druk doorstaat, de dichtheidsproef test op werkdruk plus 100 mbar of er gas weglekt`],
-      goed: 3,
-      uitleg: `De sterkteproef (5 bar, minimaal 10 seconden) en de dichtheidsproef (werkdruk plus 100 mbar, minimaal 3 minuten) zijn twee verschillende beproevingen met een verschillend doel. De sterkteproef gaat vooraf aan de dichtheidsproef, en beide gelden voor nieuwe leidingen (bestaande installaties worden alleen op werkdruk beproefd).`
-    },
-    {
-      vraag: `Waarom test je nooit met de volledige sterkteproefdruk op een aangesloten toestel?`,
-      opties: [`Omdat het toestel dan automatisch in storing gaat, zonder schade`, `Dat mag altijd, elk gasblok is daar tegen bestand`, `De proefdruk kan het gasblok beschadigen; sluit eerst de toestelkraan of koppel los en volg de door de fabrikant toegestane testdruk`, `Omdat de wet dit voor elk toestel op elke druk letterlijk verbiedt`],
+      vraag: `Een monteur denkt dat een terugstroombeveiliging op de vulkraan er vooral is om de garantie van de ketel te behouden, net zoals het spoelen van de installatie. Klopt die vergelijking?`,
+      opties: [
+        `Ja, beide maatregelen zijn vooral bedoeld om de garantie van de fabrikant veilig te stellen`,
+        `Ja, zonder beide maatregelen keurt de certificerende instelling het opleveringsrapport altijd af, ook als de rest van de installatie verder in orde is`,
+        `Nee, de terugstroombeveiliging beschermt het drinkwaternet tegen cv-water; spoelen gaat over vuil dat de ketel kan beschadigen`,
+        `Nee, de terugstroombeveiliging is juist bedoeld om sneller te kunnen bijvullen bij drukverlies`
+      ],
       goed: 2,
-      uitleg: `De volle proefdruk kan het gasblok beschadigen, daarom sluit je de toestelkraan of koppel je los en volg je de fabrikantwaarde voor het aangesloten toestel (die per merk verschilt, bijvoorbeeld 60 of 110 mbar).`
+      uitleg: `Een terugstroombeveiliging voorkomt dat cv-water, mogelijk met een toevoegmiddel, teruggezogen wordt in het drinkwaternet: dat is een risico voor iedereen op dat net, niet in de eerste plaats een garantiekwestie. Spoelen (les 13.4) gaat over een ander risico: vuil en fitresten die de nieuwe ketel zelf kunnen beschadigen, wat wel aan garantie raakt. Het opleveringsrapport en het gemak van bijvullen zijn hier niet de reden.`
     },
     {
-      vraag: `Wat gebeurt er als de sifon van een condenserend toestel niet met water is gevuld?`,
-      opties: [`Verbrandingsgassen kunnen in de opstellingsruimte vrijkomen`, `Alleen de garantie vervalt, er is verder geen enkel veiligheidsrisico aan de orde`, `De ketel gaat vanzelf op een hoger vermogen draaien`, `Niets van belang, de sifon is decoratief`],
+      vraag: `Je moet een nieuwe binnenleiding met een werkdruk van 30 mbar beproeven, en er hangt al een toestel aangesloten waarvoor de fabrikant een testdruk van maximaal 60 mbar toestaat. Kun je de sterkteproef (5 bar) en de dichtheidsproef (werkdruk plus 100 mbar, hier 130 mbar) zomaar uitvoeren met dat toestel aangesloten?`,
+      opties: [
+        `Ja, zolang je onder de sterkteproefdruk van 5 bar blijft, is het aangesloten toestel altijd veilig, ongeacht het gasblok`,
+        `Ja, de dichtheidsproef van 130 mbar is laag genoeg voor elk toestel, alleen de sterkteproef van 5 bar niet, dus alleen die moet zonder toestel gebeuren`,
+        `Nee, beide proefdrukken liggen ver boven de 60 mbar die de fabrikant op dit toestel toestaat: sluit eerst de toestelkraan of koppel los`,
+        `Nee, maar alleen voor de sterkteproef moet het toestel los; de dichtheidsproef van 130 mbar mag met het toestel aangesloten`
+      ],
+      goed: 2,
+      uitleg: `Zowel de sterkteproef (5 bar) als de dichtheidsproef (hier 130 mbar) ligt ver boven de 60 mbar die deze fabrikant op het aangesloten toestel toestaat. Beide beproevingen kunnen het gasblok beschadigen als het toestel aangesloten blijft: sluit daarom eerst de toestelkraan of koppel het toestel los voor je een van beide proeven doet. Alleen bij de sterkteproef loskoppelen is niet genoeg: ook 130 mbar is voor dit toestel te hoog.`
+    },
+    {
+      vraag: `Bij de dichtheidsproef van een nieuwe leiding zie je na 3 minuten geen drukdaling op de manometer. Betekent dat dat de leiding gegarandeerd dicht is?`,
+      opties: [
+        `Ja, geen drukdaling binnen de proeftijd is het enige bewijs dat nodig is`,
+        `Ja, zolang de sterkteproef daarvoor al geslaagd was, is de dichtheidsproef eigenlijk niet meer nodig`,
+        `Nee, maar dan moet je de proeftijd verdubbelen naar 6 minuten in plaats van de koppelingen zelf nog te controleren met een gaslekzoeker`,
+        `Nee, ook alle koppelingen controleer je met lekzoekspray of een gaslekzoeker: een klein lek is niet altijd zichtbaar in het drukverloop`
+      ],
+      goed: 3,
+      uitleg: `Geen zichtbare drukdaling binnen de proeftijd is een goed teken, maar geen garantie: een zeer klein lek is niet altijd terug te zien in het drukverloop binnen die tijd. Een volledige beproeving controleert daarom ook alle koppelingen met lekzoekspray of een gaslekzoeker. De sterkteproef vervangt de dichtheidsproef niet, en het probleem los je niet op door alleen de proeftijd te verdubbelen zonder de koppelingen te controleren.`
+    },
+    {
+      vraag: `Tijdens de inbedrijfstelling meet je 0 ppm CO in de opstellingsruimte, maar je ontdekt dat de sifon van het condenserende toestel niet met water is gevuld. Mag je op basis van die CO-meting toch vrijgeven?`,
+      opties: [
+        `Nee, een lege sifon is zelf al een risico dat je eerst verhelpt (water bijvullen), ook als de CO-meting op dit moment goed is`,
+        `Ja, een CO-meting van 0 ppm is de enige voorwaarde voor vrijgave, de sifon is daarnaast op dit moment niet relevant`,
+        `Ja, zolang de rookgasmeting ook binnen de grenswaarde van het toesteltype valt, is de lege sifon op dit moment helemaal geen probleem`,
+        `Nee, maar dan mag je toch gewoon vrijgeven als je de klant mondeling waarschuwt voor de lege sifon`
+      ],
       goed: 0,
-      uitleg: `De sifon vormt een waterafsluiting tussen verbrandingskamer en opstellingsruimte. Zonder water in de sifon vervalt die afsluiting en kunnen verbrandingsgassen vrijkomen: een veiligheidsrisico, niet alleen een garantiekwestie.`
+      uitleg: `De sifon is de waterafsluiting tussen de verbrandingskamer en de opstellingsruimte: zonder water kunnen verbrandingsgassen alsnog vrijkomen, ook als de CO-meting op dit moment goed uitvalt. Dat is een zelfstandig risico dat je eerst verhelpt voor je op basis van de metingen vrijgeeft. Een goede rookgasmeting verandert dat niet, en een mondelinge waarschuwing aan de klant is geen vervanging voor het daadwerkelijk verhelpen van het probleem.`
     },
     {
       vraag: `Een installatie met een systeeminhoud van 60 liter wordt volgens fabrikantvoorschrift met minimaal 3 keer de systeeminhoud gespoeld. Hoeveel liter is dat minimaal?`,
@@ -799,15 +824,15 @@ Zorg dat de klant na je vertrek weet: waar de gebruiksaanwijzing van het toestel
       uitleg: `3 x 60 liter = 180 liter. 60 liter is maar 1 keer de inhoud en 120 liter is 2 keer: beide te weinig volgens dit voorschrift.`
     },
     {
-      vraag: `Wanneer mag je een gasverbrandingsinstallatie in bedrijf stellen?`,
+      vraag: `Je hebt de gasdichtheid gecontroleerd en goedgekeurd, en de CO in de rookgassen valt binnen de grenswaarde van het toesteltype. De CO in de opstellingsruimte heb je nog niet gemeten. Mag je al vrijgeven?`,
       opties: [
-        `Zodra het toestel brandt zonder zichtbare storing`,
-        `Als de CO-concentratie in de opstellingsruimte lager is dan 5 ppm en de CO-concentratie in de rookgassen binnen de grenswaarde van het toesteltype valt`,
-        `Als de klant heeft getekend voor akkoord`,
-        `Zodra de gasdichtheid is gecontroleerd, ongeacht de CO-waarden`
+        `Ja, gasdichtheid plus een goede rookgasmeting zijn samen voldoende voor vrijgave`,
+        `Ja, zodra de gasdichtheid in orde is, zijn verdere metingen nog slechts een formaliteit`,
+        `Nee, vrijgave vraagt ook de CO-meting in de opstellingsruimte, onder 5 ppm: gasdichtheid en de rookgasmeting alleen zijn niet genoeg`,
+        `Nee, maar dan is een schriftelijke garantie van de klant dat hij zelf goed zal ventileren al een voldoende vervanging van die meting`
       ],
-      goed: 1,
-      uitleg: `Vrijgave vereist beide CO-metingen binnen hun grenswaarde. Een brandend toestel zonder zichtbare storing, een handtekening van de klant of alleen een gasdichtheidscontrole vervangen deze metingen niet.`
+      goed: 2,
+      uitleg: `Vrijgave vereist beide CO-metingen: minder dan 5 ppm in de opstellingsruimte én de CO in de rookgassen binnen de grenswaarde van het toesteltype. Een goede gasdichtheidscontrole en een goede rookgasmeting zijn dus niet voldoende zolang de meting in de opstellingsruimte nog ontbreekt: die is geen formaliteit, en een garantie van de klant vervangt geen meting.`
     },
     {
       vraag: `Je meet 25 ppm CO in de opstellingsruimte na je werkzaamheden. Aan wie meld je dit onmiddellijk?`,
@@ -822,10 +847,15 @@ Zorg dat de klant na je vertrek weet: waar de gebruiksaanwijzing van het toestel
       uitleg: `Beide aangewezen certificatieschema's eisen een bewaartermijn van minstens 10 jaar na afronding van het project, ongeacht of de klant nog op het adres woont.`
     },
     {
-      vraag: `Bij welk type toestel moet je schriftelijk een CO-melder adviseren als er nog geen is?`,
-      opties: [`Bij elk toestel zonder uitzondering, ook een nieuw gesloten toestel met geschiktheidsverklaring`, `Alleen wanneer de klant er expliciet naar vraagt`, `Alleen bij toestellen die meer dan 15 jaar oud zijn`, `Bij open toestellen, afvoerloze toestellen, en toestellen op een collectief systeem zonder geschiktheidsverklaring`],
-      goed: 3,
-      uitleg: `Het schriftelijke advies is verplicht bij open toestellen, afvoerloze toestellen, en toestellen op een collectief systeem zonder geschiktheidsverklaring. Leeftijd op zich, "elk toestel zonder uitzondering" en een verzoek van de klant zijn geen juiste criteria.`
+      vraag: `Je vervangt een open, afvoergebonden toestel zonder CO-melder, en je regelt het warmteafgiftesysteem niet zelf waterzijdig in. Wat moet je in beide gevallen doen, ook al voer je de handeling zelf niet uit?`,
+      opties: [
+        `In beide gevallen de opdrachtgever wijzen: schriftelijk adviseren over de CO-melder en wijzen op de plicht tot waterzijdig inregelen`,
+        `Niets, zolang je het zelf niet uitvoert, ligt de verantwoordelijkheid volledig bij de klant`,
+        `Alleen bij de CO-melder moet je iets zeggen; waterzijdig inregelen is uitsluitend de zaak van de installateur die het toestel ooit heeft geplaatst`,
+        `Alleen bij het waterzijdig inregelen moet je iets zeggen; een CO-melder plaats je altijd zelf, zonder daarover te hoeven adviseren`
+      ],
+      goed: 0,
+      uitleg: `Beide plichten staan los van wie de handeling uiteindelijk uitvoert: bij een open, afvoergebonden toestel zonder CO-melder adviseer je schriftelijk om er een te plaatsen, en als je het waterzijdig inregelen niet zelf doet, wijs je de opdrachtgever expliciet op die verplichting. In beide gevallen is "ik doe het niet, dus ik zeg er niets over" onjuist: de informatieplicht blijft, ook al ligt de uitvoering bij een ander.`
     },
     {
       vraag: `Je regelt het warmteafgiftesysteem bij een toestelvervanging niet zelf waterzijdig in. Wat is je verplichting?`,

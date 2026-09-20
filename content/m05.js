@@ -48,21 +48,26 @@ CURSUS.addModule({
       uitleg: `Berekend daalt het dauwpunt van ongeveer 59 °C bij lambda 1,0 naar 54 °C bij lambda 1,3 en 46 °C bij lambda 2,0. Meer lucht verdunt de waterdamp in het rookgas. Bij een retour dicht bij het dauwpunt scheelt dat direct in de condensatie.`
     },
     {
-      vraag: `Je meet in het droge rookgas van een ketel op G20 5,3% O2. Welke luchtovermaat hoort daarbij?`,
-      opties: [`Lambda 1,3`, `Lambda 1,2`, `Lambda 1,4`, `Lambda 1,1`],
-      goed: 0,
-      uitleg: `In de Kiwa-tabel voor G20 hoort lambda 1,3 bij 5,26% O2 en 8,80% CO2. Lambda 1,2 hoort bij 3,82% O2 en lambda 1,4 bij 6,47%.`
+      vraag: `Een monteur meet bij een Remeha Tzerra Ace 24C op vollast op G25.3 6,0% O2 in het rookgas, terwijl de handleiding 3,5 tot 4,0% vraagt. Wat is de juiste eerste stap?`,
+      opties: [
+        `Direct aan afstelschroef A draaien tot de O2-waarde binnen de bandbreedte valt`,
+        `De meting controleren, bijvoorbeeld op een lekkend meetsysteem, voordat er aan een afstelschroef wordt gedraaid`,
+        `Concluderen dat het toestel op het verkeerde gas is afgesteld, want 6,0% hoort al bij lambda 1,4`,
+        `Niets doen, want een afwijking van meer dan 1 procentpunt boven de bandbreedte is normaal bij G25.3`
+      ],
+      goed: 1,
+      uitleg: `Een sterke afwijking, hier ruim boven de bandbreedte van 3,5 tot 4,0%, kan een meetfout zijn, bijvoorbeeld een lekkend meetsysteem: sonde, slang of meetpunt controleer je en je laat de waarde stabiliseren voordat je bijstelt. Direct bijstellen kan een goed werkend toestel verkeerd afstellen. Het verschil tussen G25.3 en G25 verklaart hoogstens enkele tienden van een procentpunt, niet deze afwijking, en zo'n afwijking is niet normaal.`
     },
     {
-      vraag: `Een Remeha Calenta 35s heeft een minimale belasting van 7,3 kW. De warmtevraag van de woning is 5 kW. Wat doet de ketel?`,
+      vraag: `Een woning heeft op de koudste momenten een minimale doorlopende warmtevraag van 6 kW. Past dat beter bij een Remeha Calenta 25s (belasting 5,2 tot 25,0 kW) of bij een 35s (7,3 tot 35,1 kW)?`,
       opties: [
-        `Hij moduleert door naar 5 kW`,
-        `Hij gaat in storing`,
-        `Hij slaat aan en uit, omdat 5 kW onder de minimale belasting ligt`,
-        `Hij schakelt over naar vollast en blijft daar`
+        `De 35s, want een groter modulatiebereik is altijd beter voor het rendement`,
+        `De 25s, want 6 kW ligt binnen zijn bereik van 5,2 tot 25,0 kW, terwijl de 35s bij 6 kW zou pendelen`,
+        `Ze zijn gelijk geschikt, want beide ketels moduleren automatisch naar elk gevraagd vermogen`,
+        `De 35s, want een groter toestel heeft altijd meer reservevermogen voor koude dagen`
       ],
-      goed: 2,
-      uitleg: `Onder de minimale belasting kan de ketel niet verder moduleren en pendelt hij. Het is geen storing en de ketel gaat niet op vollast.`
+      goed: 1,
+      uitleg: `6 kW ligt boven de minimale belasting van de 25s (5,2 kW), dus die ketel kan continu moduleren. Bij de 35s ligt 6 kW onder de minimale belasting van 7,3 kW: die ketel zou bij deze vraag pendelen. Een groter modulatiebereik is niet automatisch beter, de ondergrens moet bij de laagste vraag passen. Geen ketel kan onder zijn minimale belasting moduleren.`
     },
     {
       vraag: `Een ATAG i-Serie eist een dynamische gasvoordruk hoger dan 20 mbar. Je meet statisch 27 mbar en dynamisch op vollast 19 mbar. Wat is de juiste conclusie?`,
@@ -115,10 +120,15 @@ CURSUS.addModule({
       uitleg: `Hi/Hs is ongeveer 0,902 voor aardgas. De verhouding 97,9 / 108,7 komt daar op uit. Er verandert niets aan de ketel: alleen de referentie.`
     },
     {
-      vraag: `Een 25 kW ketel warmt het water 20 K op (bijvoorbeeld 70 °C aanvoer en 50 °C retour). Welk debiet is nodig?`,
-      opties: [`Ongeveer 540 l/h`, `Ongeveer 860 l/h`, `Ongeveer 1290 l/h`, `Ongeveer 1075 l/h`],
-      goed: 3,
-      uitleg: `25.000 / (1,163 x 20) = ongeveer 1075 l/h. 860 l/h is de uitkomst voor 20 kW. 540 l/h hoort bij een delta T van 40 K.`
+      vraag: `Een cv-installatie vraagt van een combiketel 25 kW bij ΔT = 20 K, dus normaal ongeveer 1075 l/h door de radiatoren. Op dat moment gaat er ergens in huis een warmwaterkraan open. Wat doet de driewegklep, en wat betekent dat voor het cv-debiet?`,
+      opties: [
+        `De driewegklep verdeelt het water over cv en tapwater, dus het cv-debiet halveert naar ongeveer 540 l/h`,
+        `De driewegklep schakelt naar de tapwaterstand: het water gaat naar de platenwarmtewisselaar en het cv-debiet stopt tijdelijk`,
+        `De driewegklep blijft in de cv-stand: tapwater krijgt pas voorrang zodra het cv-debiet onder 860 l/h zakt`,
+        `De pomp verdubbelt het debiet naar ongeveer 2150 l/h zodat cv en tapwater tegelijk voldoende water krijgen`
+      ],
+      goed: 1,
+      uitleg: `Bij een combiketel schakelt de driewegklep bij een tapvraag naar de warmwaterstand: al het water gaat dan naar de platenwarmtewisselaar voor tapwater en de radiatoren krijgen tijdelijk geen doorstroming. Er is geen verdeling over beide routes en de klep schakelt wel degelijk bij elke tapvraag, en de pomp verdubbelt niet automatisch het debiet: de klep stuurt de route, niet het totale debiet.`
     },
     {
       vraag: `Het display van een Bosch Condens 7800i W laat een aanvoer van ongeveer 80 °C zien. Je maakt het toestel spanningsloos en meet volgens de handleiding aan de aanvoersensor 33.400 ohm. Wat concludeer je?`,

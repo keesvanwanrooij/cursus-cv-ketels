@@ -88,27 +88,26 @@ CURSUS.addModule({
       uitleg: `NEN 3140 werkt met vijf stappen, waarvan "aantonen dat spanningsloos is" er een is, met een tweepolige spanningsaanwijzer die je zelf eerst test (ELE-11, ELE-12). Een eenpolige zoeker of aannames op basis van de hoofdschakelaar tonen niets aan.`
     },
     {
-      vraag: `Wanneer mag een cv-monteur met alleen het Bewijs van Vakmanschap CO een door de netbeheerder verzegelde meterkast zelfstandig openen?`,
+      vraag: `Een cv-monteur met alleen het Bewijs van Vakmanschap CO wil achter een door de netbeheerder verzegelde meterkast zelf de spanning op een groepenkast (3 x 63 A) controleren, met een multimeter van CAT II. Wat is hier dubbel mis?`,
       opties: [
-        `Altijd, zolang het om een groepenkast tot 3 x 80 A gaat`,
-        `Nooit zonder toestemming van de bewoner`,
-        `Alleen als het bedrijf ook een InstallQ-erkenning voor elektrotechnische installaties heeft: een BRL 6000-25-certificaat alleen is niet genoeg`,
-        `Alleen bij spoed, bijvoorbeeld een sterke gaslucht of een acuut vermoeden van koolmonoxide, en dan ook alleen na overleg met de netbeheerder zelf`
+        `Niets: met een geteste tweepolige spanningsaanwijzer in plaats van een multimeter zou dit wel mogen`,
+        `Alleen het instrument is verkeerd, want CAT II is te laag voor een groepenkast; de meterkast mag hij met zijn CO-certificaat wel zelf openen`,
+        `Hij mag de verzegelde meterkast niet zelfstandig openen zonder elektrotechnische erkenning, en CAT II is bovendien de verkeerde categorie voor een groepenkast, die CAT III vraagt`,
+        `Niets: de CO-certificering dekt zowel het zegelrecht als elke meetcategorie tot en met CAT III`
       ],
       goed: 2,
-      uitleg: `Landelijk zegelrecht is voorbehouden aan bedrijven met een elektrotechnische erkenning (elektrotechnisch installateur of inspectiebedrijf); een CO-certificaat (BRL 6000-25) geeft dat recht niet (ELK-05, ELK-06). Spoed of toestemming van de bewoner verandert daar niets aan.`
+      uitleg: `Landelijk zegelrecht is voorbehouden aan bedrijven met een elektrotechnische erkenning; een BRL 6000-25-certificaat (CO) geeft dat recht niet, dus de meterkast mag hij niet zelfstandig openen. Bovendien hoort bij een groepenkast, de vaste installatie van het pand, meetcategorie CAT III en niet CAT II, dat voor via een wandcontactdoos gevoede apparaten is. Beide problemen staan los van elkaar: het ene lost het andere niet op, en geen enkel instrument maakt het zegelrecht overbodig.`
     },
     {
-      vraag: `Bij een Remeha Calenta zitten een OpenTherm-regelaar en een aan/uit-kamerthermostaat op dezelfde klemmen "On/off-OT". Bij een Intergas Kombi Kompakt HRE heeft elke functie een eigen klemmenpaar. Wat leert dit een monteur?`,
+      vraag: `Een monteur heeft eerder voor een Vaillant ecoTEC plus VHR een losse OpenTherm-module gebruikt om een externe thermostaat aan te sluiten. Hij neemt aan dat dezelfde module ook op een ATAG i-Serie past, want beide toestellen spreken "hun eigen taal" in plaats van rechtstreeks OpenTherm. Klopt die aanname?`,
       opties: [
-        `Dat OpenTherm bij Intergas niet ondersteund wordt`,
-        `Dat het klemmenschema per merk en model verschilt, dus je raadpleegt altijd het schema van dat specifieke toestel`,
-        `Dat Remeha-toestellen bij het aansluiten van een aan/uit-thermostaat geen buitensensor kunnen gebruiken voor de stooklijn`,
-        `Dat aan/uit-thermostaten bij Intergas niet werken`,
-        `Dat een OpenTherm-thermostaat bij elk toestel op dezelfde klemmen past`
+        `Ja, elke module die eBUS ondersteunt, ondersteunt automatisch ook de ATAG-bus`,
+        `Nee, ATAG vraagt voor zijn eigen bus een eigen adapter (de OT-LPA): dat is een andere module dan de eBUS-module van Vaillant`,
+        `Ja, zolang de jumper op de module wordt verwijderd, werkt hij op elk toestel met een eigen bus`,
+        `Nee, want ATAG ondersteunt OpenTherm helemaal niet, ook niet met een adapter`
       ],
       goed: 1,
-      uitleg: `Remeha deelt bij de Calenta de klemmen "On/off-OT" voor beide protocollen (ELK-17), Intergas geeft aan/uit klem 6-7 en OpenTherm klem 11-12 (ELK-20). Beide toestellen ondersteunen wel degelijk OpenTherm en een buitensensor; alleen de fysieke klemmen verschillen.`
+      uitleg: `Vaillant en ATAG spreken elk hun eigen taal, eBUS respectievelijk de ATAG-bus, en vragen daarom elk hun eigen adaptermodule: de eBUS-module van Vaillant past niet zomaar op een ATAG-toestel. Alleen de jumper verwijderen maakt een module niet universeel, en ATAG ondersteunt OpenTherm wel, alleen via de eigen OT-LPA-adapter. Raadpleeg daarom altijd het schema van dat specifieke toestel.`
     },
     {
       vraag: `Een Vaillant ecoTEC plus VHR communiceert standaard via eBUS. Wat is er nodig om er een externe OpenTherm-thermostaat op aan te sluiten?`,
@@ -144,15 +143,15 @@ CURSUS.addModule({
       uitleg: `Intergas noemt voor de aan/uit-thermostaatleiding een maximale weerstand van 15 ohm voor leiding plus thermostaat samen (ELK-21). De 125 meter en het verbod op afgeschermde/getwiste kabel horen bij de eBUS-leiding van Vaillant (ELK-23), een ander getal voor een ander protocol.`
     },
     {
-      vraag: `Welke meetcategorie (CAT) van een multimeter past het beste bij het meten aan een cv-ketel die op een gewone wandcontactdoos is aangesloten?`,
+      vraag: `Een monteur wil de weerstand van een NTC-sensor meten op een ketel die op een gewone wandcontactdoos is aangesloten. Zet het juiste instrument en de juiste volgorde op een rij.`,
       opties: [
-        `CAT I, want dat is de laagste en dus de veiligste categorie`,
-        `CAT II, de categorie voor via een wandcontactdoos gevoede apparaten`,
-        `CAT IV, want dat biedt altijd de meeste bescherming`,
-        `De categorie maakt niet uit zolang het instrument een digitaal display heeft`
+        `Direct de weerstand meten met een multimeter van CAT II, zonder eerst aan te tonen dat het circuit spanningsloos is`,
+        `Eerst met dezelfde multimeter (minstens CAT II) op de spanningsstand aantonen dat het circuit spanningsloos is, en dan pas op de weerstandsstand de NTC meten`,
+        `Eerst de weerstand meten, en alleen als de waarde vreemd is alsnog spanningsloosheid aantonen`,
+        `Een eenpolige spanningszoeker gebruiken en zonder verdere metingen aannemen dat de weerstand daarna klopt`
       ],
       goed: 1,
-      uitleg: `CAT II is bedoeld voor apparaten die via een wandcontactdoos worden gevoed, zoals een stekker-aangesloten cv-ketel (ELK-31). CAT IV hoort bij de aansluiting van het net zelf, niet bij het apparaat; "de laagste categorie" is geen argument, een lagere CAT-waarde beschermt juist minder.`
+      uitleg: `Voor je weerstand meet, toon je met de spanningsstand van dezelfde multimeter aan dat het circuit spanningsloos is: dat voorkomt een onjuiste waarde en schade aan het instrument. Voor een op een wandcontactdoos aangesloten ketel is CAT II de juiste categorie. Meteen weerstand meten zonder die controle, de volgorde omdraaien, of alleen een eenpolige zoeker gebruiken tonen geen spanningsloosheid betrouwbaar aan.`
     },
     {
       vraag: `Voor je met een ohmmeter de weerstand van een NTC-sensor aan een ketel meet, wat doe je eerst?`,

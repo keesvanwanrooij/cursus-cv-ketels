@@ -29,16 +29,16 @@ CURSUS.addModule({
   ],
   examen: [
     {
-      vraag: `Een boiler van 120 liter wordt van 12 naar 60 °C verwarmd (reken met 1,163 Wh/(kg K) en 1 liter = 1 kg). Hoeveel energie is daarvoor ongeveer nodig?`,
-      opties: [`Ongeveer 8,4 kWh`, `Ongeveer 6,7 kWh`, `Ongeveer 10,0 kWh`, `Ongeveer 24,1 kWh`],
-      goed: 1,
-      uitleg: `De temperatuurstijging is 60 - 12 = 48 K, dus Q = 120 × 1,163 × 48 = 6699 Wh, ongeveer 6,7 kWh. 8,4 kWh krijg je als je met 60 K rekent (de eindtemperatuur in plaats van het verschil). 10,0 kWh ontstaat als je de temperaturen optelt (12 + 60 = 72 K). 24,1 komt uit 120 × 4,19 × 48 = 24.134 kJ, en dat zijn kilojoules, geen kWh.`
+      vraag: `Een boiler van 150 liter wordt in 30 minuten van 20 naar 60 °C verwarmd. Welk vermogen is daarvoor gemiddeld ongeveer nodig, en past dat binnen het modulatiebereik van een Remeha Calenta 25s (5,2 tot 25,0 kW, Hi)?`,
+      opties: [`Ongeveer 28 kW, dat ligt boven het maximum van 25,0 kW`, `Ongeveer 3,5 kW, dat ligt onder het minimum van 5,2 kW`, `Ongeveer 14,0 kW, dat past binnen het bereik van 5,2 tot 25,0 kW`, `Ongeveer 7,0 kW, en dat is de energie zonder rekening te houden met de tijd`],
+      goed: 2,
+      uitleg: `ΔT = 60 - 20 = 40 K, dus Q = 150 × 1,163 × 40 = 6978 Wh, ongeveer 6,98 kWh. Vermogen = energie / tijd = 6,98 / 0,5 = ongeveer 14,0 kW, en dat past binnen het modulatiebereik van de Calenta 25s. 28 kW krijg je als je met een kwartier in plaats van een half uur rekent. 3,5 kW ontstaat als je de energie met de tijd vermenigvuldigt in plaats van deelt. 7,0 kW is de energie zelf: zonder te delen door de tijd is dat geen vermogen.`
     },
     {
-      vraag: `Een ketel levert 25 kW aan het cv-water. De aanvoer is 60 °C en de retour 40 °C. Hoe groot is het debiet ongeveer?`,
-      opties: [`Ongeveer 358 l/h`, `Ongeveer 1250 l/h`, `Ongeveer 1075 l/h`, `Ongeveer 21.500 l/h`],
-      goed: 2,
-      uitleg: `ΔT = 60 - 40 = 20 K. Debiet = 25.000 W / (1,163 × 20) = 1075 l/h. 358 l/h krijg je als je de aanvoertemperatuur (60) als ΔT gebruikt. 1250 l/h ontstaat als je de factor 1,163 vergeet (25.000 / 20). 21.500 l/h krijg je als je niet deelt door ΔT.`
+      vraag: `Een ketel levert 18 kW aan het cv-water bij ΔT = 15 K, dus een debiet van ongeveer 1032 l/h. Een monteur verhoogt de pompstand tot het debiet verdubbelt naar ongeveer 2064 l/h, bij gelijk vermogen. Wat gebeurt er met ΔT en met de drukval in het leidingnet (turbulente stroming)?`,
+      opties: [`ΔT verdubbelt naar 30 K en de drukval wordt ongeveer tweemaal zo groot`, `ΔT blijft 15 K en de drukval wordt ongeveer achtmaal zo groot`, `ΔT halveert naar 7,5 K, maar de drukval blijft ongeveer gelijk`, `ΔT halveert naar 7,5 K en de drukval wordt ongeveer viermaal zo groot`],
+      goed: 3,
+      uitleg: `Bij gelijk vermogen is het debiet omgekeerd evenredig met ΔT: verdubbel je het debiet, dan halveert ΔT naar ongeveer 7,5 K. Bij turbulente stroming neemt de drukval ongeveer kwadratisch toe met het debiet, dus een verdubbeling geeft ongeveer viermaal zoveel drukval. ΔT blijft niet gelijk en de drukval loopt niet lineair op: de pomp moet dan veel harder werken voor een klein voordeel in afgifte.`
     },
     {
       vraag: `Een woning heeft op een koude dag 10 uur lang gemiddeld 4,5 kW warmte nodig. De ketel heeft in dat bedrijfspunt een rendement van 89,3% op de bovenwaarde. Hoeveel gas gaat er door de meter (neem m³(n) aan)?`,
@@ -59,10 +59,10 @@ CURSUS.addModule({
       uitleg: `Energie in het gas op Hs: 1500 × 9,769 = 14.654 kWh. Nuttig: 14.654 × 0,92 = 13.480 kWh. 14.650 kWh is de energie in het gas, zonder het rendement. 15.930 kWh krijg je door te delen door 0,92 in plaats van te vermenigvuldigen. 12.130 kWh combineert de Hi-waarde (8,792) met een Hs-rendement: dat mag niet, want de basis moet gelijk zijn.`
     },
     {
-      vraag: `De fabrikant geeft een radiator 1500 W bij ΔT = 50 K en een exponent n = 1,3. Wat is het vermogen bij ΔT = 40 K?`,
-      opties: [`Ongeveer 1200 W`, `Ongeveer 1500 W`, `Ongeveer 2000 W`, `Ongeveer 1120 W`],
-      goed: 3,
-      uitleg: `Q = 1500 × (40 / 50)^1,3 = 1500 × 0,748 = ongeveer 1120 W. 1200 W is de evenredige berekening (0,8 × 1500): de exponent is groter dan 1, dus het vermogen daalt sneller dan het temperatuurverschil. 1500 W gaat ervan uit dat de temperatuur niet uitmaakt. 2000 W komt uit de omgekeerde breuk (50 / 40).`
+      vraag: `Een radiator is gedimensioneerd op 1400 W bij regime 70/50 °C in een kamer van 20 °C (dus ΔT = 40 K, exponent n = 1,3). Een monteur verlaagt de aanvoer naar 55 °C (retour 45 °C, dus ΔT = 30 K) om de retour onder het dauwpunt te krijgen. De woning vraagt op dat moment nog 1000 W. Levert de radiator dat nog?`,
+      opties: [`Ja, want het vermogen bij ΔT = 30 K is ongeveer 1050 W`, `Nee, want het vermogen bij ΔT = 30 K is nog maar ongeveer 963 W`, `Nee, want het vermogen bij ΔT = 30 K is nog maar ongeveer 788 W`, `Ja, een lagere aanvoertemperatuur geeft juist meer vermogen aan de radiator`],
+      goed: 1,
+      uitleg: `Q = 1400 × (30 / 40)^1,3 = ongeveer 963 W, dus minder dan de gevraagde 1000 W: de radiator schiet net tekort. 1050 W is de evenredige berekening (30/40 × 1400) zonder de exponent, die het vermogen sneller laat dalen dan het temperatuurverschil. 788 W ontstaat als je in het kwadraat rekent ((30/40)^2) in plaats van tot de macht 1,3. Een lagere aanvoertemperatuur verlaagt het vermogen van de radiator juist, al kan het het rendement van de ketel verbeteren.`
     },
     {
       vraag: `Een installatie met ruim bemeten radiatoren draait op 75/65 °C en houdt de woning warm. Een monteur zet de aanvoer op 55 °C (retour ongeveer 45 °C) en de woning blijft warm. Wat is het gevolg voor het rendement van de HR-ketel?`,
