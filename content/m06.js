@@ -249,13 +249,8 @@ Een klant heeft zelf een OpenTherm-thermostaat gekocht en aangesloten op een ket
   quiz: [
     {
       vraag: `Wat gebeurt er bij een aan/uit-thermostaat zodra er een warmtevraag is?`,
-      opties: [
-        `De ketel vraagt de thermostaat om de gewenste temperatuur`,
-        `De ketel warmt op tot de vaste, op de ketel zelf ingestelde temperatuur, ongeacht de werkelijke warmtebehoefte`,
-        `De ketel moduleert automatisch naar de laagste stand die nog toereikend is`,
-        `De ketel schakelt bij elke warmtevraag eerst automatisch over naar tapwaterbedrijf, ook als er geen kraan open staat`
-      ],
-      goed: 1,
+      opties: [`De ketel warmt op tot de vaste, op de ketel zelf ingestelde temperatuur, ongeacht de werkelijke warmtebehoefte`, `De ketel moduleert automatisch naar de laagste stand die nog toereikend is`, `De ketel schakelt bij elke warmtevraag eerst automatisch over naar tapwaterbedrijf, ook als er geen kraan open staat`, `De ketel vraagt de thermostaat om de gewenste temperatuur`],
+      goed: 0,
       uitleg: `Een aan/uit-thermostaat kent alleen "wel of geen vraag". De ketel warmt dan op tot de temperatuur die op de ketel zelf is ingesteld: hij weet niet hoeveel warmte er werkelijk nodig is.`
     },
     {
@@ -271,25 +266,20 @@ Een klant heeft zelf een OpenTherm-thermostaat gekocht en aangesloten op een ket
     },
     {
       vraag: `Een OpenTherm-bericht voor de aanvoertemperatuur bevat de bytes 0x16 (hoog) en 0x00 (laag). Welke temperatuur betekent dat?`,
-      opties: [`16,0 graden`, `22,0 graden`, `1,6 graden`, `160 graden`],
-      goed: 1,
+      opties: [`160 graden`, `16,0 graden`, `22,0 graden`, `1,6 graden`],
+      goed: 2,
       uitleg: `0x16 is 22 in decimaal (1 x 16 + 6), dat zijn de hele graden. De fractie is 0x00 / 256 = 0. Samen: 22,0 graden. Verwar het hexadecimale getal niet met het decimale getal dat er toevallig op lijkt (16,0).`
     },
     {
       vraag: `Een Remeha Calenta 25s heeft een minimale belasting van 5,2 kW. De warmtevraag van de woning zakt op een milde dag naar 3 kW. Wat gebeurt er?`,
-      opties: [
-        `De ketel moduleert soepel door naar 3 kW`,
-        `De ketel gaat in storing`,
-        `De ketel pendelt: hij slaat aan en uit omdat hij niet onder zijn minimale belasting kan moduleren`,
-        `De ketel schakelt naar tapwaterbedrijf`
-      ],
-      goed: 2,
+      opties: [`De ketel schakelt naar tapwaterbedrijf`, `De ketel moduleert soepel door naar 3 kW`, `De ketel gaat in storing`, `De ketel pendelt: hij slaat aan en uit omdat hij niet onder zijn minimale belasting kan moduleren`],
+      goed: 3,
       uitleg: `Onder de minimale belasting kan de ketel niet verder terugregelen. Hij levert dan meer warmte dan gevraagd, schakelt uit en start later weer: dat is pendelen, geen storing.`
     },
     {
       vraag: `Welke data-ID staat in de OpenTherm-specificatie voor de buitentemperatuur?`,
-      opties: [`Data-ID 17`, `Data-ID 18`, `Data-ID 25`, `Data-ID 27`],
-      goed: 3,
+      opties: [`Data-ID 27`, `Data-ID 17`, `Data-ID 18`, `Data-ID 25`],
+      goed: 0,
       uitleg: `Data-ID 27 is de buitentemperatuur. Data-ID 17 is het modulatieniveau, 18 de cv-waterdruk en 25 de ketelwatertemperatuur (aanvoer).`
     },
     {
@@ -382,13 +372,8 @@ Een bewoner klaagt dat de woning 's ochtends na de nachtverlaging te langzaam op
   quiz: [
     {
       vraag: `Wat verandert er in het gedrag van de ketel als je een buitenvoeler aansluit en de regeling weersafhankelijk laat werken?`,
-      opties: [
-        `De ketel schakelt alleen nog aan en uit, nooit meer modulerend`,
-        `De ketel levert vanaf dat moment alleen nog tapwater en stopt met cv-verwarming, ongeacht de warmtevraag`,
-        `De ketel is langer en op een lager niveau in bedrijf, in plaats van kort en op hoog vermogen`,
-        `De ketel negeert de kamerthermostaat volledig zodra de buitenvoeler is aangesloten`
-      ],
-      goed: 2,
+      opties: [`De ketel is langer en op een lager niveau in bedrijf, in plaats van kort en op hoog vermogen`, `De ketel negeert de kamerthermostaat volledig zodra de buitenvoeler is aangesloten`, `De ketel schakelt alleen nog aan en uit, nooit meer modulerend`, `De ketel levert vanaf dat moment alleen nog tapwater en stopt met cv-verwarming, ongeacht de warmtevraag`],
+      goed: 0,
       uitleg: `Volgens de fabrikant zorgt een weersafhankelijke regeling ervoor dat de ketel zijn vermogen afstemt op de berekende behoefte: langer en op een lager niveau in bedrijf, in plaats van kort en hard.`
     },
     {
@@ -399,47 +384,26 @@ Een bewoner klaagt dat de woning 's ochtends na de nachtverlaging te langzaam op
     },
     {
       vraag: `Bij de Vaillant ecoTEC plus VHR geeft stooklijn 0,4 bij een gewenste kamertemperatuur van 20 graden en -15 graden buiten een aanvoertemperatuur van 40 graden. Wat gebeurt er als de gewenste kamertemperatuur naar 21 graden wordt bijgesteld?`,
-      opties: [
-        `De stooklijn verandert niet, alleen het setpoint van de thermostaat wijzigt`,
-        `De hele stooklijn verschuift evenwijdig, waardoor bij dezelfde buitentemperatuur een iets hogere aanvoertemperatuur wordt berekend`,
-        `De ketel schakelt over naar een vaste temperatuur van 21 graden`,
-        `De stooklijnwaarde zelf (0,4) wordt door het toestel automatisch verhoogd naar 0,5, onafhankelijk van de ingestelde kamertemperatuur`
-      ],
-      goed: 1,
+      opties: [`De stooklijnwaarde zelf (0,4) wordt door het toestel automatisch verhoogd naar 0,5, onafhankelijk van de ingestelde kamertemperatuur`, `De stooklijn verandert niet, alleen het setpoint van de thermostaat wijzigt`, `De hele stooklijn verschuift evenwijdig, waardoor bij dezelfde buitentemperatuur een iets hogere aanvoertemperatuur wordt berekend`, `De ketel schakelt over naar een vaste temperatuur van 21 graden`],
+      goed: 2,
       uitleg: `Volgens de handleiding verschuift de stooklijn parallel als de gewenste kamertemperatuur wijzigt. De hellingswaarde (0,4) blijft gelijk, maar de bijbehorende aanvoertemperatuur bij elke buitentemperatuur verandert mee.`
     },
     {
       vraag: `Waarom adviseert Milieu Centraal bij een cv-ketel met radiatoren 's nachts te verlagen naar ongeveer 15 graden?`,
-      opties: [
-        `Om de warmtewisselaar te beschermen tegen te hoge temperaturen`,
-        `Omdat het minder energie kost om 's ochtends weer op te stoken dan de hele nacht door te stoken op de ingestelde temperatuur`,
-        `Om legionellagroei in het cv-water te voorkomen`,
-        `Omdat de stooklijn dat wettelijk verplicht volgens een landelijke richtlijn die voor elke woning met een cv-ketel zou gelden, ongeacht het bouwjaar`
-      ],
-      goed: 1,
+      opties: [`Om legionellagroei in het cv-water te voorkomen`, `Omdat de stooklijn dat wettelijk verplicht volgens een landelijke richtlijn die voor elke woning met een cv-ketel zou gelden, ongeacht het bouwjaar`, `Om de warmtewisselaar te beschermen tegen te hoge temperaturen`, `Omdat het minder energie kost om 's ochtends weer op te stoken dan de hele nacht door te stoken op de ingestelde temperatuur`],
+      goed: 3,
       uitleg: `Milieu Centraal noemt expliciet dat opnieuw opstoken minder energie kost dan de hele nacht doorstoken. Bij vloerverwarming of een warmtepomp ligt dat anders vanwege de trage opwarming.`
     },
     {
       vraag: `Hoe hangt nachtverlaging samen met het rendement van een HR-ketel?`,
-      opties: [
-        `Nachtverlaging heeft geen invloed op de retourtemperatuur`,
-        `Een lagere ingestelde temperatuur geeft via de stooklijn een lagere retourtemperatuur, waardoor de ketel meer kan condenseren`,
-        `Nachtverlaging verhoogt de retourtemperatuur, wat het rendement verbetert`,
-        `Nachtverlaging werkt uitsluitend bij een aan/uit-thermostaat en heeft geen enkel effect bij een modulerende regeling`
-      ],
-      goed: 1,
+      opties: [`Een lagere ingestelde temperatuur geeft via de stooklijn een lagere retourtemperatuur, waardoor de ketel meer kan condenseren`, `Nachtverlaging verhoogt de retourtemperatuur, wat het rendement verbetert`, `Nachtverlaging werkt uitsluitend bij een aan/uit-thermostaat en heeft geen enkel effect bij een modulerende regeling`, `Nachtverlaging heeft geen invloed op de retourtemperatuur`],
+      goed: 0,
       uitleg: `Minder warmtevraag geeft via de stooklijn een lagere berekende aanvoertemperatuur en dus een lagere retourtemperatuur. Een lagere retourtemperatuur laat een HR-ketel meer condenseren en dus zuiniger draaien.`
     },
     {
       vraag: `Een bewoner met vloerverwarming klaagt dat de woning na nachtverlaging 's ochtends te langzaam opwarmt. Wat is de beste eerste stap?`,
-      opties: [
-        `Direct de stooklijn veel steiler instellen`,
-        `De nachtverlaging kleiner maken (bijvoorbeeld 2 in plaats van 5 graden) in plaats van meteen de stooklijn aan te passen, vanwege de lagere aanvoertemperatuur en grotere massa van vloerverwarming`,
-        `De buitenvoeler verwijderen`,
-        `De ketel op de maximale aanvoertemperatuur laten regelen, altijd`,
-        `Overschakelen naar een aan/uit-thermostaat`
-      ],
-      goed: 1,
+      opties: [`De nachtverlaging kleiner maken (bijvoorbeeld 2 in plaats van 5 graden) in plaats van meteen de stooklijn aan te passen, vanwege de lagere aanvoertemperatuur en grotere massa van vloerverwarming`, `De buitenvoeler verwijderen`, `De ketel op de maximale aanvoertemperatuur laten regelen, altijd`, `Overschakelen naar een aan/uit-thermostaat`, `Direct de stooklijn veel steiler instellen`],
+      goed: 0,
       uitleg: `Vloerverwarming heeft een lagere aanvoertemperatuur en meer thermische massa dan radiatoren, dus een kleinere nachtverlaging is vaak effectiever dan de stooklijn steiler zetten, wat het rendement bij mild weer juist verslechtert.`
     }
   ],
@@ -504,57 +468,32 @@ Een klant heeft zelf slimme radiatorknoppen op alle radiatoren laten zetten en m
   quiz: [
     {
       vraag: `Wat voegt een slimme thermostaat toe ten opzichte van een gewone OpenTherm-thermostaat?`,
-      opties: [
-        `Hij maakt de ketel per definitie geschikt voor tapwater`,
-        `Hij is via een app te bedienen en kan zelfprogrammerend zijn of worden uitgebreid met slimme radiatorknoppen`,
-        `Hij vervangt de buitenvoeler`,
-        `Hij verhoogt automatisch de CW-klasse van de ketel zodra er een internetverbinding tot stand komt, onafhankelijk van het werkelijke tapwaterverbruik`
-      ],
-      goed: 1,
+      opties: [`Hij is via een app te bedienen en kan zelfprogrammerend zijn of worden uitgebreid met slimme radiatorknoppen`, `Hij vervangt de buitenvoeler`, `Hij verhoogt automatisch de CW-klasse van de ketel zodra er een internetverbinding tot stand komt, onafhankelijk van het werkelijke tapwaterverbruik`, `Hij maakt de ketel per definitie geschikt voor tapwater`],
+      goed: 0,
       uitleg: `Een slimme thermostaat bouwt voort op modulerend/OpenTherm-regelen met extra functies: app-bediening, zelf leren, en uitbreiding met radiatorknoppen. De CW-klasse en de buitenvoeler zijn losse onderdelen van de installatie.`
     },
     {
       vraag: `Wat is zoneregeling?`,
-      opties: [
-        `Het apart van elkaar kunnen verwarmen van zones of kamers, in plaats van het hele huis op een enkele kamertemperatuur te sturen`,
-        `Het automatisch wisselen tussen aardgas en een ander gas`,
-        `Het verdelen van tapwater over meerdere badkamers`,
-        `Het instellen van verschillende CW-klassen per verdieping`
-      ],
-      goed: 0,
+      opties: [`Het instellen van verschillende CW-klassen per verdieping`, `Het apart van elkaar kunnen verwarmen van zones of kamers, in plaats van het hele huis op een enkele kamertemperatuur te sturen`, `Het automatisch wisselen tussen aardgas en een ander gas`, `Het verdelen van tapwater over meerdere badkamers`],
+      goed: 1,
       uitleg: `Zoneregeling verwarmt zones of kamers apart, met eigen thermostaten of radiatorknoppen, in plaats van de hele woning te sturen op de temperatuur in een enkele ruimte.`
     },
     {
       vraag: `Waarom kan een ketel volgens Resideo gaan pendelen bij zoneregeling in het voor- en naseizoen?`,
-      opties: [
-        `Omdat de ketel dan te veel gas krijgt`,
-        `Omdat er dan overcapaciteit is: te weinig warmtevraag overblijft ten opzichte van het vermogen van de ketel`,
-        `Omdat de thermostatische kranen dan allemaal wijd open staan`,
-        `Omdat de buitenvoeler bij mild weer minder vaak wordt uitgelezen door de regeling en daardoor tijdelijk uitvalt`
-      ],
-      goed: 1,
+      opties: [`Omdat de buitenvoeler bij mild weer minder vaak wordt uitgelezen door de regeling en daardoor tijdelijk uitvalt`, `Omdat de ketel dan te veel gas krijgt`, `Omdat er dan overcapaciteit is: te weinig warmtevraag overblijft ten opzichte van het vermogen van de ketel`, `Omdat de thermostatische kranen dan allemaal wijd open staan`],
+      goed: 2,
       uitleg: `Bij weinig warmtevraag per zone kan de totale gevraagde warmte onder de minimale belasting van de ketel komen, waardoor hij pendelt. Modulerende aansturing via OpenTherm helpt dit te beperken.`
     },
     {
       vraag: `Wat gebeurt er hydraulisch als bijna alle thermostatische radiatorkranen in een installatie tegelijk sluiten, zonder bypass?`,
-      opties: [
-        `De ketel krijgt automatisch een hogere CW-klasse`,
-        `De pomp kan het water niet meer voldoende rondpompen, waardoor de ketel de opgewekte warmte niet kwijt kan`,
-        `Het tapwater wordt kouder`,
-        `De gasvoordruk daalt tot onder de minimumwaarde`
-      ],
-      goed: 1,
+      opties: [`Het tapwater wordt kouder`, `De gasvoordruk daalt tot onder de minimumwaarde`, `De ketel krijgt automatisch een hogere CW-klasse`, `De pomp kan het water niet meer voldoende rondpompen, waardoor de ketel de opgewekte warmte niet kwijt kan`],
+      goed: 3,
       uitleg: `Sluiten (bijna) alle kranen, dan werkt de pomp tegen een vrijwel gesloten circuit en daalt het debiet sterk. Zonder bypass kan de ketel de warmte dan niet kwijt en kan hij pendelen of in storing vallen.`
     },
     {
       vraag: `Wat noemt Intergas als maatregel bij een vloerverwarmingszone in het installatievoorschrift van de Kombi Kompakt HRE?`,
-      opties: [
-        `Een tweede ketel plaatsen`,
-        `Zorg voor een minimale watercirculatie en plaats eventueel een bypassventiel`,
-        `De thermostatische kranen verwijderen`,
-        `De stooklijn permanent op de maximale waarde zetten, ongeacht de buitentemperatuur of het type afgifte`
-      ],
-      goed: 1,
+      opties: [`Zorg voor een minimale watercirculatie en plaats eventueel een bypassventiel`, `De thermostatische kranen verwijderen`, `De stooklijn permanent op de maximale waarde zetten, ongeacht de buitentemperatuur of het type afgifte`, `Een tweede ketel plaatsen`],
+      goed: 0,
       uitleg: `Intergas noemt letterlijk het zorgen voor minimale watercirculatie en het eventueel plaatsen van een bypassventiel als de circulatie anders onvoldoende is.`
     },
     {
@@ -781,53 +720,38 @@ Bij een renovatie vraagt een klant met twee jonge kinderen om "gewoon veilig war
   quiz: [
     {
       vraag: `In welk temperatuurbereik groeit legionella het best?`,
-      opties: [`0 tot 20 graden`, `25 tot 50 graden`, `55 tot 70 graden`, `70 tot 90 graden`],
-      goed: 1,
+      opties: [`25 tot 50 graden`, `55 tot 70 graden`, `70 tot 90 graden`, `0 tot 20 graden`],
+      goed: 0,
       uitleg: `Legionella groeit tussen ongeveer 25 en 50 graden. Daarom is de norm juist om ver boven die zone te blijven: minstens 55 of 60 graden aan het tappunt, afhankelijk van de installatie.`
     },
     {
       vraag: `Welke minimale temperatuur geldt aan het tappunt van een woninginstallatie zonder circulatie, bij gebruik conform de ontwerpcondities?`,
-      opties: [`45 graden`, `50 graden`, `55 graden`, `60 graden`],
-      goed: 2,
+      opties: [`50 graden`, `55 graden`, `60 graden`, `45 graden`],
+      goed: 1,
       uitleg: `Voor een woninginstallatie zonder circulatie geldt een minimum van 55 graden. Met circulatie, of bij een collectief leidingnet, geldt het strengere minimum van 60 graden.`
     },
     {
       vraag: `Waarom is een gewone woning geen "prioritaire instelling" volgens het Drinkwaterbesluit?`,
-      opties: [
-        `Omdat er in een woning geen legionellarisico bestaat`,
-        `Omdat de zwaardere verplichting tot risicoanalyse en beheersplan is voorbehouden aan specifiek aangewezen locaties zoals ziekenhuizen, hotels en zwembaden`,
-        `Omdat een woning altijd een eigen boiler heeft`,
-        `Omdat de temperatuur in een woning wettelijk vrij te kiezen is`
-      ],
-      goed: 1,
+      opties: [`Omdat de temperatuur in een woning wettelijk vrij te kiezen is`, `Omdat er in een woning geen legionellarisico bestaat`, `Omdat de zwaardere verplichting tot risicoanalyse en beheersplan is voorbehouden aan specifiek aangewezen locaties zoals ziekenhuizen, hotels en zwembaden`, `Omdat een woning altijd een eigen boiler heeft`],
+      goed: 2,
       uitleg: `Het Drinkwaterbesluit wijst specifieke locaties aan (zorg, logies, zwembaden en dergelijke) waar een formele risicoanalyse en beheersplan verplicht zijn. Een gewone woning valt daar niet onder, maar de basisregels uit NEN 1006 en de Waterwerkbladen gelden er wel.`
     },
     {
       vraag: `Een bewoner met jonge kinderen wil de boiler van 65 naar 45 graden laten verlagen uit angst voor brandwonden. Wat is het juiste advies?`,
-      opties: [
-        `Prima idee, lager is altijd veiliger`,
-        `Niet doen: bij 45 graden zit de boiler midden in de groeizone van legionella; beter is de boiler op minstens 60 graden te laten en een thermostatische mengkraan met temperatuurbegrenzing te plaatsen`,
-        `Verlagen naar 45 graden mag, zolang er wekelijks thermisch wordt gedesinfecteerd op 45 graden`,
-        `Verlagen naar 45 graden mag alleen bij een woning met circulatie`
-      ],
-      goed: 1,
+      opties: [`Verlagen naar 45 graden mag, zolang er wekelijks thermisch wordt gedesinfecteerd op 45 graden`, `Verlagen naar 45 graden mag alleen bij een woning met circulatie`, `Prima idee, lager is altijd veiliger`, `Niet doen: bij 45 graden zit de boiler midden in de groeizone van legionella; beter is de boiler op minstens 60 graden te laten en een thermostatische mengkraan met temperatuurbegrenzing te plaatsen`],
+      goed: 3,
       uitleg: `45 graden ligt midden in de groeizone (25 tot 50 graden) en vergroot het legionellarisico. De juiste oplossing is de toesteltemperatuur hoog houden en het verbrandingsgevaar apart oplossen met een mengkraan.`
     },
     {
       vraag: `Wat moet een thermostatische mengkraan bij een niet-modulerend doorstroomtoestel volgens het Waterwerkblad hebben?`,
-      opties: [
-        `Een CW6-classificatie`,
-        `Een kwaliteitsverklaring volgens Kiwa-beoordelingsrichtlijn BRL-K610`,
-        `Een OpenTherm-aansluiting`,
-        `Een eigen driewegklep`
-      ],
-      goed: 1,
+      opties: [`Een kwaliteitsverklaring volgens Kiwa-beoordelingsrichtlijn BRL-K610`, `Een OpenTherm-aansluiting`, `Een eigen driewegklep`, `Een CW6-classificatie`],
+      goed: 0,
       uitleg: `Het Waterwerkblad eist dat zo'n mengkraan voldoet aan BRL-K610. CW-klasse, OpenTherm en een driewegklep hebben hier niets mee te maken.`
     },
     {
       vraag: `Hoe vaak moet de temperatuurbegrenzing van een thermostatische mengkraan bij risicogroepen worden gecontroleerd?`,
-      opties: [`Nooit, eenmaal instellen is genoeg`, `Wekelijks`, `Jaarlijks`, `Alleen bij een storing`],
-      goed: 2,
+      opties: [`Wekelijks`, `Jaarlijks`, `Alleen bij een storing`, `Nooit, eenmaal instellen is genoeg`],
+      goed: 1,
       uitleg: `Het Waterwerkblad noemt expliciet een jaarlijkse controle van de temperatuurbegrenzing: een vastgelopen of verkeerd afgestelde mengkraan beschermt niet meer, ook al lijkt hij intact.`
     }
   ],

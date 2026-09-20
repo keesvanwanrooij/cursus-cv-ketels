@@ -608,8 +608,8 @@ Bij een niet-kritieke afwijking volgt een extra vervolgonderzoek als het niet bi
   quiz: [
     {
       vraag: `Wie beheert het certificatieschema BRL 6000-25?`,
-      opties: [`Kiwa, die het schema beheert en zelf certificeert`, `De TloKB, als toezichthouder op het stelsel`, `InstallQ, die zelf geen certificerende instelling is`, `Vakmanschap Techniek, als exameninstelling voor monteurs`],
-      goed: 2,
+      opties: [`InstallQ, die zelf geen certificerende instelling is`, `Vakmanschap Techniek, als exameninstelling voor monteurs`, `Kiwa, die het schema beheert en zelf certificeert`, `De TloKB, als toezichthouder op het stelsel`],
+      goed: 0,
       uitleg: `InstallQ beheert BRL 6000-25 als schemabeheerder. Certificeren doen de aangewezen certificerende instellingen. Bij BRL K25000 is Kiwa zowel schemabeheerder als certificerende instelling.`
     },
     {
@@ -620,30 +620,20 @@ Bij een niet-kritieke afwijking volgt een extra vervolgonderzoek als het niet bi
     },
     {
       vraag: `Hoe lang is een bedrijfscertificaat maximaal geldig en hoe vaak is er vervolgonderzoek?`,
-      opties: [
-        `5 jaar, met vervolgonderzoek om de 5 jaar`,
-        `3 jaar, met jaarlijks vervolgonderzoek`,
-        `1 jaar, met een nieuw toelatingsonderzoek`,
-        `Onbeperkt, met vervolgonderzoek na een klacht`
-      ],
-      goed: 1,
+      opties: [`Onbeperkt, met vervolgonderzoek na een klacht`, `5 jaar, met vervolgonderzoek om de 5 jaar`, `3 jaar, met jaarlijks vervolgonderzoek`, `1 jaar, met een nieuw toelatingsonderzoek`],
+      goed: 2,
       uitleg: `Het certificaat is maximaal drie jaar geldig en de certificerende instelling doet ongeveer jaarlijks een vervolgonderzoek, dat onaangekondigd kan zijn. Het persoonlijke Bewijs van Vakmanschap CO is daarentegen vijf jaar geldig.`
     },
     {
       vraag: `Hoe vaak moet een certificaathouder voltooide werkzaamheden en inbedrijfstellingen afmelden bij de certificerende instelling?`,
-      opties: [`Elk jaar`, `Elke maand`, `Ten minste wekelijks`, `Alleen bij een incident`],
-      goed: 2,
+      opties: [`Alleen bij een incident`, `Elk jaar`, `Elke maand`, `Ten minste wekelijks`],
+      goed: 3,
       uitleg: `Onder BRL 6000-25 moet elke voltooide werkzaamheid en inbedrijfstelling ten minste wekelijks worden afgemeld, met o.a. datum, toesteltype en de naam van degene die in bedrijf stelde.`
     },
     {
       vraag: `Een bedrijf stelt een onveilige installatie in bedrijf. Wat is de gevolgde stap in het schema?`,
-      opties: [
-        `Een niet-kritieke afwijking: herstel binnen drie maanden, anders extra onderzoek`,
-        `Een kritieke afwijking, met schorsing en een plan van aanpak binnen vier weken`,
-        `Een boete van de gemeente, de certificering blijft ongewijzigd`,
-        `Directe intrekking van het certificaat zonder mogelijkheid tot herstel`
-      ],
-      goed: 1,
+      opties: [`Een kritieke afwijking, met schorsing en een plan van aanpak binnen vier weken`, `Een boete van de gemeente, de certificering blijft ongewijzigd`, `Directe intrekking van het certificaat zonder mogelijkheid tot herstel`, `Een niet-kritieke afwijking: herstel binnen drie maanden, anders extra onderzoek`],
+      goed: 0,
       uitleg: `Een CO-onveilige installatie in bedrijf stellen is een kritieke afwijking. Dat leidt tot schorsing, een plan van aanpak binnen vier weken en herstel binnen drie maanden. Wordt het niet hersteld, dan volgt intrekking.`
     }
   ],
@@ -733,8 +723,8 @@ Bij het rekenen op een getal dat je ergens leest (bijvoorbeeld "boven 35 ppm CO 
   quiz: [
     {
       vraag: `Een handboek noemt een CO-grens die afwijkt van wat de wet en het schema zeggen. Welke bron volg je?`,
-      opties: [`Het handboek, want het is recenter`, `De wet en het certificatieschema`, `Het gemiddelde van beide`, `Wat je collega zegt`],
-      goed: 1,
+      opties: [`De wet en het certificatieschema`, `Het gemiddelde van beide`, `Wat je collega zegt`, `Het handboek, want het is recenter`],
+      goed: 0,
       uitleg: `Wet en schema staan bovenaan. Een handboek of website is hulp om de bron te begrijpen en kan fouten bevatten. Bij afwijkingen ga je terug naar de bron.`
     },
     {
@@ -750,30 +740,20 @@ Bij het rekenen op een getal dat je ergens leest (bijvoorbeeld "boven 35 ppm CO 
     },
     {
       vraag: `Welke norm regelt het gasleidingwerk tot en met 500 mbar in bestaande bouw?`,
-      opties: [`NEN 1078`, `NEN 8078`, `NEN 8757`, `NEN 1006`],
-      goed: 1,
+      opties: [`NEN 1006`, `NEN 1078`, `NEN 8078`, `NEN 8757`],
+      goed: 2,
       uitleg: `NEN 1078 geldt voor nieuwbouw, NEN 8078 voor bestaande bouw. NEN 8757 gaat over de rookgasafvoer in bestaande bouw en NEN 1006 over drinkwater.`
     },
     {
       vraag: `Iemand zegt dat NEN 1006 de norm voor de gasinstallatie is. Wat klopt?`,
-      opties: [
-        `Dat klopt, NEN 1006 is de norm voor het gasleidingwerk`,
-        `NEN 1006 gaat over drinkwaterinstallaties, niet over gas`,
-        `NEN 1006 gaat over de geschiktheid van de rookgasafvoer`,
-        `NEN 1006 gaat over elektrische laagspanningsinstallaties`
-      ],
-      goed: 1,
+      opties: [`NEN 1006 gaat over de geschiktheid van de rookgasafvoer`, `NEN 1006 gaat over elektrische laagspanningsinstallaties`, `Dat klopt, NEN 1006 is de norm voor het gasleidingwerk`, `NEN 1006 gaat over drinkwaterinstallaties, niet over gas`],
+      goed: 3,
       uitleg: `NEN 1006 gaat over leidingwaterinstallaties. Deze verwarring komt in adviezen en handboeken regelmatig voor. Het gasleidingwerk staat in NEN 1078 en NEN 8078.`
     },
     {
       vraag: `NEN publiceert een nieuwe uitgave van een norm. Welke uitgave geldt wettelijk?`,
-      opties: [
-        `Altijd de nieuwste uitgave uit de NEN-catalogus`,
-        `De uitgave die bijlage II van de Omgevingsregeling aanwijst`,
-        `De uitgave die de fabrikant in zijn handleiding noemt`,
-        `De uitgave die je bedrijf in zijn kwaliteitshandboek vastlegt`
-      ],
-      goed: 1,
+      opties: [`De uitgave die bijlage II van de Omgevingsregeling aanwijst`, `De uitgave die de fabrikant in zijn handleiding noemt`, `De uitgave die je bedrijf in zijn kwaliteitshandboek vastlegt`, `Altijd de nieuwste uitgave uit de NEN-catalogus`],
+      goed: 0,
       uitleg: `Het Bbl wijst normen aan in een bepaalde uitgave via bijlage II van de Omgevingsregeling. De aanwijzing kan achterlopen op de nieuwste catalogus, dus controleer wat er is aangewezen.`
     }
   ],
@@ -894,35 +874,20 @@ Een plicht om de netbeheerder te informeren bij afkeuren is in wet en schema nie
     },
     {
       vraag: `Aan welke vier partijen moet een certificaathouder een CO-melding boven de meldgrens onverwijld doen?`,
-      opties: [
-        `Bewoner, eigenaar, gemeente en certificerende instelling`,
-        `Bewoner, huisarts, brandweer en de lokale netbeheerder`,
-        `Eigenaar, ILT, fabrikant en de verzekeraar van het pand`,
-        `Bewoner, gemeente, TloKB en de schemabeheerder InstallQ`
-      ],
-      goed: 0,
+      opties: [`Eigenaar, ILT, fabrikant en de verzekeraar van het pand`, `Bewoner, gemeente, TloKB en de schemabeheerder InstallQ`, `Bewoner, eigenaar, gemeente en certificerende instelling`, `Bewoner, huisarts, brandweer en de lokale netbeheerder`],
+      goed: 2,
       uitleg: `Art. 6.46 Bbl noemt de bewoner of gebruiker, de eigenaar, het bevoegd gezag (gemeente) en de certificerende instelling. De netbeheerder staat er niet bij.`
     },
     {
       vraag: `De BRL 6000-25 en de wet zijn niet helemaal eenduidig over de vorm van de melding. Welke lezing volg je?`,
-      opties: [
-        `De BRL, want een schema is specifieker dan de wet`,
-        `De wet: onverwijld melden aan alle vier partijen`,
-        `Wat je opdrachtgever wil, want hij betaalt het werk`,
-        `De volgorde die het minste tijd en papierwerk kost`
-      ],
-      goed: 1,
+      opties: [`Wat je opdrachtgever wil, want hij betaalt het werk`, `De volgorde die het minste tijd en papierwerk kost`, `De BRL, want een schema is specifieker dan de wet`, `De wet: onverwijld melden aan alle vier partijen`],
+      goed: 3,
       uitleg: `De wet staat boven het schema. Dus: onverwijld melden aan alle vier partijen, ook als het schema in een paragraaf een andere volgorde noemt.`
     },
     {
       vraag: `De eigenaar van een woning met een afgekeurd toestel weigert herstel. Wat doe je?`,
-      opties: [
-        `Je stelt het toestel toch in bedrijf, want hij is zelf verantwoordelijk`,
-        `Je stelt niet in bedrijf: alleen de gemeente kan herstel afdwingen`,
-        `Je haalt het toestel weg zodat het niet meer gebruikt kan worden`,
-        `Je belt de fabrikant en laat hem besluiten of het toestel mag draaien`
-      ],
-      goed: 1,
+      opties: [`Je stelt niet in bedrijf: alleen de gemeente kan herstel afdwingen`, `Je haalt het toestel weg zodat het niet meer gebruikt kan worden`, `Je belt de fabrikant en laat hem besluiten of het toestel mag draaien`, `Je stelt het toestel toch in bedrijf, want hij is zelf verantwoordelijk`],
+      goed: 0,
       uitleg: `Je mag een onveilige installatie niet in bedrijf stellen, ook niet op verzoek van de eigenaar. Herstel afdwingen kan alleen de gemeente. Leg vast wat je hebt gemeld en waarom je niet in bedrijf hebt gesteld.`
     },
     {
