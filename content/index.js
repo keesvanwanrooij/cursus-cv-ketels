@@ -13,11 +13,11 @@ window.CURSUS = {
     naam: 'Cursus CV-ketels',
     merk: 'CV-ketels',
     merkSub: 'Praktijkcursus',
-    /* Gedeelde opslagsleutels: beide cursussen staan op dezelfde origin (github.io), dus altijd uniek per cursus. */
+    /* Gedeelde opslagsleutels: beide cursussen staan op dezelfde origin (keesvanwanrooij.nl), dus altijd uniek per cursus. */
     opslagSleutel: 'cursus-cv-voortgang',
     cacheNaam: 'cursus-cv',
     repo: 'keesvanwanrooij/cursus-cv-ketels',
-    origin: 'https://keesvanwanrooij.github.io',
+    origin: 'https://keesvanwanrooij.nl',
     base: '/cursus-cv-ketels/',
     auteur: 'Kees van Wanrooij',
     auteurUrl: 'https://github.com/keesvanwanrooij',
@@ -38,7 +38,7 @@ window.CURSUS = {
       'Werken aan gasverbrandingstoestellen is in Nederland gebonden aan wettelijke certificeringseisen. ' +
       'Werk onder begeleiding van een gecertificeerd monteur en volg altijd de documentatie van de fabrikant.',
     /* Zuster-cursus: gelinkt vanuit de footer en vanuit lessen die elektrisch werk raken. */
-    zuster: { naam: 'Cursus Elektrotechniek', url: 'https://keesvanwanrooij.github.io/cursus-elektrotechniek/' }
+    zuster: { naam: 'Cursus Elektrotechniek', url: 'https://keesvanwanrooij.nl/cursus-elektrotechniek/' }
   },
 
   /* Vakmanschap CO en dus ook de module-examens: slagen vanaf dit percentage. Zie project/docs/feiten/01-wet-en-certificering.md */
