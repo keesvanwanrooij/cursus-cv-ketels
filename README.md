@@ -7,7 +7,7 @@ op het theorie- en praktijkexamen Vakmanschap CO.
 
 Geen account, geen betaalmuur, geen tracking. Werkt in de browser en is offline te installeren als app op telefoon en laptop.
 
-> Status: in opbouw. Elke les wordt pas toegevoegd als de feiten zijn nagelopen bij officiele bronnen en fabrikantdocumentatie.
+> Status: alle 19 modules staan erin. Elke bewering is nagelopen bij officiele bronnen en fabrikantdocumentatie, en elke module is door een onafhankelijke controle gegaan. De inhoud is nog niet door een docent of vakspecialist beoordeeld. Deze zelfstudie is geen erkende opleiding en geen Bewijs van Vakmanschap CO: werk aan gasverbrandingstoestellen doe je alleen met de wettelijke bevoegdheid, en de fabrikanthandleiding van het toestel gaat altijd voor.
 
 ---
 
