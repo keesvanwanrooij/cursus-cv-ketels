@@ -1,11 +1,11 @@
 # Cursus CV-ketels: volledige tekst
 
-> Gratis online cursus voor de cv-ketel monteur in het Nederlands. Bron: https://keesvanwanrooij.github.io/cursus-cv-ketels/
+> Gratis online cursus voor de cv-ketel monteur in het Nederlands. Bron: https://keesvanwanrooij.nl/cursus-cv-ketels/
 > Licentie: GPLv3. Deze cursus geeft geen erkend diploma en geen Bewijs van Vakmanschap CO.
 
 ## Module 1: Het vak, de wet en het CO-stelsel
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/het-vak-de-wet-en-het-co-stelsel/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/het-vak-de-wet-en-het-co-stelsel/
 
 Wat het vak inhoudt, welke wetten en certificeringen gelden, en hoe je werkt met wet, norm en fabrikantvoorschrift. Dit is de basis van bevoegd en veilig werken aan gasverbrandingstoestellen.
 
@@ -24,7 +24,7 @@ Deze module legt uit hoe dat stelsel in elkaar zit, wat jij als monteur mag en m
 
 ### Les 1.1: Wat een cv-monteur doet en waarom dit vak levens redt
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/wat-een-cv-monteur-doet-en-waarom-dit-vak-levens-redt/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/wat-een-cv-monteur-doet-en-waarom-dit-vak-levens-redt/
 
 **Leerdoel:** Je kunt beschrijven wat het werk van een cv-monteur inhoudt en waarom CO-veiligheid de kern van het vak is.
 
@@ -82,7 +82,7 @@ Als jij een toestel in bedrijf stelt, draag jij (namens het gecertificeerde bedr
 
 ### Les 1.2: De wet: wie mag wat aan een gasverbrandingstoestel
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/de-wet-wie-mag-wat-aan-een-gasverbrandingstoestel/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/de-wet-wie-mag-wat-aan-een-gasverbrandingstoestel/
 
 **Leerdoel:** Je kunt uitleggen welke wettelijke eisen gelden voor werk aan gasverbrandingstoestellen en welke werkzaamheden onder de certificeringsplicht vallen.
 
@@ -144,7 +144,7 @@ De **TloKB** handhaaft niet zelf op ongecertificeerd werk. Zij houdt namens de m
 
 ### Les 1.3: Vakmanschap CO: profielen, examen en verlenging
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/vakmanschap-co-profielen-examen-en-verlenging/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/vakmanschap-co-profielen-examen-en-verlenging/
 
 **Leerdoel:** Je kent de profielen, de opbouw van het theorie- en praktijkexamen en de eisen voor verlenging.
 
@@ -227,7 +227,7 @@ Het bewijs verloopt na vijf jaar. Verlengen kan vanaf zes maanden voor de eindda
 
 ### Les 1.4: Bedrijfscertificering: BRL 6000-25 en BRL K25000
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/bedrijfscertificering-brl-6000-25-en-brl-k25000/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/bedrijfscertificering-brl-6000-25-en-brl-k25000/
 
 **Leerdoel:** Je kunt het verschil uitleggen tussen persoonlijke en bedrijfscertificering en wat een bedrijf moet regelen.
 
@@ -288,7 +288,7 @@ Bij een niet-kritieke afwijking volgt een extra vervolgonderzoek als het niet bi
 
 ### Les 1.5: Bronnen en hiërarchie: wet, norm, fabrikant, werkinstructie
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/bronnen-en-hierarchie-wet-norm-fabrikant-werkinstructie/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/bronnen-en-hierarchie-wet-norm-fabrikant-werkinstructie/
 
 **Leerdoel:** Je weet welke bron voorgaat bij strijdige informatie en hoe je bij twijfel de juiste voorschriften vindt.
 
@@ -352,7 +352,7 @@ Bij het rekenen op een getal dat je ergens leest (bijvoorbeeld "boven 35 ppm CO 
 
 ### Les 1.6: Afkeuren, melden en aansprakelijkheid
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/afkeuren-melden-en-aansprakelijkheid/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/afkeuren-melden-en-aansprakelijkheid/
 
 **Leerdoel:** Je weet wat je doet bij een onveilige situatie, hoe je vastlegt wat je vaststelt en waar je verantwoordelijkheid ligt.
 
@@ -423,7 +423,7 @@ Een plicht om de netbeheerder te informeren bij afkeuren is in wet en schema nie
 
 ### Les 1.7: Veilig werken op locatie: hoogte, asbest en bescherming
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/veilig-werken-op-locatie-hoogte-asbest-en-bescherming/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/veilig-werken-op-locatie-hoogte-asbest-en-bescherming/
 
 **Leerdoel:** Je herkent de belangrijkste risico's op een werklocatie (hoogte, besloten ruimten, asbest, gaslucht) en weet welke maatregelen en grenzen daarbij gelden.
 
@@ -486,7 +486,7 @@ VCA (Veiligheid, Gezondheid en Milieu Checklist Aannemers) is een apart veilighe
 
 ## Module 2: Warmte, energie en vermogen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/warmte-energie-en-vermogen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/warmte-energie-en-vermogen/
 
 De natuurkunde achter elke cv-installatie: warmte, vermogen, energie en rendement. Zonder dit fundament blijft storingzoeken gokken en kloppen je gasverbruiksberekeningen niet.
 
@@ -504,7 +504,7 @@ Deze module geeft je het rekengereedschap: Q = m × c × ΔT voor warmte en debi
 
 ### Les 2.1: Temperatuur, warmte en soortelijke warmte
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/temperatuur-warmte-en-soortelijke-warmte/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/temperatuur-warmte-en-soortelijke-warmte/
 
 **Leerdoel:** Je kunt het verschil tussen temperatuur en warmte uitleggen en met Q = m × c × ΔT de warmte of het debiet van water berekenen.
 
@@ -573,7 +573,7 @@ Niet alle warmte zie je terug op een thermometer. Als waterdamp in het rookgas c
 
 ### Les 2.2: Vermogen en energie: kW, kWh en m³ gas
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/vermogen-en-energie-kw-kwh-en-m-gas/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/vermogen-en-energie-kw-kwh-en-m-gas/
 
 **Leerdoel:** Je kunt vermogen en energie uit elkaar houden en uit vermogen en rendement het gasverbruik in m³ en de energie in kWh berekenen.
 
@@ -630,7 +630,7 @@ Welke referentie de m³ op een gasrekening heeft (0 °C, 15 °C of de omstandigh
 
 ### Les 2.3: Warmteoverdracht: geleiding, stroming en straling
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/warmteoverdracht-geleiding-stroming-en-straling/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/warmteoverdracht-geleiding-stroming-en-straling/
 
 **Leerdoel:** Je herkent geleiding, stroming en straling in een cv-installatie en weet welke invloed elk heeft op comfort en rendement.
 
@@ -684,7 +684,7 @@ Hoe lager de retourtemperatuur, hoe meer warmte je uit het rookgas haalt. Onder 
 
 ### Les 2.4: Warmteverlies van een woning
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/warmteverlies-van-een-woning/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/warmteverlies-van-een-woning/
 
 **Leerdoel:** Je kunt uitleggen waar het warmteverlies van een woning vandaan komt en het benodigde ketelvermogen in grote lijnen beoordelen.
 
@@ -753,7 +753,7 @@ Minder warmteverlies betekent dat de radiatoren minder hoeven af te geven, en da
 
 ### Les 2.5: Rendement en verliezen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/rendement-en-verliezen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/rendement-en-verliezen/
 
 **Leerdoel:** Je kunt uitleggen hoe het rendement van een ketel is opgebouwd en waarom Hs en Hi twee verschillende referenties zijn.
 
@@ -818,7 +818,7 @@ Hoe groot het voelbare rookgasverlies precies is, is hier niet doorgerekend. Onv
 
 ## Module 3: Water, druk en hydrauliek
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/water-druk-en-hydrauliek/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/water-druk-en-hydrauliek/
 
 Water, druk en stroming in een cv-installatie: van vuldruk en expansievat tot pompwerking en debiet. Drukverlies, lucht in het systeem en een verkeerd expansievat zijn klassieke storingsoorzaken, dus hier zit veel van je diagnosekracht.
 
@@ -836,7 +836,7 @@ Deze module loopt van de basis (druk en drukverschil) via vuldruk, expansievat e
 
 ### Les 3.1: Druk, drukverschil en stroming
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/druk-drukverschil-en-stroming/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/druk-drukverschil-en-stroming/
 
 **Leerdoel:** Je kunt uitleggen wat druk en drukverschil zijn, drukeenheden omrekenen en zeggen waarom water alleen stroomt door een drukverschil.
 
@@ -897,7 +897,7 @@ Nog een voorbeeld met de kwadratenregel. Stel dat een radiatorcircuit bij 400 l/
 
 ### Les 3.2: Waterdruk in een cv-installatie
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/waterdruk-in-een-cv-installatie/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/waterdruk-in-een-cv-installatie/
 
 **Leerdoel:** Je kunt uit de statische hoogte de voordruk van het vat en de vuldruk van de installatie bepalen en zeggen waarom fabrikanten daarin verschillen.
 
@@ -967,7 +967,7 @@ Een bewoner mag zelf cv-water bijvullen, zie [les 1.2](les:m01l02). Je klant hee
 
 ### Les 3.3: Uitzetting, expansievat en veiligheidsventiel
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/uitzetting-expansievat-en-veiligheidsventiel/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/uitzetting-expansievat-en-veiligheidsventiel/
 
 **Leerdoel:** Je kunt uitleggen waarom een expansievat nodig is, hoe je de voordruk controleert en wat een afblazend veiligheidsventiel je vertelt.
 
@@ -1037,7 +1037,7 @@ Bij een zakkende druk noemt Vaillant voor F.022 onder meer te weinig water, een 
 
 ### Les 3.4: De pomp: opvoerhoogte, weerstand en werkpunt
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/de-pomp-opvoerhoogte-weerstand-en-werkpunt/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/de-pomp-opvoerhoogte-weerstand-en-werkpunt/
 
 **Leerdoel:** Je kunt uitleggen hoe pompkarakteristiek en installatieweerstand samen het debiet bepalen en wat je bij te weinig of te veel doorstroming instelt.
 
@@ -1085,7 +1085,7 @@ Bij het plaatsen of vervangen van een toestel moet het afgiftesysteem waterzijdi
 
 ### Les 3.5: Waterkwaliteit, lucht en vuil
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/waterkwaliteit-lucht-en-vuil/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/waterkwaliteit-lucht-en-vuil/
 
 **Leerdoel:** Je weet welke invloed waterkwaliteit, lucht en vuil op een ketel hebben, waarom fabrikanten eigen eisen stellen en in welke volgorde je spoelt, vult en ontlucht.
 
@@ -1139,7 +1139,7 @@ ATAG noemt meer dan 5 % bijvullen per jaar een structureel probleem. Een install
 
 ### Les 3.6: Delta T en debiet
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/delta-t-en-debiet/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/delta-t-en-debiet/
 
 **Leerdoel:** Je kunt uit debiet en temperatuurverschil het overgedragen vermogen berekenen, en omgekeerd, en een installatie daarmee beoordelen.
 
@@ -1192,7 +1192,7 @@ Voorbeeld: bij een aanvoer van 70 °C is de retour 50 °C bij ΔT = 20 K en 40 �
 
 ## Module 4: Gas, verbranding en koolmonoxide
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/gas-verbranding-en-koolmonoxide/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/gas-verbranding-en-koolmonoxide/
 
 Van aardgas tot koolmonoxide: wat er precies gebeurt in de vlam, waarom verbranding onvolledig kan zijn en hoe CO het lichaam aantast. Het theoretisch hart van het examen en van je verantwoordelijkheid.
 
@@ -1211,7 +1211,7 @@ De getallen komen uit het feitenregister van de cursus: wetteksten, certificatie
 
 ### Les 4.1: Aardgas in Nederland: gassoorten, gasdruk en Wobbe
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/aardgas-in-nederland-gassoorten-gasdruk-en-wobbe/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/aardgas-in-nederland-gassoorten-gasdruk-en-wobbe/
 
 **Leerdoel:** Je kunt de gassoorten in Nederland benoemen en uitleggen wat de Wobbe-index en de gasdruk betekenen voor een toestel.
 
@@ -1274,7 +1274,7 @@ Er is niets mis met het toestel: het gas is anders. Wie dat niet weet, gaat onno
 
 ### Les 4.2: Volledige verbranding en de luchtbehoefte
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/volledige-verbranding-en-de-luchtbehoefte/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/volledige-verbranding-en-de-luchtbehoefte/
 
 **Leerdoel:** Je kunt de verbranding van aardgas opstellen en de benodigde hoeveelheid lucht bepalen.
 
@@ -1332,7 +1332,7 @@ Ook mag bij een open opstelling de luchttoevoeropening van het toestel niet word
 
 ### Les 4.3: Luchtovermaat, lambda en het verband tussen O2 en CO2
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/luchtovermaat-lambda-en-het-verband-tussen-o2-en-co2/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/luchtovermaat-lambda-en-het-verband-tussen-o2-en-co2/
 
 **Leerdoel:** Je kunt uit een gemeten O2- of CO2-waarde de luchtovermaat afleiden en beoordelen of de verbranding klopt.
 
@@ -1394,7 +1394,7 @@ Bij de Remeha Avanta moet O2 bij vollast lager zijn dan bij laaglast. Het bereik
 
 ### Les 4.4: Onvolledige verbranding en het ontstaan van CO
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/onvolledige-verbranding-en-het-ontstaan-van-co/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/onvolledige-verbranding-en-het-ontstaan-van-co/
 
 **Leerdoel:** Je kunt uitleggen waardoor een verbranding onvolledig wordt en hoe je de oorzaak in de installatie herkent.
 
@@ -1456,7 +1456,7 @@ Geeft de fabrikant geen maximale CO-waarde, dan noemt het schema (BRL 6000-25, n
 
 ### Les 4.5: Koolmonoxide en het lichaam
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/koolmonoxide-en-het-lichaam/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/koolmonoxide-en-het-lichaam/
 
 **Leerdoel:** Je kunt uitleggen hoe CO het lichaam aantast en welke klachten bij welke concentratie en duur horen.
 
@@ -1512,7 +1512,7 @@ Wie in frisse lucht is, herstelt dus langzaam, en zuurstof versnelt dat. Ter ver
 
 ### Les 4.6: Condensatie: dauwpunt, condensaat en rendement
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/condensatie-dauwpunt-condensaat-en-rendement/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/condensatie-dauwpunt-condensaat-en-rendement/
 
 **Leerdoel:** Je kunt uitleggen wanneer een ketel condenseert, waarom dat rendement oplevert en wat er met het condensaat gebeurt.
 
@@ -1574,7 +1574,7 @@ Rendement en calorische waarde moeten op dezelfde basis (Hi of Hs) staan, anders
 
 ### Les 4.7: CO in de woning: bronnen, melders en eerste maatregelen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/co-in-de-woning-bronnen-melders-en-eerste-maatregelen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/co-in-de-woning-bronnen-melders-en-eerste-maatregelen/
 
 **Leerdoel:** Je kent de bronnen van CO in een woning, de werking van een CO-melder en de eerste maatregelen bij een alarm.
 
@@ -1625,7 +1625,7 @@ Wat je als certificaathouder daarna doet (het toestel buiten bedrijf stellen, me
 
 ## Module 5: De HR-ketel van binnen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/de-hr-ketel-van-binnen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/de-hr-ketel-van-binnen/
 
 Hoe een moderne HR-ketel werkt: brander, gasblok, ontsteking, vlambewaking, warmtewisselaar en de startvolgorde. Wie de ketel als keten begrijpt, hoeft geen storingscodes uit het hoofd te leren.
 
@@ -1645,7 +1645,7 @@ De voorbeelden komen uit deze handleidingen: Remeha Calenta 25s, 28c, 35s en 40c
 
 ### Les 5.1: Het hoofdstromingspad: gas, lucht, water en rookgas
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/het-hoofdstromingspad-gas-lucht-water-en-rookgas/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/het-hoofdstromingspad-gas-lucht-water-en-rookgas/
 
 **Leerdoel:** Je kunt de vier stromen door een HR-ketel beschrijven en aanwijzen waar ze elkaar ontmoeten.
 
@@ -1703,7 +1703,7 @@ Wie alleen aan de elektrode denkt, vervangt onderdelen die niet stuk zijn. Bij e
 
 ### Les 5.2: Brander, venturi en gas-luchtverhouding
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/brander-venturi-en-gas-luchtverhouding/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/brander-venturi-en-gas-luchtverhouding/
 
 **Leerdoel:** Je kunt uitleggen hoe een voorgemengde brander werkt en hoe de ketel gas en lucht op elkaar afstemt.
 
@@ -1762,7 +1762,7 @@ Je meet bij een Remeha Tzerra Ace 24C op vollast op G25.3 5,6% O2. De handleidin
 
 ### Les 5.3: Gasblok en gasafsluiting
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/gasblok-en-gasafsluiting/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/gasblok-en-gasafsluiting/
 
 **Leerdoel:** Je kunt uitleggen wat een gasblok in de keten doet, hoe je de gasvoordruk controleert en waarom de gasafsluiting bij storing zo belangrijk is.
 
@@ -1811,7 +1811,7 @@ Een Intergas Kombi Kompakt HRE toont code 4, geen vlamsignaal. Onder de oorzaken
 
 ### Les 5.4: Ontsteking en vlambewaking
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/ontsteking-en-vlambewaking/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/ontsteking-en-vlambewaking/
 
 **Leerdoel:** Je kunt uitleggen hoe de ketel de vlam ontsteekt en met ionisatie bewaakt, en wat er bij verlies van de vlam gebeurt.
 
@@ -1880,7 +1880,7 @@ Codes zijn per merk en model. Leer het patroon, niet de nummers:
 
 ### Les 5.5: Warmtewisselaar en condensafvoer
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/warmtewisselaar-en-condensafvoer/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/warmtewisselaar-en-condensafvoer/
 
 **Leerdoel:** Je kunt uitleggen hoe de warmtewisselaar warmte overdraagt, waar condensaat ontstaat en hoe de sifon werkt.
 
@@ -1943,7 +1943,7 @@ Een Vaillant ecoTEC plus VHR meldt F.028: vlamsignaal in de ontstekingsfase niet
 
 ### Les 5.6: Pomp, 3-wegklep en tapwaterbereiding
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/pomp-3-wegklep-en-tapwaterbereiding/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/pomp-3-wegklep-en-tapwaterbereiding/
 
 **Leerdoel:** Je kunt uitleggen hoe pomp en 3-wegklep het water door de ketel sturen bij verwarming en bij tapwater.
 
@@ -2004,7 +2004,7 @@ Bij merkbaar minder tapwater reinigt Remeha (Tzerra Ace, minder dan 6,2 l/min bi
 
 ### Les 5.7: Sensoren en beveiligingen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/sensoren-en-beveiligingen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/sensoren-en-beveiligingen/
 
 **Leerdoel:** Je kunt de sensoren en beveiligingen van een ketel benoemen en uitleggen wat er gebeurt als een meetwaarde niet klopt.
 
@@ -2067,7 +2067,7 @@ De Intergas Kombi Kompakt HRE controleert zelfs of de sensoren goed zijn aangesl
 
 ### Les 5.8: De startvolgorde van begin tot eind
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/de-startvolgorde-van-begin-tot-eind/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/de-startvolgorde-van-begin-tot-eind/
 
 **Leerdoel:** Je kunt de startvolgorde van een ketel doorlopen en bij een storing aanwijzen in welke stap het misgaat.
 
@@ -2141,7 +2141,7 @@ Weet waar je bevoegdheid ophoudt. Repareren, onderhouden en in bedrijf stellen v
 
 ## Module 6: Regeling en tapwater
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/regeling-en-tapwater/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/regeling-en-tapwater/
 
 De regeling en het tapwater: thermostaten, OpenTherm, weersafhankelijk regelen, combi en boiler, CW-klassen en legionella. Het gedrag van de installatie bepaalt comfort, rendement en veel klachten.
 
@@ -2159,7 +2159,7 @@ Net als in module 5 geldt: instelwaarden, parameters en drempels verschillen per
 
 ### Les 6.1: Thermostaten: aan/uit, modulerend en OpenTherm
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/thermostaten-aan-uit-modulerend-en-opentherm/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/thermostaten-aan-uit-modulerend-en-opentherm/
 
 **Leerdoel:** Je kunt de regelvormen uit elkaar houden en uitleggen wat OpenTherm de ketel vertelt en wat modulatie met het rendement doet.
 
@@ -2223,7 +2223,7 @@ Een klant heeft zelf een OpenTherm-thermostaat gekocht en aangesloten op een ket
 
 ### Les 6.2: Weersafhankelijk regelen en de stooklijn
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/weersafhankelijk-regelen-en-de-stooklijn/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/weersafhankelijk-regelen-en-de-stooklijn/
 
 **Leerdoel:** Je kunt uitleggen hoe een weersafhankelijke regeling werkt, hoe je de stooklijn instelt en wat nachtverlaging doet met de retourtemperatuur.
 
@@ -2277,7 +2277,7 @@ Een bewoner klaagt dat de woning 's ochtends na de nachtverlaging te langzaam op
 
 ### Les 6.3: Slimme thermostaten en zoneregeling
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/slimme-thermostaten-en-zoneregeling/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/slimme-thermostaten-en-zoneregeling/
 
 **Leerdoel:** Je kunt uitleggen wat slimme thermostaten en zoneregeling met de ketel doen en welke hydraulische gevolgen dat heeft.
 
@@ -2314,7 +2314,7 @@ Een klant heeft zelf slimme radiatorknoppen op alle radiatoren laten zetten en m
 
 ### Les 6.4: Tapwater: combi, boiler en CW-klassen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/tapwater-combi-boiler-en-cw-klassen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/tapwater-combi-boiler-en-cw-klassen/
 
 **Leerdoel:** Je kunt een combi en een voorraadvat vergelijken, de CW-klasse van een toestel uitleggen en de voorrangsschakeling herkennen.
 
@@ -2366,7 +2366,7 @@ Een combiketel kan voor de warmwaterproductie in de ecostand of de comfortstand 
 
 ### Les 6.5: Legionella en veilig tapwater
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/legionella-en-veilig-tapwater/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/legionella-en-veilig-tapwater/
 
 **Leerdoel:** Je kent de legionellarisico's en de verbrandingsgevaren van tapwater en weet hoe je een installatie daarop instelt.
 
@@ -2419,7 +2419,7 @@ Bij een renovatie vraagt een klant met twee jonge kinderen om "gewoon veilig war
 
 ## Module 7: Afgiftesystemen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/afgiftesystemen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/afgiftesystemen/
 
 Radiatoren, convectoren en vloerverwarming: hoe ze warmte afgeven, welke temperatuur ze nodig hebben en hoe je ze combineert met een ketel of warmtepomp. Zo beoordeel en optimaliseer je een afgiftesysteem dat past bij de warmtebron.
 
@@ -2436,7 +2436,7 @@ Radiatoren, convectoren en vloerverwarming: hoe ze warmte afgeven, welke tempera
 
 ### Les 7.1: Radiatoren en convectoren
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/radiatoren-en-convectoren/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/radiatoren-en-convectoren/
 
 **Leerdoel:** Je kunt het vermogen van een radiator of convector bij een bepaald temperatuurregime beoordelen en uitleggen wat dat voor de ketel betekent.
 
@@ -2493,7 +2493,7 @@ Een radiator die op lage temperatuur te weinig vermogen geeft, dwingt de ketel n
 
 ### Les 7.2: Lage temperatuur en het rendement van de ketel
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/lage-temperatuur-en-het-rendement-van-de-ketel/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/lage-temperatuur-en-het-rendement-van-de-ketel/
 
 **Leerdoel:** Je kunt uitleggen waarom een lagere aanvoer- en retourtemperatuur het rendement van een HR-ketel verhoogt en wat dat vraagt van de afgifte.
 
@@ -2538,7 +2538,7 @@ Hoe lager je wilt stoken, hoe groter het afgiftesysteem moet zijn om hetzelfde v
 
 ### Les 7.3: Vloerverwarming: opbouw en werking
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/vloerverwarming-opbouw-en-werking/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/vloerverwarming-opbouw-en-werking/
 
 **Leerdoel:** Je kunt de opbouw van een vloerverwarmingssysteem beschrijven en uitleggen waarom het met een lage temperatuur werkt.
 
@@ -2589,7 +2589,7 @@ ISSO-publicatie 49 is de Nederlandse richtlijn voor het ontwerpen van vloerverwa
 
 ### Les 7.4: Vloerverwarming: verdeler, regeling en aanvoertemperatuur
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/vloerverwarming-verdeler-regeling-en-aanvoertemperatuur/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/vloerverwarming-verdeler-regeling-en-aanvoertemperatuur/
 
 **Leerdoel:** Je kunt de verdeler, de kamerregeling en de aanvoertemperatuur van vloerverwarming beoordelen en instellen.
 
@@ -2639,7 +2639,7 @@ Sluit je een vloerverwarmingsverdeler met een eigen pomp aan op de ketel, zorg d
 
 ### Les 7.5: Afgiftesystemen combineren en koppelen aan de warmtebron
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/afgiftesystemen-combineren-en-koppelen-aan-de-warmtebron/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/afgiftesystemen-combineren-en-koppelen-aan-de-warmtebron/
 
 **Leerdoel:** Je kunt uitleggen hoe je radiatoren en vloerverwarming combineert en wat ketel of warmtepomp daarvan verwacht.
 
@@ -2681,7 +2681,7 @@ Een woning heeft radiatoren op de bovenverdieping, aangesloten op een bestaande 
 
 ### Les 7.6: Een afgiftesysteem beoordelen en optimaliseren
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/een-afgiftesysteem-beoordelen-en-optimaliseren/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/een-afgiftesysteem-beoordelen-en-optimaliseren/
 
 **Leerdoel:** Je kunt een bestaand afgiftesysteem beoordelen en gericht verbeteren voor meer comfort en een lager gasverbruik.
 
@@ -2732,7 +2732,7 @@ Een systematische beoordeling van een bestaand afgiftesysteem doorloopt: de gewe
 
 ## Module 8: Rookgasafvoer en luchttoevoer
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/rookgasafvoer-en-luchttoevoer/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/rookgasafvoer-en-luchttoevoer/
 
 Rookgasafvoer en luchttoevoer zijn de plek waar CO-incidenten ontstaan. Deze module gaat over toesteltypen, aansluitwijzen, materialen, monteren, uitmonding, opstellingsruimte en het beoordelen van bestaande afvoeren.
 
@@ -2752,7 +2752,7 @@ Deze module volgt de weg van de lucht: van de indeling in open en gesloten toest
 
 ### Les 8.1: Toesteltypen: open en gesloten
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/toesteltypen-open-en-gesloten/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/toesteltypen-open-en-gesloten/
 
 **Leerdoel:** Je kunt open (B) en gesloten (C) toestellen uit elkaar houden en uitleggen wat dat betekent voor lucht en afvoer.
 
@@ -2805,7 +2805,7 @@ Je legt de toestelindeling A, B of C vast bij het afmelden van je werk. Ze bepaa
 
 ### Les 8.2: Aansluitwijzen: van C13 tot C93
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/aansluitwijzen-van-c13-tot-c93/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/aansluitwijzen-van-c13-tot-c93/
 
 **Leerdoel:** Je kunt de aansluitwijzen van gesloten toestellen herkennen en per type uitleggen hoe lucht en rookgas lopen.
 
@@ -2861,7 +2861,7 @@ Welke aansluitwijzen een toestel toelaat, staat in de installatiehandleiding.
 
 ### Les 8.3: Materialen, temperatuurklassen en condens
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/materialen-temperatuurklassen-en-condens/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/materialen-temperatuurklassen-en-condens/
 
 **Leerdoel:** Je kunt het materiaal en de temperatuurklasse van een afvoer bij het toestel kiezen en uitleggen waarom mengen van systemen niet mag.
 
@@ -2921,7 +2921,7 @@ Een klant heeft een oud toestel met natuurlijke trek op een bouwkundig kanaal, e
 
 ### Les 8.4: Monteren: afschot, beugelen en dilatatie
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/monteren-afschot-beugelen-en-dilatatie/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/monteren-afschot-beugelen-en-dilatatie/
 
 **Leerdoel:** Je kunt een afvoer volgens de fabrikantinstructies monteren met correct afschot, beugels en ruimte voor uitzetting.
 
@@ -2977,7 +2977,7 @@ Werkt de afvoer op overdruk, dan is een sifon nodig met een waterslot dat groter
 
 ### Les 8.5: Uitmonding, verdunning en rookgasrecirculatie
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/uitmonding-verdunning-en-rookgasrecirculatie/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/uitmonding-verdunning-en-rookgasrecirculatie/
 
 **Leerdoel:** Je kunt beoordelen of een uitmonding goed zit, de verdunning van rookgas begrijpen en herkennen wanneer rookgas opnieuw wordt aangezogen.
 
@@ -3030,7 +3030,7 @@ Een concentrisch C13-toestel geeft af en toe een ionisatiefout (vlamverlies). Je
 
 ### Les 8.6: Opstellingsruimte: eisen aan de ruimte
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/opstellingsruimte-eisen-aan-de-ruimte/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/opstellingsruimte-eisen-aan-de-ruimte/
 
 **Leerdoel:** Je kunt beoordelen of een opstellingsruimte geschikt is voor een gasverbrandingstoestel en je oordeel onderbouwen.
 
@@ -3085,7 +3085,7 @@ Je vervangt een open geiser die in de badruimte van een bestaande woning hangt. 
 
 ### Les 8.7: Verbrandingslucht en ventilatie: afzuiging, onderdruk en terugslag
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/verbrandingslucht-en-ventilatie-afzuiging-onderdruk-en-terugslag/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/verbrandingslucht-en-ventilatie-afzuiging-onderdruk-en-terugslag/
 
 **Leerdoel:** Je kunt uitleggen hoe ventilatie, afzuiging en onderdruk de verbrandingslucht en de afvoer van een toestel beïnvloeden.
 
@@ -3138,7 +3138,7 @@ Een klant heeft in een kierdichte woning een nieuwe, krachtige afzuigkap laten p
 
 ### Les 8.8: Collectieve afvoer (CLV) en gestapelde bouw
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/collectieve-afvoer-clv-en-gestapelde-bouw/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/collectieve-afvoer-clv-en-gestapelde-bouw/
 
 **Leerdoel:** Je kunt uitleggen hoe een collectief lucht- en rookgassysteem werkt, waarom het extra risico's heeft en waarop je let als je er een toestel op aansluit.
 
@@ -3193,7 +3193,7 @@ BRL 6000-25 kent twee deelgebieden: (1) toestellen met individuele luchttoevoer 
 
 ### Les 8.9: Een bestaande afvoer beoordelen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/een-bestaande-afvoer-beoordelen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/een-bestaande-afvoer-beoordelen/
 
 **Leerdoel:** Je kunt een bestaande afvoer stap voor stap beoordelen en een afkeuring onderbouwen en vastleggen.
 
@@ -3246,7 +3246,7 @@ Bij vervanging van een afvoergebonden toestel moet het bestaande rookgasafvoersy
 
 ## Module 9: Elektrisch werken aan een cv-ketel
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/elektrisch-werken-aan-een-cv-ketel/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/elektrisch-werken-aan-een-cv-ketel/
 
 De elektrische kant van de ketel: voeding, polariteit, aarding, veilig spanningsloos maken, thermostaatbedrading en de metingen die daarbij horen. Voor algemene elektrotechniek verwijst de cursus naar de Cursus Elektrotechniek.
 
@@ -3265,7 +3265,7 @@ De voorbeelden komen uit de installatie- en servicehandleidingen van de Remeha C
 
 ### Les 9.1: Voeding, polariteit en aarding van een ketel
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/voeding-polariteit-en-aarding-van-een-ketel/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/voeding-polariteit-en-aarding-van-een-ketel/
 
 **Leerdoel:** Je kunt de voeding, polariteit en aarding van een ketel beoordelen, uitleggen waarom polariteit de ionisatie raakt, en weten wat je doet bij onbetrouwbare aarde.
 
@@ -3315,7 +3315,7 @@ Voeding, aarding en (als het toestel dat vraagt) polariteit horen bij de basisco
 
 ### Les 9.2: Veilig werken: spanningsloos maken en meten
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/veilig-werken-spanningsloos-maken-en-meten/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/veilig-werken-spanningsloos-maken-en-meten/
 
 **Leerdoel:** Je kunt een ketel veilig spanningsloos maken, dat aantonen, en uitleggen wat je niet zelf aan de vaste installatie doet.
 
@@ -3360,7 +3360,7 @@ Spanningsloos maken en aantonen is bij elk elektrisch werk aan een ketel de eers
 
 ### Les 9.3: Thermostaatbedrading en laagspanning
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/thermostaatbedrading-en-laagspanning/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/thermostaatbedrading-en-laagspanning/
 
 **Leerdoel:** Je kunt aan/uit- en OpenTherm-bedrading van elkaar onderscheiden, per merk de juiste klemmen aansluiten, en uitleggen wat er misgaat bij een verkeerde aansluiting.
 
@@ -3415,7 +3415,7 @@ De vraag is niet "is dit aan/uit of OpenTherm", maar "welke klemmen horen daar b
 
 ### Les 9.4: Elektrische metingen aan een ketel
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/elektrische-metingen-aan-een-ketel/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/elektrische-metingen-aan-een-ketel/
 
 **Leerdoel:** Je kunt met een multimeter van de juiste meetcategorie de spanning, doorgang, NTC-weerstand en ionisatiestroom van een ketel meten.
 
@@ -3466,7 +3466,7 @@ Elke elektrische meting aan een ketel begint met spanningsloos maken en aantonen
 
 ## Module 10: Meten en analyseren
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/meten-en-analyseren/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/meten-en-analyseren/
 
 Meten is het bewijs dat je werk veilig is. Gasdruk, rookgas, CO in de ruimte, water en elektra: wat je meet, hoe je het doet en hoe je een meetwaarde beoordeelt.
 
@@ -3485,7 +3485,7 @@ De belangrijkste inhoudelijke leemte van de hele cursus zit in deze module: zijn
 
 ### Les 10.1: Meten als vak: wat, waarmee, hoe nauwkeurig
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/meten-als-vak-wat-waarmee-hoe-nauwkeurig/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/meten-als-vak-wat-waarmee-hoe-nauwkeurig/
 
 **Leerdoel:** Je kunt bij een vraag het juiste meetinstrument kiezen, het verschil tussen kalibreren en justeren uitleggen en de nauwkeurigheid van een meting inschatten.
 
@@ -3546,7 +3546,7 @@ Bij elke meting in deze module komt dezelfde vraag terug: welk instrument, volge
 
 ### Les 10.2: Gasdruk meten en de belasting via de gasmeter
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/gasdruk-meten-en-de-belasting-via-de-gasmeter/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/gasdruk-meten-en-de-belasting-via-de-gasmeter/
 
 **Leerdoel:** Je kunt de gasdruk op een toestel meten, statisch en dynamisch, en de belasting van een toestel via de gasmeter controleren.
 
@@ -3595,7 +3595,7 @@ Gasdruk en belasting via de gasmeter zijn twee kanten van dezelfde controle: lev
 
 ### Les 10.3: De rookgasanalyser: opbouw, nulmeting en onderhoud
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/de-rookgasanalyser-opbouw-nulmeting-en-onderhoud/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/de-rookgasanalyser-opbouw-nulmeting-en-onderhoud/
 
 **Leerdoel:** Je kunt uitleggen hoe een rookgasanalyser werkt, hem voorbereiden voor een betrouwbare meting en zijn sensoren onderhouden.
 
@@ -3640,7 +3640,7 @@ Een rookgasanalyser is pas zo goed als zijn voorbereiding: een schone, correcte 
 
 ### Les 10.4: Een rookgasmeting uitvoeren en beoordelen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/een-rookgasmeting-uitvoeren-en-beoordelen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/een-rookgasmeting-uitvoeren-en-beoordelen/
 
 **Leerdoel:** Je kunt een rookgasmeting uitvoeren volgens de voorgeschreven procedure en de waarden beoordelen, ook als het antwoord op luchtvrij of afgelezen onzeker is.
 
@@ -3702,7 +3702,7 @@ Volg de procedure precies, meet op de juiste plek, en beoordeel de uitkomst tege
 
 ### Les 10.5: CO in de opstellingsruimte meten
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/co-in-de-opstellingsruimte-meten/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/co-in-de-opstellingsruimte-meten/
 
 **Leerdoel:** Je kunt CO in de opstellingsruimte meten, voor en na de werkzaamheden, en weet welke actie bij welke uitkomst hoort.
 
@@ -3754,7 +3754,7 @@ Twee metingen, dezelfde plek en hoogte, en een vaste tabel met acties: dat is de
 
 ### Les 10.6: Water, temperatuur en elektra meten
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/water-temperatuur-en-elektra-meten/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/water-temperatuur-en-elektra-meten/
 
 **Leerdoel:** Je kunt druk, temperatuur, debiet en elektrische waarden meten en de resultaten aan de installatie koppelen.
 
@@ -3809,7 +3809,7 @@ Water, temperatuur en elektra zijn de metingen die je het vaakst doet, juist omd
 
 ## Module 11: Ontwerpen en dimensioneren
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/ontwerpen-en-dimensioneren/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/ontwerpen-en-dimensioneren/
 
 Hoe je van de warmtebehoefte van een woning komt tot een passende installatie: warmteverlies, ketelvermogen, leidingen, pomp, expansievat en afvoer. Ontwerpen is kiezen op basis van berekening, niet op gevoel.
 
@@ -3826,7 +3826,7 @@ Hoe je van de warmtebehoefte van een woning komt tot een passende installatie: w
 
 ### Les 11.1: Warmteverlies berekenen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/warmteverlies-berekenen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/warmteverlies-berekenen/
 
 **Leerdoel:** Je kunt het warmteverlies van een vertrek en een woning berekenen met een erkende methode en de uitkomst beoordelen.
 
@@ -3907,7 +3907,7 @@ Het warmteverlies per vertrek gebruik je in les 11.2 om het ketelvermogen te kie
 
 ### Les 11.2: Het ketelvermogen kiezen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/het-ketelvermogen-kiezen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/het-ketelvermogen-kiezen/
 
 **Leerdoel:** Je kunt het benodigde vermogen voor verwarming en tapwater bepalen en daar een passende ketel bij kiezen.
 
@@ -3968,7 +3968,7 @@ Leg bij elke ketelkeuze vast: het berekende warmteverlies (les 11.1), het gekoze
 
 ### Les 11.3: Leidingen dimensioneren
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/leidingen-dimensioneren/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/leidingen-dimensioneren/
 
 **Leerdoel:** Je kunt leidingen dimensioneren op debiet, stroomsnelheid en drukverlies.
 
@@ -4038,7 +4038,7 @@ Leg per hoofdtraject vast: het vermogen, het ΔT, het berekende debiet, de gekoz
 
 ### Les 11.4: Pomp en expansievat dimensioneren
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/pomp-en-expansievat-dimensioneren/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/pomp-en-expansievat-dimensioneren/
 
 **Leerdoel:** Je kunt een pomp en een expansievat kiezen op basis van berekening en de keuze onderbouwen.
 
@@ -4106,7 +4106,7 @@ Leg vast: het ontwerp-debiet en de berekende drukval van het net (met het gebrui
 
 ### Les 11.5: Afvoer en luchttoevoer ontwerpen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/afvoer-en-luchttoevoer-ontwerpen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/afvoer-en-luchttoevoer-ontwerpen/
 
 **Leerdoel:** Je kunt controleren of de afvoer en luchttoevoer binnen de toegestane lengte en weerstand van het toestel blijven.
 
@@ -4160,7 +4160,7 @@ Leg per project vast: het gekozen toestel, systeem en diameter, de maximaal toeg
 
 ### Les 11.6: Een compleet ontwerp uitwerken
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/een-compleet-ontwerp-uitwerken/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/een-compleet-ontwerp-uitwerken/
 
 **Leerdoel:** Je kunt voor een woning een volledig ontwerp uitwerken en elke keuze onderbouwen.
 
@@ -4249,7 +4249,7 @@ Voor elk compleet ontwerp: de zes stappen uit deze les, met per stap het gebruik
 
 ## Module 12: Leidingwerk en verbindingen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/leidingwerk-en-verbindingen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/leidingwerk-en-verbindingen/
 
 Het ambacht onder elke installatie: materialen en gereedschap, tekeningen lezen, buis bewerken, solderen, knellen en persen, kunststof en meerlagenbuis, afvoer en het monteren van radiatoren. Goed leidingwerk is de basis van een lekvrije installatie.
 
@@ -4269,7 +4269,7 @@ Deze module behandelt het ambacht dat onder elke installatie ligt: materiaalkeuz
 
 ### Les 12.1: Materialen, gereedschap en veilig werken
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/materialen-gereedschap-en-veilig-werken/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/materialen-gereedschap-en-veilig-werken/
 
 **Leerdoel:** Je kunt de gangbare buismaterialen voor water, cv en gas herkennen en het bijbehorende gereedschap veilig gebruiken, ook bij hete werkzaamheden.
 
@@ -4313,7 +4313,7 @@ In grotere bedrijven en op locaties met verhoogd risico werkt men met een vergun
 
 ### Les 12.2: Installatietekeningen en symbolen lezen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/installatietekeningen-en-symbolen-lezen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/installatietekeningen-en-symbolen-lezen/
 
 **Leerdoel:** Je kunt een installatietekening en de symbolen daarop lezen en er een werkplan uit afleiden.
 
@@ -4357,7 +4357,7 @@ Een tekening is een hulpmiddel, geen wet van Meden en Perzen: als de bouwkundige
 
 ### Les 12.3: Buis bewerken: meten, snijden, afbramen en buigen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/buis-bewerken-meten-snijden-afbramen-en-buigen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/buis-bewerken-meten-snijden-afbramen-en-buigen/
 
 **Leerdoel:** Je kunt buis nauwkeurig meten, snijden, afbramen en buigen zonder de buis te beschadigen.
 
@@ -4402,7 +4402,7 @@ Meerlagenbuis wordt na het afkorten niet alleen ontbraamd maar ook gekalibreerd:
 
 ### Les 12.4: Verbindingstechnieken: solderen, knellen en persen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/verbindingstechnieken-solderen-knellen-en-persen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/verbindingstechnieken-solderen-knellen-en-persen/
 
 **Leerdoel:** Je kunt een soldeer-, knel- en perverbinding maken en beoordelen of hij goed en lekvrij is.
 
@@ -4455,7 +4455,7 @@ Dit is een theoretisch maximum: in de praktijk kost een moeilijk bereikbare verb
 
 ### Les 12.5: Kunststof en meerlagenbuis voor water en gas
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/kunststof-en-meerlagenbuis-voor-water-en-gas/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/kunststof-en-meerlagenbuis-voor-water-en-gas/
 
 **Leerdoel:** Je kunt kunststof en meerlagenbuis voor water en gas toepassen, verbinden en afmonteren volgens de fabrikantvoorschriften.
 
@@ -4501,7 +4501,7 @@ Een klant wil een keukenblok verplaatsen en de gasleiding naar het fornuis mee l
 
 ### Les 12.6: Afvoersystemen en PVC: verlijmen en monteren
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/afvoersystemen-en-pvc-verlijmen-en-monteren/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/afvoersystemen-en-pvc-verlijmen-en-monteren/
 
 **Leerdoel:** Je kunt een afvoersysteem van PVC verlijmen en monteren met het juiste afschot en de juiste ondersteuning.
 
@@ -4558,7 +4558,7 @@ Bij een temperatuur onder 5 °C mag je in de regel niet lijmen zonder extra maat
 
 ### Les 12.7: Radiatoren en cv-leidingwerk monteren
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/radiatoren-en-cv-leidingwerk-monteren/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/radiatoren-en-cv-leidingwerk-monteren/
 
 **Leerdoel:** Je kunt radiatoren en cv-leidingwerk monteren, aansluiten en ondersteunen met de juiste beugelafstand en ruimte voor uitzetting.
 
@@ -4622,7 +4622,7 @@ Je hebt een radiator aangesloten met een lange, strak bevestigde koperen aanvoer
 
 ## Module 13: Installeren en inbedrijfstellen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/installeren-en-inbedrijfstellen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/installeren-en-inbedrijfstellen/
 
 Van werkvoorbereiding tot oplevering: een ketel plaatsen, aansluiten, gasdicht controleren, vullen, ontsteken, afstellen en vrijgeven, volgens de fabrikantinstructies en met aantoonbare metingen.
 
@@ -4640,7 +4640,7 @@ De wet en het certificatieschema stellen niet alleen eisen aan het toestel, maar
 
 ### Les 13.1: Werkvoorbereiding en opname bij de klant
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/werkvoorbereiding-en-opname-bij-de-klant/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/werkvoorbereiding-en-opname-bij-de-klant/
 
 **Leerdoel:** Je kunt een installatie voorbereiden en bij de klant de situatie opnemen die bepaalt of de ketel er veilig kan komen.
 
@@ -4689,7 +4689,7 @@ Bespreek bij de opname ook wat de klant kan verwachten: een planning, wat er geb
 
 ### Les 13.2: Plaatsen en aansluiten
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/plaatsen-en-aansluiten/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/plaatsen-en-aansluiten/
 
 **Leerdoel:** Je kunt een ketel plaatsen en water, gas, elektra en afvoer volgens de fabrikantinstructies aansluiten.
 
@@ -4727,7 +4727,7 @@ Een leerling wil eerst de gasleiding aansluiten "want dat is het spannendste ond
 
 ### Les 13.3: Gasdichtheid controleren
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/gasdichtheid-controleren/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/gasdichtheid-controleren/
 
 **Leerdoel:** Je kunt de gasleiding en aansluitingen van een toestel op dichtheid controleren en de uitkomst beoordelen.
 
@@ -4773,7 +4773,7 @@ Vind je bij het controleren met lekzoekspray of een gaslekzoeker toch een lek, d
 
 ### Les 13.4: Vullen, ontluchten en spoelen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/vullen-ontluchten-en-spoelen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/vullen-ontluchten-en-spoelen/
 
 **Leerdoel:** Je kunt een installatie vullen, ontluchten en spoelen en de drukken controleren.
 
@@ -4818,7 +4818,7 @@ Een cv-installatie heeft een systeeminhoud van 45 liter. Spoel je met 3 keer de 
 
 ### Les 13.5: Eerste ontsteking en afstellen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/eerste-ontsteking-en-afstellen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/eerste-ontsteking-en-afstellen/
 
 **Leerdoel:** Je kunt een ketel voor het eerst starten, de verbranding controleren en afstellen volgens de fabrikant.
 
@@ -4854,7 +4854,7 @@ Bij de inbedrijfstelling van een toestel houdt een fabrikant een richtwaarde van
 
 ### Les 13.6: Vrijgave en het inbedrijfstellingsprotocol
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/vrijgave-en-het-inbedrijfstellingsprotocol/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/vrijgave-en-het-inbedrijfstellingsprotocol/
 
 **Leerdoel:** Je kunt een ketel vrijgeven en vastleggen wat je gecontroleerd en gemeten hebt.
 
@@ -4892,7 +4892,7 @@ Je meet na afronding van je werk 3 ppm CO in de opstellingsruimte en 180 ppm CO 
 
 ### Les 13.7: Oplevering en klantinstructie
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/oplevering-en-klantinstructie/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/oplevering-en-klantinstructie/
 
 **Leerdoel:** Je kunt een installatie opleveren en de klant uitleggen wat hij moet weten over gebruik, onderhoud en veiligheid.
 
@@ -4929,7 +4929,7 @@ Zorg dat de klant na je vertrek weet: waar de gebruiksaanwijzing van het toestel
 
 ## Module 14: Waterzijdig inregelen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/waterzijdig-inregelen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/waterzijdig-inregelen/
 
 Een installatie die niet in balans is geeft koude plekken, geluid en onnodig gasverbruik. Deze module leert je inregelen: de hydraulica, de instelventielen en de methoden om te herstellen. Verplicht bij ketelvervanging, en onmisbaar bij lager stoken.
 
@@ -4949,7 +4949,7 @@ Deze module bouwt voort op de hydraulica uit module 3 (druk, drukval, debiet, po
 
 ### Les 14.1: Waarom inregelen: symptomen van onbalans
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/waarom-inregelen-symptomen-van-onbalans/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/waarom-inregelen-symptomen-van-onbalans/
 
 **Leerdoel:** Je herkent de symptomen van een niet ingeregelde installatie, kunt uitleggen wat ze kosten aan comfort en energie, en weet wanneer de wet inregelen verplicht.
 
@@ -4997,7 +4997,7 @@ Waterzijdig inregelen is geen extra service die je aanbiedt als de klant erom vr
 
 ### Les 14.2: De hydraulica van inregelen: weerstand, debiet en verdeling
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/de-hydraulica-van-inregelen-weerstand-debiet-en-verdeling/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/de-hydraulica-van-inregelen-weerstand-debiet-en-verdeling/
 
 **Leerdoel:** Je kunt uitleggen hoe weerstand, debiet en verdeling in een leidingnet samenhangen en wat de autoriteit van een ventiel is.
 
@@ -5045,7 +5045,7 @@ Les 14.3 laat zien hoe fabrikanten dit vertalen naar concrete instelventielen: s
 
 ### Les 14.3: Instelventielen en regelaars
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/instelventielen-en-regelaars/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/instelventielen-en-regelaars/
 
 **Leerdoel:** Je kunt statische en dynamische regelventielen en thermostaatkranen uit elkaar houden en weet wanneer je welke toepast.
 
@@ -5094,7 +5094,7 @@ Danfoss levert met de PFM100 drukverschilmeter (met de dP-tool-uitbreiding) een 
 
 ### Les 14.4: Vermogen en debiet per radiator berekenen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/vermogen-en-debiet-per-radiator-berekenen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/vermogen-en-debiet-per-radiator-berekenen/
 
 **Leerdoel:** Je kunt het vermogen en het benodigde debiet van elke radiator berekenen en daaruit de instelling afleiden.
 
@@ -5163,7 +5163,7 @@ Is het vermogen bij het gekozen regime bekend, dan volgt het debiet uit de formu
 
 ### Les 14.5: Inregelen in de praktijk: de methoden stap voor stap
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/inregelen-in-de-praktijk-de-methoden-stap-voor-stap/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/inregelen-in-de-praktijk-de-methoden-stap-voor-stap/
 
 **Leerdoel:** Je kunt een installatie inregelen met de gangbare methoden en de instellingen onderbouwen.
 
@@ -5222,7 +5222,7 @@ Naast de afsluiters zelf hoort bij inregelen ook het instellen van het cv-vermog
 
 ### Les 14.6: Vloerverwarming inregelen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/vloerverwarming-inregelen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/vloerverwarming-inregelen/
 
 **Leerdoel:** Je kunt de kringen van vloerverwarming inregelen en het debiet per kring controleren met de debietmeter op de verdeler.
 
@@ -5271,7 +5271,7 @@ Een warmtebeeldcamera laat zien of een kring gelijkmatig warm wordt over zijn he
 
 ### Les 14.7: Controleren, meten en opleveren
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/controleren-meten-en-opleveren/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/controleren-meten-en-opleveren/
 
 **Leerdoel:** Je kunt het resultaat van het inregelen meten, beoordelen en vastleggen voor de klant en de volgende monteur.
 
@@ -5322,7 +5322,7 @@ Deze cursus geeft geen diploma en geen Bewijs van Vakmanschap CO. Fabrikanten zo
 
 ## Module 15: Onderhoud
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/onderhoud/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/onderhoud/
 
 De onderhoudsbeurt als vast proces: inspecteren, reinigen, slijtdelen vervangen, veiligheid controleren, meten en rapporteren. Zo werk je reproduceerbaar en vind je problemen voordat de klant ze merkt.
 
@@ -5338,7 +5338,7 @@ De onderhoudsbeurt als vast proces: inspecteren, reinigen, slijtdelen vervangen,
 
 ### Les 15.1: De onderhoudsbeurt als proces
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/de-onderhoudsbeurt-als-proces/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/de-onderhoudsbeurt-als-proces/
 
 **Leerdoel:** Je kunt een onderhoudsbeurt als vast proces uitvoeren, van veiligheid vooraf tot afronden en rapporteren.
 
@@ -5379,7 +5379,7 @@ Vaillant sluit bijvoorbeeld elke onderhoudsbeurt van de ecoTEC plus VHR af met d
 
 ### Les 15.2: Reinigen en inspecteren
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/reinigen-en-inspecteren/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/reinigen-en-inspecteren/
 
 **Leerdoel:** Je kunt brander, warmtewisselaar en sifon inspecteren en reinigen zonder onderdelen te beschadigen.
 
@@ -5417,7 +5417,7 @@ Je onderhoudt 's ochtends een ATAG-toestel en 's middags een Remeha Calenta Ace.
 
 ### Les 15.3: Slijtdelen en vervangen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/slijtdelen-en-vervangen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/slijtdelen-en-vervangen/
 
 **Leerdoel:** Je kunt slijtdelen herkennen, de juiste onderdelen kiezen en ze vervangen volgens de fabrikant.
 
@@ -5461,7 +5461,7 @@ Wat je aan slijtdelen vervangt, staat los van de vraag of het hele toestel nog r
 
 ### Les 15.4: Veiligheidscontroles en afronden met een meting
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/veiligheidscontroles-en-afronden-met-een-meting/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/veiligheidscontroles-en-afronden-met-een-meting/
 
 **Leerdoel:** Je kunt de veiligheidsfuncties controleren en het onderhoud afronden met een aantoonbare meting.
 
@@ -5505,7 +5505,7 @@ Bij een Vaillant-toestel meet je na onderhoud 800 ppm CO onverdund in het rookga
 
 ### Les 15.5: Rapporteren en klantadvies
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/rapporteren-en-klantadvies/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/rapporteren-en-klantadvies/
 
 **Leerdoel:** Je kunt de bevindingen van een onderhoudsbeurt vastleggen en de klant helder en eerlijk adviseren.
 
@@ -5549,7 +5549,7 @@ Je hebt een 17 jaar oude ketel onderhouden. De verbranding is nog binnen de norm
 
 ## Module 16: Storingzoeken en reparatie
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/storingzoeken-en-reparatie/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/storingzoeken-en-reparatie/
 
 Systematisch storingzoeken: van klacht naar bewezen oorzaak. De methode, het lezen van storingscodes en de klassieke klachten: geen warm water, geen verwarming, drukproblemen, ontsteking en afvoer.
 
@@ -5567,7 +5567,7 @@ Storingscodes, meetwaarden en instelwaarden staan hier steeds als voorbeeld uit 
 
 ### Les 16.1: De methode: van klacht naar bewezen oorzaak
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/de-methode-van-klacht-naar-bewezen-oorzaak/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/de-methode-van-klacht-naar-bewezen-oorzaak/
 
 **Leerdoel:** Je kunt een storing methodisch aanpakken en de oorzaak bewijzen voordat je een onderdeel vervangt.
 
@@ -5617,7 +5617,7 @@ De BRL 6000-25 vraagt van elke controle of meting vast te leggen wat er is gecon
 
 ### Les 16.2: Storingscodes lezen zonder erin te trappen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/storingscodes-lezen-zonder-erin-te-trappen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/storingscodes-lezen-zonder-erin-te-trappen/
 
 **Leerdoel:** Je kunt een storingscode opzoeken en gebruiken als aanwijzing, en weet waarom een code geen diagnose is.
 
@@ -5659,7 +5659,7 @@ Een Intergas Kombi Kompakt HRE toont code 8: het ventilatortoerental is niet jui
 
 ### Les 16.3: Geen warm tapwater
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/geen-warm-tapwater/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/geen-warm-tapwater/
 
 **Leerdoel:** Je kunt de oorzaken van een tapwaterstoring in een logische volgorde onderzoeken.
 
@@ -5694,7 +5694,7 @@ Een klant belt: het water wordt niet meer warm genoeg, terwijl het een paar weke
 
 ### Les 16.4: Geen verwarming
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/geen-verwarming/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/geen-verwarming/
 
 **Leerdoel:** Je kunt een ketel die niet verwarmt stap voor stap onderzoeken, van regeling tot afgifte.
 
@@ -5729,7 +5729,7 @@ Een klant meldt "de verwarming doet niets, warm water werkt wel". Volgens de ket
 
 ### Les 16.5: Waterdruk zakt of stijgt
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/waterdruk-zakt-of-stijgt/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/waterdruk-zakt-of-stijgt/
 
 **Leerdoel:** Je kunt een drukprobleem analyseren en onderscheid maken tussen lek, expansievat en vulling.
 
@@ -5770,7 +5770,7 @@ Zie de uitgewerkte casus in de storingzoeker: een installatie waarin de druk bij
 
 ### Les 16.6: Ontsteking en vlambewaking
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/ontsteking-en-vlambewaking-16-6/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/ontsteking-en-vlambewaking-16-6/
 
 **Leerdoel:** Je kunt een ketel die niet ontsteekt of de vlam verliest onderzoeken aan de hand van de startvolgorde.
 
@@ -5811,7 +5811,7 @@ Een Remeha Avanta geeft een vonk maar geen vlam. Volgens de tabel van Remeha loo
 
 ### Les 16.7: Lucht, ventilator en afvoer
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/lucht-ventilator-en-afvoer/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/lucht-ventilator-en-afvoer/
 
 **Leerdoel:** Je kunt storingen door luchttoevoer, ventilator en afvoer onderzoeken en veilig oplossen.
 
@@ -5850,7 +5850,7 @@ Een Intergas-toestel resoneert. Volgens de storingscodetabel van Intergas horen 
 
 ### Les 16.8: Intermitterende storingen en de keuze repareren of vervangen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/intermitterende-storingen-en-de-keuze-repareren-of-vervangen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/intermitterende-storingen-en-de-keuze-repareren-of-vervangen/
 
 **Leerdoel:** Je kunt een storing die af en toe optreedt aantonen en onderbouwen of repareren of vervangen zinvol is.
 
@@ -5891,7 +5891,7 @@ Een klant belt over een ketel die "af en toe" uitvalt en na een paar minuten zel
 
 ## Module 17: Merken, documentatie en hybride
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/merken-documentatie-en-hybride/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/merken-documentatie-en-hybride/
 
 De fabrikantdocumentatie is leidend bij installeren, onderhouden en afstellen. Deze module gaat over het vinden en lezen ervan, de grote merken in de praktijk, en het aangrenzende terrein van hybride systemen, warmtepompen en F-gassen.
 
@@ -5912,7 +5912,7 @@ Storingscodes, menuprocedures en garantietermijnen staan hier steeds als voorbee
 
 ### Les 17.1: Fabrikantdocumentatie vinden en lezen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/fabrikantdocumentatie-vinden-en-lezen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/fabrikantdocumentatie-vinden-en-lezen/
 
 **Leerdoel:** Je vindt met typeplaatje en serienummer de juiste documentatie bij een toestel, onderscheidt de vier documenttypen en weet hoe je een uitgave dateert.
 
@@ -5977,7 +5977,7 @@ Je zoekt online het installatievoorschrift van een Intergas Kombi Kompakt HRE en
 
 ### Les 17.2: Merken in de praktijk
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/merken-in-de-praktijk/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/merken-in-de-praktijk/
 
 **Leerdoel:** Je herkent hoe Remeha, Intergas, Vaillant, Nefit Bosch, ATAG en Viessmann elk hun eigen servicemenu en storingscodes gebruiken.
 
@@ -6029,7 +6029,7 @@ Een Intergas-toestel toont code 8: ventilatortoerental niet juist. Een collega d
 
 ### Les 17.3: Informatie van de fabrikant verwerken
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/informatie-van-de-fabrikant-verwerken/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/informatie-van-de-fabrikant-verwerken/
 
 **Leerdoel:** Je verwerkt servicebulletins, garantievoorwaarden, registratie en onderdeelkeuze op een manier die de klant en jezelf beschermt.
 
@@ -6080,7 +6080,7 @@ Een klant heeft een AGPO Ferroli Econpact uit 2003 met een defecte branderautoma
 
 ### Les 17.4: Hybride en warmtepompen: wat je moet weten
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/hybride-en-warmtepompen-wat-je-moet-weten/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/hybride-en-warmtepompen-wat-je-moet-weten/
 
 **Leerdoel:** Je herkent een hybride opstelling, begrijpt hoe de regeling kiest tussen warmtepomp en ketel, en weet wat dat van de afgifte vraagt.
 
@@ -6124,7 +6124,7 @@ Een klant met een hybride Intergas-installatie klaagt dat het huis kouder blijft
 
 ### Les 17.5: De grens met koudetechniek: F-gassen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/de-grens-met-koudetechniek-f-gassen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/de-grens-met-koudetechniek-f-gassen/
 
 **Leerdoel:** Je kunt uitleggen wat F-gassen zijn, welke certificering nodig is voor werk aan het koudemiddelcircuit, en waar jouw bevoegdheid ophoudt.
 
@@ -6171,7 +6171,7 @@ Een hybride installatie geeft een storing die volgens het display bij de buitenu
 
 ## Module 18: Examen en beroepspraktijk
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/examen-en-beroepspraktijk/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/examen-en-beroepspraktijk/
 
 Voorbereiding op het theorie- en praktijkexamen, plus klantcommunicatie, administratie, werkvoorbereiding en een leerplan voor na het examen. Let op: deze cursus geeft zelf geen diploma en geen Bewijs van Vakmanschap CO.
 
@@ -6188,7 +6188,7 @@ Voorbereiding op het theorie- en praktijkexamen, plus klantcommunicatie, adminis
 
 ### Les 18.1: Het theorie-examen aanpakken
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/het-theorie-examen-aanpakken/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/het-theorie-examen-aanpakken/
 
 **Leerdoel:** Je kunt het theorie-examen doelgericht voorbereiden: je kent de vorm, de vraagverdeling voor je profiel, de cesuur en de herkansingsregels.
 
@@ -6248,7 +6248,7 @@ Deze cursus bereidt je voor, maar is geen vervanging van het examen: je haalt hi
 
 ### Les 18.2: Het praktijkexamen voorbereiden
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/het-praktijkexamen-voorbereiden/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/het-praktijkexamen-voorbereiden/
 
 **Leerdoel:** Je kunt het praktijkexamen voorbereiden: je weet wat je moet laten zien, hoe de beoordeling werkt en welke fouten je moet vermijden.
 
@@ -6304,7 +6304,7 @@ Het resultaat van het praktijkexamen is bindend. Zak je voor een onderdeel, dan 
 
 ### Les 18.3: Klantcommunicatie en moeilijke gesprekken
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/klantcommunicatie-en-moeilijke-gesprekken/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/klantcommunicatie-en-moeilijke-gesprekken/
 
 **Leerdoel:** Je kunt een afkeuring, een offerte of een slecht bericht helder en respectvol uitleggen aan een klant, ook onder druk.
 
@@ -6357,7 +6357,7 @@ Werkt het bedrijf volgens de AVIC-voorwaarden en is de klant een consument, dan 
 
 ### Les 18.4: Administratie, werkbonnen en aansprakelijkheid
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/administratie-werkbonnen-en-aansprakelijkheid/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/administratie-werkbonnen-en-aansprakelijkheid/
 
 **Leerdoel:** Je kunt werkbonnen en meetgegevens vastleggen, weet welke bewaartermijnen gelden en begrijpt waarom aantoonbaar werken jou en je bedrijf beschermt.
 
@@ -6414,7 +6414,7 @@ Een bedrijfsaansprakelijkheidsverzekering is voor een installatiebedrijf niet we
 
 ### Les 18.5: Werkvoorbereiding, planning en gereedschap
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/werkvoorbereiding-planning-en-gereedschap/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/werkvoorbereiding-planning-en-gereedschap/
 
 **Leerdoel:** Je kunt een werkdag voorbereiden en weet welk gereedschap, welke meetapparatuur en welke documentatie je meeneemt.
 
@@ -6457,7 +6457,7 @@ Een cv-ketel, boiler of gasfles til je niet zomaar: de praktijkrichtlijn voor ti
 
 ### Les 18.6: Je leerplan als topmonteur
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/je-leerplan-als-topmonteur/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/je-leerplan-als-topmonteur/
 
 **Leerdoel:** Je kunt een leerplan opstellen om na het examen door te groeien, en weet wat deze cursus wel en niet is.
 
@@ -6508,7 +6508,7 @@ Niet elk nieuw inzicht komt uit een cursus. Vraag bij storingen die je niet mete
 
 ## Module 19: Andere ketels en oudere toestellen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/module/andere-ketels-en-oudere-toestellen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/module/andere-ketels-en-oudere-toestellen/
 
 Naast de moderne HR-ketel kom je oudere ketels, geisers, gaskachels en toestellen op andere brandstoffen tegen. Juist open toestellen geven CO-ongevallen. Je leert ze herkennen en weet wat er verandert als je er een vervangt.
 
@@ -6526,7 +6526,7 @@ De feiten in deze module komen uit een apart register (feiten/12-andere-toestell
 
 ### Les 19.1: Overzicht: soorten ketels en toestellen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/overzicht-soorten-ketels-en-toestellen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/overzicht-soorten-ketels-en-toestellen/
 
 **Leerdoel:** Je kunt ketels indelen op brandstof, rendementsklasse (HR, VR) en type (open of gesloten, solo of combi) en herkent ze op het typeplaatje.
 
@@ -6581,7 +6581,7 @@ Alleen met het typeplaatje en de handleiding erbij weet je zeker wat je voor je 
 
 ### Les 19.2: Atmosferische en VR-ketels
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/atmosferische-en-vr-ketels/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/atmosferische-en-vr-ketels/
 
 **Leerdoel:** Je herkent een atmosferische of VR-ketel, legt uit hoe hij zonder ventilator werkt (natuurlijke trek, trekonderbreker) en waarom hij CO-gevoelig is.
 
@@ -6625,7 +6625,7 @@ Daar komt bij dat een ouder toestel vaker een oudere, niet meer optimale afvoer 
 
 ### Les 19.3: Geisers en doorstroomtoestellen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/geisers-en-doorstroomtoestellen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/geisers-en-doorstroomtoestellen/
 
 **Leerdoel:** Je herkent een gasgeiser of doorstroomtoestel, weet waarom deze toestellen historisch vaak bij CO-ongevallen betrokken waren en wat je bij aantreffen doet.
 
@@ -6672,7 +6672,7 @@ Bij een renovatie tref je in de badkamer een oude keukengeiser aan die daar ooit
 
 ### Les 19.4: Gaskachels, convectoren en gashaarden
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/gaskachels-convectoren-en-gashaarden/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/gaskachels-convectoren-en-gashaarden/
 
 **Leerdoel:** Je kunt losse gastoestellen (kachel, convector, haard) indelen naar open of gesloten type, hun afvoer en ventilatie beoordelen en de risico's uitleggen.
 
@@ -6709,7 +6709,7 @@ Een gebouwgebonden gasinfraroodstraler (helder- of donkerstraler) valt onder dez
 
 ### Les 19.5: Olie, LPG, hout en pellets: herkennen en de grens
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/olie-lpg-hout-en-pellets-herkennen-en-de-grens/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/olie-lpg-hout-en-pellets-herkennen-en-de-grens/
 
 **Leerdoel:** Je herkent ketels op olie, LPG, hout of pellets, weet wat er anders is aan brandstof en rookgas en waar de grens van jouw bevoegdheid en van Vakmanschap CO ligt.
 
@@ -6758,7 +6758,7 @@ Wees hier eerlijk en concreet: "dat mag ik niet, en hier is waarom" is onderdeel
 
 ### Les 19.6: Warmtenet, elektrische ketel en andere warmtebronnen
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/warmtenet-elektrische-ketel-en-andere-warmtebronnen/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/warmtenet-elektrische-ketel-en-andere-warmtebronnen/
 
 **Leerdoel:** Je kunt een afleverset van een warmtenet en een elektrische ketel plaatsen en weet wat je er als cv-monteur wel en niet aan doet.
 
@@ -6805,7 +6805,7 @@ Een VvE schakelt over van een gemeenschappelijke gasketel naar een warmtenet met
 
 ### Les 19.7: Een oud toestel vervangen door een HR-ketel
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/les/een-oud-toestel-vervangen-door-een-hr-ketel/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/les/een-oud-toestel-vervangen-door-een-hr-ketel/
 
 **Leerdoel:** Je kunt uitleggen wat er verandert bij het vervangen van een oud toestel (afvoer, ventilatie, ruimte, temperatuur) en welke controles je vooraf doet.
 
@@ -6859,7 +6859,7 @@ Alleen met deze vijf punten vooraf gecheckt, is de vervanging meer dan "de oude 
 
 ## Naslag cv-ketels
 
-URL: https://keesvanwanrooij.github.io/cursus-cv-ketels/naslag/
+URL: https://keesvanwanrooij.nl/cursus-cv-ketels/naslag/
 
 ### Formules
 
