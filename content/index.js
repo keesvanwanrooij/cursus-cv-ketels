@@ -22,7 +22,7 @@ window.CURSUS = {
     auteur: 'Kees van Wanrooij',
     auteurUrl: 'https://github.com/keesvanwanrooij',
     /* Google Search Console: verificatietoken van de HTML-tag. Leeg laten tot de property is aangemaakt. */
-    googleVerificatie: '',
+    googleVerificatie: 'Xix5E2WkjMEBGf1mt4B_nutdCvRRq8GmWnGjFAxBCes',
 
     titelHome: 'Gratis cursus cv-ketel monteur | Theorie, praktijk en CO-examen',
     h1: 'Gratis cursus cv-ketel monteur: van beginner tot CO-vakbekwaam',
