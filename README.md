@@ -81,7 +81,7 @@ vervangen: bij twijfel is de actuele bron leidend.
 
 ## Meer van dezelfde maker
 
-[Cursus Elektrotechniek](https://keesvanwanrooij.nl/cursus-elektrotechniek/): gratis basiscursus elektrotechniek voor beginners.
+[Cursus Elektrotechniek](https://www.keesvanwanrooij.nl/cursus-elektrotechniek/): gratis basiscursus elektrotechniek voor beginners.
 
 ## Licentie
 
