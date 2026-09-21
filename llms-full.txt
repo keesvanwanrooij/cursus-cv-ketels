@@ -6476,7 +6476,7 @@ Het CO-stelsel staat niet stil. Sinds 2025 en 2026 zijn er wijzigingsbladen op d
 
 #### Vervolgopleidingen
 
-Deze cursus behandelt het fundament: warmte en hydraulica, de ketel als keten, regeling en afgifte, rookgasafvoer, installeren, meten, onderhoud en storingzoeken. Er zijn onderwerpen waar Techniek Helden apart voor opleidt en die niet in deze cursus zitten:
+Deze cursus behandelt het fundament: warmte en hydraulica, de ketel als keten, regeling en afgifte, rookgasafvoer, installeren, meten, onderhoud en storingzoeken. Er zijn onderwerpen waar opleiders apart voor opleiden en die niet in deze cursus zitten:
 
 - Vakmanschap Inregelen (waterzijdig inregelen): deze cursus legt het principe uit (module 14), maar niet de volledige vakbekwaamheid.
 - Vakmanschap Afgiftesystemen en Warmtepompen: relevant nu hybride en warmtepompsystemen steeds vaker naast of in plaats van de cv-ketel komen (module 17).
