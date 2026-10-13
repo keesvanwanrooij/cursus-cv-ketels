@@ -207,6 +207,11 @@ function controleer(ctx, root, opties) {
       if (!l.tekst || l.tekst.length < 1500) fout(lp + ': lestekst is te kort (' + (l.tekst ? l.tekst.length : 0) + ' tekens, minimaal 1500)');
       if (l.tekst && !/^\s*## /m.test(l.tekst)) fout(lp + ': lestekst heeft geen ## kop');
       if (l.tekst && !/^!!! kern/m.test(l.tekst)) waarschuw(lp + ': geen "!!! kern" blok, elke les heeft minstens een kernpunt');
+      /* Een verwijzing zonder linktekst, zoals (les:m01l06), wordt letterlijk getoond. Schrijf [les 1.6](les:m01l06). */
+      if (l.tekst) {
+        var kaal = l.tekst.match(/(^|[^\]])\((les|module):[a-z0-9]+\)/g);
+        if (kaal) fout(lp + ': ' + kaal.length + ' verwijzing(en) zonder linktekst, bijvoorbeeld "' + kaal[0].trim() + '"; schrijf [les 1.6](les:m01l06)');
+      }
       /* Een blok zonder sluitregel slokt de rest van de les op: de renderer leest door tot een losse "!!!". */
       if (l.tekst) {
         var open = (l.tekst.match(/^!!! \S/gm) || []).length;

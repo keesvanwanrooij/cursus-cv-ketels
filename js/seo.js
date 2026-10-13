@@ -40,7 +40,7 @@ window.Seo = (function () {
       { q: 'Krijg ik na deze cursus een CO-certificaat?',
         a: 'Nee. Deze cursus is zelfstudie en geeft geen erkend diploma en geen Bewijs van Vakmanschap CO. Dat behaal je met een theorie- en praktijkexamen bij een erkende exameninstelling. Deze cursus bereidt je daar inhoudelijk op voor.' },
       { q: 'Hoe lang duurt de zelfstudie?',
-        a: 'De hele leerlijn is ongeveer ' + a.uren + ' uur studietijd, verdeeld over ' + a.modules + ' modules en ' + a.lessen + ' lessen. Jij bepaalt het tempo, je voortgang wordt automatisch bijgehouden.' },
+        a: 'De hele leerlijn is ongeveer ' + Math.round(a.uren / 5) * 5 + ' uur studietijd, verdeeld over ' + a.modules + ' modules en ' + a.lessen + ' lessen. Jij bepaalt het tempo, je voortgang wordt automatisch bijgehouden.' },
       { q: 'Kan ik oefenen voor het theorie-examen?',
         a: 'Ja. Elke les heeft toetsvragen met uitleg, elke module een module-examen en je kunt flashcards herhalen met een herhaalschema. Ook train je met de storingzoeker het systematisch zoeken naar de oorzaak van een storing.' },
       { q: 'Kan ik de cursus offline volgen?',

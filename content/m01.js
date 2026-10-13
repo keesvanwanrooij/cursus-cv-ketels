@@ -910,7 +910,7 @@ Een plicht om de netbeheerder te informeren bij afkeuren is in wet en schema nie
   tekst: `
 ## De andere kant van het vak: niet alleen de ketel, ook de werkplek
 
-CO-veiligheid gaat over het toestel en de installatie. Deze les gaat over jou: de ladder waarop je staat, de kruipruimte waar je induikt, het board dat mogelijk asbest bevat en de gasgeur die je op locatie tegenkomt. Dit zijn geen cv-specifieke regels maar de algemene Arbowet en het Arbeidsomstandighedenbesluit (Arbobesluit), die voor elke werknemer in Nederland gelden. Eerste hulp bij CO-vergiftiging staat in (les:m01l06) en (les:m04l05), elektrische veiligheid in module 9: die stof komt hier niet terug.
+CO-veiligheid gaat over het toestel en de installatie. Deze les gaat over jou: de ladder waarop je staat, de kruipruimte waar je induikt, het board dat mogelijk asbest bevat en de gasgeur die je op locatie tegenkomt. Dit zijn geen cv-specifieke regels maar de algemene Arbowet en het Arbeidsomstandighedenbesluit (Arbobesluit), die voor elke werknemer in Nederland gelden. Eerste hulp bij CO-vergiftiging staat in [les 1.6](les:m01l06) en [les 4.5](les:m04l05), elektrische veiligheid in [module 9](module:m09): die stof komt hier niet terug.
 
 ## Werken op hoogte: ladder, trap of steiger?
 
@@ -958,7 +958,7 @@ Ruik je tijdens je werk plotseling sterk gas, dus los van de storing waaraan je 
 
 ## VCA: los van het CO-stelsel
 
-VCA (Veiligheid, Gezondheid en Milieu Checklist Aannemers) is een apart veiligheidscertificaat, beheerd door stichting SSVV. Het is niet wettelijk verplicht, maar veel opdrachtgevers in bouw, industrie en installatietechniek eisen het voordat je op hun locatie mag werken. VCA vervangt niets van het CO-stelsel uit (les:m01l02) en (les:m01l04): het is een generieke check op veilig werken in het algemeen, geen vervanging voor het Bewijs van Vakmanschap CO of de bedrijfscertificering.
+VCA (Veiligheid, Gezondheid en Milieu Checklist Aannemers) is een apart veiligheidscertificaat, beheerd door stichting SSVV. Het is niet wettelijk verplicht, maar veel opdrachtgevers in bouw, industrie en installatietechniek eisen het voordat je op hun locatie mag werken. VCA vervangt niets van het CO-stelsel uit [les 1.2](les:m01l02) en [les 1.4](les:m01l04): het is een generieke check op veilig werken in het algemeen, geen vervanging voor het Bewijs van Vakmanschap CO of de bedrijfscertificering.
 `,
   checklist: [
     'Ik weet vanaf welke hoogte een voorziening tegen valgevaar verplicht is en wanneer een ladder als werkplek mag',

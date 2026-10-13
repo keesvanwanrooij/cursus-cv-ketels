@@ -429,7 +429,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/veilig-werken-op-locatie-hoogte-as
 
 #### De andere kant van het vak: niet alleen de ketel, ook de werkplek
 
-CO-veiligheid gaat over het toestel en de installatie. Deze les gaat over jou: de ladder waarop je staat, de kruipruimte waar je induikt, het board dat mogelijk asbest bevat en de gasgeur die je op locatie tegenkomt. Dit zijn geen cv-specifieke regels maar de algemene Arbowet en het Arbeidsomstandighedenbesluit (Arbobesluit), die voor elke werknemer in Nederland gelden. Eerste hulp bij CO-vergiftiging staat in (les:m01l06) en (les:m04l05), elektrische veiligheid in module 9: die stof komt hier niet terug.
+CO-veiligheid gaat over het toestel en de installatie. Deze les gaat over jou: de ladder waarop je staat, de kruipruimte waar je induikt, het board dat mogelijk asbest bevat en de gasgeur die je op locatie tegenkomt. Dit zijn geen cv-specifieke regels maar de algemene Arbowet en het Arbeidsomstandighedenbesluit (Arbobesluit), die voor elke werknemer in Nederland gelden. Eerste hulp bij CO-vergiftiging staat in [les 1.6](https://cv-ketels.keesvanwanrooij.nl/les/afkeuren-melden-en-aansprakelijkheid/) en [les 4.5](https://cv-ketels.keesvanwanrooij.nl/les/koolmonoxide-en-het-lichaam/), elektrische veiligheid in [module 9](https://cv-ketels.keesvanwanrooij.nl/module/elektrisch-werken-aan-een-cv-ketel/): die stof komt hier niet terug.
 
 #### Werken op hoogte: ladder, trap of steiger?
 
@@ -474,7 +474,7 @@ Ruik je tijdens je werk plotseling sterk gas, dus los van de storing waaraan je 
 
 #### VCA: los van het CO-stelsel
 
-VCA (Veiligheid, Gezondheid en Milieu Checklist Aannemers) is een apart veiligheidscertificaat, beheerd door stichting SSVV. Het is niet wettelijk verplicht, maar veel opdrachtgevers in bouw, industrie en installatietechniek eisen het voordat je op hun locatie mag werken. VCA vervangt niets van het CO-stelsel uit (les:m01l02) en (les:m01l04): het is een generieke check op veilig werken in het algemeen, geen vervanging voor het Bewijs van Vakmanschap CO of de bedrijfscertificering.
+VCA (Veiligheid, Gezondheid en Milieu Checklist Aannemers) is een apart veiligheidscertificaat, beheerd door stichting SSVV. Het is niet wettelijk verplicht, maar veel opdrachtgevers in bouw, industrie en installatietechniek eisen het voordat je op hun locatie mag werken. VCA vervangt niets van het CO-stelsel uit [les 1.2](https://cv-ketels.keesvanwanrooij.nl/les/de-wet-wie-mag-wat-aan-een-gasverbrandingstoestel/) en [les 1.4](https://cv-ketels.keesvanwanrooij.nl/les/bedrijfscertificering-brl-6000-25-en-brl-k25000/): het is een generieke check op veilig werken in het algemeen, geen vervanging voor het Bewijs van Vakmanschap CO of de bedrijfscertificering.
 
 **Controleer jezelf:**
 
@@ -742,7 +742,7 @@ Een Remeha Calenta 25s (een ketel alleen voor verwarming) heeft een minimale bel
 Minder warmteverlies betekent dat de radiatoren minder hoeven af te geven, en dan mag het water koeler. Stel dat een radiator bij ΔT = 50 K (gemiddeld 70 °C water, 20 °C kamer) de volle warmtevraag dekt en dat het verlies door isolatie halveert. Met n = 1,3 uit les 2.3 volstaat dan ΔT = 50 × 0,5^(1/1,3) = 29 K, dus een gemiddelde watertemperatuur van ongeveer 49 °C. De retour ligt daar nog onder en dus onder het dauwpunt van het rookgas (54 tot 56 °C): de ketel gaat condenseren en het rendement stijgt.
 
 > **Warmte sparen door ventilatie dicht te zetten**
-> Bij een open opstelling mag de luchttoevoeropening van het toestel niet worden afgesloten en mogen de nodige verbrandingsluchtopeningen van de opstelruimte niet worden verkleind of afgesloten (fabrikantvoorschrift, bijvoorbeeld Remeha). Verminder warmteverlies door kieren te dichten en beter te isoleren, niet door ventilatieopeningen dicht te plakken. Zie je dat verbrandingsluchtopeningen zijn dichtgezet of verkleind, leg dat dan uit aan de klant, laat de openingen herstellen en meet CO in de opstellingsruimte: bij waarden vanaf 5 ppm handel je volgens [les 1.6](les:m01l06).
+> Bij een open opstelling mag de luchttoevoeropening van het toestel niet worden afgesloten en mogen de nodige verbrandingsluchtopeningen van de opstelruimte niet worden verkleind of afgesloten (fabrikantvoorschrift, bijvoorbeeld Remeha). Verminder warmteverlies door kieren te dichten en beter te isoleren, niet door ventilatieopeningen dicht te plakken. Zie je dat verbrandingsluchtopeningen zijn dichtgezet of verkleind, leg dat dan uit aan de klant, laat de openingen herstellen en meet CO in de opstellingsruimte: bij waarden vanaf 5 ppm handel je volgens [les 1.6](https://cv-ketels.keesvanwanrooij.nl/les/afkeuren-melden-en-aansprakelijkheid/).
 
 **Controleer jezelf:**
 
@@ -956,7 +956,7 @@ De vuldruk van 1,3 bar uit het rekenvoorbeeld hoort bij de vatberekening. Remeha
 
 #### Bijvullen in de praktijk
 
-Een bewoner mag zelf cv-water bijvullen, zie [les 1.2](les:m01l02). Je klant heeft dat dus vaak al gedaan voor je komt. Vraag daarom hoe vaak hij bijvult en hoeveel: een installatie die steeds druk verliest, heeft een oorzaak.
+Een bewoner mag zelf cv-water bijvullen, zie [les 1.2](https://cv-ketels.keesvanwanrooij.nl/les/de-wet-wie-mag-wat-aan-een-gasverbrandingstoestel/). Je klant heeft dat dus vaak al gedaan voor je komt. Vraag daarom hoe vaak hij bijvult en hoeveel: een installatie die steeds druk verliest, heeft een oorzaak.
 
 **Controleer jezelf:**
 
@@ -1117,7 +1117,7 @@ Een pH van 7,2 is dus goed voor een Calenta en te laag voor een ecoTEC plus. Waa
 4. **Druk opnieuw controleren.** Remeha vult de Tzerra Ace bij tot 2 bar en controleert na het ontluchten opnieuw.
 5. **Vastleggen.** ATAG adviseert een logboek van watertype en toegevoegde middelen.
 
-Een bewoner mag zelf ontluchten en bijvullen, zie [les 1.2](les:m01l02).
+Een bewoner mag zelf ontluchten en bijvullen, zie [les 1.2](https://cv-ketels.keesvanwanrooij.nl/les/de-wet-wie-mag-wat-aan-een-gasverbrandingstoestel/).
 
 #### Lucht en vuil als oorzaak
 
@@ -1255,7 +1255,7 @@ De Intergas Kombi Kompakt noemt dezelfde drukken en meldt 'voordruk te laag' ond
 
 #### Rekenvoorbeeld: een lagere Wobbe-index geeft meer luchtovermaat
 
-Een toestel is afgesteld op G25.3 (Wobbe 45,07) met lambda 1,3, dat is 5,2% O2 in het droge rookgas (zie [les 4.3](les:m04l03)). Het net levert G25 (Wobbe 43,88). Volgens Kiwa verschuift lambda mee met de Wobbe-index:
+Een toestel is afgesteld op G25.3 (Wobbe 45,07) met lambda 1,3, dat is 5,2% O2 in het droge rookgas (zie [les 4.3](https://cv-ketels.keesvanwanrooij.nl/les/luchtovermaat-lambda-en-het-verband-tussen-o2-en-co2/)). Het net levert G25 (Wobbe 43,88). Volgens Kiwa verschuift lambda mee met de Wobbe-index:
 
 - lambda nieuw = 1,3 × 45,07 / 43,88 = 1,335
 - de O2-meting stijgt daarmee van 5,2% naar 5,6%
@@ -1284,7 +1284,7 @@ Aardgas bestaat vooral uit methaan (CH4). Verbranden is een reactie met zuurstof
 
 CH4 + 2 O2 → CO2 + 2 H2O + warmte
 
-Voor de kleine componenten in aardgas geldt hetzelfde principe: C2H6 + 3,5 O2 → 2 CO2 + 3 H2O en C3H8 + 5 O2 → 3 CO2 + 4 H2O. Stikstof (N2) in het gas brandt niet mee. Blijft er te weinig lucht of wordt de vlam gekoeld, dan verloopt de reactie niet volledig: dan ontstaat CO ([les 4.4](les:m04l04)).
+Voor de kleine componenten in aardgas geldt hetzelfde principe: C2H6 + 3,5 O2 → 2 CO2 + 3 H2O en C3H8 + 5 O2 → 3 CO2 + 4 H2O. Stikstof (N2) in het gas brandt niet mee. Blijft er te weinig lucht of wordt de vlam gekoeld, dan verloopt de reactie niet volledig: dan ontstaat CO ([les 4.4](https://cv-ketels.keesvanwanrooij.nl/les/onvolledige-verbranding-en-het-ontstaan-van-co/)).
 
 #### Hoeveel lucht heb je nodig
 
@@ -1312,7 +1312,7 @@ Een toestel met 24,0 kW ingangsvermogen (op onderwaarde, Hi) draait op vollast o
 - gasverbruik: 24,0 kW / 8,792 kWh/m³(n) = 2,73 m³(n)/h
 - minimale lucht: 2,73 m³(n)/h × 8,4 m³ lucht per m³ gas = 22,9 m³(n)/h, dat is 6,4 dm³/s
 
-Dit is het theoretische minimum. In werkelijkheid krijgt de vlam meer lucht dan dit; hoeveel en waarom, leer je in [les 4.3](les:m04l03).
+Dit is het theoretische minimum. In werkelijkheid krijgt de vlam meer lucht dan dit; hoeveel en waarom, leer je in [les 4.3](https://cv-ketels.keesvanwanrooij.nl/les/luchtovermaat-lambda-en-het-verband-tussen-o2-en-co2/).
 
 #### De lucht moet schoon zijn
 
@@ -1321,7 +1321,7 @@ Verbrandingslucht moet vrij zijn van chloor- en fluorverbindingen. Die zijn uite
 Ook mag bij een open opstelling de luchttoevoeropening van het toestel niet worden afgesloten en mogen de verbrandingsluchtopeningen van de opstelruimte niet worden verkleind of afgesloten. De luchtstroom moet volgens het Bbl van de toevoervoorziening naar het toestel gaan.
 
 > **Verdieping: waar komt de warmte vandaan?**
-> Bij de reactie ontstaat 2 mol waterdamp per mol methaan. De calorische bovenwaarde Hs (35,17 MJ/m³ voor Groningen-equivalent gas) telt de condensatiewarmte van die damp mee, de onderwaarde Hi (31,65 MJ/m³(n) voor gemiddeld aardgas) niet. De verhouding Hi/Hs is 0,902 voor aardgas. Dat verschil van circa 10% is precies de winst die een condenserende ketel kan halen: zie [les 4.6](les:m04l06).
+> Bij de reactie ontstaat 2 mol waterdamp per mol methaan. De calorische bovenwaarde Hs (35,17 MJ/m³ voor Groningen-equivalent gas) telt de condensatiewarmte van die damp mee, de onderwaarde Hi (31,65 MJ/m³(n) voor gemiddeld aardgas) niet. De verhouding Hi/Hs is 0,902 voor aardgas. Dat verschil van circa 10% is precies de winst die een condenserende ketel kan halen: zie [les 4.6](https://cv-ketels.keesvanwanrooij.nl/les/condensatie-dauwpunt-condensaat-en-rendement/).
 
 **Controleer jezelf:**
 
@@ -1338,7 +1338,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/luchtovermaat-lambda-en-het-verban
 
 #### Lambda: hoeveel lucht je werkelijk geeft
 
-**Lambda** is de verhouding tussen de werkelijk toegevoerde en de theoretisch benodigde hoeveelheid lucht (zie [les 4.2](les:m04l02)). Bij lambda 1,0 is er precies genoeg lucht voor de reactievergelijking, bij lambda 1,2 is er 20% luchtovermaat. Onder lambda 1,0 is er te weinig zuurstof en ontstaat CO. Vlam en lucht mengen nooit perfect, dus een toestel werkt met luchtovermaat. Te veel lucht kost rendement: het extra rookgas voert voelbare warmte af. De Gaskeur-rendementsmeting is afgesproken bij lambda 1,2, wat bij G20 overeenkomt met 9,6% CO2.
+**Lambda** is de verhouding tussen de werkelijk toegevoerde en de theoretisch benodigde hoeveelheid lucht (zie [les 4.2](https://cv-ketels.keesvanwanrooij.nl/les/volledige-verbranding-en-de-luchtbehoefte/)). Bij lambda 1,0 is er precies genoeg lucht voor de reactievergelijking, bij lambda 1,2 is er 20% luchtovermaat. Onder lambda 1,0 is er te weinig zuurstof en ontstaat CO. Vlam en lucht mengen nooit perfect, dus een toestel werkt met luchtovermaat. Te veel lucht kost rendement: het extra rookgas voert voelbare warmte af. De Gaskeur-rendementsmeting is afgesproken bij lambda 1,2, wat bij G20 overeenkomt met 9,6% CO2.
 
 #### Wat je meet: O2 en CO2 in droog rookgas
 
@@ -1369,7 +1369,7 @@ Een veelgebruikte benadering is lambda = 20,94 / (20,94 − O2). Die overschat l
 
 #### Waarom je op O2 afstelt en niet op CO2
 
-Het gedistribueerde G-gas kan tot 10,5% CO2 bevatten. Daardoor kan het rookgas bij stoichiometrische verbranding circa 1 procentpunt extra CO2 bevatten, en dan zegt de CO2-meting niet meer betrouwbaar hoeveel lucht er is. Remeha stelt cv-toestellen daarom niet meer af op CO2 maar op O2. Kiwa eist voor toestellen van categorie I2EK dat de gas/luchtverhouding op een O2-meting wordt ingesteld, met een totale meetonnauwkeurigheid van maximaal 0,3 procentpunt. Ook de Wobbe-index verschuift je O2-meting (zie [les 4.1](les:m04l01)).
+Het gedistribueerde G-gas kan tot 10,5% CO2 bevatten. Daardoor kan het rookgas bij stoichiometrische verbranding circa 1 procentpunt extra CO2 bevatten, en dan zegt de CO2-meting niet meer betrouwbaar hoeveel lucht er is. Remeha stelt cv-toestellen daarom niet meer af op CO2 maar op O2. Kiwa eist voor toestellen van categorie I2EK dat de gas/luchtverhouding op een O2-meting wordt ingesteld, met een totale meetonnauwkeurigheid van maximaal 0,3 procentpunt. Ook de Wobbe-index verschuift je O2-meting (zie [les 4.1](https://cv-ketels.keesvanwanrooij.nl/les/aardgas-in-nederland-gassoorten-gasdruk-en-wobbe/)).
 
 Let op de meting zelf: laat de sonde het meetpunt niet lekken, want meegezogen lucht verdunt het monster. Een te hoge O2-waarde kan wijzen op een lekkend meetsysteem.
 
@@ -1400,7 +1400,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/onvolledige-verbranding-en-het-ont
 
 #### Wat er gebeurt als de verbranding tekortschiet
 
-Bij onvolledige verbranding, door te weinig lucht of een gekoelde vlam, ontstaat CO in plaats van CO2. Een voorbeeld: 2 CH4 + 3 O2 → 2 CO + 4 H2O. Er komt dan minder warmte vrij dan bij volledige verbranding: het toestel verspilt brandstof en maakt een giftig gas. Onder lambda 1,0 is CO onvermijdelijk, want er is te weinig zuurstof (zie [les 4.3](les:m04l03)).
+Bij onvolledige verbranding, door te weinig lucht of een gekoelde vlam, ontstaat CO in plaats van CO2. Een voorbeeld: 2 CH4 + 3 O2 → 2 CO + 4 H2O. Er komt dan minder warmte vrij dan bij volledige verbranding: het toestel verspilt brandstof en maakt een giftig gas. Onder lambda 1,0 is CO onvermijdelijk, want er is te weinig zuurstof (zie [les 4.3](https://cv-ketels.keesvanwanrooij.nl/les/luchtovermaat-lambda-en-het-verband-tussen-o2-en-co2/)).
 
 #### Waar het in de installatie misgaat
 
@@ -1418,7 +1418,7 @@ Een afvoerloos toestel (type A, zoals een keukengeiser) voert rookgas niet af: a
 
 #### CO meten: in de ruimte en in het rookgas
 
-**Ruimte.** Meet voor je begint op circa 1,7 m hoogte en circa 1 m van het toestel (les [1.6](les:m01l06)). Gebruik een instrument met passende uitlezing, bij voorkeur een persoonlijke veiligheidsmeter: een rookgasmeter is voor ruimte-CO alleen indicatief. Ruimte-CO beoordeel je altijd zoals afgelezen.
+**Ruimte.** Meet voor je begint op circa 1,7 m hoogte en circa 1 m van het toestel (les [1.6](https://cv-ketels.keesvanwanrooij.nl/les/afkeuren-melden-en-aansprakelijkheid/)). Gebruik een instrument met passende uitlezing, bij voorkeur een persoonlijke veiligheidsmeter: een rookgasmeter is voor ruimte-CO alleen indicatief. Ruimte-CO beoordeel je altijd zoals afgelezen.
 
 **Rookgas.** Het CO in het rookgas is verdund met de luchtovermaat. Met de luchtvrije waarde corrigeer je daarvoor: het CO dat er in het rookgas zou zitten zonder luchtovermaat. O2 is in procenten van het droge rookgas.
 
@@ -1442,7 +1442,7 @@ Geeft de fabrikant geen maximale CO-waarde, dan noemt het schema (BRL 6000-25, n
 | Gesloten (type C) | 400 ppm |
 
 > **Luchtvrij is een rekenmethode: of de wettelijke grenzen luchtvrij zijn, is niet vastgesteld**
-> Of de grenzen in de tabel luchtvrij zijn of zoals afgelezen, is niet vastgesteld: de tekst van de Omgevingsregeling en van de schema's zegt het niet, en BRL 6000-25 zegt dat de op het instrument aangegeven waarde leidend is. Gebruik de luchtvrije omrekening om metingen bij verschillende luchtovermaat te vergelijken. Beroep je er niet op als wettelijke beoordeling. Twijfel je, vraag je certificerende instelling of docent. Les [10.4](les:m10l04) werkt dit verder uit, met de letterlijke tekst van de wet en van beide meetprotocollen.
+> Of de grenzen in de tabel luchtvrij zijn of zoals afgelezen, is niet vastgesteld: de tekst van de Omgevingsregeling en van de schema's zegt het niet, en BRL 6000-25 zegt dat de op het instrument aangegeven waarde leidend is. Gebruik de luchtvrije omrekening om metingen bij verschillende luchtovermaat te vergelijken. Beroep je er niet op als wettelijke beoordeling. Twijfel je, vraag je certificerende instelling of docent. Les [10.4](https://cv-ketels.keesvanwanrooij.nl/les/een-rookgasmeting-uitvoeren-en-beoordelen/) werkt dit verder uit, met de letterlijke tekst van de wet en van beide meetprotocollen.
 
 > **Verdieping: de giftigheidsindex**
 > Kiwa definieert de giftigheidsindex als (%CO / %CO2) × 100 en eist in de tegendruktesten van BRL Gaskeur CV een waarde van hoogstens 2. Voorbeeld: 100 ppm CO (0,0100%) bij 9,0% CO2 geeft (0,0100 / 9,0) × 100 = 0,11. CO en CO2 worden door luchtovermaat even sterk verdund, dus de verhouding hangt niet van de verdunning af. De eis geldt voor de keuring van het toestel, niet als grens in het veld.
@@ -1483,7 +1483,7 @@ De klachten lijken op griep of voedselvergiftiging, en dat maakt herkenning moei
 |---|---|---|
 | WHO binnenlucht (2010) | 100 mg/m³ per 15 min (circa 86 ppm), 35 mg/m³ per 1 uur (circa 30 ppm), 10 mg/m³ per 8 uur (circa 9 ppm), 7 mg/m³ per 24 uur (circa 6 ppm) | Gezondheidsrichtlijn voor de algemene bevolking, geen keuringsgrens voor toestellen |
 | Wettelijke grenswaarde beroepsmatig (Arbeidsomstandighedenregeling) | 23 mg/m³ (20 ppm) als 8-uursgemiddelde, 117 mg/m³ (100 ppm) als 15-minutengemiddelde | Werknemers, niet bewoners |
-| Schema voor installateurs (BRL 6000-25) | Ruimte onder 5 ppm: in bedrijf stellen. 5 tot 20 ppm: onderzoeken en oorzaak wegnemen. Boven 20 ppm: melden | Jouw handelen als certificaathouder ([les 1.6](les:m01l06)) |
+| Schema voor installateurs (BRL 6000-25) | Ruimte onder 5 ppm: in bedrijf stellen. 5 tot 20 ppm: onderzoeken en oorzaak wegnemen. Boven 20 ppm: melden | Jouw handelen als certificaathouder ([les 1.6](https://cv-ketels.keesvanwanrooij.nl/les/afkeuren-melden-en-aansprakelijkheid/)) |
 | Handelingskader voor gemeenten | 20 tot 400 ppm: onderzoek door BWT, het kader koppelt dit bereik aan milde klachten. Boven 400 ppm: ernstige hoofdpijn en levensgevaar, brandweer en ontruiming | Handreiking voor gemeenten, geen gezondheidsnorm. Milde klachten betekent niet ongevaarlijk: boven 20 ppm meld je altijd |
 
 De Gezondheidsraad adviseerde in 2024 een lagere advieswaarde voor beroepsmatige blootstelling van 7,5 mg/m³ (6,4 ppm) als 8-uursgemiddelde. In de bijlage XIII die is nagelopen voor deze cursus (september 2026) staat nog 20 ppm.
@@ -1580,7 +1580,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/co-in-de-woning-bronnen-melders-en
 
 #### Waar CO in een woning vandaan komt
 
-Naast cv-ketels zijn er veel andere bronnen: afvoerloze geisers, gashaarden en open haarden, hout-, kolen- en pelletkachels, gasfornuizen, roken, waterpijp (ook shishalounges onder woningen), tafelbarbecues, opslag van houtpellets, kaarsen en wierook, en verkeer (circa 1 tot 2 ppm nabij drukke wegen). In woningen zonder bronnen is de gemiddelde CO-concentratie circa 0,4 ppm en in de buitenlucht onder 1 ppm. Bij afvoerloze toestellen meet je al snel 1 tot 2 ppm. Kiwa Technology schatte in 2022 dat de kans op een CO-incident bij een geiser ongeveer 20 keer groter is dan bij een cv-installatie. Hoe CO bij een cv-installatie ontstaat, staat in [les 4.4](les:m04l04).
+Naast cv-ketels zijn er veel andere bronnen: afvoerloze geisers, gashaarden en open haarden, hout-, kolen- en pelletkachels, gasfornuizen, roken, waterpijp (ook shishalounges onder woningen), tafelbarbecues, opslag van houtpellets, kaarsen en wierook, en verkeer (circa 1 tot 2 ppm nabij drukke wegen). In woningen zonder bronnen is de gemiddelde CO-concentratie circa 0,4 ppm en in de buitenlucht onder 1 ppm. Bij afvoerloze toestellen meet je al snel 1 tot 2 ppm. Kiwa Technology schatte in 2022 dat de kans op een CO-incident bij een geiser ongeveer 20 keer groter is dan bij een cv-installatie. Hoe CO bij een cv-installatie ontstaat, staat in [les 4.4](https://cv-ketels.keesvanwanrooij.nl/les/onvolledige-verbranding-en-het-ontstaan-van-co/).
 
 #### De CO-melder: wat hij wel en niet doet
 
@@ -1613,7 +1613,7 @@ Bij plaatsing raadpleeg je het advies van Brandweer Nederland, en je legt vast o
 > **Bij een CO-alarm: waarschuwen, naar buiten, 112**
 > Bij een CO-alarm waarschuw je iedereen, ga je direct naar buiten en bel je 112 (Brandweer Nederland). Bij acuut gevaar of een ernstig vergiftigde bewoner bel je altijd 112. Bij CO boven 400 ppm in de ruimte schakelt de gemeente volgens het handelingskader de brandweer in en wordt zo nodig ontruimd. Melden en oorzaak zoeken komt daarna.
 
-Wat je als certificaathouder daarna doet (het toestel buiten bedrijf stellen, melden aan vier partijen, vastleggen) staat in [les 1.6](les:m01l06). Voor je eigen veiligheid neem je bij voorkeur een persoonlijke CO-veiligheidsmeter mee. De BRL 6000-25 noemt die als voorkeursinstrument naast de rookgasmeter.
+Wat je als certificaathouder daarna doet (het toestel buiten bedrijf stellen, melden aan vier partijen, vastleggen) staat in [les 1.6](https://cv-ketels.keesvanwanrooij.nl/les/afkeuren-melden-en-aansprakelijkheid/). Voor je eigen veiligheid neem je bij voorkeur een persoonlijke CO-veiligheidsmeter mee. De BRL 6000-25 noemt die als voorkeursinstrument naast de rookgasmeter.
 
 **Controleer jezelf:**
 
@@ -1662,13 +1662,13 @@ Een HR-ketel bestaat uit tientallen onderdelen, maar er stromen maar vier dingen
 
 #### Het pad van gas en lucht
 
-Volgens Remeha zuigt in de Calenta (handleiding 2017) de ventilator de lucht aan, wordt het gas in de venturi aan de inlaatzijde van de ventilator ingespoten en gaat het gas-luchtmengsel naar de brander bovenin de warmtewisselaar. Het mengsel wordt dus gemaakt voordat het de brander bereikt: dat is wat 'voorgemengd' betekent. Dit is een voorbeeld van één merk en model: de opbouw verschilt per fabrikant. Hoe gas en lucht op elkaar worden afgestemd, lees je in [les 5.2](les:m05l02).
+Volgens Remeha zuigt in de Calenta (handleiding 2017) de ventilator de lucht aan, wordt het gas in de venturi aan de inlaatzijde van de ventilator ingespoten en gaat het gas-luchtmengsel naar de brander bovenin de warmtewisselaar. Het mengsel wordt dus gemaakt voordat het de brander bereikt: dat is wat 'voorgemengd' betekent. Dit is een voorbeeld van één merk en model: de opbouw verschilt per fabrikant. Hoe gas en lucht op elkaar worden afgestemd, lees je in [les 5.2](https://cv-ketels.keesvanwanrooij.nl/les/brander-venturi-en-gas-luchtverhouding/).
 
 #### Het pad van water en rookgas
 
 Het rookgas geeft zijn warmte af aan het cv-water. Komt het rookgas onder het condensatiepunt (volgens Remeha ongeveer 55 °C voor dit toestel), dan condenseert de waterdamp in het onderste deel van de warmtewisselaar. De latente warmte gaat naar het cv-water en het condenswater loopt via een sifon af. Het condensatiepunt is geen vast getal: berekeningen geven een dauwpunt van ongeveer 59 °C bij lambda 1,0 en ongeveer 54 °C bij lambda 1,3. Hoe koud het water terugkomt, bepaalt dus of de ketel kan condenseren.
 
-De sifon werkt als waterslot. Remeha vraagt bij de Calenta de sifon vóór de inbedrijfstelling met water te vullen tot de markeringsstreep, om te voorkomen dat rookgassen in het vertrek komen. Het rookgas is bovendien nat: de afvoer van een condenserende ketel heeft een weerstandsklasse tegen condensaten W nodig (volgens het installatievoorschrift van de Intergas Kombi Kompakt HRE, 2018). Zie [module 8](module:m08).
+De sifon werkt als waterslot. Remeha vraagt bij de Calenta de sifon vóór de inbedrijfstelling met water te vullen tot de markeringsstreep, om te voorkomen dat rookgassen in het vertrek komen. Het rookgas is bovendien nat: de afvoer van een condenserende ketel heeft een weerstandsklasse tegen condensaten W nodig (volgens het installatievoorschrift van de Intergas Kombi Kompakt HRE, 2018). Zie [module 8](https://cv-ketels.keesvanwanrooij.nl/module/rookgasafvoer-en-luchttoevoer/).
 
 > **Waar de stromen elkaar raken**
 > Gas en lucht mengen voor de brander (Remeha Calenta: in de venturi), rookgas en water wisselen warmte uit in de warmtewisselaar. Een storing zit in een van de vier stromen of op een van die twee plekken: dat is je eerste ordening.
@@ -1681,7 +1681,7 @@ Volledige verbranding van methaan is CH4 + 2 O2 -> CO2 + 2 H2O + warmte. Per m3 
 2. Luchtbehoefte: 2 / 0,2094 = 9,55 m3 lucht per m3 gas.
 3. Voor gas met 86% methaan en 14% stikstof (G25-achtig) is dat 8,21 m3 lucht per m3 gas.
 
-Neem de Remeha Avanta 24c (handleiding versie 13, 2020) bij 80/60 °C: 17,8 kW nuttig vermogen bij 99,1% rendement op onderwaarde geeft ongeveer 2,04 m3(n) gas per uur (m3(n) is het volume bij 0 °C en 101,325 kPa). De theoretische luchtbehoefte is dan 2,04 x 8,21 = 16,7 m3(n) per uur. Kiwa meet het rendement bij een luchtovermaat van lambda 1,2: dan is de luchtstroom 16,7 x 1,2 = 20,1 m3(n) per uur. Per m3(n) gas gaan er dus minstens 8 tot 10 m3(n) lucht door de ketel: luchttoevoer en rookgasafvoer zijn een groot deel van wat een ketel verwerkt. In [les 1.1](les:m01l01) staat de rookgasafvoer bovenaan de CO-meldingen; wat daar de oorzaak van is, volgt niet uit dit rekenvoorbeeld.
+Neem de Remeha Avanta 24c (handleiding versie 13, 2020) bij 80/60 °C: 17,8 kW nuttig vermogen bij 99,1% rendement op onderwaarde geeft ongeveer 2,04 m3(n) gas per uur (m3(n) is het volume bij 0 °C en 101,325 kPa). De theoretische luchtbehoefte is dan 2,04 x 8,21 = 16,7 m3(n) per uur. Kiwa meet het rendement bij een luchtovermaat van lambda 1,2: dan is de luchtstroom 16,7 x 1,2 = 20,1 m3(n) per uur. Per m3(n) gas gaan er dus minstens 8 tot 10 m3(n) lucht door de ketel: luchttoevoer en rookgasafvoer zijn een groot deel van wat een ketel verwerkt. In [les 1.1](https://cv-ketels.keesvanwanrooij.nl/les/wat-een-cv-monteur-doet-en-waarom-dit-vak-levens-redt/) staat de rookgasafvoer bovenaan de CO-meldingen; wat daar de oorzaak van is, volgt niet uit dit rekenvoorbeeld.
 
 #### Praktijkgeval: wel vonk, geen vlam
 
@@ -1692,7 +1692,7 @@ De Remeha Avanta (handleiding 2019) noemt bij 'wel ontstekingsvonk maar geen vla
 - Elektra: netvoeding.
 - Brander en afstelling: elektrode, O2 bij vol- en laaglast.
 
-Wie alleen aan de elektrode denkt, vervangt onderdelen die niet stuk zijn. Bij een combiketel komt er nog een route bij, de platenwarmtewisselaar voor tapwater: zie [les 5.6](les:m05l06).
+Wie alleen aan de elektrode denkt, vervangt onderdelen die niet stuk zijn. Bij een combiketel komt er nog een route bij, de platenwarmtewisselaar voor tapwater: zie [les 5.6](https://cv-ketels.keesvanwanrooij.nl/les/pomp-3-wegklep-en-tapwaterbereiding/).
 
 **Controleer jezelf:**
 
@@ -1709,7 +1709,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/brander-venturi-en-gas-luchtverhou
 
 #### Waarom gas en lucht op elkaar moeten passen
 
-Bij een voorgemengde brander wordt het gas in de venturi bij de lucht gevoegd en gaat het mengsel als geheel naar de brander (Remeha Calenta, zie [les 5.1](les:m05l01)). Te weinig lucht geeft onvolledige verbranding en dus CO. Te veel lucht voert onnodig veel warmte met het rookgas af, wat het rendement drukt. Remeha beschrijft daarom voor de Calenta een continu geregelde gas-/luchtkoppeling, zodat gas en lucht over het hele belastingbereik op elkaar zijn afgestemd.
+Bij een voorgemengde brander wordt het gas in de venturi bij de lucht gevoegd en gaat het mengsel als geheel naar de brander (Remeha Calenta, zie [les 5.1](https://cv-ketels.keesvanwanrooij.nl/les/het-hoofdstromingspad-gas-lucht-water-en-rookgas/)). Te weinig lucht geeft onvolledige verbranding en dus CO. Te veel lucht voert onnodig veel warmte met het rookgas af, wat het rendement drukt. Remeha beschrijft daarom voor de Calenta een continu geregelde gas-/luchtkoppeling, zodat gas en lucht over het hele belastingbereik op elkaar zijn afgestemd.
 
 Hoe die koppeling is gebouwd, verschilt per toestel. Je hoort dat sommige gasblokken het gas 'pneumatisch' op de luchtdruk in de venturi regelen en andere elektronisch. Dat onderscheid is in onze bronnen niet met een fabrikant- of normbron bevestigd, dus we stellen het niet als regel. Wat wel vaststaat: een elektronisch zelfinstellend gasblok van Remeha vergelijkt de ionisatiestroom, het aantal start-stops, de primaire rookgastemperatuur en het PWM-signaal met krommen in de printplaat en past daarmee de gas-luchtverhouding automatisch aan. Bij andere toestellen lees je in de handleiding hoe het werkt.
 
@@ -1768,7 +1768,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/gasblok-en-gasafsluiting/
 
 #### Wat het gasblok in de keten doet
 
-Het gasblok hoort bij de stroom gas in de ketel: het gas gaat er doorheen op weg naar het punt waar het bij de lucht komt (bij de Remeha Calenta de venturi). In de fabrikantdocumenten zie je wat je er als monteur mee doet: op het gasblok zit het meetpunt voor de voordruk (Intergas Kombi Kompakt HRE: meetnippel D, Remeha Calenta Ace: meetpunt C), bij een ander gas dan aardgas moet het gasblok worden aangepast voordat de ketel wordt aangezet (Remeha Calenta Ace) en hoe de gas-luchtverhouding wordt bijgesteld, verschilt per toestel (zie [les 5.2](les:m05l02)). Bij de eerste inbedrijfstelling ontluchten Intergas en Remeha de gasleiding via het voordrukmeetpunt, waarna alle koppelingen op lekkage worden gecontroleerd en de voordruk wordt gemeten. Hoe je dat bij jouw toestel doet, staat in de handleiding: volg die procedure.
+Het gasblok hoort bij de stroom gas in de ketel: het gas gaat er doorheen op weg naar het punt waar het bij de lucht komt (bij de Remeha Calenta de venturi). In de fabrikantdocumenten zie je wat je er als monteur mee doet: op het gasblok zit het meetpunt voor de voordruk (Intergas Kombi Kompakt HRE: meetnippel D, Remeha Calenta Ace: meetpunt C), bij een ander gas dan aardgas moet het gasblok worden aangepast voordat de ketel wordt aangezet (Remeha Calenta Ace) en hoe de gas-luchtverhouding wordt bijgesteld, verschilt per toestel (zie [les 5.2](https://cv-ketels.keesvanwanrooij.nl/les/brander-venturi-en-gas-luchtverhouding/)). Bij de eerste inbedrijfstelling ontluchten Intergas en Remeha de gasleiding via het voordrukmeetpunt, waarna alle koppelingen op lekkage worden gecontroleerd en de voordruk wordt gemeten. Hoe je dat bij jouw toestel doet, staat in de handleiding: volg die procedure.
 
 #### Gasafsluiting: wat vaststaat
 
@@ -1827,7 +1827,7 @@ Een gasvlam ioniseert de lucht eromheen. Over de elektroden staat een wisselspan
 
 De stroom is heel klein, in microampère (µA), en dus gevoelig voor alles wat de stroomkring verstoort. Remeha noemt bij de Calenta bij geen vonk of onvoldoende ionisatie als controle: controleer de aarding. Een stroom heeft een gesloten kring nodig: dat past bij die controle.
 
-Het signaal doet meer dan 'vlam ja of nee': een elektronisch zelfinstellend gasblok gebruikt het ook voor de gas-luchtverhouding (zie [les 5.2](les:m05l02)).
+Het signaal doet meer dan 'vlam ja of nee': een elektronisch zelfinstellend gasblok gebruikt het ook voor de gas-luchtverhouding (zie [les 5.2](https://cv-ketels.keesvanwanrooij.nl/les/brander-venturi-en-gas-luchtverhouding/)).
 
 > **De ionisatiestroom is het bewijs dat er vlam is**
 > Ziet de ketel geen of te weinig stroom, dan beslist hij dat er geen vlam is, ook als er wel een vlam brandt. Lage ionisatie is dus niet altijd een gasprobleem: het kan ook de pen, de afstand, de aarding of de verbranding zijn.
@@ -2018,7 +2018,7 @@ De ketel regelt en beveiligt op wat hij meet. Een meetwaarde die niet klopt, gee
 | Waterdruk | Remeha Calenta (2017), ATAG i-Serie (2018) | Calenta: minimaal 0,8 bar, maximaal 3,0 bar. ATAG: code 118 onder 0,7 bar, code 117 boven 3 bar |
 | Doorstroming | Intergas Kombi Kompakt HRE, Remeha Calenta (2017) | Intergas heeft een stromingssensor en een druksensor CV. Remeha bewaakt doorstroming op basis van temperatuurmetingen |
 | Ventilatortoerental | Remeha Calenta (2017), Intergas Kombi Kompakt HRE (2018) | Calenta toont het toerental in omw/min (code Mf). Intergas meldt code 8: ventilatortoerental niet juist |
-| Vlam | Alle ketels met ionisatie | Zie [les 5.4](les:m05l04) |
+| Vlam | Alle ketels met ionisatie | Zie [les 5.4](https://cv-ketels.keesvanwanrooij.nl/les/ontsteking-en-vlambewaking/) |
 
 #### De NTC: weerstand in plaats van temperatuur
 
@@ -2116,7 +2116,7 @@ Begin altijd met de foutcode en de foutgeschiedenis. Vaillant (ecoTEC plus VHR) 
 
 #### Praktijkgeval: geen verwarming, foutcode 4
 
-Een Intergas Kombi Kompakt HRE meldt code 4: geen vlamsignaal. Je hoort de ventilator en de vonken. Dus stap 1 tot 6 werken. Vonken zijn er, dus de ontsteking geeft in elk geval een vonk. Dat zegt niets over de ontsteekafstand of over de ionisatie. Blijft over: komt er wel gas (kraan, voordruk 20 mbar en hoger), en is er wel vlam die de ketel niet ziet (ionisatie, aarding, ontsteekafstand)? Je meet de voordruk dynamisch, met het toestel in bedrijf (zie [les 5.3](les:m05l03)) en leest de ionisatie uit (zie [les 5.4](les:m05l04)).
+Een Intergas Kombi Kompakt HRE meldt code 4: geen vlamsignaal. Je hoort de ventilator en de vonken. Dus stap 1 tot 6 werken. Vonken zijn er, dus de ontsteking geeft in elk geval een vonk. Dat zegt niets over de ontsteekafstand of over de ionisatie. Blijft over: komt er wel gas (kraan, voordruk 20 mbar en hoger), en is er wel vlam die de ketel niet ziet (ionisatie, aarding, ontsteekafstand)? Je meet de voordruk dynamisch, met het toestel in bedrijf (zie [les 5.3](https://cv-ketels.keesvanwanrooij.nl/les/gasblok-en-gasafsluiting/)) en leest de ionisatie uit (zie [les 5.4](https://cv-ketels.keesvanwanrooij.nl/les/ontsteking-en-vlambewaking/)).
 
 #### Veilig werken tijdens het zoeken
 
@@ -2207,11 +2207,11 @@ Zo'n bericht zie je nooit rechtstreeks als monteur, maar het verklaart waarom ee
 
 Modulatie is niet alleen comfort, het raakt ook direct het rendement. Een HR-ketel condenseert meer waterdamp uit het rookgas naarmate de retourtemperatuur lager is. Een weersafhankelijke of modulerende regeling houdt de aanvoer- en dus de retourtemperatuur bij mild weer laag, in plaats van steeds op de vaste, hoge waarde van een handbediende thermostaat. Milieu Centraal noemt voor een modulerende slimme thermostaat een besparing van ongeveer 3% op de verwarmingskosten ten opzichte van een gewone aan/uit-thermostaat: de ketel brandt minder hard zodra er minder warmte nodig is, in plaats van steeds vol vermogen te leveren tot de temperatuur is bereikt.
 
-Modulatie heeft wel een ondergrens. Een Remeha Calenta 25s heeft een minimale belasting van 5,2 kW. Is de warmtevraag van de woning lager, bijvoorbeeld 3 kW op een milde dag, dan kan de ketel niet verder terugregelen: hij slaat aan en uit. Dat heet pendelen en is geen storing, het is de ketel die zijn ondergrens heeft bereikt. Hoe je dat herkent en wat je eraan doet bij zoneregeling, lees je in [les 6.3](les:m06l03).
+Modulatie heeft wel een ondergrens. Een Remeha Calenta 25s heeft een minimale belasting van 5,2 kW. Is de warmtevraag van de woning lager, bijvoorbeeld 3 kW op een milde dag, dan kan de ketel niet verder terugregelen: hij slaat aan en uit. Dat heet pendelen en is geen storing, het is de ketel die zijn ondergrens heeft bereikt. Hoe je dat herkent en wat je eraan doet bij zoneregeling, lees je in [les 6.3](https://cv-ketels.keesvanwanrooij.nl/les/slimme-thermostaten-en-zoneregeling/).
 
 #### Praktijkgeval: "mijn slimme thermostaat doet niks"
 
-Een klant heeft zelf een OpenTherm-thermostaat gekocht en aangesloten op een ketel met een eigen bus (bijvoorbeeld Vaillant eBUS). De thermostaat schakelt aan en uit, maar moduleert niet: hij "praat" niet dezelfde taal als de ketel verwacht, of de ketel staat nog op aan/uit-aansturing ingesteld. Voor je een dergelijke storing zoekt in de elektronica, controleer je eerst of het protocol van de thermostaat en van de ketel bij elkaar passen, en of de klemmen zijn aangesloten zoals de handleiding van de ketel voorschrijft (zie ook [les 5.1 tot 5.3](les:m05l03) voor hoe je een storing systematisch ordent per stroom).
+Een klant heeft zelf een OpenTherm-thermostaat gekocht en aangesloten op een ketel met een eigen bus (bijvoorbeeld Vaillant eBUS). De thermostaat schakelt aan en uit, maar moduleert niet: hij "praat" niet dezelfde taal als de ketel verwacht, of de ketel staat nog op aan/uit-aansturing ingesteld. Voor je een dergelijke storing zoekt in de elektronica, controleer je eerst of het protocol van de thermostaat en van de ketel bij elkaar passen, en of de klemmen zijn aangesloten zoals de handleiding van de ketel voorschrijft (zie ook [les 5.1 tot 5.3](https://cv-ketels.keesvanwanrooij.nl/les/gasblok-en-gasafsluiting/) voor hoe je een storing systematisch ordent per stroom).
 
 **Controleer jezelf:**
 
@@ -2229,7 +2229,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/weersafhankelijk-regelen-en-de-sto
 
 #### Wat een buitenvoeler toevoegt
 
-Zonder buitenvoeler regelt een ketel op een vaste, door jou of de bewoner ingestelde aanvoertemperatuur: die verandert niet vanzelf als het buiten warmer of kouder wordt. Sluit je een buitenvoeler aan, dan kan de regeling weersafhankelijk gaan werken: ze meet de buitentemperatuur en de aanvoerwatertemperatuur, en berekent daaruit het vermogen dat nodig is. Het gevolg is dat de ketel langer en op een lager niveau in bedrijf is, in plaats van kort en op hoog vermogen: precies het soort modulerend gedrag dat je in [les 6.1](les:m06l01) al zag, maar dan aangestuurd door het weer in plaats van door de kamertemperatuur alleen.
+Zonder buitenvoeler regelt een ketel op een vaste, door jou of de bewoner ingestelde aanvoertemperatuur: die verandert niet vanzelf als het buiten warmer of kouder wordt. Sluit je een buitenvoeler aan, dan kan de regeling weersafhankelijk gaan werken: ze meet de buitentemperatuur en de aanvoerwatertemperatuur, en berekent daaruit het vermogen dat nodig is. Het gevolg is dat de ketel langer en op een lager niveau in bedrijf is, in plaats van kort en op hoog vermogen: precies het soort modulerend gedrag dat je in [les 6.1](https://cv-ketels.keesvanwanrooij.nl/les/thermostaten-aan-uit-modulerend-en-opentherm/) al zag, maar dan aangestuurd door het weer in plaats van door de kamertemperatuur alleen.
 
 Bij Intergas bepaalt bij een aan/uit-thermostaat de in de branderautomaat geprogrammeerde stooklijn de gewenste aanvoertemperatuur, met de op het display ingestelde temperatuur als maximum. Bij een OpenTherm-thermostaat neemt de thermostaat die rol over. Bij Remeha regelt de Calenta met een buitensensor bij een aan/uit-thermostaat via een interne, instelbare stooklijn.
 
@@ -2242,7 +2242,7 @@ Intergas werkt met vier hoekpunten: een fabrieksinstelling van Tmax CV 80 graden
 Vaillant werkt bij de ecoTEC plus VHR met een dimensieloos stooklijngetal tussen 0,1 en 4,0 (in stappen van 0,05), gekoppeld aan een gewenste kamertemperatuur.
 
 > **De stooklijn is een instelling, geen vast recept**
-> Precies zoals bij de gas-luchtverhouding in [les 5.2](les:m05l02) geldt: er bestaat geen "juiste" stooklijnwaarde in het algemeen. De juiste stooklijn hangt af van het merk toestel, de isolatie van de woning en het afgiftesysteem (radiatoren of vloerverwarming). Stel bij, meet het effect en pas opnieuw aan, in plaats van een vast getal uit je hoofd te gebruiken.
+> Precies zoals bij de gas-luchtverhouding in [les 5.2](https://cv-ketels.keesvanwanrooij.nl/les/brander-venturi-en-gas-luchtverhouding/) geldt: er bestaat geen "juiste" stooklijnwaarde in het algemeen. De juiste stooklijn hangt af van het merk toestel, de isolatie van de woning en het afgiftesysteem (radiatoren of vloerverwarming). Stel bij, meet het effect en pas opnieuw aan, in plaats van een vast getal uit je hoofd te gebruiken.
 
 #### Rekenvoorbeeld: de stooklijn van een Vaillant ecoTEC plus VHR
 
@@ -2265,7 +2265,7 @@ Een lagere ingestelde temperatuur betekent ook een lagere aanvoer- en dus een la
 
 #### Praktijkgeval: "'s ochtends duurt het te lang voor het warm is"
 
-Een bewoner klaagt dat de woning 's ochtends na de nachtverlaging te langzaam opwarmt. Voor je de stooklijn zomaar steiler zet, controleer je eerst het afgiftesysteem: bij vloerverwarming ligt de aanvoertemperatuur en dus het beschikbare vermogen veel lager dan bij radiatoren, en de vloer heeft door zijn massa meer tijd nodig om op te warmen. Een kleinere nachtverlaging (bijvoorbeeld 2 graden in plaats van 5) geeft dan vaak een beter resultaat dan een agressievere stooklijn, die het rendement bij mild weer juist verslechtert. Zie ook [les 3.6](les:m03l06) voor de relatie tussen delta T, debiet en afgifte.
+Een bewoner klaagt dat de woning 's ochtends na de nachtverlaging te langzaam opwarmt. Voor je de stooklijn zomaar steiler zet, controleer je eerst het afgiftesysteem: bij vloerverwarming ligt de aanvoertemperatuur en dus het beschikbare vermogen veel lager dan bij radiatoren, en de vloer heeft door zijn massa meer tijd nodig om op te warmen. Een kleinere nachtverlaging (bijvoorbeeld 2 graden in plaats van 5) geeft dan vaak een beter resultaat dan een agressievere stooklijn, die het rendement bij mild weer juist verslechtert. Zie ook [les 3.6](https://cv-ketels.keesvanwanrooij.nl/les/delta-t-en-debiet/) voor de relatie tussen delta T, debiet en afgifte.
 
 **Controleer jezelf:**
 
@@ -2283,7 +2283,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/slimme-thermostaten-en-zoneregelin
 
 #### Wat een slimme thermostaat toevoegt aan modulerend regelen
 
-In [les 6.1](les:m06l01) zag je het verschil tussen aan/uit, modulerend en OpenTherm. Een slimme thermostaat bouwt daarop voort: hij is meestal via een app te bedienen, kan zelfprogrammerend zijn (het weekritme van de bewoner leren) en is soms uit te breiden met losse slimme radiatorknoppen op de radiatoren of te koppelen aan een slimme energiemeter. Niet elke slimme thermostaat werkt overigens even goed: de functies verschillen sterk per merk en model, dus een merk aanraden hoort niet bij het werk van een monteur, wel uitleggen wat de functies technisch betekenen.
+In [les 6.1](https://cv-ketels.keesvanwanrooij.nl/les/thermostaten-aan-uit-modulerend-en-opentherm/) zag je het verschil tussen aan/uit, modulerend en OpenTherm. Een slimme thermostaat bouwt daarop voort: hij is meestal via een app te bedienen, kan zelfprogrammerend zijn (het weekritme van de bewoner leren) en is soms uit te breiden met losse slimme radiatorknoppen op de radiatoren of te koppelen aan een slimme energiemeter. Niet elke slimme thermostaat werkt overigens even goed: de functies verschillen sterk per merk en model, dus een merk aanraden hoort niet bij het werk van een monteur, wel uitleggen wat de functies technisch betekenen.
 
 #### Zoneregeling: comfort met een hydraulische prijs
 
@@ -2295,11 +2295,11 @@ Comfort en energiebesparing zijn de voordelen, maar zoneregeling heeft ook een h
 - **Te weinig debiet voor de pomp.** Sluiten bijna alle thermostatische radiatorkranen tegelijk, dan kan de pomp het water niet meer rondpompen: de ketel kan de opgewekte warmte niet meer kwijt. Intergas noemt in het installatievoorschrift bij vloerverwarmingszones expliciet: zorg voor een minimale watercirculatie en plaats eventueel een bypassventiel. Vaillant bouwt bij de ecoTEC plus VHR een instelbare bypass-functie in (parameter met standen als "zonder bypass" en "bypass"), die de warmteopwekker hydraulisch kan ontkoppelen van bijvoorbeeld een open verdeler of een buffer.
 
 > **Een bypass houdt de installatie draaiende, niet de bewoner warm**
-> Een automatische bypassklep of een ingebouwde bypass-functie zorgt dat er altijd een minimum aan water blijft circuleren, ook als alle kranen dicht staan. Dat voorkomt dat de ketel tegen een (bijna) gesloten circuit aan pompt en in storing valt of gaat pendelen. Zonder minimale doorstroming leidt in [les 3.4](les:m03l04) al de pompkarakteristiek naar dit probleem: een pomp die tegen een steeds hogere weerstand werkt, levert steeds minder debiet.
+> Een automatische bypassklep of een ingebouwde bypass-functie zorgt dat er altijd een minimum aan water blijft circuleren, ook als alle kranen dicht staan. Dat voorkomt dat de ketel tegen een (bijna) gesloten circuit aan pompt en in storing valt of gaat pendelen. Zonder minimale doorstroming leidt in [les 3.4](https://cv-ketels.keesvanwanrooij.nl/les/de-pomp-opvoerhoogte-weerstand-en-werkpunt/) al de pompkarakteristiek naar dit probleem: een pomp die tegen een steeds hogere weerstand werkt, levert steeds minder debiet.
 
 #### Rekenvoorbeeld: waarom sluiten alle kranen tegelijk een probleem is
 
-Een installatie heeft 8 radiatoren met elk een thermostatische kraan. Op een zonnige middag hebben 7 van de 8 kamers hun ingestelde temperatuur al bereikt en sluiten hun kranen. Nog maar 1 radiator (bijvoorbeeld in een noordkamer) vraagt warmte. Het leidingnet naar die ene radiator moet dan bijna het volledige debiet van de pomp verwerken, wat kan leiden tot suizend water (te hoge stroomsnelheid, zie [les 3.6](les:m03l06)) of, in het ergste geval, dat ook die laatste kraan dichtklapt en de pomp tegen een vrijwel gesloten circuit werkt. Een bypass (los ventiel of ingebouwde functie) geeft de pomp dan altijd een uitweg.
+Een installatie heeft 8 radiatoren met elk een thermostatische kraan. Op een zonnige middag hebben 7 van de 8 kamers hun ingestelde temperatuur al bereikt en sluiten hun kranen. Nog maar 1 radiator (bijvoorbeeld in een noordkamer) vraagt warmte. Het leidingnet naar die ene radiator moet dan bijna het volledige debiet van de pomp verwerken, wat kan leiden tot suizend water (te hoge stroomsnelheid, zie [les 3.6](https://cv-ketels.keesvanwanrooij.nl/les/delta-t-en-debiet/)) of, in het ergste geval, dat ook die laatste kraan dichtklapt en de pomp tegen een vrijwel gesloten circuit werkt. Een bypass (los ventiel of ingebouwde functie) geeft de pomp dan altijd een uitweg.
 
 #### Praktijkgeval: geluidsklachten na installatie van slimme radiatorknoppen
 
@@ -2523,7 +2523,7 @@ Milieu Centraal noemt ter vergelijking voor de opwarming van cv-water door een w
 
 #### Gevolgen voor het benodigde oppervlak
 
-Hoe lager je wilt stoken, hoe groter het afgiftesysteem moet zijn om hetzelfde vermogen te leveren. Dat raakt ook de hydraulica uit module 3: bij een kleiner temperatuurverschil tussen aanvoer en retour is voor hetzelfde vermogen een groter debiet nodig (zie de debietformule in [les 3.6](les:m03l06)). Een radiatorcircuit is bijvoorbeeld vaak ontworpen op een delta T van ongeveer 20 K; vloerverwarming werkt met een veel kleiner delta T (les 7.4) en dus met een ander debiet per vermogen.
+Hoe lager je wilt stoken, hoe groter het afgiftesysteem moet zijn om hetzelfde vermogen te leveren. Dat raakt ook de hydraulica uit module 3: bij een kleiner temperatuurverschil tussen aanvoer en retour is voor hetzelfde vermogen een groter debiet nodig (zie de debietformule in [les 3.6](https://cv-ketels.keesvanwanrooij.nl/les/delta-t-en-debiet/)). Een radiatorcircuit is bijvoorbeeld vaak ontworpen op een delta T van ongeveer 20 K; vloerverwarming werkt met een veel kleiner delta T (les 7.4) en dus met een ander debiet per vermogen.
 
 > **Verdieping: waarom stijgt het rendement niet onbeperkt door?**
 > Onder het condensatiepunt condenseert er steeds meer waterdamp naarmate de retourtemperatuur daalt, maar de winst wordt kleiner naarmate je al lager zit: het grootste deel van de winst komt bij de eerste stap onder het condensatiepunt. Reken daarom niet automatisch met "hoe lager, hoe evenredig meer rendement": het is een dalende meeropbrengst, geen rechte lijn.
@@ -2619,7 +2619,7 @@ Naast de aanvoertemperatuur kan elke ruimte een eigen kamerregeling krijgen. Upo
 
 #### Kringlengtes en debiet per kring
 
-Bij vloerverwarming is het temperatuurverschil tussen aanvoer en retour per kring meestal klein: kleiner dan bij een radiatorcircuit, dat vaak op ongeveer 20 K wordt ontworpen ([les 3.6](les:m03l06)). Met de debietformule (debiet in l/h is vermogen in W gedeeld door 1,163 keer delta T in K) geeft een klein delta T bij een gelijk vermogen een groter benodigd debiet dan bij een radiatorcircuit.
+Bij vloerverwarming is het temperatuurverschil tussen aanvoer en retour per kring meestal klein: kleiner dan bij een radiatorcircuit, dat vaak op ongeveer 20 K wordt ontworpen ([les 3.6](https://cv-ketels.keesvanwanrooij.nl/les/delta-t-en-debiet/)). Met de debietformule (debiet in l/h is vermogen in W gedeeld door 1,163 keer delta T in K) geeft een klein delta T bij een gelijk vermogen een groter benodigd debiet dan bij een radiatorcircuit.
 
 Rekenvoorbeeld: een kring verwarmt een ruimte van ongeveer 15 m2 met een geschat vermogen van 750 W. Neem als aanname een delta T van 5 K (een typische, kleinere waarde voor vloerverwarming; controleer bij een echt ontwerp altijd de opgave van de fabrikant van het gekozen systeem):
 
@@ -2627,7 +2627,7 @@ Debiet = 750 / (1,163 x 5) = ongeveer 129 l/h
 
 Vergelijk dat met een radiatorcircuit van hetzelfde vermogen op een delta T van 20 K: 750 / (1,163 x 20) = ongeveer 32 l/h. Bij hetzelfde vermogen vraagt de vloerverwarmingskring dus ongeveer vier keer zoveel debiet als het radiatorcircuit, precies omdat het delta T vier keer zo klein is.
 
-Sluit je een vloerverwarmingsverdeler met een eigen pomp aan op de ketel, zorg dan voor een hydraulisch neutrale aansluiting: is die er niet, dan kan er ongewenste circulatie over het ketelcircuit ontstaan, ook als er geen warmtevraag is. Het daadwerkelijk instellen van het debiet per kring (inregelen) hoort bij het onderwerp van [module 14](module:m14): hier gaat het om wat de verdeler en de kring zijn, niet om de inregelprocedure zelf.
+Sluit je een vloerverwarmingsverdeler met een eigen pomp aan op de ketel, zorg dan voor een hydraulisch neutrale aansluiting: is die er niet, dan kan er ongewenste circulatie over het ketelcircuit ontstaan, ook als er geen warmtevraag is. Het daadwerkelijk instellen van het debiet per kring (inregelen) hoort bij het onderwerp van [module 14](https://cv-ketels.keesvanwanrooij.nl/module/waterzijdig-inregelen/): hier gaat het om wat de verdeler en de kring zijn, niet om de inregelprocedure zelf.
 
 **Controleer jezelf:**
 
@@ -2696,10 +2696,10 @@ Vaillant beschrijft een vergelijkbare, snellere test: op een koude dag alle radi
 
 #### Wat je meet
 
-Blijkt een ruimte bij een lagere temperatuur niet warm te worden, ga dan niet meteen uit van "de radiator is te klein". Onvoldoende debiet door een te hoge drukval bij een lager delta T (de drukval neemt kwadratisch toe met het debiet, [les 3.1](les:m03l01)) kan hetzelfde effect geven als een echt te kleine radiator. Controleer daarom eerst:
+Blijkt een ruimte bij een lagere temperatuur niet warm te worden, ga dan niet meteen uit van "de radiator is te klein". Onvoldoende debiet door een te hoge drukval bij een lager delta T (de drukval neemt kwadratisch toe met het debiet, [les 3.1](https://cv-ketels.keesvanwanrooij.nl/les/druk-drukverschil-en-stroming/)) kan hetzelfde effect geven als een echt te kleine radiator. Controleer daarom eerst:
 
 - of de radiatorkranen volledig open staan en niet gedeeltelijk dicht (bijvoorbeeld door een knop die per ongeluk is verdraaid);
-- of de pompsnelheid voldoende is voor het gewenste debiet, en verhoog die zo nodig (zie de parameterinstelling in [les 3.4](les:m03l04));
+- of de pompsnelheid voldoende is voor het gewenste debiet, en verhoog die zo nodig (zie de parameterinstelling in [les 3.4](https://cv-ketels.keesvanwanrooij.nl/les/de-pomp-opvoerhoogte-weerstand-en-werkpunt/));
 - of er lucht in het systeem zit die de doorstroming van die ene radiator blokkeert;
 - pas daarna, met het gemeten resultaat in de hand, of de radiator zelf te klein is voor het gewenste regime.
 
@@ -2719,7 +2719,7 @@ Een andere veelgemaakte fout is een radiator vervangen zonder eerst het debiet t
 
 #### Checklist voor de beoordeling
 
-Een systematische beoordeling van een bestaand afgiftesysteem doorloopt: de gewenste aanvoertemperatuur (bijvoorbeeld met de Verwarmingstest of de vierstappentest), het type en de staat van elke radiator of vloerverwarmingskring, het debiet en de drukval per circuit, en de vraag of elke ruimte afzonderlijk voldoende vermogen krijgt bij de gewenste temperatuur. Het waterzijdig inregelen zelf, waarmee je het debiet definitief per kring afstelt, komt aan de orde in [module 14](module:m14): deze les gaat over de beoordeling die daaraan voorafgaat.
+Een systematische beoordeling van een bestaand afgiftesysteem doorloopt: de gewenste aanvoertemperatuur (bijvoorbeeld met de Verwarmingstest of de vierstappentest), het type en de staat van elke radiator of vloerverwarmingskring, het debiet en de drukval per circuit, en de vraag of elke ruimte afzonderlijk voldoende vermogen krijgt bij de gewenste temperatuur. Het waterzijdig inregelen zelf, waarmee je het debiet definitief per kring afstelt, komt aan de orde in [module 14](https://cv-ketels.keesvanwanrooij.nl/module/waterzijdig-inregelen/): deze les gaat over de beoordeling die daaraan voorafgaat.
 
 **Controleer jezelf:**
 
@@ -2927,7 +2927,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/monteren-afschot-beugelen-en-dilat
 
 #### Wat staat waar?
 
-Het Bbl stelt prestatie-eisen aan de rookgasafvoer en schrijft geen afschot, beugelafstand, insteekdiepte of dilatatie voor. Die staan in de voorschriften van de fabrikant en in NPR 3378. BRL 6000-25 eist dat je het afvoersysteem plaatst volgens de voorschriften van de fabrikant van het afvoersysteem én van het toestel (zie [les 1.5](les:m01l05)). De waarden hieronder (Rogafa, Ubbink) verschillen per fabrikant en per systeem: lees altijd het voorschrift van het systeem dat je monteert.
+Het Bbl stelt prestatie-eisen aan de rookgasafvoer en schrijft geen afschot, beugelafstand, insteekdiepte of dilatatie voor. Die staan in de voorschriften van de fabrikant en in NPR 3378. BRL 6000-25 eist dat je het afvoersysteem plaatst volgens de voorschriften van de fabrikant van het afvoersysteem én van het toestel (zie [les 1.5](https://cv-ketels.keesvanwanrooij.nl/les/bronnen-en-hierarchie-wet-norm-fabrikant-werkinstructie/)). De waarden hieronder (Rogafa, Ubbink) verschillen per fabrikant en per systeem: lees altijd het voorschrift van het systeem dat je monteert.
 
 #### Afschot: naar het toestel
 
@@ -3126,7 +3126,7 @@ De verbrandingslucht moet vrij zijn van chloor- en fluorverbindingen. Die zijn u
 Een klant heeft in een kierdichte woning een nieuwe, krachtige afzuigkap laten plaatsen en klaagt over hoofdpijn en misselijkheid. Je meet in de opstellingsruimte van het open toestel 12 ppm CO. Dat is tussen 5 en 20 ppm: je onderzoekt de oorzaak, waaronder onderdruk door de afzuigkap, neemt die weg voor je in bedrijf stelt, en je informeert de klant. Tot de oorzaak is weggenomen blijft het toestel uit. Is er geen CO-melder, dan adviseer je er een (open toestel zonder melder).
 
 > **Boven 20 ppm: stop en meld**
-> Meet je in de opstellingsruimte meer dan 20 ppm CO, dan stel je het toestel niet in bedrijf of neem je het buiten bedrijf, en geldt de meldplicht van art. 6.46 Bbl aan bewoner, eigenaar, gemeente en certificerende instelling. Bij acuut gevaar bel je 112 (zie [les 1.6](les:m01l06)).
+> Meet je in de opstellingsruimte meer dan 20 ppm CO, dan stel je het toestel niet in bedrijf of neem je het buiten bedrijf, en geldt de meldplicht van art. 6.46 Bbl aan bewoner, eigenaar, gemeente en certificerende instelling. Bij acuut gevaar bel je 112 (zie [les 1.6](https://cv-ketels.keesvanwanrooij.nl/les/afkeuren-melden-en-aansprakelijkheid/)).
 
 **Controleer jezelf:**
 
@@ -3232,7 +3232,7 @@ Bij vervanging van een afvoergebonden toestel moet het bestaande rookgasafvoersy
 - Komen bij gebruik ontoelaatbare hoeveelheden CO vrij, dan mag je het toestel niet in bedrijf stellen en neem je het buiten bedrijf (een taak voor een VP).
 - Boven 20 ppm CO in de ruimte geldt de meldplicht van art. 6.46 Bbl. Werkt de eigenaar niet mee aan herstel, dan stel je de installatie niet in bedrijf. Alleen de gemeente kan herstel afdwingen.
 - Kun je niet bewijzen dat de installatie aan alle eisen voldoet, bijvoorbeeld de kwaliteit van de rookgasafvoer, dan adviseer je nader onderzoek en een CO-melder.
-- Leg waarden en conclusie vast in het opleveringsrapport van BRL 6000-25 (afwijkingen en genomen maatregel). Zie [les 1.6](les:m01l06) voor melden en vastleggen.
+- Leg waarden en conclusie vast in het opleveringsrapport van BRL 6000-25 (afwijkingen en genomen maatregel). Zie [les 1.6](https://cv-ketels.keesvanwanrooij.nl/les/afkeuren-melden-en-aansprakelijkheid/) voor melden en vastleggen.
 
 > **Zonder vastlegging heb je het niet gedaan**
 > Een afkeuring die je niet kunt onderbouwen met een gemeten waarde, een waarneming en het voorschrift waarnaar je verwijst, is een mening. Noteer wat je zag, mat, gebruikte en adviseerde. Een conditiescore volgens NEN 2767 is een beheermethode en geen bewijs van een veilige afvoer. Voor een camera-inspectie is voor deze cursus geen norm voor methode of frequentie gevonden bij individuele afvoeren.
@@ -3552,7 +3552,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/gasdruk-meten-en-de-belasting-via-
 
 #### Wat de netbeheerder levert, en wat het toestel nodig heeft
 
-Het lagedrukgasnet staat meestal op 100 mbar en deels op 30 mbar. In woningen op het 100-mbargebied verlaagt een huisdrukregelaar de druk tot 30 mbar. Woningtoestellen op aardgas (G25.3) hebben een nominale aansluitdruk van 25 mbar; het toegestane bereik daaromheen verschilt per model (zie [les 4.1](les:m04l01)). Tussen wat het net levert en wat op het toestel aankomt, meet je dus twee dingen: de druk in de leiding en de druk bij het toestel zelf.
+Het lagedrukgasnet staat meestal op 100 mbar en deels op 30 mbar. In woningen op het 100-mbargebied verlaagt een huisdrukregelaar de druk tot 30 mbar. Woningtoestellen op aardgas (G25.3) hebben een nominale aansluitdruk van 25 mbar; het toegestane bereik daaromheen verschilt per model (zie [les 4.1](https://cv-ketels.keesvanwanrooij.nl/les/aardgas-in-nederland-gassoorten-gasdruk-en-wobbe/)). Tussen wat het net levert en wat op het toestel aankomt, meet je dus twee dingen: de druk in de leiding en de druk bij het toestel zelf.
 
 #### Statisch en dynamisch: twee metingen, niet één
 
@@ -3573,7 +3573,7 @@ BRL 6000-25 noemt in het onderhoudsformulier expliciet "gasverbruik vollast" als
 | Doorgestroomd volume | 2 liter | Afgelezen op de kleinste wijzer van de meter |
 | Gemeten tijd | 71 seconden | Met een stopwatch geklokt op vollast |
 | Debiet | 2 / 71 × 3600 = 101,4 l/h = 0,1014 m³/h | Omrekening naar een uurdebiet |
-| Hs (Groningen-equivalent) | 9,769 kWh/m³ | Zie [les 4.1](les:m04l01) |
+| Hs (Groningen-equivalent) | 9,769 kWh/m³ | Zie [les 4.1](https://cv-ketels.keesvanwanrooij.nl/les/aardgas-in-nederland-gassoorten-gasdruk-en-wobbe/) |
 | Belasting op bovenwaarde | 0,1014 × 9,769 ≈ 0,99 kW | Vergelijk dit met het typeplaatje |
 
 Een gasmeter G4 laat maximaal 6 m³ per uur door, wat op bovenwaarde neerkomt op ongeveer 58,6 kW (6 × 9,769). Dat is de bovengrens van wat een G4-meter kan doorlaten, niet het vermogen van een specifiek toestel: een groot combitoestel op vollast tapwater kan een grotere meter (G6, G10) nodig hebben.
@@ -3624,7 +3624,7 @@ De levensduur van een zuurstofsensor loopt sterk uiteen en is geen algemene gara
 | O2-sensor | Verouderd door tijdsverloop | Jaarlijkse controle, levensduur 1 tot 7 jaar |
 
 > **Verdieping: waarom toont een analyser ook "CO onverdund"?**
-> Sommige analysers, zoals de testo 300, tonen naast de gemeten waarde ook "CO onverdund": de luchtvrije waarde, berekend uit de gemeten O2 of gemeten met een meergatssonde. Dat is een functie van het instrument, geen wettelijke maatstaf: de Nederlandse grenzen van 50, 200 en 400 ppm worden getoetst aan de gewone aflezing, niet aan deze berekende waarde (zie [les 10.4](les:m10l04)).
+> Sommige analysers, zoals de testo 300, tonen naast de gemeten waarde ook "CO onverdund": de luchtvrije waarde, berekend uit de gemeten O2 of gemeten met een meergatssonde. Dat is een functie van het instrument, geen wettelijke maatstaf: de Nederlandse grenzen van 50, 200 en 400 ppm worden getoetst aan de gewone aflezing, niet aan deze berekende waarde (zie [les 10.4](https://cv-ketels.keesvanwanrooij.nl/les/een-rookgasmeting-uitvoeren-en-beoordelen/)).
 
 #### Wat je meeneemt
 
@@ -3670,7 +3670,7 @@ De belangrijkste vraag bij het beoordelen van een CO-meting is of de grenzen van
 
 Dat is het sterkste bewijs dat in dit onderzoek is gevonden voor "zoals afgelezen", maar geen enkele bron zegt dat met zoveel woorden. Behandel het daarom als een goed onderbouwde, voorzichtige conclusie, niet als een harde regel die je aan een cursist of collega als vaststaand feit kunt presenteren.
 
-Het begrip "CO luchtvrij" bestaat wel, als rekenmethode: CO(luchtvrij) = CO(gemeten) × luchtfactor, waarbij de luchtfactor de verhouding is tussen de werkelijk toegevoerde en de theoretisch benodigde lucht. Sommige analysers tonen dit als "CO onverdund" (zie [les 10.3](les:m10l03)). In de Verenigde Staten hanteert de norm ANSI Z21 voor sommige toestelcategorieën expliciet luchtvrije grenzen tussen 200 en 800 ppm: dat is een Amerikaanse regel, geen Nederlandse.
+Het begrip "CO luchtvrij" bestaat wel, als rekenmethode: CO(luchtvrij) = CO(gemeten) × luchtfactor, waarbij de luchtfactor de verhouding is tussen de werkelijk toegevoerde en de theoretisch benodigde lucht. Sommige analysers tonen dit als "CO onverdund" (zie [les 10.3](https://cv-ketels.keesvanwanrooij.nl/les/de-rookgasanalyser-opbouw-nulmeting-en-onderhoud/)). In de Verenigde Staten hanteert de norm ANSI Z21 voor sommige toestelcategorieën expliciet luchtvrije grenzen tussen 200 en 800 ppm: dat is een Amerikaanse regel, geen Nederlandse.
 
 #### Rekenvoorbeeld: hoeveel verschil maakt de correctie
 
@@ -3721,7 +3721,7 @@ De meting gebeurt op ongeveer 1,7 meter hoogte en op ongeveer 1 meter afstand va
 | 20 ppm of meer | Onverwijld en schriftelijk melden aan bewoner of gebruiker, eigenaar, bevoegd gezag en certificerende instelling |
 
 > **De op het meetinstrument aangegeven waarde is leidend**
-> Ook voor de CO-meting in de opstellingsruimte geldt dat de aflezing op je instrument bepalend is: er is geen correctie of herrekening voorgeschreven. Dezelfde formulering staat zowel bij de rookgasmeting als bij de ruimtemeting in het certificatieschema (zie [les 10.4](les:m10l04)).
+> Ook voor de CO-meting in de opstellingsruimte geldt dat de aflezing op je instrument bepalend is: er is geen correctie of herrekening voorgeschreven. Dezelfde formulering staat zowel bij de rookgasmeting als bij de ruimtemeting in het certificatieschema (zie [les 10.4](https://cv-ketels.keesvanwanrooij.nl/les/een-rookgasmeting-uitvoeren-en-beoordelen/)).
 
 Na werkzaamheden aan het toestel mag je het pas weer in bedrijf stellen nadat de CO-concentratie in de opstellingsruimte lager is dan 5 ppm, en het toestel naar jouw professionele oordeel veilig is en aan de eisen van de wet voldoet. Bij een concentratie van 5 ppm of meer volg je de tabel hierboven.
 
@@ -3735,7 +3735,7 @@ Na werkzaamheden aan het toestel mag je het pas weer in bedrijf stellen nadat de
 Zonder de meting vooraf zou je nooit hebben geweten dat er al voor je aankomst iets mis was: de meting na het werk bewijst dan alleen dat je eigen ingreep geen nieuw probleem heeft veroorzaakt, niet dat de situatie al die tijd veilig was.
 
 > **Boven 20 ppm: melden, niet zelf oplossen en stilhouden**
-> Bij 20 ppm of meer meld je dat onverwijld aan bewoner of gebruiker, eigenaar, bevoegd gezag en certificerende instelling: dat is een wettelijke plicht (art. 6.46 Bbl), geen keuze die je kunt overslaan omdat je de oorzaak zelf al denkt te hebben opgelost. Bij acuut gevaar of een ernstig vergiftigde bewoner bel je altijd 112, zie [les 1.6](les:m01l06).
+> Bij 20 ppm of meer meld je dat onverwijld aan bewoner of gebruiker, eigenaar, bevoegd gezag en certificerende instelling: dat is een wettelijke plicht (art. 6.46 Bbl), geen keuze die je kunt overslaan omdat je de oorzaak zelf al denkt te hebben opgelost. Bij acuut gevaar of een ernstig vergiftigde bewoner bel je altijd 112, zie [les 1.6](https://cv-ketels.keesvanwanrooij.nl/les/afkeuren-melden-en-aansprakelijkheid/).
 
 > **Verdieping: waarom is 1,7 meter en 1 meter geen willekeurige keuze?**
 > Op ademhoogte (rond 1,7 meter) en op een meter afstand van het toestel meet je ongeveer waar een volwassene in die ruimte ademt, niet direct in een eventuele pluim vlak bij het toestel en niet vlak bij de vloer waar zwaardere gassen zich kunnen verzamelen. Het is geen vervanging voor het meten in de rookgasstroom zelf (les 10.4): dit is de blootstelling van de mens in de ruimte, niet de kwaliteit van de verbranding.
@@ -5352,7 +5352,7 @@ Er bestaat geen wettelijke onderhoudsplicht voor de eigenaar van een cv-ketel: a
 
 #### Veiligheid vooraf: eerst meten, dan pas werken
 
-Voordat je iets demonteert, meet je de CO-concentratie in de opstellingsruimte, op ongeveer 1,7 m hoogte en 1 m van het toestel. Onder de 5 ppm kun je zonder bezwaar beginnen. Tussen 5 en 20 ppm doe je nader onderzoek naar de oorzaak en meld je dat aan de opdrachtgever, waarna je verder werkt. Boven de 20 ppm geldt de wettelijke meldplicht: onverwijld en schriftelijk melden aan bewoner of gebruiker, eigenaar, bevoegd gezag en de certificerende instelling. Hoe je die meting precies uitvoert en beoordeelt, staat in [module 10](module:m10); hier is het genoeg om te onthouden dat de meting altijd vóór het werk gebeurt, niet pas achteraf als er iets misgaat.
+Voordat je iets demonteert, meet je de CO-concentratie in de opstellingsruimte, op ongeveer 1,7 m hoogte en 1 m van het toestel. Onder de 5 ppm kun je zonder bezwaar beginnen. Tussen 5 en 20 ppm doe je nader onderzoek naar de oorzaak en meld je dat aan de opdrachtgever, waarna je verder werkt. Boven de 20 ppm geldt de wettelijke meldplicht: onverwijld en schriftelijk melden aan bewoner of gebruiker, eigenaar, bevoegd gezag en de certificerende instelling. Hoe je die meting precies uitvoert en beoordeelt, staat in [module 10](https://cv-ketels.keesvanwanrooij.nl/module/meten-en-analyseren/); hier is het genoeg om te onthouden dat de meting altijd vóór het werk gebeurt, niet pas achteraf als er iets misgaat.
 
 > **De volgorde is het proces**
 > Eerst de storings- en foutgeschiedenis uitlezen, dan de ruimte-CO meten, dan pas het toestel spanningsloos en gasvrij maken en openen. Wie deze volgorde omdraait, werkt op een toestel waarvan hij de voorgeschiedenis en de veiligheid nog niet kent.
@@ -5367,7 +5367,7 @@ Een klant meldt dat de ketel bij het opstarten soms een vreemde geur geeft. Je n
 
 #### Afronden en vastleggen
 
-Vaillant sluit bijvoorbeeld elke onderhoudsbeurt van de ecoTEC plus VHR af met dezelfde vaste stappen: de gasaansluitdruk of gasstroomdruk controleren, het CO2- en O2-gehalte controleren, het toestel op dichtheid controleren, het onderhoudsinterval opnieuw instellen (bijvoorbeeld via bedrijfsuren of een vaste datum) en de inspectie en het onderhoud noteren. Andere merken hebben een vergelijkbare afsluitende volgorde, met net andere stappen of een andere manier van intervalinstelling: zoek dit op in de handleiding van het toestel. Van elke controle leg je vast wat je hebt gecontroleerd, met welke instrumenten, wat de resultaten waren en of er afwijkingen zijn geconstateerd. Dat is niet alleen prettig voor de volgende monteur: de certificerende instelling kan dit bij een steekproef opvragen. Rapporteren en klantadvies werken we verder uit in [les 15.5](les:m15l05).
+Vaillant sluit bijvoorbeeld elke onderhoudsbeurt van de ecoTEC plus VHR af met dezelfde vaste stappen: de gasaansluitdruk of gasstroomdruk controleren, het CO2- en O2-gehalte controleren, het toestel op dichtheid controleren, het onderhoudsinterval opnieuw instellen (bijvoorbeeld via bedrijfsuren of een vaste datum) en de inspectie en het onderhoud noteren. Andere merken hebben een vergelijkbare afsluitende volgorde, met net andere stappen of een andere manier van intervalinstelling: zoek dit op in de handleiding van het toestel. Van elke controle leg je vast wat je hebt gecontroleerd, met welke instrumenten, wat de resultaten waren en of er afwijkingen zijn geconstateerd. Dat is niet alleen prettig voor de volgende monteur: de certificerende instelling kan dit bij een steekproef opvragen. Rapporteren en klantadvies werken we verder uit in [les 15.5](https://cv-ketels.keesvanwanrooij.nl/les/rapporteren-en-klantadvies/).
 
 **Controleer jezelf:**
 
@@ -5401,7 +5401,7 @@ Bij het demonteren van de brander- en verbrandingsmodule controleert Vaillant st
 
 #### Wat je verder tijdens een onderhoudsbeurt reinigt
 
-Naast de warmtewisselaar en de brander hoort bij een volledige beurt: de zeef in de koudwateringang van een combitoestel (Vaillant sluit hiervoor eerst de koudwaterstopkraan, maakt het toestel aan warmwaterzijde leeg en plaatst bij het terugbouwen altijd een nieuwe O-ring), de sifonbeker (spoelen en opnieuw vullen tot de voorgeschreven vulhoogte, zie [module 8](module:m08) voor de werking van de sifon zelf), en bij Remeha de platenwarmtewisselaar aan de tapwaterzijde als de tapcapaciteit merkbaar lager is dan de opgegeven waarde, met bijvoorbeeld citroenzuur (pH ongeveer 3) en grondig naspoelen. Chemische stoffen zoals sprays, chloorhoudende reinigingsmiddelen, oplosmiddelen en verf horen nooit in de buurt van het toestel of in de verbrandingslucht: ze veroorzaken corrosie en storingen, ook als je zelf niets aan het toestel doet.
+Naast de warmtewisselaar en de brander hoort bij een volledige beurt: de zeef in de koudwateringang van een combitoestel (Vaillant sluit hiervoor eerst de koudwaterstopkraan, maakt het toestel aan warmwaterzijde leeg en plaatst bij het terugbouwen altijd een nieuwe O-ring), de sifonbeker (spoelen en opnieuw vullen tot de voorgeschreven vulhoogte, zie [module 8](https://cv-ketels.keesvanwanrooij.nl/module/rookgasafvoer-en-luchttoevoer/) voor de werking van de sifon zelf), en bij Remeha de platenwarmtewisselaar aan de tapwaterzijde als de tapcapaciteit merkbaar lager is dan de opgegeven waarde, met bijvoorbeeld citroenzuur (pH ongeveer 3) en grondig naspoelen. Chemische stoffen zoals sprays, chloorhoudende reinigingsmiddelen, oplosmiddelen en verf horen nooit in de buurt van het toestel of in de verbrandingslucht: ze veroorzaken corrosie en storingen, ook als je zelf niets aan het toestel doet.
 
 #### Praktijkgeval: een ATAG en een Remeha op dezelfde dag
 
@@ -5449,7 +5449,7 @@ Een boilervat van gewoon staal heeft vaak een magnesiumanode nodig: die anode co
 
 #### Vervangen en de rest van de installatie
 
-Wat je aan slijtdelen vervangt, staat los van de vraag of het hele toestel nog rendabel te onderhouden is. De BRL 6000-25 noemt als richtlijn vervanging van een gasverbrandingstoestel "na ca. 15 jaar", waarbij ook het rookgasafvoersysteem wordt beoordeeld en meestal vervangen (zie [module 8](module:m08) voor de eisen aan de afvoer zelf). Dat gesprek met de klant, over vervangen van een los onderdeel tegenover vervangen van het hele toestel, werk je uit in [les 15.5](les:m15l05).
+Wat je aan slijtdelen vervangt, staat los van de vraag of het hele toestel nog rendabel te onderhouden is. De BRL 6000-25 noemt als richtlijn vervanging van een gasverbrandingstoestel "na ca. 15 jaar", waarbij ook het rookgasafvoersysteem wordt beoordeeld en meestal vervangen (zie [module 8](https://cv-ketels.keesvanwanrooij.nl/module/rookgasafvoer-en-luchttoevoer/) voor de eisen aan de afvoer zelf). Dat gesprek met de klant, over vervangen van een los onderdeel tegenover vervangen van het hele toestel, werk je uit in [les 15.5](https://cv-ketels.keesvanwanrooij.nl/les/rapporteren-en-klantadvies/).
 
 **Controleer jezelf:**
 
@@ -5467,7 +5467,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/veiligheidscontroles-en-afronden-m
 
 #### Onderhoud is pas klaar na een meting
 
-Een toestel dat weer "gewoon aan gaat" is geen bewijs dat het veilig is. Onderhoud sluit je daarom altijd af met een meting, niet met een visuele indruk. Hoe je een rookgasmeting precies uitvoert en beoordeelt, en hoe je CO in de opstellingsruimte meet, staat uitgewerkt in [module 10](module:m10) (in het bijzonder [les 10.4](les:m10l04) en [les 10.5](les:m10l05)): hier gaat het om de plek van die meting in het onderhoudsproces, en om de andere veiligheidscontroles eromheen.
+Een toestel dat weer "gewoon aan gaat" is geen bewijs dat het veilig is. Onderhoud sluit je daarom altijd af met een meting, niet met een visuele indruk. Hoe je een rookgasmeting precies uitvoert en beoordeelt, en hoe je CO in de opstellingsruimte meet, staat uitgewerkt in [module 10](https://cv-ketels.keesvanwanrooij.nl/module/meten-en-analyseren/) (in het bijzonder [les 10.4](https://cv-ketels.keesvanwanrooij.nl/les/een-rookgasmeting-uitvoeren-en-beoordelen/) en [les 10.5](https://cv-ketels.keesvanwanrooij.nl/les/co-in-de-opstellingsruimte-meten/)): hier gaat het om de plek van die meting in het onderhoudsproces, en om de andere veiligheidscontroles eromheen.
 
 #### De veiligheidscontroles op de checklist
 
@@ -5485,7 +5485,7 @@ Elke keer dat je een gasvoerend onderdeel hebt losgekoppeld (gasblok, meetnippel
 
 #### Verbrandingsmeting op vol- en deellast
 
-Je meet de verbranding niet alleen op één belastingpunt. Fabrikanten vragen om te meten op vollast en op laaglast (of een instelbare deellast), omdat een goede waarde op vollast niets zegt over de laaglastsituatie en andersom: bij Remeha ligt de grenswaarde voor de ionisatiestroom bijvoorbeeld apart voor vol- en laaglast (zie [les 15.3](les:m15l03)). Bij een toestel op een concentrisch rookgasafvoersysteem controleer je bovendien de recirculatie: je meet CO2 op het meetpunt van de verbrandingsluchttoevoer. Een goed systeem geeft daar de buitenluchtwaarde, tot ongeveer 1% CO2 is door windinvloed toelaatbaar; een veel hogere waarde wijst op interne lekkage van het systeem en vraagt nader onderzoek.
+Je meet de verbranding niet alleen op één belastingpunt. Fabrikanten vragen om te meten op vollast en op laaglast (of een instelbare deellast), omdat een goede waarde op vollast niets zegt over de laaglastsituatie en andersom: bij Remeha ligt de grenswaarde voor de ionisatiestroom bijvoorbeeld apart voor vol- en laaglast (zie [les 15.3](https://cv-ketels.keesvanwanrooij.nl/les/slijtdelen-en-vervangen/)). Bij een toestel op een concentrisch rookgasafvoersysteem controleer je bovendien de recirculatie: je meet CO2 op het meetpunt van de verbrandingsluchttoevoer. Een goed systeem geeft daar de buitenluchtwaarde, tot ongeveer 1% CO2 is door windinvloed toelaatbaar; een veel hogere waarde wijst op interne lekkage van het systeem en vraagt nader onderzoek.
 
 #### Ruimte-CO na afloop en wanneer je niet vrijgeeft
 
@@ -5529,7 +5529,7 @@ De wettelijke conformiteit van geleverd werk is iets anders dan de fabrikantgara
 > **Een advies is geen verkooppraatje**
 > Je adviseert op basis van wat je hebt gecontroleerd en gemeten, niet op basis van wat het bedrijf die maand het liefst verkoopt. Noem het onderliggende feit (leeftijd, staat van de afvoer, onderdelenbeschikbaarheid), niet alleen de conclusie "vervangen".
 
-Bij een oudere ketel speelt de leeftijd een rol, maar niet als enige argument. De BRL 6000-25 noemt als richtlijn vervanging van een gasverbrandingstoestel "na ca. 15 jaar", waarbij ook het rookgasafvoersysteem wordt beoordeeld en meestal gelijktijdig wordt vervangen (zie [module 8](module:m08) voor de afvoereisen zelf, en [les 15.3](les:m15l03) voor slijtdelen). Wordt een toestel op een collectief afvoersysteem vervangen, dan mag dat alleen door exact hetzelfde type toestel (bijvoorbeeld HR door HR), niet door een ander werkingsprincipe, tenzij het hele CLV-systeem daarop is beoordeeld. Leg dat uit voordat de klant zelf online een ander type bestelt.
+Bij een oudere ketel speelt de leeftijd een rol, maar niet als enige argument. De BRL 6000-25 noemt als richtlijn vervanging van een gasverbrandingstoestel "na ca. 15 jaar", waarbij ook het rookgasafvoersysteem wordt beoordeeld en meestal gelijktijdig wordt vervangen (zie [module 8](https://cv-ketels.keesvanwanrooij.nl/module/rookgasafvoer-en-luchttoevoer/) voor de afvoereisen zelf, en [les 15.3](https://cv-ketels.keesvanwanrooij.nl/les/slijtdelen-en-vervangen/) voor slijtdelen). Wordt een toestel op een collectief afvoersysteem vervangen, dan mag dat alleen door exact hetzelfde type toestel (bijvoorbeeld HR door HR), niet door een ander werkingsprincipe, tenzij het hele CLV-systeem daarop is beoordeeld. Leg dat uit voordat de klant zelf online een ander type bestelt.
 
 #### Waar je bevoegdheid ophoudt
 
@@ -5623,7 +5623,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/storingscodes-lezen-zonder-erin-te
 
 #### Een code zegt wat, niet waarom
 
-Een storingscode vertelt welke beveiliging heeft ingegrepen: geen vlamsignaal, te lage druk, een sensor buiten bereik. Hij vertelt niet waarom dat gebeurde. "Geen vlamsignaal" kan bij hetzelfde toestel komen door een dichte gaskraan, een te lage voordruk, een vervuilde elektrode, een slechte aarding of een verkeerd afgesteld gasblok (STO-08). De code kiest niet tussen die vijf, jij wel, met de methode uit [les 16.1](les:m16l01).
+Een storingscode vertelt welke beveiliging heeft ingegrepen: geen vlamsignaal, te lage druk, een sensor buiten bereik. Hij vertelt niet waarom dat gebeurde. "Geen vlamsignaal" kan bij hetzelfde toestel komen door een dichte gaskraan, een te lage voordruk, een vervuilde elektrode, een slechte aarding of een verkeerd afgesteld gasblok (STO-08). De code kiest niet tussen die vijf, jij wel, met de methode uit [les 16.1](https://cv-ketels.keesvanwanrooij.nl/les/de-methode-van-klacht-naar-bewezen-oorzaak/).
 
 #### Blokkering of vergrendeling: eerst dat onderscheid
 
@@ -5680,7 +5680,7 @@ Bij een combiketel signaleert een tapsensor het openen van een kraan, schakelt d
 
 #### Praktijkgeval: warm water dat lauw blijft
 
-Een klant belt: het water wordt niet meer warm genoeg, terwijl het een paar weken geleden nog wel lukte. Volgens de volgorde hierboven begin je bij de doorstroming: is de tapflow onveranderd? Is die dat wel, dan is een te lage sensorspanning minder waarschijnlijk (die zou vaker een foutcode geven dan een geleidelijk kouder wordende stroom). Kalkafzetting in de platenwisselaar past beter bij een geleidelijke achteruitgang: minder warmteoverdracht per liter water. Reinig dan pas de wisselaar als de goedkopere controles niets opleveren, precies zoals in [les 16.1](les:m16l01) beschreven.
+Een klant belt: het water wordt niet meer warm genoeg, terwijl het een paar weken geleden nog wel lukte. Volgens de volgorde hierboven begin je bij de doorstroming: is de tapflow onveranderd? Is die dat wel, dan is een te lage sensorspanning minder waarschijnlijk (die zou vaker een foutcode geven dan een geleidelijk kouder wordende stroom). Kalkafzetting in de platenwisselaar past beter bij een geleidelijke achteruitgang: minder warmteoverdracht per liter water. Reinig dan pas de wisselaar als de goedkopere controles niets opleveren, precies zoals in [les 16.1](https://cv-ketels.keesvanwanrooij.nl/les/de-methode-van-klacht-naar-bewezen-oorzaak/) beschreven.
 
 > **Verdieping: waarom de driewegklep zo weinig stroom gebruikt**
 > De driewegklep van de Remeha Calenta is veerbelast: hij verbruikt alleen stroom op het moment dat hij van stand wisselt, niet om in een stand te blijven staan (KET-23). Dat verklaart waarom een defecte klep soms lastig te ontdekken is met alleen een visuele controle: hij staat stil in een stand en lijkt daardoor "normaal", terwijl hij niet meer kan schakelen.
@@ -5707,7 +5707,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/geen-verwarming/
 1. **Regeling.** Vraagt de thermostaat om warmte? Bij een aan/uit-thermostaat en bij een OpenTherm-regelaar werkt dat mechanisch anders, en welke van de twee is aangesloten bepaalt zelfs welke klemmen op de ketel worden gebruikt: bij Remeha delen aan/uit en OpenTherm dezelfde klemmen, bij Intergas heeft elke functie een eigen klemmenpaar (ELK-17, ELK-20). Een OpenTherm-thermostaat op de verkeerde klemmen aangesloten, geeft geen werkende warmtevraag.
 2. **Bedrading van de regeling.** Intergas noemt voor een aan/uit-kamerthermostaat een maximale leidingweerstand van 15 ohm voor kabel plus thermostaat samen (ELK-21): een te lange of te dunne leiding kan dus zelf de storing zijn, niet de thermostaat.
 3. **Pomp.** Draait de pomp? Bij Intergas zie je dit op het display, bij vastzitten helpt handmatig deblokkeren met een schroevendraaier op de as (STO-09).
-4. **Water.** Is er voldoende druk en doorstroming? Zie [les 16.5](les:m16l05) voor drukproblemen; een drukval die kwadratisch meegroeit met het debiet (HYD-21) betekent dat een kleine belemmering in de installatie een grote invloed op de doorstroming kan hebben.
+4. **Water.** Is er voldoende druk en doorstroming? Zie [les 16.5](https://cv-ketels.keesvanwanrooij.nl/les/waterdruk-zakt-of-stijgt/) voor drukproblemen; een drukval die kwadratisch meegroeit met het debiet (HYD-21) betekent dat een kleine belemmering in de installatie een grote invloed op de doorstroming kan hebben.
 5. **Vermogensvraag.** Ligt de warmtevraag van de woning onder de minimale belasting van de ketel? Dan pendelt (takt) de ketel: hij slaat aan en uit in plaats van door te moduleren (REG-11, KET-15, KET-28). Dat is geen storing, maar voelt voor de klant wel als "de verwarming doet het niet goed".
 
 > **Regeling voor pomp, pomp voor druk**
@@ -5752,7 +5752,7 @@ De voordruk van het vat is de druk op het stikstofventiel, gemeten bij een drukl
 
 #### Merkspecifieke codes en meldingen (voorbeeld)
 
-Vaillant meldt bij te weinig water of een te lage waterdruk code F.022, met als mogelijke oorzaken onder meer een defect intern expansievat, lucht in het systeem, of een storing van de waterdruksensor of de pomp (STO-12). Remeha Calenta Ace toont waarschuwing A.02.06 onder 0,8 bar (MRK-08) en kent een aparte vergrendelingscode als het automatisch vullen te lang duurt zonder de minimale druk te bereiken (MRK-09). ATAG meldt code 118 bij druk onder 0,7 bar, met als eerste maatregel het handmatig deblokkeren van de ketelpomp, en code 117 bij druk boven 3 bar (MRK-15). Drie merken, drie andere codes voor grofweg hetzelfde probleem: nog een reden om de code op te zoeken in de handleiding van dat toestel ([les 16.2](les:m16l02)).
+Vaillant meldt bij te weinig water of een te lage waterdruk code F.022, met als mogelijke oorzaken onder meer een defect intern expansievat, lucht in het systeem, of een storing van de waterdruksensor of de pomp (STO-12). Remeha Calenta Ace toont waarschuwing A.02.06 onder 0,8 bar (MRK-08) en kent een aparte vergrendelingscode als het automatisch vullen te lang duurt zonder de minimale druk te bereiken (MRK-09). ATAG meldt code 118 bij druk onder 0,7 bar, met als eerste maatregel het handmatig deblokkeren van de ketelpomp, en code 117 bij druk boven 3 bar (MRK-15). Drie merken, drie andere codes voor grofweg hetzelfde probleem: nog een reden om de code op te zoeken in de handleiding van dat toestel ([les 16.2](https://cv-ketels.keesvanwanrooij.nl/les/storingscodes-lezen-zonder-erin-te-trappen/)).
 
 #### Praktijkgeval: elke week bijvullen
 
@@ -5817,7 +5817,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/lucht-ventilator-en-afvoer/
 
 #### De raakvlakken met module 8
 
-Deze les gaat over wat er misgaat tussen de ventilator en de buitenlucht: een geblokkeerde luchtaanzuiging, een ventilator die niet op toerental komt, of rookgas dat terug de luchttoevoer bereikt (recirculatie). De opbouw van het afvoersysteem zelf (open of gesloten, de typeaanduidingen, de eisen aan de uitmonding) staat in [module 8](module:m08): deze les bouwt daarop voort vanuit het perspectief van storingzoeken.
+Deze les gaat over wat er misgaat tussen de ventilator en de buitenlucht: een geblokkeerde luchtaanzuiging, een ventilator die niet op toerental komt, of rookgas dat terug de luchttoevoer bereikt (recirculatie). De opbouw van het afvoersysteem zelf (open of gesloten, de typeaanduidingen, de eisen aan de uitmonding) staat in [module 8](https://cv-ketels.keesvanwanrooij.nl/module/rookgasafvoer-en-luchttoevoer/): deze les bouwt daarop voort vanuit het perspectief van storingzoeken.
 
 #### Ventilatortoerental
 
@@ -5839,7 +5839,7 @@ Vaillant noemt bij het vlamsignaal dat in de ontstekingsfase niet wordt herkend 
 Een Intergas-toestel resoneert. Volgens de storingscodetabel van Intergas horen bij resoneren onder meer een voordruk lager dan 20 mbar, recirculatie van verbrandingsgassen, een ontregelde gas-luchtregeling en een defecte branderpakking of brander (STO-14). Voordat je de brander of de pakking vervangt, meet je dus eerst de gasvoordruk en controleer je op recirculatie: allebei goedkoper en sneller te controleren dan een brander demonteren, en allebei mogelijke oorzaken van precies dit geluid.
 
 > **Nooit doorwerken bij CO in de opstellingsruimte**
-> Blokkade van de luchttoevoer of de afvoer, of recirculatie, kan leiden tot te veel CO in de opstellingsruimte. Vind je dat, dan volg je het actiekader uit [les 16.1](les:m16l01): niet in bedrijf stellen, oorzaak wegnemen, en zo nodig melden.
+> Blokkade van de luchttoevoer of de afvoer, of recirculatie, kan leiden tot te veel CO in de opstellingsruimte. Vind je dat, dan volg je het actiekader uit [les 16.1](https://cv-ketels.keesvanwanrooij.nl/les/de-methode-van-klacht-naar-bewezen-oorzaak/): niet in bedrijf stellen, oorzaak wegnemen, en zo nodig melden.
 
 **Controleer jezelf:**
 
@@ -5987,7 +5987,7 @@ De zes grote merken in Nederland (Remeha, Intergas, Vaillant, Nefit Bosch, ATAG,
 
 #### Remeha: letters en niveaus
 
-Remeha (Calenta Ace, Tzerra Ace) bouwt een code op als een letter plus twee cijferparen, bijvoorbeeld A.02.06. De letter geeft het niveau aan: A is een waarschuwing (de ketel blijft in bedrijf), H een blokkering (herstelt automatisch) en E een vergrendeling (pas op te heffen met een handmatige reset na het wegnemen van de oorzaak). Remeha noemt het lezen van de storingscode "belangrijk voor het correct en snel opsporen van de aard van de storing", en dat lees je uit voordat je iets vervangt (zie ook [module 16](module:m16)).
+Remeha (Calenta Ace, Tzerra Ace) bouwt een code op als een letter plus twee cijferparen, bijvoorbeeld A.02.06. De letter geeft het niveau aan: A is een waarschuwing (de ketel blijft in bedrijf), H een blokkering (herstelt automatisch) en E een vergrendeling (pas op te heffen met een handmatige reset na het wegnemen van de oorzaak). Remeha noemt het lezen van de storingscode "belangrijk voor het correct en snel opsporen van de aard van de storing", en dat lees je uit voordat je iets vervangt (zie ook [module 16](https://cv-ketels.keesvanwanrooij.nl/module/storingzoeken-en-reparatie/)).
 
 #### Intergas: een enkel cijfer
 
@@ -6002,7 +6002,7 @@ Vaillant (ecoTEC plus VHR) gebruikt niet één, maar drie soorten codes. F.xxx i
 
 #### Nefit Bosch: soort 2 of 3, en een Duits zustersysteem
 
-Nefit (ProLine NxT) bouwt een displaycode op uit een storingscode van 2 tekens (bijvoorbeeld 6A), een aanvullende code van 3 cijfers (227) en een soort (2 is blokkerend, 3 is vergrendelend); je vindt de historie via het historiemenu. Bosch, dezelfde fabrikant als Nefit Bosch maar hier bekeken via een Duitse uitgave (Condens 7800i W), werkt met 4 storingsklassen: O (bedrijfstoestand), B (blokkerend, herstelt automatisch), V (vergrendelend, reset nodig) en W (onderhoudsmelding, toestel blijft in bedrijf). Je roept het servicemenu op door een toets ongeveer 5 seconden ingedrukt te houden, en de storingshistorie vind je via Diagnose > Betriebsstatus - Storungen > Historie. Een vergrendelende storing reset je door twee toetsen gelijktijdig ingedrukt te houden tot de storingssymbolen verdwijnen, of door het toestel uit en weer in te schakelen. Bosch geeft als voorbeeld van zo'n vergrendelende storing "geen vlamsignaal na ontsteking", met een foutzoeklijst die van de hoofdafsluiter via de gasvoordruk en de elektroden naar de gasarmatuur loopt: dezelfde volgorde-logica (van eenvoudig naar duur) als bij Remeha's "wel vonk, geen vlam" ([les 5.1](les:m05l01)), maar met een eigen stappenlijst.
+Nefit (ProLine NxT) bouwt een displaycode op uit een storingscode van 2 tekens (bijvoorbeeld 6A), een aanvullende code van 3 cijfers (227) en een soort (2 is blokkerend, 3 is vergrendelend); je vindt de historie via het historiemenu. Bosch, dezelfde fabrikant als Nefit Bosch maar hier bekeken via een Duitse uitgave (Condens 7800i W), werkt met 4 storingsklassen: O (bedrijfstoestand), B (blokkerend, herstelt automatisch), V (vergrendelend, reset nodig) en W (onderhoudsmelding, toestel blijft in bedrijf). Je roept het servicemenu op door een toets ongeveer 5 seconden ingedrukt te houden, en de storingshistorie vind je via Diagnose > Betriebsstatus - Storungen > Historie. Een vergrendelende storing reset je door twee toetsen gelijktijdig ingedrukt te houden tot de storingssymbolen verdwijnen, of door het toestel uit en weer in te schakelen. Bosch geeft als voorbeeld van zo'n vergrendelende storing "geen vlamsignaal na ontsteking", met een foutzoeklijst die van de hoofdafsluiter via de gasvoordruk en de elektroden naar de gasarmatuur loopt: dezelfde volgorde-logica (van eenvoudig naar duur) als bij Remeha's "wel vonk, geen vlam" ([les 5.1](https://cv-ketels.keesvanwanrooij.nl/les/het-hoofdstromingspad-gas-lucht-water-en-rookgas/)), maar met een eigen stappenlijst.
 
 #### ATAG: symbolen in plaats van letters
 
@@ -6093,11 +6093,11 @@ Een hybride opstelling combineert een lucht-water-warmtepomp met een gasketel: d
 In het Intergas-hybrideconcept (Kombi Kompakt HREco) ontvangt de gasketel de warmtevraag van de warmtepomp-binnenunit: na een warmtevraag van de warmtepomp volgt ventilator, ontsteken en cv-bedrijf, en bij tapwaterbedrijf boven een bepaald debiet wordt een cv-vraag onderbroken. De warmtepompregeling bepaalt dus welke bron levert; de precieze regelstrategie (bijvoorbeeld op basis van buitentemperatuur of energieprijs) verschilt per fabrikant en is hier niet met een fabrikantbron bevestigd, dus laten we die hier bewust weg.
 
 > **De regeling kiest de bron, jij onderhoudt de gasketel-kant**
-> Bij een storing op een hybride systeem is de eerste vraag: zit het probleem bij de warmtepomp, bij de gasketel, of in de communicatie tussen beide? De gasketel-kant is jouw terrein; het koudemiddelcircuit van de warmtepomp is dat niet (zie [les 17.5](les:m17l05)).
+> Bij een storing op een hybride systeem is de eerste vraag: zit het probleem bij de warmtepomp, bij de gasketel, of in de communicatie tussen beide? De gasketel-kant is jouw terrein; het koudemiddelcircuit van de warmtepomp is dat niet (zie [les 17.5](https://cv-ketels.keesvanwanrooij.nl/les/de-grens-met-koudetechniek-f-gassen/)).
 
 #### Wat dit van de afgifte en het temperatuurregime vraagt
 
-Een warmtepomp verwarmt water tot doorgaans 30 tot 55 graden, waar een cv-ketel vaak op 60 tot 80 graden staat afgesteld. Bij die lagere temperatuur moet het afgiftesysteem (radiatoren of vloerverwarming) "groot genoeg" zijn om voldoende warmte af te geven: is dat niet het geval, dan springt de gasketel vaker bij, wat het voordeel van de warmtepomp juist wegneemt. Milieu Centraal biedt hiervoor de Verwarmingstest aan (aanvoertemperatuur een stookseizoen op 50 graden, en bijhouden of het huis warm genoeg blijft); Vaillant beschrijft een vergelijkbare vierstappentest met een grens van 55 graden. Hoe je een afgiftesysteem daadwerkelijk beoordeelt en optimaliseert (radiatorventilator, groter afgiftevlak, vloerverwarming), staat in [les 7.5](les:m07l05) en [les 7.6](les:m07l06): dat wordt hier niet herhaald.
+Een warmtepomp verwarmt water tot doorgaans 30 tot 55 graden, waar een cv-ketel vaak op 60 tot 80 graden staat afgesteld. Bij die lagere temperatuur moet het afgiftesysteem (radiatoren of vloerverwarming) "groot genoeg" zijn om voldoende warmte af te geven: is dat niet het geval, dan springt de gasketel vaker bij, wat het voordeel van de warmtepomp juist wegneemt. Milieu Centraal biedt hiervoor de Verwarmingstest aan (aanvoertemperatuur een stookseizoen op 50 graden, en bijhouden of het huis warm genoeg blijft); Vaillant beschrijft een vergelijkbare vierstappentest met een grens van 55 graden. Hoe je een afgiftesysteem daadwerkelijk beoordeelt en optimaliseert (radiatorventilator, groter afgiftevlak, vloerverwarming), staat in [les 7.5](https://cv-ketels.keesvanwanrooij.nl/les/afgiftesystemen-combineren-en-koppelen-aan-de-warmtebron/) en [les 7.6](https://cv-ketels.keesvanwanrooij.nl/les/een-afgiftesysteem-beoordelen-en-optimaliseren/): dat wordt hier niet herhaald.
 
 #### Wat een cv-monteur wel en niet doet
 
@@ -6105,11 +6105,11 @@ Wat je als cv-monteur aan een hybride systeem doet, hangt af van het onderdeel:
 
 - **Gasketel, waterzijdige aansluiting, regeling van de gasketel-kant**: dit valt onder je Vakmanschap CO, net als bij een gewone cv-ketel. Zowel Remeha als Intergas schrijven voor dat werk aan gasvoerende delen alleen door een erkend installateur gebeurt.
 - **Waterzijdig aansluiten van een monoblock-warmtepomp**: volgens Remeha kan een installateur zonder F-gassen-certificaat dit doen, omdat er geen koudemiddel door de leidingen naar binnen loopt.
-- **Een split-systeem, of het koudemiddelcircuit van welke warmtepomp dan ook**: dit vraagt een apart persoonscertificaat voor koudemiddelen (zie [les 17.5](les:m17l05)). Dat is niet jouw terrein zonder die aparte certificering.
+- **Een split-systeem, of het koudemiddelcircuit van welke warmtepomp dan ook**: dit vraagt een apart persoonscertificaat voor koudemiddelen (zie [les 17.5](https://cv-ketels.keesvanwanrooij.nl/les/de-grens-met-koudetechniek-f-gassen/)). Dat is niet jouw terrein zonder die aparte certificering.
 
 #### Praktijkgeval: geen warmte, en twee mogelijke bronnen
 
-Een klant met een hybride Intergas-installatie klaagt dat het huis kouder blijft dan normaal bij een buitentemperatuur van 5 graden. Volgens de methode uit [module 16](module:m16) begin je met de vraag: welke bron zou nu moeten leveren? Bij 5 graden buiten zou de warmtepomp normaal het grootste deel van de vraag moeten dekken. Je controleert eerst of de warmtepomp-binnenunit inderdaad een warmtevraag doorgeeft aan de gasketel (de gasketel-kant, jouw terrein), voordat je concludeert dat de warmtepomp zelf (de buitenunit, het koudemiddelcircuit) defect is. Blijkt het probleem echt in de buitenunit of het koudemiddelcircuit te zitten, dan verwijs je door naar een gecertificeerd koudetechnisch bedrijf in plaats van zelf verder te onderzoeken.
+Een klant met een hybride Intergas-installatie klaagt dat het huis kouder blijft dan normaal bij een buitentemperatuur van 5 graden. Volgens de methode uit [module 16](https://cv-ketels.keesvanwanrooij.nl/module/storingzoeken-en-reparatie/) begin je met de vraag: welke bron zou nu moeten leveren? Bij 5 graden buiten zou de warmtepomp normaal het grootste deel van de vraag moeten dekken. Je controleert eerst of de warmtepomp-binnenunit inderdaad een warmtevraag doorgeeft aan de gasketel (de gasketel-kant, jouw terrein), voordat je concludeert dat de warmtepomp zelf (de buitenunit, het koudemiddelcircuit) defect is. Blijkt het probleem echt in de buitenunit of het koudemiddelcircuit te zitten, dan verwijs je door naar een gecertificeerd koudetechnisch bedrijf in plaats van zelf verder te onderzoeken.
 
 > **Verdieping: waarom "hybride" geen vast omschreven vermogensverdeling heeft**
 > Beweringen als "de warmtepomp levert altijd 50 tot 70% van de warmtevraag" circuleren veel, maar zijn in dit register niet met een fabrikant- of ISSO-bron bevestigd en worden daarom niet als feit gebruikt. De werkelijke verdeling hangt af van het specifieke systeem, de instelling en de woning: noem dit in een klantgesprek als een indicatie, niet als een harde belofte.
@@ -6149,14 +6149,14 @@ Voor werk aan het koudemiddelcircuit (installeren, onderhouden, lekcontrole, ter
 
 Vakmanschap CO en de BRL 6000-25 gaan over gasverbrandingstoestellen tot 100 kW en de bijbehorende lucht- en rookgasvoorzieningen. Die scope noemt geen koudemiddelcircuit. Concreet betekent dat: je mag de gasketel van een hybride systeem installeren, onderhouden en afstellen; je mag, als installateur zonder F-gassen-certificaat, een monoblock-warmtepomp waterzijdig aansluiten omdat er geen koudemiddel naar binnen loopt; maar zodra je aan het koudemiddelcircuit zelf moet werken (een split-systeem aansluiten, een lekkage zoeken in het koudemiddelcircuit, koudemiddel bijvullen of aftappen), heb je een BRL 200-certificaat nodig dat een Vakmanschap CO-certificaat niet vervangt.
 
-Dit is precies dezelfde logica als bij andere brandstoffen en toesteltypen die buiten je CO-certificering vallen (zie [les 19.5](les:m19l05) voor olie, LPG, hout en pellets): weten waar je bevoegdheid ophoudt, hoort bij vakbekwaamheid, niet bij onzekerheid.
+Dit is precies dezelfde logica als bij andere brandstoffen en toesteltypen die buiten je CO-certificering vallen (zie [les 19.5](https://cv-ketels.keesvanwanrooij.nl/les/olie-lpg-hout-en-pellets-herkennen-en-de-grens/) voor olie, LPG, hout en pellets): weten waar je bevoegdheid ophoudt, hoort bij vakbekwaamheid, niet bij onzekerheid.
 
 > **Zelf aan een koudemiddelcircuit werken zonder certificaat**
 > Het is wettelijk verboden om zonder het juiste persoonscertificaat aan een koudemiddelcircuit te werken, en zonder de juiste apparatuur en training kan koudemiddel ongecontroleerd vrijkomen: bij een brandbaar koudemiddel zoals propaan is dat ook een brandgevaar. Bij twijfel of iets "nog gasketel" of al "koudetechniek" is: niet zelf proberen, een gecertificeerd koudetechnisch bedrijf inschakelen.
 
 #### Praktijkgeval: waar ligt de grens bij deze klacht?
 
-Een hybride installatie geeft een storing die volgens het display bij de buitenunit hoort. Je controleert eerst, net als in [les 17.4](les:m17l04), of de warmtepomp-binnenunit wel een warmtevraag doorgeeft aan de gasketel: dat mag je zelf controleren, want dat is de gasketel-kant en de communicatie ertussen. Blijkt de oorzaak in de buitenunit te zitten, bijvoorbeeld een compressor die niet aanslaat of een vermoeden van een koudemiddellek (bijvoorbeeld een ijsvorming op leidingen die daar niet zou moeten zitten), dan stop je daar: dat onderzoek en die reparatie vragen een BRL 200-certificaat.
+Een hybride installatie geeft een storing die volgens het display bij de buitenunit hoort. Je controleert eerst, net als in [les 17.4](https://cv-ketels.keesvanwanrooij.nl/les/hybride-en-warmtepompen-wat-je-moet-weten/), of de warmtepomp-binnenunit wel een warmtevraag doorgeeft aan de gasketel: dat mag je zelf controleren, want dat is de gasketel-kant en de communicatie ertussen. Blijkt de oorzaak in de buitenunit te zitten, bijvoorbeeld een compressor die niet aanslaat of een vermoeden van een koudemiddellek (bijvoorbeeld een ijsvorming op leidingen die daar niet zou moeten zitten), dan stop je daar: dat onderzoek en die reparatie vragen een BRL 200-certificaat.
 
 > **Verdieping: waarom de certificering per 2025-2029 verandert**
 > De herziening van de F-gassenverordening breidt de certificeringsplicht uit naar natuurlijke koudemiddelen, juist omdat steeds meer warmtepompen op propaan of andere natuurlijke koudemiddelen met een lage GWP overstappen. Een lage GWP maakt een koudemiddel klimaatvriendelijker, maar niet per se ongevaarlijker om mee te werken (propaan is bijvoorbeeld brandbaar): vandaar dat de certificeringsplicht meegroeit met het gebruik, in plaats van te verdwijnen.
@@ -6540,26 +6540,26 @@ Een gasverbrandingstoestel deel je in op drie onafhankelijke kenmerken:
 
 1. **Rendementsklasse**: hoe zuinig het toestel is en of het condenseert.
 2. **Solo of combi**: alleen verwarming, of ook warm tapwater.
-3. **Open of gesloten**: waar de verbrandingslucht vandaan komt (zie [les 8.1](les:m08l01)).
+3. **Open of gesloten**: waar de verbrandingslucht vandaan komt (zie [les 8.1](https://cv-ketels.keesvanwanrooij.nl/les/toesteltypen-open-en-gesloten/)).
 
 #### Rendementsklasse: conventioneel, VR en HR
 
 Een **conventionele ketel (CR)** heeft een atmosferische brander zonder ventilator (natuurlijke trek) en condenseert de waterdamp in het rookgas niet. Een **VR-ketel** (verbeterd rendement) werkt volgens hetzelfde principe, met minder verlies, maar condenseert net als de conventionele ketel niet: de warmte van de waterdamp verdwijnt met het rookgas.
 
-Een **HR-ketel** (hoogrendement) koelt het rookgas in de warmtewisselaar zo ver af dat de waterdamp condenseert. Die condensatiewarmte wordt mee benut, waardoor het rendement op onderwaarde boven 100% kan komen (zie [les 4.2](les:m04l02) en [les 4.6](les:m04l06)). Bij aardgas is die winst theoretisch maximaal circa 11% van de onderwaarde.
+Een **HR-ketel** (hoogrendement) koelt het rookgas in de warmtewisselaar zo ver af dat de waterdamp condenseert. Die condensatiewarmte wordt mee benut, waardoor het rendement op onderwaarde boven 100% kan komen (zie [les 4.2](https://cv-ketels.keesvanwanrooij.nl/les/volledige-verbranding-en-de-luchtbehoefte/) en [les 4.6](https://cv-ketels.keesvanwanrooij.nl/les/condensatie-dauwpunt-condensaat-en-rendement/)). Bij aardgas is die winst theoretisch maximaal circa 11% van de onderwaarde.
 
 > **Condenseren is het verschil, niet de ventilator**
-> Het onderscheid tussen VR en HR gaat niet over "wel of geen ventilator", maar over "wel of geen condensatie van de waterdamp in het rookgas". Een VR-ketel kan een ventilator hebben en toch niet condenseren. Herken een HR-ketel aan de kunststof of RVS afvoer met weerstandsklasse W en aan een condensaataansluiting (zie [les 8.3](les:m08l03)).
+> Het onderscheid tussen VR en HR gaat niet over "wel of geen ventilator", maar over "wel of geen condensatie van de waterdamp in het rookgas". Een VR-ketel kan een ventilator hebben en toch niet condenseren. Herken een HR-ketel aan de kunststof of RVS afvoer met weerstandsklasse W en aan een condensaataansluiting (zie [les 8.3](https://cv-ketels.keesvanwanrooij.nl/les/materialen-temperatuurklassen-en-condens/)).
 
 Het Gaskeur-label van Kiwa kende vroeger drie HR-niveaus (HR100, HR104 en HR107); op een gegeven moment is dat samengevoegd tot een enkel HR-label, met een eis die gelijk is aan die van het voormalige HR107: 107% rendement op onderwaarde, ongeveer 96,5% op bovenwaarde. Het precieze moment van die samenvoeging en de precieze percentages van de oude labels HR100 en HR104 zijn in het feitenregister niet met een sterke bron te bevestigen: gebruik ze niet als harde datum of harde getallen, alleen als naam die je nog op een oud typeplaatje kunt tegenkomen.
 
 #### Solo of combi
 
-Een **solo ketel** verwarmt alleen het cv-water; voor warm tapwater is een apart toestel nodig, zoals een boiler of een keukengeiser. Een **combiketel** verwarmt zowel het cv-water als het tapwater in één toestel, en verhit het tapwater op het moment van gebruik (doorstroomprincipe). De meeste woningen in Nederland hebben een combiketel. De CW-klasse van een combiketel (het tapdebiet) staat al met een Kiwa-bron in [les 7.2](les:m07l02) en in het feitenregister van module 2 (REN-11 tot REN-15).
+Een **solo ketel** verwarmt alleen het cv-water; voor warm tapwater is een apart toestel nodig, zoals een boiler of een keukengeiser. Een **combiketel** verwarmt zowel het cv-water als het tapwater in één toestel, en verhit het tapwater op het moment van gebruik (doorstroomprincipe). De meeste woningen in Nederland hebben een combiketel. De CW-klasse van een combiketel (het tapdebiet) staat al met een Kiwa-bron in [les 7.2](https://cv-ketels.keesvanwanrooij.nl/les/lage-temperatuur-en-het-rendement-van-de-ketel/) en in het feitenregister van module 2 (REN-11 tot REN-15).
 
 #### Het typeplaatje lezen
 
-Op het typeplaatje van elk gasverbrandingstoestel staan onder meer de toestelcategorie (bijvoorbeeld II2EK3P, zie [les 4.1](les:m04l01)), de aansluitwijze (A/B/C-indeling, zie [les 8.1](les:m08l01)), de CE-markering en het vermogen. De exacte lay-out verschilt per fabrikant en staat in de installatiehandleiding van dat toestel.
+Op het typeplaatje van elk gasverbrandingstoestel staan onder meer de toestelcategorie (bijvoorbeeld II2EK3P, zie [les 4.1](https://cv-ketels.keesvanwanrooij.nl/les/aardgas-in-nederland-gassoorten-gasdruk-en-wobbe/)), de aansluitwijze (A/B/C-indeling, zie [les 8.1](https://cv-ketels.keesvanwanrooij.nl/les/toesteltypen-open-en-gesloten/)), de CE-markering en het vermogen. De exacte lay-out verschilt per fabrikant en staat in de installatiehandleiding van dat toestel.
 
 #### Praktijkgeval: wat hangt hier?
 
@@ -6592,7 +6592,7 @@ Een atmosferische of VR-ketel heeft geen ventilator. De brander werkt met **natu
 Natuurlijke trek is gevoelig voor omstandigheden die je niet in de hand hebt: wind rond de schoorsteen, temperatuurverschil met de buitenlucht, en de lengte en staat van het kanaal. Daarom heeft een atmosferisch toestel een **trekonderbreker** (ook wel valwindafleider): een open verbinding tussen de opstelruimte en de rookgasafvoer, net boven de verbrandingskamer.
 
 > **De trekonderbreker ontkoppelt het toestel van de wind**
-> Een trekonderbreker zorgt dat de werking van het toestel wordt bepaald door de eigen thermische trek, niet door wisselende windinvloeden of een valwind in de schoorsteen. Een deel van de omgevingslucht wordt door de opening aangezogen, zodat een plotselinge terugslag van buiten niet rechtstreeks bij de brander komt. Zie ook de typeaanduiding B11 en B11BS in [les 8.1](les:m08l01).
+> Een trekonderbreker zorgt dat de werking van het toestel wordt bepaald door de eigen thermische trek, niet door wisselende windinvloeden of een valwind in de schoorsteen. Een deel van de omgevingslucht wordt door de opening aangezogen, zodat een plotselinge terugslag van buiten niet rechtstreeks bij de brander komt. Zie ook de typeaanduiding B11 en B11BS in [les 8.1](https://cv-ketels.keesvanwanrooij.nl/les/toesteltypen-open-en-gesloten/).
 
 #### Waakvlam en thermokoppel
 
@@ -6602,19 +6602,19 @@ Dit is een simpele maar robuuste beveiliging: zonder vlam geen gastoevoer, zonde
 
 #### Waarom meer CO-risico
 
-Een atmosferisch of VR-toestel is bijna altijd een **open toestel** (type B): het haalt zijn verbrandingslucht rechtstreeks uit de opstelruimte (zie [les 8.1](les:m08l01) en [les 8.7](les:m08l07)). Dat maakt het gevoelig voor onderdruk in die ruimte, bijvoorbeeld door een afzuigkap, een wasdroger of mechanische ventilatie: bij te veel onderdruk kan het rookgas niet via de trekonderbreker naar buiten en komt het (deels) de ruimte in.
+Een atmosferisch of VR-toestel is bijna altijd een **open toestel** (type B): het haalt zijn verbrandingslucht rechtstreeks uit de opstelruimte (zie [les 8.1](https://cv-ketels.keesvanwanrooij.nl/les/toesteltypen-open-en-gesloten/) en [les 8.7](https://cv-ketels.keesvanwanrooij.nl/les/verbrandingslucht-en-ventilatie-afzuiging-onderdruk-en-terugslag/)). Dat maakt het gevoelig voor onderdruk in die ruimte, bijvoorbeeld door een afzuigkap, een wasdroger of mechanische ventilatie: bij te veel onderdruk kan het rookgas niet via de trekonderbreker naar buiten en komt het (deels) de ruimte in.
 
-Daar komt bij dat een ouder toestel vaker een oudere, niet meer optimale afvoer heeft, en dat de veiligheidsvoorzieningen (alleen een thermokoppel, geen elektronische bewaking van de rookgasafvoer) minder uitgebreid zijn dan bij een modern toestel. De Onderzoeksraad voor Veiligheid concludeerde in 2015 dat de meeste CO-ongevallen echter met moderne en goed onderhouden installaties gebeurden, niet uitsluitend met oude toestellen (zie [les 8.1](les:m08l01), WET-81): leeftijd alleen is dus geen garantie voor veiligheid, en jeugdigheid alleen is geen garantie voor gevaar.
+Daar komt bij dat een ouder toestel vaker een oudere, niet meer optimale afvoer heeft, en dat de veiligheidsvoorzieningen (alleen een thermokoppel, geen elektronische bewaking van de rookgasafvoer) minder uitgebreid zijn dan bij een modern toestel. De Onderzoeksraad voor Veiligheid concludeerde in 2015 dat de meeste CO-ongevallen echter met moderne en goed onderhouden installaties gebeurden, niet uitsluitend met oude toestellen (zie [les 8.1](https://cv-ketels.keesvanwanrooij.nl/les/toesteltypen-open-en-gesloten/), WET-81): leeftijd alleen is dus geen garantie voor veiligheid, en jeugdigheid alleen is geen garantie voor gevaar.
 
 > **Terugslag bij een open toestel**
-> Ruik je bij een klant plotseling rookgaslucht in de opstelruimte van een atmosferisch of VR-toestel, of zie je roetsporen boven de trekonderbreker, dan is dat een teken van terugslag (spillage): rookgas dat niet via de afvoer naar buiten gaat. Stel het toestel buiten bedrijf, zoek de oorzaak (onderdruk, verstopte of beschadigde afvoer, te weinig ventilatie) voor je het weer in bedrijf stelt, en informeer de opdrachtgever. Bij twijfel: meet CO in de ruimte volgens de procedure uit [les 1.6](les:m01l06).
+> Ruik je bij een klant plotseling rookgaslucht in de opstelruimte van een atmosferisch of VR-toestel, of zie je roetsporen boven de trekonderbreker, dan is dat een teken van terugslag (spillage): rookgas dat niet via de afvoer naar buiten gaat. Stel het toestel buiten bedrijf, zoek de oorzaak (onderdruk, verstopte of beschadigde afvoer, te weinig ventilatie) voor je het weer in bedrijf stelt, en informeer de opdrachtgever. Bij twijfel: meet CO in de ruimte volgens de procedure uit [les 1.6](https://cv-ketels.keesvanwanrooij.nl/les/afkeuren-melden-en-aansprakelijkheid/).
 
 #### Extra controles bij een atmosferisch of VR-toestel
 
 - Controleer de trekonderbreker op corrosie, vervorming en roetsporen.
 - Controleer of de opstelruimte voldoende geventileerd is en of er nieuwe mechanische ventilatie of een afzuigkap is bijgekomen sinds de laatste controle.
 - Controleer waakvlam en thermokoppel op vervuiling en op een stabiele vlam.
-- Beoordeel de afvoer zoals bij elk ander toestel (zie [les 8.9](les:m08l09)): materiaal, staat, beugeling.
+- Beoordeel de afvoer zoals bij elk ander toestel (zie [les 8.9](https://cv-ketels.keesvanwanrooij.nl/les/een-bestaande-afvoer-beoordelen/)): materiaal, staat, beugeling.
 
 **Controleer jezelf:**
 
@@ -6631,11 +6631,11 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/geisers-en-doorstroomtoestellen/
 
 #### Warm water op het moment dat je de kraan opent
 
-Een gasgeiser (doorstroomtoestel) verwarmt water alleen op het moment dat de warmwaterkraan wordt geopend: een brander slaat aan zodra er doorstroming is, en dooft weer als de kraan dicht gaat. Er is geen voorraad warm water zoals bij een boiler. Oudere geisers zijn typisch een open toestel (type B, met trekonderbreker, zie [les 19.2](les:m19l02)) of, bij de allerouds­te modellen, een **afvoerloos toestel (type A)** dat zijn rookgas rechtstreeks in de ruimte afgeeft.
+Een gasgeiser (doorstroomtoestel) verwarmt water alleen op het moment dat de warmwaterkraan wordt geopend: een brander slaat aan zodra er doorstroming is, en dooft weer als de kraan dicht gaat. Er is geen voorraad warm water zoals bij een boiler. Oudere geisers zijn typisch een open toestel (type B, met trekonderbreker, zie [les 19.2](https://cv-ketels.keesvanwanrooij.nl/les/atmosferische-en-vr-ketels/)) of, bij de allerouds­te modellen, een **afvoerloos toestel (type A)** dat zijn rookgas rechtstreeks in de ruimte afgeeft.
 
 #### Waarom geisers historisch zoveel CO-ongevallen gaven
 
-Volgens het RIVM is de kans op een CO-ongeval bij een geiser groter dan bij een cv-ketel. Het RIVM noemt daar zelf geen specifieke oorzaak bij. Denkbare verklaringen, die volgen uit wat je al weet over CO en ventilatie (zie [les 8.7](les:m08l07)) maar niet apart door het RIVM zijn bevestigd:
+Volgens het RIVM is de kans op een CO-ongeval bij een geiser groter dan bij een cv-ketel. Het RIVM noemt daar zelf geen specifieke oorzaak bij. Denkbare verklaringen, die volgen uit wat je al weet over CO en ventilatie (zie [les 8.7](https://cv-ketels.keesvanwanrooij.nl/les/verbrandingslucht-en-ventilatie-afzuiging-onderdruk-en-terugslag/)) maar niet apart door het RIVM zijn bevestigd:
 
 - **Vaak in een kleinere ruimte.** Een keuken of badruimte is vaak kleiner dan een cv-ketelruimte, waardoor een lek CO-hoeveelheid zich sneller tot een gevaarlijke concentratie kan opbouwen.
 - **Kortstondig, herhaald gebruik.** Een geiser slaat vaak aan en uit, op het moment dat iemand in de buurt staat (afwassen, douchen).
@@ -6647,11 +6647,11 @@ Omdat het aantal geisers in woningen sinds ongeveer 2001 sterk is afgenomen, ver
 > Het RIVM stelt vast dat een geiser per toestel risicovoller is dan een cv-ketel, zonder daar zelf een oorzaak bij te geven. Een aannemelijke verklaring: hij staat vaak in een kleinere ruimte, slaat kort en herhaald aan precies op het moment dat iemand in de buurt is, en wordt door bewoners minder snel als onderhoudsplichtig verbrandingstoestel gezien. Geen van die drie punten is op zich al gevaarlijk, maar de combinatie kan dat wel zijn.
 
 > **Een geiser in een afgesloten ruimte**
-> Een geiser (of een ander open toestel) in een kleine, afgesloten ruimte zoals een badruimte is een van de gevaarlijkste combinaties die je kunt tegenkomen: weinig lucht, korte afstand tot de bron, en vaak weinig ventilatie. Een open verbrandingstoestel mag volgens het Bbl nooit in een toilet- of badruimte staan (zie [les 8.1](les:m08l01)). Tref je dit toch aan, dan is dat een acuut aandachtspunt: adviseer directe actie (verplaatsen of vervangen) en niet alleen een CO-melder.
+> Een geiser (of een ander open toestel) in een kleine, afgesloten ruimte zoals een badruimte is een van de gevaarlijkste combinaties die je kunt tegenkomen: weinig lucht, korte afstand tot de bron, en vaak weinig ventilatie. Een open verbrandingstoestel mag volgens het Bbl nooit in een toilet- of badruimte staan (zie [les 8.1](https://cv-ketels.keesvanwanrooij.nl/les/toesteltypen-open-en-gesloten/)). Tref je dit toch aan, dan is dat een acuut aandachtspunt: adviseer directe actie (verplaatsen of vervangen) en niet alleen een CO-melder.
 
 #### Wat mag nog, en wat doe je als je een geiser aantreft
 
-Een afvoerloze keukengeiser (type A) mag in nieuwbouw niet meer worden geplaatst. In bestaande bouw is een open kook- of warmwatertoestel tot en met 15 kW per toestel in een verblijfsruimte (zoals een keuken) vrijgesteld van de plicht tot rookgasafvoer en verbrandingsluchtvoorziening, maar hij mag nooit in een toilet- of badruimte staan (zie [les 8.1](les:m08l01), RGA-01, WET-54).
+Een afvoerloze keukengeiser (type A) mag in nieuwbouw niet meer worden geplaatst. In bestaande bouw is een open kook- of warmwatertoestel tot en met 15 kW per toestel in een verblijfsruimte (zoals een keuken) vrijgesteld van de plicht tot rookgasafvoer en verbrandingsluchtvoorziening, maar hij mag nooit in een toilet- of badruimte staan (zie [les 8.1](https://cv-ketels.keesvanwanrooij.nl/les/toesteltypen-open-en-gesloten/), RGA-01, WET-54).
 
 Tref je bij een klant een geiser aan zonder CO-melder in de ruimte, dan schrijft BRL 6000-25 voor dat je CO-melders adviseert en vastlegt dat je dat hebt gedaan. Dat is iets anders dan het toestel zelf verwijderen: dat is geen wettelijke plicht, maar wel iets wat je als vakbekwaam monteur bespreekt met de klant, zeker bij een geiser in een badruimte of bij tekenen van slecht onderhoud (roet, een instabiele vlam, een verkleurde wand boven het toestel).
 
@@ -6687,7 +6687,7 @@ Een **convector** verwarmt door lucht langs een verwarmd oppervlak te laten stro
 
 #### Onderdruk: hetzelfde risico als bij een open ketel
 
-Bij een open gaskachel kan onderdruk in de ruimte, bijvoorbeeld door te weinig verse lucht of door mechanische ventilatie elders in de woning, ertoe leiden dat verbrandingsgassen niet via de afvoer naar buiten gaan maar de ruimte in komen (zie ook [les 8.7](les:m08l07) en [les 19.2](les:m19l02)). Milieu Centraal noemt daarom voldoende verse lucht (een klapraam of ventilatierooster) als voorwaarde bij een open kachel, en een CO-melder als aanvullende voorzorg.
+Bij een open gaskachel kan onderdruk in de ruimte, bijvoorbeeld door te weinig verse lucht of door mechanische ventilatie elders in de woning, ertoe leiden dat verbrandingsgassen niet via de afvoer naar buiten gaan maar de ruimte in komen (zie ook [les 8.7](https://cv-ketels.keesvanwanrooij.nl/les/verbrandingslucht-en-ventilatie-afzuiging-onderdruk-en-terugslag/) en [les 19.2](https://cv-ketels.keesvanwanrooij.nl/les/atmosferische-en-vr-ketels/)). Milieu Centraal noemt daarom voldoende verse lucht (een klapraam of ventilatierooster) als voorwaarde bij een open kachel, en een CO-melder als aanvullende voorzorg.
 
 #### Sfeerhaarden zonder afvoer
 
@@ -6715,7 +6715,7 @@ URL: https://cv-ketels.keesvanwanrooij.nl/les/olie-lpg-hout-en-pellets-herkennen
 
 #### Dezelfde chemie, andere brandstof
 
-Verbranding van stookolie en van hout of pellets verloopt volgens hetzelfde basisprincipe als aardgas: brandstof plus zuurstof geeft CO2, water en warmte, en te weinig lucht geeft CO (zie [les 4.2](les:m04l02)). De brandstof zelf verschilt wel:
+Verbranding van stookolie en van hout of pellets verloopt volgens hetzelfde basisprincipe als aardgas: brandstof plus zuurstof geeft CO2, water en warmte, en te weinig lucht geeft CO (zie [les 4.2](https://cv-ketels.keesvanwanrooij.nl/les/volledige-verbranding-en-de-luchtbehoefte/)). De brandstof zelf verschilt wel:
 
 - **Stookolie (mazout)** is een vloeibaar mengsel van zwaardere koolwaterstoffen. Onvolledige verbranding geeft eerder roet en zwaveloxiden dan bij aardgas.
 - **Hout en pellets** zijn vaste biomassa. Naast CO2 en water ontstaan as en fijnstof (koolstofdeeltjes), en de verbranding is moeilijker te regelen dan bij een gas- of oliebrander.
@@ -6744,7 +6744,7 @@ Een bijzonder grensgeval is de **gasabsorptiewarmtepomp**: dit toestel combineer
 Een klant met een oud vakantiehuis zonder gasaansluiting vraagt of jij, met je Bewijs van Vakmanschap CO, ook onderhoud kunt doen aan zijn olieketel en aan de propaantank waarop zijn keukenfornuis is aangesloten.
 
 - **Olieketel:** nee, dat valt buiten je certificering; verwijs naar een gespecialiseerd bedrijf.
-- **Propaan-keukenfornuis:** een kooktoestel valt sowieso buiten de certificeringsplicht (zie [les 8.1](les:m08l01), RGA-01), gas of niet.
+- **Propaan-keukenfornuis:** een kooktoestel valt sowieso buiten de certificeringsplicht (zie [les 8.1](https://cv-ketels.keesvanwanrooij.nl/les/toesteltypen-open-en-gesloten/), RGA-01), gas of niet.
 - **De propaantank zelf:** de opslag valt onder eigen veiligheidsvoorschriften (PGS 19), niet onder jouw certificaat.
 
 Wees hier eerlijk en concreet: "dat mag ik niet, en hier is waarom" is onderdeel van vakbekwaamheid, niet een tekortkoming.
@@ -6815,13 +6815,13 @@ Een oud atmosferisch of VR-toestel vervangen door een HR-ketel is meer dan "de o
 
 #### 1. De afvoer: van onderdruk naar overdruk
 
-Een atmosferisch of VR-toestel werkt op natuurlijke trek (onderdruk in de afvoer, warme rookgassen die opstijgen). Een HR-toestel heeft een ventilator die het rookgas met lichte overdruk door de afvoer drukt, bij een veel lagere, condenserende temperatuur. Een bouwkundig collectief kanaal met natuurlijke trek (een shunt of onderdruk-CLV) is daardoor niet zonder meer geschikt voor een HR-toestel: het drukverschil en de lagere rookgastemperatuur passen niet bij een kanaal dat voor de oude situatie is berekend (zie [les 8.8](les:m08l08)).
+Een atmosferisch of VR-toestel werkt op natuurlijke trek (onderdruk in de afvoer, warme rookgassen die opstijgen). Een HR-toestel heeft een ventilator die het rookgas met lichte overdruk door de afvoer drukt, bij een veel lagere, condenserende temperatuur. Een bouwkundig collectief kanaal met natuurlijke trek (een shunt of onderdruk-CLV) is daardoor niet zonder meer geschikt voor een HR-toestel: het drukverschil en de lagere rookgastemperatuur passen niet bij een kanaal dat voor de oude situatie is berekend (zie [les 8.8](https://cv-ketels.keesvanwanrooij.nl/les/collectieve-afvoer-clv-en-gestapelde-bouw/)).
 
-BRL 6000-25 eist bovendien dat het bestaande afvoersysteem bij vervanging gelijktijdig met het toestel wordt vervangen, tenzij het grondig is gecontroleerd en beoordeeld als geschikt voor een verwachte resterende levensduur van minimaal 15 jaar (zie [les 8.9](les:m08l09)). Bij een VR-toestel dat door een HR-toestel wordt vervangen, geldt in de praktijk van fabrikanten dat het afvoersysteem altijd wordt vervangen: de lagere rookgastemperatuur en de condens vragen om ander materiaal dan een oudere metalen afvoer zonder weerstandsklasse W (zie [les 8.3](les:m08l03)).
+BRL 6000-25 eist bovendien dat het bestaande afvoersysteem bij vervanging gelijktijdig met het toestel wordt vervangen, tenzij het grondig is gecontroleerd en beoordeeld als geschikt voor een verwachte resterende levensduur van minimaal 15 jaar (zie [les 8.9](https://cv-ketels.keesvanwanrooij.nl/les/een-bestaande-afvoer-beoordelen/)). Bij een VR-toestel dat door een HR-toestel wordt vervangen, geldt in de praktijk van fabrikanten dat het afvoersysteem altijd wordt vervangen: de lagere rookgastemperatuur en de condens vragen om ander materiaal dan een oudere metalen afvoer zonder weerstandsklasse W (zie [les 8.3](https://cv-ketels.keesvanwanrooij.nl/les/materialen-temperatuurklassen-en-condens/)).
 
 #### 2. De opstelruimte en de ventilatie
 
-Bij verbouw gelden voor een nieuw geïnstalleerde rookgasafvoer in beginsel de nieuwbouw-prestatieniveaus, behalve als de bestaande voorziening wordt vervangen en de plaats van de uitmonding niet wijzigt: dan geldt die plaatseis niet (zie [les 8.9](les:m08l09)). Dat neemt niet weg dat je de ventilatie van de opstelruimte altijd beoordeelt: een oud atmosferisch toestel had minder verbrandingslucht nodig dan sommige nieuwe situaties vragen, en een nieuwe afzuigkap of mechanische ventilatie die er sinds de vorige ketel is bijgekomen, verandert het risico op onderdruk (zie [les 19.2](les:m19l02) en [les 8.7](les:m08l07)).
+Bij verbouw gelden voor een nieuw geïnstalleerde rookgasafvoer in beginsel de nieuwbouw-prestatieniveaus, behalve als de bestaande voorziening wordt vervangen en de plaats van de uitmonding niet wijzigt: dan geldt die plaatseis niet (zie [les 8.9](https://cv-ketels.keesvanwanrooij.nl/les/een-bestaande-afvoer-beoordelen/)). Dat neemt niet weg dat je de ventilatie van de opstelruimte altijd beoordeelt: een oud atmosferisch toestel had minder verbrandingslucht nodig dan sommige nieuwe situaties vragen, en een nieuwe afzuigkap of mechanische ventilatie die er sinds de vorige ketel is bijgekomen, verandert het risico op onderdruk (zie [les 19.2](https://cv-ketels.keesvanwanrooij.nl/les/atmosferische-en-vr-ketels/) en [les 8.7](https://cv-ketels.keesvanwanrooij.nl/les/verbrandingslucht-en-ventilatie-afzuiging-onderdruk-en-terugslag/)).
 
 #### 3. De condensafvoer
 
@@ -6829,7 +6829,7 @@ Een HR-toestel maakt, in tegenstelling tot het oude toestel, zuur condensaat dat
 
 #### 4. Het temperatuurregime en de afgifte
 
-Een HR-toestel heeft een lagere retourtemperatuur nodig om te kunnen condenseren dan een ouder toestel (zie [les 7.2](les:m07l02)). Oude radiatoren die voor een hoog temperatuurregime zijn ontworpen (bijvoorbeeld 90/70 °C), geven bij een lager temperatuurregime minder vermogen af. Dat betekent niet dat je de radiatoren per se moet vervangen, maar wel dat je vooraf checkt of de bestaande afgifte bij een lagere aanvoertemperatuur nog voldoende is, zeker in de koudste dagen van het jaar.
+Een HR-toestel heeft een lagere retourtemperatuur nodig om te kunnen condenseren dan een ouder toestel (zie [les 7.2](https://cv-ketels.keesvanwanrooij.nl/les/lage-temperatuur-en-het-rendement-van-de-ketel/)). Oude radiatoren die voor een hoog temperatuurregime zijn ontworpen (bijvoorbeeld 90/70 °C), geven bij een lager temperatuurregime minder vermogen af. Dat betekent niet dat je de radiatoren per se moet vervangen, maar wel dat je vooraf checkt of de bestaande afgifte bij een lagere aanvoertemperatuur nog voldoende is, zeker in de koudste dagen van het jaar.
 
 #### 5. De rest van de installatie
 
@@ -6971,9 +6971,8 @@ Een fabrikantgrens is meestal strenger en gaat voor (Intergas bijvoorbeeld 160 p
 
 **Let op:** er is een wijziging van de meldplicht voorgenomen (melden aan het bevoegd gezag alleen als het risico niet direct is weggenomen, met vermelding van de oorzaak). Tot die in werking treedt geldt art. 6.46 zoals hierboven. Controleer de actuele tekst.
 
-!!! gevaar Bij een CO-alarm of acuut gevaar: 112
-Waarschuw iedereen, ga direct naar buiten en bel 112. Bij een ernstig vergiftigde bewoner bel je altijd 112.
-!!!
+> **Bij een CO-alarm of acuut gevaar: 112**
+> Waarschuw iedereen, ga direct naar buiten en bel 112. Bij een ernstig vergiftigde bewoner bel je altijd 112.
 
 ### CO-melder (NEN-EN 50291)
 
@@ -7144,9 +7143,8 @@ Grenst het perceel aan een openbare weg, water of groen, dan meet je tot het har
 
 Voordruk en vuldruk verschillen per fabrikant en per berekening: volg de handleiding van het toestel en van het vat.
 
-!!! gevaar Veiligheidsventiel
-Tussen het toestel en het veiligheidsventiel mag geen afsluiter of vernauwing zitten (voorschrift Intergas Kombi Kompakt HRE, ventiel op maximaal 500 mm van het toestel). Een afblazend ventiel betekent dat de druk tot ongeveer 3 bar is gekomen: zoek de oorzaak.
-!!!
+> **Veiligheidsventiel**
+> Tussen het toestel en het veiligheidsventiel mag geen afsluiter of vernauwing zitten (voorschrift Intergas Kombi Kompakt HRE, ventiel op maximaal 500 mm van het toestel). Een afblazend ventiel betekent dat de druk tot ongeveer 3 bar is gekomen: zoek de oorzaak.
 
 ### Waterkwaliteit: pH-vensters
 
