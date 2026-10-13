@@ -323,4 +323,57 @@
     document.documentElement.dataset.theme = Store.thema();
     route();
   }
+
+  /* ---------------------- voortgang van het oude adres ---------------------- */
+
+  /* Tot oktober 2026 stond deze cursus op www.keesvanwanrooij.nl/cursus-cv-ketels/, met de
+     voortgang in de localStorage van die origin. Op dit subdomein begint die leeg. Eenmalig vraagt
+     een onzichtbaar iframe van die site de oude voortgang op (zelfde site, dus de browser schermt
+     hem niet af) en ruimt die site de oude service worker op. Bestaande voortgang hier wordt nooit
+     overschreven. Zonder antwoord binnen tien seconden volgt bij een volgend bezoek een nieuwe poging. */
+  (function () {
+    var OUD = 'https://www.keesvanwanrooij.nl';
+    var SLEUTEL = CURSUS.site.opslagSleutel;
+    var GEDAAN = SLEUTEL + '-overgezet';
+    var MELDING = SLEUTEL + '-overgezet-melding';
+    if (location.origin !== CURSUS.site.origin) return;
+    try {
+      if (sessionStorage.getItem(MELDING)) {
+        sessionStorage.removeItem(MELDING);
+        melding('Je voortgang van het oude adres is overgezet.');
+      }
+      if (localStorage.getItem(GEDAAN)) return;
+    } catch (e) { return; }
+
+    var frame = document.createElement('iframe');
+    var klaar = false;
+    function stop() {
+      klaar = true;
+      window.removeEventListener('message', antwoord);
+      frame.remove();
+    }
+    function antwoord(e) {
+      if (e.origin !== OUD || e.source !== frame.contentWindow || !e.data || e.data.type !== 'bk-voortgang') return;
+      stop();
+      try {
+        localStorage.setItem(GEDAAN, new Date().toISOString());
+        var oud = e.data.voortgang;
+        if (oud && !localStorage.getItem(SLEUTEL) && JSON.parse(oud)) {
+          localStorage.setItem(SLEUTEL, oud);
+          sessionStorage.setItem(MELDING, '1');
+          location.reload();
+        }
+      } catch (fout) { /* onleesbare oude voortgang: hier gewoon verder */ }
+    }
+    window.addEventListener('message', antwoord);
+    frame.hidden = true;
+    frame.tabIndex = -1;
+    frame.setAttribute('aria-hidden', 'true');
+    frame.addEventListener('load', function () {
+      frame.contentWindow.postMessage({ type: 'bk-voortgang-vraag' }, OUD);
+    });
+    frame.src = OUD + '/voortgang-overzetten.html';
+    document.body.appendChild(frame);
+    setTimeout(function () { if (!klaar) stop(); }, 10000);
+  })();
 })();
