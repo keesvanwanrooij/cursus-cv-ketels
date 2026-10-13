@@ -17,6 +17,7 @@
 var fs = require('fs');
 var path = require('path');
 var crypto = require('crypto');
+var childProcess = require('child_process');
 var laadMod = require('./laad.js');
 var check = require('./check.js');
 
@@ -36,6 +37,31 @@ var BASE = args.base || SITE_CFG.base;
 var OUT = path.resolve(args.out || ROOT);
 var DATUM = process.env.BUILD_DATE || new Date().toISOString().slice(0, 10);
 var GOOGLE_VERIFICATIE = SITE_CFG.googleVerificatie || '';
+
+/* lastmod per pagina: de datum waarop het bronbestand voor het laatst is gecommit. Een bouwdatum voor alle pagina's
+   zegt niets (elke herbouw lijkt dan alles te wijzigen) en zoekmachines gaan lastmod dan negeren. Is er geen git, is het
+   bestand nog niet gecommit of heeft het onbevestigde wijzigingen, dan valt het terug op de bouwdatum. */
+var datumCache = {};
+function bestandsdatum(rel) {
+  if (datumCache[rel] !== undefined) return datumCache[rel];
+  var uit = DATUM;
+  try {
+    var opts = { cwd: ROOT, encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] };
+    var vuil = childProcess.execFileSync('git', ['status', '--porcelain', '--', rel], opts).trim();
+    var datum = childProcess.execFileSync('git', ['log', '-1', '--format=%cs', '--', rel], opts).trim();
+    if (!vuil && /^\d{4}-\d{2}-\d{2}$/.test(datum)) uit = datum;
+  } catch (e) { /* geen git: bouwdatum */ }
+  datumCache[rel] = uit;
+  return uit;
+}
+/* Meerdere bronbestanden: de nieuwste datum telt. */
+function laatsteWijziging(bronnen) {
+  var nieuwste = (bronnen || []).map(bestandsdatum).reduce(function (m, d) { return d > m ? d : m; }, '0000-00-00');
+  return nieuwste === '0000-00-00' ? DATUM : nieuwste;
+}
+var ALLE_CONTENT = fs.readdirSync(path.join(ROOT, 'content')).filter(function (f) { return /\.js$/.test(f); })
+  .map(function (f) { return 'content/' + f; });
+var ALLE_MODULES = ALLE_CONTENT.filter(function (f) { return /content\/m\d{2}\.js$/.test(f); });
 
 /* ------------------------------ eerst controleren ------------------------------ */
 
@@ -174,27 +200,32 @@ schrijf('naslag/index.html', pagina('naslag', null, true));
 schrijf('kaarten/index.html', pagina('kaarten', null, true));
 schrijf('storingzoeker/index.html', pagina('storingzoeker', null, true));
 
-var urls = [Seo.absoluut('dash'), Seo.absoluut('storingzoeker'), Seo.absoluut('kaarten'), Seo.absoluut('naslag')].map(function (l) { return { loc: l }; });
+var urls = [
+  { loc: Seo.absoluut('dash'), bron: ALLE_CONTENT },
+  { loc: Seo.absoluut('storingzoeker'), bron: ['content/storingen.js'] },
+  { loc: Seo.absoluut('kaarten'), bron: ALLE_MODULES },
+  { loc: Seo.absoluut('naslag'), bron: ['content/naslag.js'] }
+];
 var aantalPaginas = 4, aantalGeplandeModules = 0;
 
 CURSUS.modules.forEach(function (m) {
   schrijf(Seo.rel('module', m.id) + 'index.html', pagina('module', m.id, true));
   aantalPaginas++;
   /* Modules zonder geschreven lessen krijgen wel een pagina (voor bezoekers) maar staan niet in de sitemap en zijn noindex. */
-  if (CURSUS.moduleKlaar(m)) urls.push({ loc: Seo.absoluut('module', m.id) });
+  if (CURSUS.moduleKlaar(m)) urls.push({ loc: Seo.absoluut('module', m.id), bron: ['content/' + m.id + '.js'] });
   else aantalGeplandeModules++;
 });
 
 var aantalLessen = 0;
 CURSUS.alleLessen().forEach(function (x) {
   schrijf(Seo.rel('les', x.les.id) + 'index.html', pagina('les', x.les.id, true));
-  urls.push({ loc: Seo.absoluut('les', x.les.id) });
+  urls.push({ loc: Seo.absoluut('les', x.les.id), bron: ['content/' + x.module.id + '.js'] });
   aantalLessen++; aantalPaginas++;
 });
 
 CURSUS.casussen.forEach(function (c) {
   schrijf(Seo.rel('casus', c.id) + 'index.html', pagina('casus', c.id, true));
-  urls.push({ loc: Seo.absoluut('casus', c.id) });
+  urls.push({ loc: Seo.absoluut('casus', c.id), bron: ['content/storingen.js'] });
   aantalPaginas++;
 });
 
@@ -202,7 +233,7 @@ schrijf('sitemap.xml',
   '<?xml version="1.0" encoding="UTF-8"?>\n' +
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
   urls.map(function (u) {
-    return '  <url><loc>' + esc(u.loc) + '</loc><lastmod>' + DATUM + '</lastmod></url>';
+    return '  <url><loc>' + esc(u.loc) + '</loc><lastmod>' + (u.bron ? laatsteWijziging(u.bron) : DATUM) + '</lastmod></url>';
   }).join('\n') + '\n</urlset>\n');
 
 /* robots.txt: iedereen welkom, ook de bekende AI-crawlers (bewust expliciet gemaakt). */
@@ -219,6 +250,18 @@ var HOME = SITE + BASE;
 var REPO = 'https://github.com/' + SITE_CFG.repo;
 var A = CURSUS.aantallen();
 
+/* Interne verwijzingen [tekst](les:m01l06) en [tekst](module:m08) zijn voor een lezer buiten de app betekenisloos:
+   omzetten naar de volledige URL. Verwijst een id nergens naar, dan blijft alleen de tekst staan. */
+function interneLinks(tekst) {
+  return String(tekst)
+    .replace(/\[([^\]]+)\]\(les:([a-z0-9]+)\)/g, function (m, t, id) {
+      return CURSUS.les(id) ? '[' + t + '](' + Seo.absoluut('les', id) + ')' : t;
+    })
+    .replace(/\[([^\]]+)\]\(module:([a-z0-9]+)\)/g, function (m, t, id) {
+      return CURSUS.modules.some(function (x) { return x.id === id; }) ? '[' + t + '](' + Seo.absoluut('module', id) + ')' : t;
+    });
+}
+
 /* Onze eigen opmaak (!!! callouts, ?? verdiepingen) omzetten naar gewone markdown. */
 function platteMarkdown(tekst) {
   var uit = [], blok = null;
@@ -233,7 +276,7 @@ function platteMarkdown(tekst) {
     /* koppen een niveau lager, zodat ze onder de leskop blijven vallen */
     uit.push(regel.replace(/^(#{2,3}) /, function (_, h) { return h + '# '; }));
   });
-  return uit.join('\n').replace(/\n{3,}/g, '\n\n').trim();
+  return interneLinks(uit.join('\n')).replace(/\n{3,}/g, '\n\n').trim();
 }
 
 var moduleLijst = CURSUS.modules.filter(CURSUS.moduleKlaar, CURSUS);
@@ -248,7 +291,7 @@ var lijstModules = moduleLijst.map(function (m) {
 schrijf('llms.txt',
   '# ' + SITE_CFG.naam + '\n\n' +
   '> Gratis online cursus voor de cv-ketel monteur, in het Nederlands. Zelfstudie in ' + A.modules + ' modules en ' + A.lessen +
-  ' lessen (ongeveer ' + A.uren + ' uur): de wet en het CO-stelsel, gas en verbranding, de werking van de HR-ketel, rookgasafvoer, meten, ' +
+  ' lessen (ongeveer ' + Math.round(A.uren / 5) * 5 + ' uur): de wet en het CO-stelsel, gas en verbranding, de werking van de HR-ketel, rookgasafvoer, meten, ' +
   'installeren, onderhoud en storingzoeken, met toetsvragen, flashcards en een storingzoeker als voorbereiding op het examen Vakmanschap CO.\n\n' +
   'Deze cursus is bedoeld voor aankomend cv-monteurs, zij-instromers en monteurs die zich voorbereiden op het theorie- en praktijkexamen. ' +
   'De inhoud is onderwijskundig en verwijst naar wet, certificatieschema\'s en fabrikantdocumentatie zonder die te vervangen. ' +
@@ -286,7 +329,9 @@ schrijf('llms-full.txt',
       }).join('\n');
   }).join('\n') +
   '\n## Naslag cv-ketels\n\nURL: ' + Seo.absoluut('naslag') + '\n\n' +
-  ctx.NASLAG.map(function (k) { return '### ' + k.titel + '\n\n' + k.inhoud.trim() + '\n'; }).join('\n'));
+  ctx.NASLAG.map(function (k) {
+    return '### ' + k.titel + '\n\n' + platteMarkdown(k.inhoud).replace(/^(#{2,4}) /gm, function (_, h) { return h + '## '; }) + '\n';
+  }).join('\n'));
 
 /* 404: nuttige pagina met links, bewust niet geindexeerd. */
 schrijf('404.html',
