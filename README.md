@@ -5,7 +5,7 @@ Van de wet en het CO-stelsel tot gas en verbranding, de werking van de HR-ketel,
 installeren, onderhoud en storingzoeken. Met toetsvragen, flashcards en een storingzoeker, als voorbereiding
 op het theorie- en praktijkexamen Vakmanschap CO.
 
-**Live:** https://www.keesvanwanrooij.nl/cursus-cv-ketels/
+**Live:** https://cv-ketels.keesvanwanrooij.nl/
 
 Geen account, geen betaalmuur, geen tracking. Werkt in de browser en is offline te installeren als app op telefoon en laptop.
 
@@ -83,7 +83,7 @@ vervangen: bij twijfel is de actuele bron leidend.
 
 ## Meer van dezelfde maker
 
-[Cursus Elektrotechniek](https://www.keesvanwanrooij.nl/cursus-elektrotechniek/): gratis basiscursus elektrotechniek voor beginners.
+[Cursus Elektrotechniek](https://elektrotechniek.keesvanwanrooij.nl/): gratis basiscursus elektrotechniek voor beginners.
 
 ## Licentie
 

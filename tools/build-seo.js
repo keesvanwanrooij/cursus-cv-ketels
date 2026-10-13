@@ -10,7 +10,7 @@
 
    Gebruik:   node tools/build-seo.js                 controleren en bouwen
               node tools/build-seo.js --strikt        idem, maar onbevestigde feiten en waarschuwingen breken de build (voor publiceren)
-              node tools/build-seo.js --out=<map> --base=/cursus-cv-ketels/   testbouw in een aparte map
+              node tools/build-seo.js --out=<map>     testbouw in een aparte map
    Opnieuw draaien na elke wijziging aan content/, js/views.js, js/seo.js of index.html.
    ========================================================================== */
 
