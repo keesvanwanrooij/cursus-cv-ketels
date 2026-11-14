@@ -185,7 +185,7 @@ CURSUS.addModule({
   tekst: `
 ## Waarom je dit apart moet leren
 
-Eén regel geldt bij elk toestel: bij een gasverbrandingstoestel schrijft niet je geheugen voor, en niet een vage vuistregel van "vroeger", maar de documentatie van de fabrikant van dat exacte toestel. Een instelwaarde, een storingscode of een garantietermijn die je "toevallig weet" van een ander merk of een ander model, is geen bron: het is een gok. Deze les is daarom niet over een specifiek toestel, maar over de vaardigheid om bij elk toestel snel de juiste, actuele documentatie te vinden en te lezen.
+Eén regel geldt bij elk toestel. Wat je instelt, schrijft niet je geheugen voor en ook niet een vuistregel van "vroeger", maar de documentatie van de fabrikant van precies dat toestel. Een instelwaarde, storingscode of garantietermijn die je toevallig weet van een ander merk of model, is geen bron maar een gok. Deze les gaat daarom niet over één toestel. Hij gaat over hoe je bij elk toestel snel de juiste, actuele documentatie vindt en leest.
 
 ## Typeplaatje en serienummer: je startpunt
 

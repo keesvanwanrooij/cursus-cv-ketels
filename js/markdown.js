@@ -24,12 +24,13 @@ window.MD = (function () {
   }
 
   /* Inline-opmaak. Invoer is al geëscaped.
-     Links: [tekst](https://...) opent extern in een nieuw tabblad, [tekst](les:m01l02) of (module:m01) blijft in de cursus.
+     Links: [tekst](https://...) opent extern in een nieuw tabblad, [tekst](les:m01l02), [tekst](module:m01) of
+     [tekst](norm:nen-1078) blijft in de cursus.
      Alleen https-adressen en interne verwijzingen worden een link; al het andere blijft platte tekst. */
   function inline(s) {
     return s
       .replace(/\[([^\]]+)\]\((https:\/\/[^)\s]+)\)/g, '<a href="$2" target="_blank" rel="noopener">$1</a>')
-      .replace(/\[([^\]]+)\]\((les|module):([a-z0-9]+)\)/g, function (_, tekst, soort, id) {
+      .replace(/\[([^\]]+)\]\((les|module|norm):([a-z0-9-]+)\)/g, function (_, tekst, soort, id) {
         return '<a href="' + (window.Seo ? window.Seo.path(soort, id) : '#/' + soort + '/' + id) + '">' + tekst + '</a>';
       })
       .replace(/`([^`]+)`/g, '<code>$1</code>')

@@ -8,13 +8,15 @@ var fs = require('fs');
 var path = require('path');
 var vm = require('vm');
 
-/* De contentbestanden in laadvolgorde: index.js eerst, dan m01.js ... mNN.js, naslag.js, storingen.js. */
+/* De contentbestanden in laadvolgorde: index.js eerst, dan m01.js ... mNN.js, naslag.js, storingen.js, normen-*.js. */
 function contentBestanden(ROOT) {
   var dir = path.join(ROOT, 'content');
   var alle = fs.readdirSync(dir);
   var modules = alle.filter(function (f) { return /^m\d+\.js$/.test(f); }).sort();
   var vast = ['index.js'].concat(modules);
   ['naslag.js', 'storingen.js'].forEach(function (f) { if (alle.indexOf(f) !== -1) vast.push(f); });
+  /* Normpagina's: content/normen-*.js, in alfabetische volgorde. */
+  alle.filter(function (f) { return /^normen-[a-z0-9-]+\.js$/.test(f); }).sort().forEach(function (f) { vast.push(f); });
   return vast;
 }
 

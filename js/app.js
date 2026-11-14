@@ -12,9 +12,9 @@
      Via file://: hash-routes (#/les/m01l03), want een dubbelklik kent geen paden. */
   if (location.protocol.indexOf('http') === 0) {
     var basisMeta = document.querySelector('meta[name="site-base"]');
-    /* Homepage zonder meta: basis is de map zelf. Offline-fallback op een diepe URL: alles voor /les/, /module/, /naslag/, /kaarten/ of /storingzoeker/. */
+    /* Homepage zonder meta: basis is de map zelf. Offline-fallback op een diepe URL: alles voor /les/, /module/, /naslag/, /kaarten/, /storingzoeker/ of /normen/. */
     var basis = basisMeta ? basisMeta.content
-      : location.pathname.replace(/index\.html$/, '').replace(/^(.*?\/)(?:les|module|naslag|kaarten|storingzoeker)\/.*$/, '$1');
+      : location.pathname.replace(/index\.html$/, '').replace(/^(.*?\/)(?:les|module|naslag|kaarten|storingzoeker|normen)\/.*$/, '$1');
     if (basis.slice(-1) !== '/') basis += '/';
     Seo.configureer({ path: true, base: basis, origin: location.origin });
   }
@@ -69,6 +69,12 @@
     } else if (r.page === 'storingzoeker') {
       app.innerHTML = Views.storingzoekerPagina();
       markeerNav('storingzoeker');
+    } else if (r.page === 'normen') {
+      app.innerHTML = Views.normenPagina();
+      markeerNav('normen');
+    } else if (r.page === 'norm') {
+      app.innerHTML = Views.normPagina(r.id);
+      markeerNav('normen');
     } else if (r.page === 'casus') {
       app.innerHTML = Views.casusPagina(r.id);
       markeerNav('storingzoeker');
@@ -314,6 +320,7 @@
   document.querySelectorAll('[data-route="naslag"]').forEach(function (a) { a.setAttribute('href', Seo.path('naslag')); });
   document.querySelectorAll('[data-route="kaarten"]').forEach(function (a) { a.setAttribute('href', Seo.path('kaarten')); });
   document.querySelectorAll('[data-route="storingzoeker"]').forEach(function (a) { a.setAttribute('href', Seo.path('storingzoeker')); });
+  document.querySelectorAll('[data-route="normen"]').forEach(function (a) { a.setAttribute('href', Seo.path('normen')); });
 
   if (!window.CURSUS || !CURSUS.modules.length) {
     app.innerHTML = '<div class="callout gevaar"><h4>Geen inhoud geladen</h4>' +

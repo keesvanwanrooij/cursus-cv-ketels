@@ -209,7 +209,7 @@ function controleer(ctx, root, opties) {
       if (l.tekst && !/^!!! kern/m.test(l.tekst)) waarschuw(lp + ': geen "!!! kern" blok, elke les heeft minstens een kernpunt');
       /* Een verwijzing zonder linktekst, zoals (les:m01l06), wordt letterlijk getoond. Schrijf [les 1.6](les:m01l06). */
       if (l.tekst) {
-        var kaal = l.tekst.match(/(^|[^\]])\((les|module):[a-z0-9]+\)/g);
+        var kaal = l.tekst.match(/(^|[^\]])\((les|module|norm):[a-z0-9-]+\)/g);
         if (kaal) fout(lp + ': ' + kaal.length + ' verwijzing(en) zonder linktekst, bijvoorbeeld "' + kaal[0].trim() + '"; schrijf [les 1.6](les:m01l06)');
       }
       /* Een blok zonder sluitregel slokt de rest van de les op: de renderer leest door tot een losse "!!!". */
@@ -263,19 +263,66 @@ function controleer(ctx, root, opties) {
     if (!c.leerpunten || !c.leerpunten.length) waarschuw(cp + ': leerpunten ontbreken');
   });
 
+  /* ------------------------------ normpagina's ------------------------------ */
+  /* Zie project/docs/10-NORMPAGINAS.md. Publieke SEO-pagina's: titel en omschrijving moeten passen in Google. */
+  var normIds = {};
+  (CURSUS.normen || []).forEach(function (n) {
+    var np = 'Norm ' + (n.code || n.id);
+    if (!/^[a-z0-9-]+$/.test(n.id || '')) fout(np + ': id moet uit kleine letters, cijfers en koppeltekens bestaan');
+    if (normIds[n.id]) fout(np + ': dubbel id ' + n.id);
+    normIds[n.id] = true;
+    ['code', 'titel', 'seoTitel', 'omschrijving', 'kort', 'domein', 'tekst'].forEach(function (v) { if (!n[v]) fout(np + ': veld "' + v + '" ontbreekt'); });
+    if (n.seoTitel && n.seoTitel.length > 55) waarschuw(np + ': seoTitel is ' + n.seoTitel.length + ' tekens, hou het op 55 of minder');
+    if (n.omschrijving && (n.omschrijving.length < 110 || n.omschrijving.length > 160)) waarschuw(np + ': omschrijving is ' + n.omschrijving.length + ' tekens, mik op 120 tot 155');
+    if (n.kort && n.kort.length > 160) waarschuw(np + ': kort is ' + n.kort.length + ' tekens, hou het onder 160');
+    if (n.tekst) {
+      var open = (n.tekst.match(/^!!! \S/gm) || []).length;
+      var dicht = (n.tekst.match(/^!!!\s*$/gm) || []).length;
+      if (open !== dicht) fout(np + ': ' + open + ' blokken geopend met "!!! " en ' + dicht + ' afgesloten met een losse "!!!"');
+      var kaal = n.tekst.match(/(^|[^\]])\((les|module|norm):[a-z0-9-]+\)/g);
+      if (kaal) fout(np + ': verwijzing zonder linktekst, bijvoorbeeld "' + kaal[0].trim() + '"');
+      if (!/^!!! kern/m.test(n.tekst)) waarschuw(np + ': geen "!!! kern" blok');
+    }
+    if (!Array.isArray(n.faq) || n.faq.length < 5) waarschuw(np + ': ' + ((n.faq || []).length) + ' veelgestelde vragen, mik op 5 tot 8');
+    (n.faq || []).forEach(function (f, i) { if (!f.vraag || !f.antwoord) fout(np + ' faq ' + (i + 1) + ': vraag of antwoord ontbreekt'); });
+    (n.lessen || []).forEach(function (lid) { if (!lesIds[lid]) fout(np + ': les "' + lid + '" bestaat niet of is nog niet geschreven'); });
+    if (feiten) {
+      if (!n.bronnen || !n.bronnen.length) fout(np + ': geen bronnen (feit-id\'s)');
+      (n.bronnen || []).forEach(function (b) {
+        if (!feiten[b]) fout(np + ': bron "' + b + '" staat niet in project/docs/feiten/');
+        else if (feiten[b].zeker === 'X') fout(np + ': bron ' + b + ' is gemarkeerd X, gebruik hem niet');
+        else if (feiten[b].zeker === 'C') waarschuw(np + ': bron ' + b + ' heeft zekerheid C');
+      });
+    }
+  });
+  (CURSUS.normen || []).forEach(function (n) {
+    (n.gerelateerd || []).forEach(function (g) { if (!normIds[g]) fout('Norm ' + n.code + ': gerelateerde norm "' + g + '" bestaat niet'); });
+  });
+  (CURSUS.normenOverig || []).forEach(function (o) {
+    var op = 'Overige norm ' + (o.code || '?');
+    if (!o.code || !o.titel || !o.wat) fout(op + ': code, titel of wat ontbreekt');
+    if (feiten) (o.bronnen || []).forEach(function (b) {
+      if (!feiten[b]) fout(op + ': bron "' + b + '" staat niet in project/docs/feiten/');
+      else if (feiten[b].zeker === 'X' || feiten[b].zeker === 'C') fout(op + ': bron ' + b + ' heeft zekerheid ' + feiten[b].zeker);
+    });
+  });
+
   /* ------------------------------ stijl over alles heen ------------------------------ */
-  var alleTekst = strings({ m: CURSUS.modules, c: CURSUS.casussen, n: NASLAG }, 'inhoud', []);
+  var alleTekst = strings({ m: CURSUS.modules, c: CURSUS.casussen, n: NASLAG,
+    normen: CURSUS.normen || [], normenOverig: CURSUS.normenOverig || [], normenHub: CURSUS.normenHub || {} }, 'inhoud', []);
   alleTekst.forEach(function (s) {
     if (s.tekst.indexOf('—') !== -1) fout('Em-dash gevonden in ' + s.pad + ' (gebruik komma, dubbele punt of " - ")');
     if (s.tekst.indexOf('–') !== -1) waarschuw('En-dash in ' + s.pad + ', liever "tot" of een gewoon streepje');
     if (/[^\n] {2,}\S/.test(s.tekst.replace(/^\s+/gm, '')) && !/\|/.test(s.tekst)) waarschuw('Dubbele spatie in ' + s.pad);
     var m, re = /\[\[verifieer[^\]]*\]\]/g;
     while ((m = re.exec(s.tekst))) { markeringen++; }
-    var link, lre = /\]\((les|module):([a-z0-9]+)\)/g;
+    var link, lre = /\]\((les|module|norm):([a-z0-9-]+)\)/g;
     while ((link = lre.exec(s.tekst))) {
       if (link[1] === 'les' && !lesIds[link[2]]) fout('Interne link naar onbekende les "' + link[2] + '" in ' + s.pad);
       else if (link[1] === 'les' && geplandeLessen[link[2]]) waarschuw('Interne link naar nog niet geschreven les "' + link[2] + '" in ' + s.pad + ' (de link werkt pas als de les bestaat)');
       if (link[1] === 'module' && !modIds[link[2]]) fout('Interne link naar onbekende module "' + link[2] + '" in ' + s.pad);
+      /* Een normpagina kan nog in de maak zijn. De link wijst dan naar de startpagina: waarschuwen, en oplossen voor publicatie. */
+      if (link[1] === 'norm' && !normIds[link[2]]) waarschuw('Interne link naar normpagina "' + link[2] + '" die (nog) niet bestaat, in ' + s.pad);
     }
   });
   if (markeringen) {

@@ -281,6 +281,12 @@ window.Views = (function () {
           '<li><a href="' + Seo.path('storingzoeker') + '">Storingzoeker</a></li>' +
           '<li><a href="' + Seo.path('kaarten') + '">Flashcards</a></li>' +
           '<li><a href="' + Seo.path('naslag') + '">Naslag</a></li></ul>' +
+          (CURSUS.normen.length
+            ? '<h3>NEN-normen</h3><ul><li><a href="' + Seo.path('normen') + '">Alle normen uitgelegd</a></li>' +
+              CURSUS.normen.map(function (n) {
+                return '<li><a href="' + Seo.path('norm', n.id) + '">' + E(n.code) + '</a></li>';
+              }).join('') + '</ul>'
+            : '') +
           '<h3>Project</h3><ul>' +
           '<li><a href="' + Seo.path('dash') + '">Mijn cursus</a></li>' +
           ext(repo, 'Broncode op GitHub') +
@@ -497,9 +503,100 @@ window.Views = (function () {
       '</div>';
   }
 
+  /* ============================== NEN-NORMEN ============================== */
+
+  /* Volgorde van de groepen op de hoofdpagina: de wet eerst, dan de vakgebieden. */
+  var NORM_DOMEINEN = ['Wet', 'Gas', 'Rookgas', 'Ventilatie', 'Water'];
+
+  function normKaart(n) {
+    return '<a class="modcard" href="' + Seo.path('norm', n.id) + '">' +
+      '<div class="num">' + E(n.code) + '<span class="chip mut">' + E(n.domein || '') + '</span></div>' +
+      '<h3>' + E(n.titel) + '</h3>' +
+      '<p>' + E(n.kort || n.omschrijving || '') + '</p>' +
+      (n.versie ? '<div class="meta"><span>' + E(n.versie) + '</span></div>' : '') + '</a>';
+  }
+
+  function faqLijst(lijst) {
+    return lijst.map(function (f) {
+      return '<details><summary>' + E(f.vraag) + '</summary><p>' + T(f.antwoord) + '</p></details>';
+    }).join('');
+  }
+
+  function normenPagina() {
+    var hub = CURSUS.normenHub;
+    var domeinen = NORM_DOMEINEN.slice();
+    CURSUS.normen.forEach(function (n) { if (domeinen.indexOf(n.domein) === -1) domeinen.push(n.domein); });
+    var groepen = domeinen.map(function (d) {
+      var lijst = CURSUS.normen.filter(function (n) { return n.domein === d; });
+      if (!lijst.length) return '';
+      return '<div class="sect-h"><h2>' + E(d) + '</h2><span>' + enkelMeervoud(lijst.length, 'norm', 'normen') + '</span></div>' +
+        '<div class="modgrid">' + lijst.map(normKaart).join('') + '</div>';
+    }).join('');
+    var overig = CURSUS.normenOverig.length
+      ? '<div class="sect-h"><h2>Andere normen die je tegenkomt</h2></div>' +
+        '<div class="article"><table><thead><tr><th>Norm</th><th>Onderwerp</th><th>Wat je moet weten</th></tr></thead><tbody>' +
+        CURSUS.normenOverig.map(function (o) {
+          return '<tr><td><b>' + E(o.code) + '</b></td><td>' + E(o.titel) + '</td><td>' + T(o.wat) + '</td></tr>';
+        }).join('') + '</tbody></table></div>'
+      : '';
+    return '<div class="crumbs"><a href="' + Seo.path('dash') + '">Mijn cursus</a> › NEN-normen</div>' +
+      '<header class="pagehead"><h1>' + E(hub.h1) + '</h1><p>' + E(hub.intro) + '</p></header>' +
+      '<div class="callout kern"><h4>Wet, regeling en norm: hoe het samenhangt</h4><p>' + E(hub.kern) + '</p></div>' +
+      groepen + overig +
+      '<section class="faq"><div class="sect-h"><h2>Veelgestelde vragen over NEN-normen</h2></div>' + faqLijst(hub.faq) + '</section>' +
+      '<p class="videonoot">Deze pagina\'s leggen normen uit in eigen woorden en vervangen de norm niet. De uitgave die de wet ' +
+      'aanwijst kan verschillen van de nieuwste uitgave: controleer bij twijfel Bijlage II van de Omgevingsregeling en de norm zelf.</p>';
+  }
+
+  function normPagina(id) {
+    var n = CURSUS.norm(id);
+    if (!n) return '<p>Norm niet gevonden.</p>';
+    var g = MD.render(n.tekst || '');
+    var lessen = (n.lessen || []).map(function (lid) { return CURSUS.les(lid); }).filter(Boolean);
+    var verwant = (n.gerelateerd || []).map(function (nid) { return CURSUS.norm(nid); }).filter(Boolean);
+    var heeftFaq = n.faq && n.faq.length;
+
+    var koppen = g.koppen.slice();
+    if (heeftFaq) koppen.push({ id: 'faq', tekst: 'Veelgestelde vragen' });
+    if (lessen.length) koppen.push({ id: 'lessen', tekst: 'Leer het in de cursus' });
+
+    var zij = '<aside class="sidebar"><h5>NEN-normen</h5>' +
+      '<div class="modname"><a href="' + Seo.path('normen') + '" style="text-decoration:none">Alle normen</a></div>' +
+      '<nav class="snav">' + CURSUS.normen.map(function (o) {
+        return '<a href="' + Seo.path('norm', o.id) + '" class="' + (o.id === id ? 'on' : '') + '"><span class="dot"></span>' +
+          '<span class="snavtxt">' + E(o.code) + '</span></a>';
+      }).join('') + '</nav>';
+    if (koppen.length) {
+      zij += '<hr><h5>Op deze pagina</h5><nav class="snav">' +
+        koppen.map(function (k) {
+          return '<a href="' + Seo.anchor('norm', id, k.id) + '" data-anker="' + k.id + '"><span class="snavtxt">' +
+            E(k.tekst) + '</span></a>';
+        }).join('') + '</nav>';
+    }
+    zij += '</aside>';
+
+    var artikel = '<article class="article">' +
+      '<div class="crumbs"><a href="' + Seo.path('dash') + '">Mijn cursus</a> › <a href="' + Seo.path('normen') + '">NEN-normen</a> › ' + E(n.code) + '</div>' +
+      '<h1>' + E(n.titel) + '</h1>' +
+      '<div class="lessmeta"><span>📘 ' + E(n.domein || 'Norm') + '</span>' +
+      (n.versie ? '<span>' + E(n.versie) + '</span>' : '') + '</div>' +
+      g.html +
+      (heeftFaq ? '<section class="faq" id="faq"><h2>Veelgestelde vragen over ' + E(n.code) + '</h2>' + faqLijst(n.faq) + '</section>' : '') +
+      (lessen.length ? '<h2 id="lessen">Leer het in de cursus</h2><ul>' + lessen.map(function (x) {
+        return '<li><a href="' + Seo.path('les', x.les.id) + '">Les ' + E(x.les.nr) + ': ' + E(x.les.titel) + '</a></li>';
+      }).join('') + '</ul>' : '') +
+      (verwant.length ? '<h2>Verwante normen</h2><div class="modgrid">' + verwant.map(normKaart).join('') + '</div>' : '') +
+      '<div class="callout info"><h4>Over deze uitleg</h4><p>Deze pagina legt ' + E(n.code) + ' uit in eigen woorden en vervangt ' +
+      'de norm niet. Raadpleeg voor de precieze eisen de norm zelf bij NEN, en controleer welke uitgave Bijlage II van de ' +
+      'Omgevingsregeling aanwijst. Het voorschrift van de fabrikant van het toestel gaat altijd voor.</p></div>' +
+      '</article>';
+
+    return '<div class="lesson-layout">' + zij + artikel + '</div>';
+  }
+
   return {
     VLAM: VLAM, footer: footer, steunBlok: steunBlok, dashboard: dashboard, modulePagina: modulePagina,
     lesPagina: lesPagina, naslag: naslag, quizHtml: quizHtml, storingzoekerPagina: storingzoekerPagina,
-    casusPagina: casusPagina, kaartenPagina: kaartenPagina
+    casusPagina: casusPagina, kaartenPagina: kaartenPagina, normenPagina: normenPagina, normPagina: normPagina
   };
 })();

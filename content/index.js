@@ -53,6 +53,41 @@ window.CURSUS = {
 
   modules: [],
   casussen: [],
+  /* Normpagina's onder /normen/ (content/normen-*.js). Zie project/docs/10-NORMPAGINAS.md. */
+  normen: [],
+  normenOverig: [],
+
+  /* Teksten van de hoofdpagina /normen/. Feit-id's: NRM-01, NRM-07, NRM-18, NRM-21, NRM-24. */
+  normenHub: {
+    h1: 'NEN-normen voor de cv-installateur',
+    intro: 'Welke normen gelden er voor gasleidingen, rookgasafvoer en ventilatie, en wat staat erin? Per norm lees je hier ' +
+      'wat hij regelt, wanneer je hem nodig hebt en welke uitgave de wet aanwijst. Dat doe ik in gewone taal, voor ' +
+      'installateurs en cv-monteurs. Normtekst neem ik niet over: de norm zelf koop of raadpleeg je bij NEN.',
+    kern: 'Een NEN-norm is op zichzelf niet verplicht. Dat wordt hij pas als de wet ernaar verwijst. Het Besluit bouwwerken ' +
+      'leefomgeving (Bbl, de opvolger van het Bouwbesluit) stelt de eis. De Omgevingsregeling wijst dan in Bijlage II de norm ' +
+      'aan waarmee je bepaalt of je eraan voldoet, en wel in een bepaalde uitgave. Voor wat wettelijk geldt, is die bijlage ' +
+      'leidend en dus niet de nieuwste uitgave in de NEN-catalogus. Een NPR, zoals NPR 3378, is een praktijkrichtlijn die ' +
+      'uitlegt hoe je aan de normen voldoet.',
+    faq: [
+      { vraag: 'Zijn NEN-normen verplicht?',
+        antwoord: 'Op zichzelf niet. Een NEN-norm wordt pas verplicht als de wet ernaar verwijst. Het Besluit bouwwerken ' +
+          'leefomgeving (Bbl) wijst normen aan in een bepaalde uitgave, via Bijlage II van de Omgevingsregeling. Voor wat ' +
+          'wettelijk geldt, is die bijlage leidend en niet de nieuwste uitgave in de NEN-catalogus.' },
+      { vraag: 'Wat is het verschil tussen NEN 1078 en NEN 8078?',
+        antwoord: 'NEN 1078 bevat de eisen voor de gasvoorziening met een werkdruk tot en met 500 mbar in nieuwbouw. NEN 8078 ' +
+          'doet dat voor bestaande bouw. Allebei gaan ze over het gasleidingwerk, dus niet over de rookgasafvoer of de ' +
+          'opstellingsruimte.' },
+      { vraag: 'Wat is NPR 3378?',
+        antwoord: 'Een Nederlandse praktijkrichtlijn. Het is een leidraad bij onder meer NEN 1078, NEN 2757 en NEN 8757. Hij ' +
+          'bestaat uit delen per onderwerp, zoals rookgasafvoer en het vervangen van toestellen.' },
+      { vraag: 'Staan afschot en beugelafstand van een rookgasafvoer in de wet?',
+        antwoord: 'Nee. Het Bbl stelt prestatie-eisen aan de rookgasafvoer en de verbrandingsluchttoevoer. Afschot, ' +
+          'beugelafstand, insteekdiepte en dilatatie staan in het voorschrift van de fabrikant en in NPR 3378.' },
+      { vraag: 'Wie mag werken aan een cv-ketel op gas?',
+        antwoord: 'Alleen een certificaathouder (Bbl artikel 6.45). Dat geldt voor installeren, repareren, onderhouden en in ' +
+          'bedrijf stellen en vrijgeven van een gebouwgebonden gasverbrandingstoestel, met de luchttoevoer en rookgasafvoer.' }
+    ]
+  },
 
   /* Steun het project. Zet actief op true zodra de GitHub Sponsors-pagina live is. tools/build-seo.js meldt bij elke build of dat zo is. */
   donatie: { actief: false, url: 'https://github.com/sponsors/keesvanwanrooij' },
@@ -73,6 +108,20 @@ window.CURSUS = {
   addCasus: function (c) {
     c.slug = this.uniekeSlug('casus', this.slugify(c.titel), c.id);
     this.casussen.push(c);
+  },
+
+  /* Een norm: de id is meteen de slug in de URL (/normen/nen-1078/). */
+  addNorm: function (n) {
+    n.slug = n.id;
+    this.normen.push(n);
+    this.normen.sort(function (a, b) { return (a.volgorde || 0) - (b.volgorde || 0); });
+  },
+
+  addNormOverig: function (n) { this.normenOverig.push(n); },
+
+  norm: function (id) {
+    for (var i = 0; i < this.normen.length; i++) if (this.normen[i].id === id) return this.normen[i];
+    return null;
   },
 
   _slugs: {},

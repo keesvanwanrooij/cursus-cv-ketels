@@ -129,6 +129,8 @@ function mainBlok(page, id) {
   if (page === 'storingzoeker') return Views.storingzoekerPagina();
   if (page === 'kaarten') return Views.kaartenPagina();
   if (page === 'naslag') return Views.naslag();
+  if (page === 'normen') return Views.normenPagina();
+  if (page === 'norm') return Views.normPagina(id);
   return Views.dashboard();
 }
 
@@ -144,7 +146,7 @@ function templateLezen() {
      Zet ze eerst terug naar hash-routes, zodat elke build (ook met een andere basis) hetzelfde resultaat geeft. */
   t = t.replace(/<a class="brand" href="[^"]*"/, '<a class="brand" href="#/"')
     .replace(/<a href="[^"]*" data-route="dash"/, '<a href="#/" data-route="dash"')
-    .replace(/<a href="[^"]*" data-route="(storingzoeker|kaarten|naslag)"/g, '<a href="#/$1" data-route="$1"');
+    .replace(/<a href="[^"]*" data-route="(storingzoeker|kaarten|naslag|normen)"/g, '<a href="#/$1" data-route="$1"');
   return t.replace(RE_CONTENT, function () {
     return '<!-- build:content:start -->\n' +
       CONTENT.map(function (f) { return '<script src="content/' + f + '"></script>'; }).join('\n') +
@@ -169,7 +171,8 @@ function pagina(page, id, sub) {
     .replace(/<a href="#\/" data-route="dash"/, '<a href="' + BASE + '" data-route="dash"')
     .replace(/<a href="#\/storingzoeker" data-route="storingzoeker"/, '<a href="' + BASE + 'storingzoeker/" data-route="storingzoeker"')
     .replace(/<a href="#\/kaarten" data-route="kaarten"/, '<a href="' + BASE + 'kaarten/" data-route="kaarten"')
-    .replace(/<a href="#\/naslag" data-route="naslag"/, '<a href="' + BASE + 'naslag/" data-route="naslag"');
+    .replace(/<a href="#\/naslag" data-route="naslag"/, '<a href="' + BASE + 'naslag/" data-route="naslag"')
+    .replace(/<a href="#\/normen" data-route="normen"/, '<a href="' + BASE + 'normen/" data-route="normen"');
   if (sub) {
     /* Diepere pagina's: alle relatieve verwijzingen worden absoluut vanaf de site-basis. */
     html = html
@@ -181,7 +184,7 @@ function pagina(page, id, sub) {
 
 /* -------------------------------------- bouwen -------------------------------------- */
 
-['les', 'module', 'naslag', 'kaarten', 'storingzoeker'].forEach(function (d) {
+['les', 'module', 'naslag', 'kaarten', 'storingzoeker', 'normen'].forEach(function (d) {
   fs.rmSync(path.join(OUT, d), { recursive: true, force: true });
 });
 
@@ -229,6 +232,20 @@ CURSUS.casussen.forEach(function (c) {
   aantalPaginas++;
 });
 
+/* NEN-normen: hoofdpagina en een pagina per norm. lastmod komt uit de normbestanden (content/normen-*.js). */
+var NORM_BESTANDEN = ALLE_CONTENT.filter(function (f) { return /content\/normen-[a-z0-9-]+\.js$/.test(f); });
+var aantalNormen = 0;
+if (CURSUS.normen.length) {
+  schrijf('normen/index.html', pagina('normen', null, true));
+  urls.push({ loc: Seo.absoluut('normen'), bron: NORM_BESTANDEN.concat(['content/index.js']) });
+  aantalPaginas++;
+  CURSUS.normen.forEach(function (n) {
+    schrijf(Seo.rel('norm', n.id) + 'index.html', pagina('norm', n.id, true));
+    urls.push({ loc: Seo.absoluut('norm', n.id), bron: NORM_BESTANDEN });
+    aantalNormen++; aantalPaginas++;
+  });
+}
+
 schrijf('sitemap.xml',
   '<?xml version="1.0" encoding="UTF-8"?>\n' +
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' +
@@ -259,8 +276,18 @@ function interneLinks(tekst) {
     })
     .replace(/\[([^\]]+)\]\(module:([a-z0-9]+)\)/g, function (m, t, id) {
       return CURSUS.modules.some(function (x) { return x.id === id; }) ? '[' + t + '](' + Seo.absoluut('module', id) + ')' : t;
+    })
+    .replace(/\[([^\]]+)\]\(norm:([a-z0-9-]+)\)/g, function (m, t, id) {
+      return CURSUS.norm(id) ? '[' + t + '](' + Seo.absoluut('norm', id) + ')' : t;
     });
 }
+
+/* NEN-normen voor llms.txt (lijst) en llms-full.txt (volledige tekst). */
+var lijstNormen = CURSUS.normen.length
+  ? '## NEN-normen uitgelegd\n\n' +
+    '- [' + CURSUS.normenHub.h1 + '](' + Seo.absoluut('normen') + '): overzicht, en hoe wet, regeling en norm samenhangen\n' +
+    CURSUS.normen.map(function (n) { return '- [' + n.titel + '](' + Seo.absoluut('norm', n.id) + '): ' + n.omschrijving; }).join('\n') + '\n\n'
+  : '';
 
 /* Onze eigen opmaak (!!! callouts, ?? verdiepingen) omzetten naar gewone markdown. */
 function platteMarkdown(tekst) {
@@ -300,6 +327,7 @@ schrijf('llms.txt',
   '- Taal: Nederlands\n' +
   '- Auteur: ' + SITE_CFG.auteur + '\n\n' +
   lijstModules + '\n\n' +
+  lijstNormen +
   '## Oefenen en naslag\n\n' +
   '- [Storingzoeker](' + Seo.absoluut('storingzoeker') + '): praktijkcasussen om systematisch storingzoeken te oefenen\n' +
   CURSUS.casussen.map(function (c) { return '- [' + c.titel + '](' + Seo.absoluut('casus', c.id) + '): ' + c.klacht; }).join('\n') + (CURSUS.casussen.length ? '\n' : '') +
@@ -331,7 +359,18 @@ schrijf('llms-full.txt',
   '\n## Naslag cv-ketels\n\nURL: ' + Seo.absoluut('naslag') + '\n\n' +
   ctx.NASLAG.map(function (k) {
     return '### ' + k.titel + '\n\n' + platteMarkdown(k.inhoud).replace(/^(#{2,4}) /gm, function (_, h) { return h + '## '; }) + '\n';
-  }).join('\n'));
+  }).join('\n') +
+  (CURSUS.normen.length
+    ? '\n## NEN-normen uitgelegd\n\nURL: ' + Seo.absoluut('normen') + '\n\n' + CURSUS.normenHub.kern + '\n\n' +
+      CURSUS.normen.map(function (n) {
+        return '### ' + n.titel + '\n\n' +
+          'URL: ' + Seo.absoluut('norm', n.id) + '\n\n' +
+          platteMarkdown(n.tekst).replace(/^(#{3,4}) /gm, function (_, h) { return h + '# '; }) + '\n\n' +
+          (n.faq && n.faq.length ? '**Veelgestelde vragen**\n\n' + n.faq.map(function (f) {
+            return '- **' + f.vraag + '** ' + interneLinks(f.antwoord);
+          }).join('\n') + '\n' : '');
+      }).join('\n')
+    : ''));
 
 /* 404: nuttige pagina met links, bewust niet geindexeerd. */
 schrijf('404.html',
@@ -345,7 +384,8 @@ schrijf('404.html',
   '<p>Deze pagina bestaat niet (meer). Ga terug naar de gratis cursus cv-ketel monteur of bekijk de modules.</p></div>\n' +
   '<p><a class="btn" href="' + BASE + '">Naar de cursus</a> ' +
   '<a class="btn ghost" href="' + BASE + 'storingzoeker/">Storingzoeker</a> ' +
-  '<a class="btn ghost" href="' + BASE + 'naslag/">Naslag</a></p>\n' +
+  '<a class="btn ghost" href="' + BASE + 'naslag/">Naslag</a> ' +
+  '<a class="btn ghost" href="' + BASE + 'normen/">NEN-normen</a></p>\n' +
   '<div class="modgrid" style="margin-top:24px">' +
   CURSUS.modules.map(function (m) {
     return '<a class="modcard" href="' + BASE + Seo.rel('module', m.id) + '"><h3>Module ' + m.nr + ': ' + esc(m.titel) + '</h3></a>';
@@ -380,6 +420,7 @@ if (OUT === ROOT) {
 }
 
 console.log('\nKlaar: ' + aantalPaginas + ' pagina\'s (' + aantalLessen + ' lessen, ' + CURSUS.casussen.length + ' casussen' +
+  (aantalNormen ? ', ' + aantalNormen + ' normpagina\'s' : '') +
   (aantalGeplandeModules ? ', ' + aantalGeplandeModules + ' modules nog zonder lessen (noindex)' : '') +
   '), sitemap met ' + urls.length + ' URL\'s (' + SITE + BASE + ')');
 

@@ -58,6 +58,8 @@ window.Seo = (function () {
     if (page === 'naslag') return 'naslag/';
     if (page === 'kaarten') return 'kaarten/';
     if (page === 'storingzoeker') return 'storingzoeker/';
+    if (page === 'normen') return 'normen/';
+    if (page === 'norm') { var n = CURSUS.norm(id); return n ? 'normen/' + n.slug + '/' : ''; }
     return '';
   }
 
@@ -65,7 +67,7 @@ window.Seo = (function () {
   function path(page, id) {
     if (cfg.path) return cfg.base + rel(page, id);
     if (page === 'dash') return '#/';
-    if (page === 'naslag' || page === 'kaarten' || page === 'storingzoeker') return '#/' + page;
+    if (page === 'naslag' || page === 'kaarten' || page === 'storingzoeker' || page === 'normen') return '#/' + page;
     return '#/' + page + '/' + id;
   }
 
@@ -88,6 +90,8 @@ window.Seo = (function () {
     if (d[0] === 'storingzoeker') return { page: 'storingzoeker' };
     if (d[0] === 'kaarten') return { page: 'kaarten' };
     if (d[0] === 'naslag') return { page: 'naslag' };
+    if (d[0] === 'normen' && d[1] && CURSUS.norm(d[1])) return { page: 'norm', id: d[1] };
+    if (d[0] === 'normen') return { page: 'normen' };
     return { page: 'dash' };
   }
 
@@ -99,6 +103,8 @@ window.Seo = (function () {
     if (d[0] === 'storingzoeker') return { page: 'storingzoeker' };
     if (d[0] === 'kaarten') return { page: 'kaarten' };
     if (d[0] === 'naslag') return { page: 'naslag' };
+    if (d[0] === 'norm' && d[1] && CURSUS.norm(d[1])) return { page: 'norm', id: d[1] };
+    if (d[0] === 'normen') return { page: 'normen' };
     return { page: 'dash' };
   }
 
@@ -134,6 +140,19 @@ window.Seo = (function () {
       teaches: CURSUS.modules.map(function (m) { return m.titel; }),
       hasPart: CURSUS.modules.filter(CURSUS.moduleKlaar, CURSUS).map(function (m) {
         return { '@type': 'Course', name: m.titel, description: m.intro, url: absoluut('module', m.id) };
+      })
+    };
+  }
+
+  var DESC_NORMEN = 'NEN 1078, NEN 8078, NPR 3378, NEN 2757, NEN 1087 en het Bouwbesluit uitgelegd voor installateurs: ' +
+    'wat elke norm regelt en welke uitgave de wet aanwijst.';
+
+  /* FAQPage uit een lijst { vraag, antwoord }. */
+  function faqPagina(lijst) {
+    return {
+      '@type': 'FAQPage',
+      mainEntity: lijst.map(function (f) {
+        return { '@type': 'Question', name: f.vraag, acceptedAnswer: { '@type': 'Answer', text: f.antwoord } };
       })
     };
   }
@@ -216,6 +235,37 @@ window.Seo = (function () {
       titel = 'Naslag cv-ketels: formules, waarden en spiekbriefjes';
       desc = DESC_NASLAG;
       graph = [broodkruimel([kruimel0, { naam: 'Naslag cv-ketels', url: canon }])];
+    } else if (page === 'normen') {
+      titel = 'NEN-normen voor installateurs: NEN 1078, 8078, NPR 3378 en Bbl';
+      desc = DESC_NORMEN;
+      graph = [
+        {
+          '@type': 'CollectionPage', name: CURSUS.normenHub.h1, description: desc, url: canon, inLanguage: 'nl',
+          isAccessibleForFree: true, publisher: auteur(),
+          hasPart: CURSUS.normen.map(function (n) {
+            return { '@type': 'TechArticle', headline: n.titel, url: absoluut('norm', n.id) };
+          })
+        },
+        faqPagina(CURSUS.normenHub.faq),
+        broodkruimel([kruimel0, { naam: 'NEN-normen', url: canon }])
+      ];
+    } else if (page === 'norm') {
+      var n = CURSUS.norm(id);
+      /* Google toont ongeveer 60 tekens: het achtervoegsel alleen als het er nog bij past. */
+      titel = n.seoTitel + (n.seoTitel.length <= 46 ? ' | Cursus cv-ketels' : '');
+      desc = kort(n.omschrijving, 158);
+      type = 'article';
+      graph = [
+        {
+          '@type': 'TechArticle', headline: n.titel, name: n.titel, description: n.omschrijving, url: canon,
+          mainEntityOfPage: canon, inLanguage: 'nl', isAccessibleForFree: true, author: auteur(), publisher: auteur(),
+          image: cfg.origin + cfg.base + 'og-image.png', about: { '@type': 'Thing', name: n.code },
+          audience: { '@type': 'Audience', audienceType: 'Installateurs en cv-monteurs' },
+          isPartOf: { '@type': 'CollectionPage', name: CURSUS.normenHub.h1, url: absoluut('normen') }
+        },
+        broodkruimel([kruimel0, { naam: 'NEN-normen', url: absoluut('normen') }, { naam: n.code, url: canon }])
+      ];
+      if (n.faq && n.faq.length) graph.splice(1, 0, faqPagina(n.faq));
     } else {
       titel = S().titelHome;
       desc = descHome();

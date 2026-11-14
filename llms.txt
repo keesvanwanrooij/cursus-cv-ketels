@@ -186,6 +186,16 @@ Deze cursus is bedoeld voor aankomend cv-monteurs, zij-instromers en monteurs di
 - [19.6 Warmtenet, elektrische ketel en andere warmtebronnen](https://cv-ketels.keesvanwanrooij.nl/les/warmtenet-elektrische-ketel-en-andere-warmtebronnen/): Je kunt een afleverset van een warmtenet en een elektrische ketel plaatsen en weet wat je er als cv-monteur wel en niet aan doet.
 - [19.7 Een oud toestel vervangen door een HR-ketel](https://cv-ketels.keesvanwanrooij.nl/les/een-oud-toestel-vervangen-door-een-hr-ketel/): Je kunt uitleggen wat er verandert bij het vervangen van een oud toestel (afvoer, ventilatie, ruimte, temperatuur) en welke controles je vooraf doet.
 
+## NEN-normen uitgelegd
+
+- [NEN-normen voor de cv-installateur](https://cv-ketels.keesvanwanrooij.nl/normen/): overzicht, en hoe wet, regeling en norm samenhangen
+- [Bouwbesluit en Bbl: regels voor gas, rookgasafvoer en ventilatie](https://cv-ketels.keesvanwanrooij.nl/normen/bouwbesluit/): Het Bouwbesluit heet sinds 2024 het Bbl. Wat eist het Bbl voor gas, rookgasafvoer, verbrandingslucht en ventilatie? En wat moet jij daarmee?
+- [NEN 1078: gasinstallaties in nieuwbouw](https://cv-ketels.keesvanwanrooij.nl/normen/nen-1078/): NEN 1078 uitgelegd: de eisen aan gasleidingen tot 500 mbar in nieuwbouw, welke uitgave de wet aanwijst (2018 of 2024) en wat je ermee doet.
+- [NEN 8078: gasinstallaties in bestaande bouw](https://cv-ketels.keesvanwanrooij.nl/normen/nen-8078/): NEN 8078 uitgelegd: de eisen aan gasleidingen tot 500 mbar in bestaande bouw, het verschil met NEN 1078 en wat je doet als je een ketel vervangt.
+- [NPR 3378: praktijkrichtlijn voor gasinstallaties en rookgasafvoer](https://cv-ketels.keesvanwanrooij.nl/normen/npr-3378/): NPR 3378 uitgelegd voor cv-monteurs: welke delen er zijn, wat NPR 3378-1 over de gasdichtheid zegt en of een praktijkrichtlijn verplicht is.
+- [NEN 2757: rookgasafvoer bepalen (en NEN 8757 voor bestaande bouw)](https://cv-ketels.keesvanwanrooij.nl/normen/nen-2757/): NEN 2757 en NEN 8757 uitgelegd: hoe bepaal je of een rookgasafvoer geschikt is, welke uitgave wijst het Bbl aan en wat moet jij er als cv-monteur mee?
+- [NEN 1087: ventilatie van gebouwen (en NEN 8087 voor bestaande bouw)](https://cv-ketels.keesvanwanrooij.nl/normen/nen-1087/): NEN 1087 en NEN 8087 uitgelegd: ventilatiecapaciteit en verbrandingslucht, welke uitgave geldt en waarom je dit moet weten bij een open toestel.
+
 ## Oefenen en naslag
 
 - [Storingzoeker](https://cv-ketels.keesvanwanrooij.nl/storingzoeker/): praktijkcasussen om systematisch storingzoeken te oefenen

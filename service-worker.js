@@ -10,7 +10,7 @@
    ========================================================================== */
 
 /* build:cache:start */
-var CACHE_NAAM = 'cursus-cv-b6520357';
+var CACHE_NAAM = 'cursus-cv-74bc13cb';
 /* build:cache:end */
 
 /* build:shell:start */
@@ -47,6 +47,8 @@ var APP_SHELL = [
   './content/m19.js',
   './content/naslag.js',
   './content/storingen.js',
+  './content/normen-bouw.js',
+  './content/normen-gas.js',
   './icons/icon-192.png',
   './icons/icon-512.png'
 ];
