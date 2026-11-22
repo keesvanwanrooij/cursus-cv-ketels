@@ -144,7 +144,7 @@
       CURSUS.alleLessen().every(function (o) { return Store.isKlaar(o.les.id); });
     var mv = Store.moduleVoortgang(x.module);
     if (!alles && !(mv.procent === 100 && mv.totaal === mv.alle)) return false;
-    var html = Views.steunBlok('mijlpaal', alles ? 'Je hebt de hele cursus afgerond!' : 'Module ' + x.module.nr + ' afgerond!');
+    var html = Views.steunBlok('mijlpaal', alles ? 'Je hebt de hele cursus afgerond.' : 'Module ' + x.module.nr + ' afgerond.');
     if (!html) return false;
     var oud = document.querySelector('.steun');
     if (oud) oud.outerHTML = html;

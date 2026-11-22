@@ -1,5 +1,7 @@
 # Cursus CV-ketels: gratis online cursus voor de cv-ketel monteur
 
+[![Sponsor](https://img.shields.io/badge/sponsor-%E2%9D%A4-db61a2?style=flat-square&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/keesvanwanrooij)
+
 **Een gratis online zelfstudiecursus voor de cv-monteur, in het Nederlands.**
 Van de wet en het CO-stelsel tot gas en verbranding, de werking van de HR-ketel, rookgasafvoer, meten,
 installeren, onderhoud en storingzoeken. Met toetsvragen, flashcards en een storingzoeker, als voorbereiding
@@ -80,6 +82,12 @@ gasverbrandingstoestellen valt in Nederland onder wettelijke certificeringseisen
 doet en om je op het examen voor te bereiden, niet als vervanging van een erkende opleiding, de fabrikantdocumentatie of een
 ervaren, gecertificeerde monteur naast je. De inhoud verwijst naar wet, certificatieschema's en normen zonder de bron te
 vervangen: bij twijfel is de actuele bron leidend.
+
+## Steun het project
+
+Deze cursus is gratis en blijft dat. Er zit geen betaalmuur achter en sponsoren geeft je ook niets extra's. Het betekent wel dat ik meer van mijn werkuren in projecten als dit kan steken. Heeft de cursus je geholpen, dan kun je dat via GitHub Sponsors doen.
+
+[![Sponsor mij op GitHub](https://img.shields.io/badge/Sponsor_mij_op_GitHub-%E2%9D%A4-db61a2?style=for-the-badge&logo=githubsponsors&logoColor=white)](https://github.com/sponsors/keesvanwanrooij)
 
 ## Meer van dezelfde maker
 

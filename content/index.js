@@ -89,8 +89,8 @@ window.CURSUS = {
     ]
   },
 
-  /* Steun het project. Zet actief op true zodra de GitHub Sponsors-pagina live is. tools/build-seo.js meldt bij elke build of dat zo is. */
-  donatie: { actief: false, url: 'https://github.com/sponsors/keesvanwanrooij' },
+  /* Steun het project via GitHub Sponsors (live sinds november 2026). tools/build-seo.js meldt bij elke build als de pagina niet meer bereikbaar is. */
+  donatie: { actief: true, url: 'https://github.com/sponsors/keesvanwanrooij' },
 
   /* ------------------------------ registratie ------------------------------ */
 
